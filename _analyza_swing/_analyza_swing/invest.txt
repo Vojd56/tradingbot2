@@ -1,0 +1,41 @@
+Backtest investicnich strategii, signaly od 2007-03-30 do 2026-10-30
+Kapital 5000 EUR, naklad 0.10 %/strana, dan 15 % (3lety test, limit 4000 EUR prodeju/rok), pasmo 5 p.b.
+
+A) Jednorazovy vklad 5 000 EUR
+strategie         CAGR   MaxDD Sharpe CAGR po dani dane+prod obch/rok obrat/rok    1.pol CAGR/DD    2.pol CAGR/DD
+BH-SPY           11.9%  -51.2%   0.60        11.9%        45      0.1       15%     9.6%/ -51.2%    14.1%/ -33.1%
+BH-SVET          10.1%  -52.5%   0.52        10.1%        33      0.1       14%     7.6%/ -52.5%    12.5%/ -32.7%
+GEM               7.7%  -33.1%   0.44         6.4%      2938      3.9      215%     7.6%/ -23.4%     7.7%/ -33.1%
+GEM-ensemble      7.8%  -27.5%   0.47         6.5%      2833     14.8      255%     7.8%/ -23.3%     7.6%/ -27.5%
+GTAA5             6.0%  -13.9%   0.56         5.1%      1884     21.2      180%     6.0%/ -13.9%     6.0%/ -10.7%
+HAA               9.9%  -19.7%   0.65         8.5%      4732     24.8      331%     9.6%/ -18.0%    10.1%/ -19.7%
+HAA-simple       11.9%  -25.7%   0.74        10.2%      6493      5.2      263%     9.2%/ -25.7%    14.5%/ -15.3%
+GB-rocne          8.8%  -18.1%   0.63         8.7%        72      1.7       14%     9.7%/ -14.8%     7.7%/ -18.1%
+GB-vklady         8.6%  -20.2%   0.61         8.6%        25      0.5       11%     8.5%/ -14.8%     8.6%/ -20.2%
+JADRO85+GEM15    11.5%  -43.6%   0.60        11.4%       281      4.0       37%     9.3%/ -43.6%    13.4%/ -33.1%
+
+Brana: Sharpe > drzeni S&P 500 a MaxDD aspon o tretinu mensi (nebo vyssi CAGR pri MaxDD <= index),
+       a v obou polovinach MAR (CAGR/|DD|) >= index; navic CAGR po dani >= 80 % indexu po dani.
+  BH-SVET         riziko ne, obe poloviny ne, vynos po dani ANO -> neprosla   (drzet svet 70 % US / 30 % EAFE (~VWCE/IWDA))
+  GEM             riziko ne, obe poloviny ne, vynos po dani ne -> neprosla   (dual momentum 12m, 100 % jedno ETF)
+  GEM-ensemble    riziko ne, obe poloviny ne, vynos po dani ne -> neprosla   (GEM 3/6/9/12m po 25 %)
+  GTAA5           riziko ne, obe poloviny ANO, vynos po dani ne -> neprosla   (Faber 5 x 20 %, cena > SMA10m jinak XEON)
+  HAA             riziko ANO, obe poloviny ANO, vynos po dani ne -> neprosla   (Keller HAA Balanced (kanarek TIP, top 4 z 8))
+  HAA-simple      riziko ANO, obe poloviny ANO, vynos po dani ANO -> PROSLA   (HAA jen S&P 500 nebo IEF/XEON)
+  GB-rocne        riziko ANO, obe poloviny ne, vynos po dani ne -> neprosla   (Golden Butterfly 5 x 20 %, rebalanc rocne)
+  GB-vklady       riziko ANO, obe poloviny ANO, vynos po dani ne -> neprosla   (Golden Butterfly, bez prodeju (jen vklady))
+  JADRO85+GEM15   riziko ne, obe poloviny ne, vynos po dani ANO -> neprosla   (85 % drzet S&P 500 + 15 % GEM satelit)
+
+B) 5 000 EUR + 200 EUR mesicne (po danich vcetne prodeje na konci)
+strategie        vlozeno konec pred dani konec po dani IRR po dani    dane
+BH-SPY             51800          291266        290666       14.2%     908
+BH-SVET            51800          228859        228331       12.3%     827
+GEM                51800          119970        117709        7.1%   16503
+GEM-ensemble       51800          119579        117101        7.1%   15239
+GTAA5              51800           96985         94467        5.3%   10347
+HAA                51800          148473        142533        8.6%   22994
+HAA-simple         51800          211278        202969       11.4%   34917
+GB-rocne           51800          149162        148933        9.0%     309
+GB-vklady          51800          150298        150141        9.1%     163
+CF-HAA             51800          122567        122207        7.4%     597
+JADRO85+GEM15      51800          265746        264894       13.5%    3219

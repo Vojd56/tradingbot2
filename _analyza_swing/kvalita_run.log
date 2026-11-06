@@ -1,0 +1,39 @@
+Vesmir: 366 firem ze soucasneho S&P 500 (bez financi, nemovitosti, utilit)
+  SEC 0/366
+  SEC 50/366
+  SEC 100/366
+  SEC 150/366
+  SEC 200/366
+  SEC 250/366
+  SEC 300/366
+  SEC 350/366
+2013-04-01: firem s daty 95, proslo screenem 14; top FCF yield: HUM AAPL UNH LH SYK MO PM APH CHRW GILD GWW BIIB ISRG SBUX
+2014-04-01: firem s daty 180, proslo screenem 37; top FCF yield: WDC AAPL OMC TPR CTSH ORCL HUM GIS MSFT UNH PM HSIC ACN FFIV AZO
+2015-04-01: firem s daty 217, proslo screenem 49; top FCF yield: GILD MSFT ORCL PH AAPL QCOM TPR OMC FFIV BA UNH GIS ACN AME NDSN
+2016-04-01: firem s daty 229, proslo screenem 40; top FCF yield: GILD AAPL FFIV BA GPC WSM UNH CHRW QCOM WAB BR BIIB MSFT AME CTSH
+2017-04-03: firem s daty 233, proslo screenem 32; top FCF yield: GILD AOS VRSN FFIV AAPL WSM BIIB AZO UNH TJX SWKS RMD BR HD CDNS
+2018-04-02: firem s daty 236, proslo screenem 30; top FCF yield: FFIV SNA SWKS BIIB AAPL HAS UNH COST HD TJX AOS ORLY TXN HSIC HSY
+2019-04-01: firem s daty 245, proslo screenem 39; top FCF yield: BIIB SBUX ABBV AOS AMAT FFIV AAPL CHRW INTC UNH SWKS GPC EME NDSN CTSH
+2020-04-01: firem s daty 252, proslo screenem 42; top FCF yield: BIIB ABBV EME CTSH LRCX FIX INTC UNH AMAT EXPD ACN TSCO APH HD BR
+2021-04-01: firem s daty 267, proslo screenem 39; top FCF yield: FIX INTC WSM CTSH LOW ORLY APH LMT UNH TSCO HD CDW ACN CHD COST
+2022-04-01: firem s daty 273, proslo screenem 40; top FCF yield: HPQ BBY WSM AZO MAS LMT ORLY LOW TER EXPD CTSH HD LRCX AMAT UNH
+2023-04-03: firem s daty 279, proslo screenem 36; top FCF yield: CHRW EXPD WSM UPS REGN AZO MAS UNH LMT ACN VRTX ORLY AMAT ADBE AAPL
+2024-04-01: firem s daty 287, proslo screenem 42; top FCF yield: AOS SNA WSM UNH HD UPS KEYS ALLE AMAT REGN ACN CL AZO AAPL LRCX
+2025-04-01: firem s daty 291, proslo screenem 42; top FCF yield: AOS SNA QCOM AMAT DECK ALLE HSY LULU ADBE CL LRCX PM UNH ACN RMD
+2026-04-01: firem s daty 290, proslo screenem 36; top FCF yield: IT ADBE QCOM ACN DECK ALLE LULU COR RMD ADSK VRSK ULTA PM YUM FTNT
+
+Jednorazove 5000 EUR od 2013-04-01 do 2026-10-30, 15 firem, naklad 0.20 %/strana, dividendy -15 %
+strategie              CAGR   MaxDD Sharpe CAGR po dani   dane obch/rok konec EUR   do 2019 CAGR/DD   od 2020 CAGR/DD
+BH-SPY (S&P 500)      15.1%  -33.1%   0.86        15.0%      0      0.1     33516    15.5%/ -18.2%    14.6%/ -33.1%
+BH-RSP (stejne vahy)  12.8%  -38.5%   0.74        12.7%      0      0.1     25490    14.2%/ -21.5%    11.4%/ -38.5%
+KVALITA-FCF-zamek     17.6%  -37.4%   0.88        17.4%    452      7.7     44323    19.6%/ -19.4%    15.5%/ -37.4%
+KVALITA-roce-zamek    20.7%  -31.0%   0.99        20.7%    267      6.9     64108    23.3%/ -20.5%    18.1%/ -31.0%
+KVALITA-FCF-rocne     15.5%  -33.1%   0.82        15.2%   3547     16.8     34311    17.4%/ -19.7%    13.8%/ -33.1%
+NAHODNE-zamek med.    19.4%  -34.1%   0.99        19.2%   1038      8.7     54082    25.2%/ -19.7%    13.9%/ -34.1%
+  nahodny vyber 15 firem ze stejneho vesmiru, 30 behu: CAGR po dani 10. percentil 16.5 %, median 19.2 %, 90. percentil 22.6 %
+
+Brana: CAGR po dani > S&P 500 a > 90. percentil nahodneho vyberu (survivorship kontrola), MaxDD ne horsi nez S&P 500 o vic nez 5 p.b.,
+       a v obou obdobich (do 2019 / od 2020) CAGR >= S&P 500.
+  KVALITA-FCF-zamek    -> neprosla
+  KVALITA-roce-zamek   -> neprosla
+  KVALITA-FCF-rocne    -> neprosla

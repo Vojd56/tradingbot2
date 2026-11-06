@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-26",
+  "counts": {
+    "gemini-3.8-flash": 0,
+    "gemini-3.6-flash": 6,
+    "gemini-3.5-flash": 1,
+    "gemini-3-flash-preview": 0,
+    "gemini-3.1-flash-lite": 0
+  },
+  "rate_limited_until": {
+    "gemini-3.8-flash": "2026-10-26T08:39:47.552916+00:00",
+    "gemini-3.6-flash": "2026-10-26T07:59:55.566614+00:00"
+  }
+}

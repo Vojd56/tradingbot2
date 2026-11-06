@@ -1,0 +1,4108 @@
+{
+ "2026-10-29|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.81 < 1.5",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-10-29",
+   "orb_high": 215.32000732421875,
+   "orb_low": 212.68930053710938,
+   "atr14": 6.050714765276227,
+   "rvol15": 0.814233700492808,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.81 < 1.5"
+  }
+ },
+ "2026-10-29|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.10 < 1.5",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-10-29",
+   "orb_high": 351.42999267578125,
+   "orb_low": 347.29998779296875,
+   "atr14": 6.215715680803571,
+   "rvol15": 1.0967979309109723,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.10 < 1.5"
+  }
+ },
+ "2026-10-29|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.58 < 1.5",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-10-29",
+   "orb_high": 406.42999267578125,
+   "orb_low": 400.5,
+   "atr14": 14.061431884765625,
+   "rvol15": 0.5845918772686532,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.58 < 1.5"
+  }
+ },
+ "2026-10-29|AMD": {
+  "ticker": "AMD",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.77 < 1.5",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-10-29",
+   "orb_high": 572.6849975585938,
+   "orb_low": 560.6300048828125,
+   "atr14": 28.683561052594865,
+   "rvol15": 0.7731397304957753,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.77 < 1.5"
+  }
+ },
+ "2026-10-29|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-10-29",
+   "orb_high": 540.969970703125,
+   "orb_low": 525.260009765625,
+   "atr14": 10.649287632533483,
+   "rvol15": 3.9250303163163425,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-29|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-10-29",
+   "orb_high": 248.4600067138672,
+   "orb_low": 241.24000549316406,
+   "atr14": 6.670709882463727,
+   "rvol15": 2.9577548089682577,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-29|META": {
+  "ticker": "META",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.90 < 1.5",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-10-29",
+   "orb_high": 622.2000122070312,
+   "orb_low": 616.7999877929688,
+   "atr14": 25.551422119140625,
+   "rvol15": 0.9033875269285936,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.90 < 1.5"
+  }
+ },
+ "2026-10-29|GOOGL": {
+  "ticker": "GOOGL",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "GOOGL",
+   "day": "2026-10-29",
+   "orb_high": 288.20001220703125,
+   "orb_low": 280.3599853515625,
+   "atr14": 8.055003574916295,
+   "rvol15": 9.712349984361122,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-29|AXGN": {
+  "ticker": "AXGN",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.41 < 1.5",
+  "setup": {
+   "ticker": "AXGN",
+   "day": "2026-10-29",
+   "orb_high": 50.0,
+   "orb_low": 48.43000030517578,
+   "atr14": 2.1971432822091237,
+   "rvol15": 0.4104768689152497,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.41 < 1.5"
+  }
+ },
+ "2026-10-29|ICLR": {
+  "ticker": "ICLR",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "ICLR",
+   "day": "2026-10-29",
+   "orb_high": 211.9199981689453,
+   "orb_low": 207.53500366210938,
+   "atr14": 9.724287850516182,
+   "rvol15": 2.012058458654085,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-29|TDOC": {
+  "ticker": "TDOC",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "pásmo 3.42 x ATR > 1.5",
+  "setup": {
+   "ticker": "TDOC",
+   "day": "2026-10-29",
+   "orb_high": 8.890000343322754,
+   "orb_low": 7.900000095367432,
+   "atr14": 0.2892857279096331,
+   "rvol15": 17.705506696547843,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 3.42 x ATR > 1.5"
+  }
+ },
+ "2026-10-29|BHC": {
+  "ticker": "BHC",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "pásmo 3.56 x ATR > 1.5",
+  "setup": {
+   "ticker": "BHC",
+   "day": "2026-10-29",
+   "orb_high": 8.578499794006348,
+   "orb_low": 7.579999923706055,
+   "atr14": 0.2807143075125558,
+   "rvol15": 32.39651231917564,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 3.56 x ATR > 1.5"
+  }
+ },
+ "2026-10-29|SIMO": {
+  "ticker": "SIMO",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "SIMO",
+   "day": "2026-10-29",
+   "orb_high": 235.7899932861328,
+   "orb_low": 214.69500732421875,
+   "atr14": 16.20785631452288,
+   "rvol15": 8.353388165803956,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-29|INSM": {
+  "ticker": "INSM",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.21 x ATR > 1.5",
+  "setup": {
+   "ticker": "INSM",
+   "day": "2026-10-29",
+   "orb_high": 110.0,
+   "orb_low": 103.77999877929688,
+   "atr14": 2.8199980599539622,
+   "rvol15": 14.033608538165879,
+   "first15_bullish": false,
+   "skip_reason": "pásmo 2.21 x ATR > 1.5"
+  }
+ },
+ "2026-10-29|PURR": {
+  "ticker": "PURR",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "PURR",
+   "day": "2026-10-29",
+   "orb_high": 11.380000114440918,
+   "orb_low": 10.770000457763672,
+   "atr14": 0.7100000381469727,
+   "rvol15": 9.61954293964835,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-29|NCLH": {
+  "ticker": "NCLH",
+  "day": "2026-10-29",
+  "setup": {
+   "ticker": "NCLH",
+   "day": "2026-10-29",
+   "orb_high": 18.09000015258789,
+   "orb_low": 17.399999618530273,
+   "atr14": 0.6342855862208775,
+   "rvol15": 10.794487152599293,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-10-29T10:50:00-04:00",
+  "entry_at": "2026-10-29T10:55:00-04:00",
+  "entry": 18.1200008392334,
+  "stop": 17.961429442678178,
+  "risk": 0.1585713965552209,
+  "cost_share_r": 0.457,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     0.5,
+     18.43714363234384,
+     "2026-10-29T11:25:00-04:00",
+     "+2R půlka"
+    ],
+    [
+     0.5,
+     18.19248084259033,
+     "2026-10-29T11:40:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": 0.769
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     18.11009979248047,
+     "2026-10-29T15:45:00-04:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": -0.519
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "UNKNOWN",
+   "catalyst": "NONE",
+   "about_target": false,
+   "reason_cs": "Gemini není dostupný, bez verdiktu se nekupuje.",
+   "model_used": "",
+   "cached": false
+  }
+ },
+ "2026-10-29|CVNA": {
+  "ticker": "CVNA",
+  "day": "2026-10-29",
+  "setup": {
+   "ticker": "CVNA",
+   "day": "2026-10-29",
+   "orb_high": 67.92990112304688,
+   "orb_low": 63.81999969482422,
+   "atr14": 2.998000008719308,
+   "rvol15": 6.6879210982681725,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": true,
+  "signal_at": "2026-10-29T09:45:00-04:00",
+  "entry_at": "2026-10-29T09:50:00-04:00",
+  "entry": 68.12999725341797,
+  "stop": 67.38049725123814,
+  "risk": 0.749500002179829,
+  "cost_share_r": 0.364,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     67.38049725123814,
+     "2026-10-29T09:50:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.362
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     67.38049725123814,
+     "2026-10-29T09:50:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.362
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "[CÍLOVÁ FIRMA] poprvé překonala hranici tržeb 8 miliard USD a analytici na Seeking Alpha zvýšili hodnocení díky robustnímu růstu prodejů.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-10-29|GKOS": {
+  "ticker": "GKOS",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "pásmo 3.35 x ATR > 1.5",
+  "setup": {
+   "ticker": "GKOS",
+   "day": "2026-10-29",
+   "orb_high": 229.27000427246094,
+   "orb_low": 207.41000366210938,
+   "atr14": 6.525356837681362,
+   "rvol15": 34.19970171767522,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 3.35 x ATR > 1.5"
+  }
+ },
+ "2026-10-29|PRCH": {
+  "ticker": "PRCH",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.85 x ATR > 1.5",
+  "setup": {
+   "ticker": "PRCH",
+   "day": "2026-10-29",
+   "orb_high": 21.149999618530273,
+   "orb_low": 18.75,
+   "atr14": 0.8421423775809151,
+   "rvol15": 25.78101028202355,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.85 x ATR > 1.5"
+  }
+ },
+ "2026-10-29|CROX": {
+  "ticker": "CROX",
+  "day": "2026-10-29",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.62 x ATR > 1.5",
+  "setup": {
+   "ticker": "CROX",
+   "day": "2026-10-29",
+   "orb_high": 150.0,
+   "orb_low": 139.3249969482422,
+   "atr14": 4.077857971191406,
+   "rvol15": 14.40106691723056,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.62 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.45 < 1.5",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-10-30",
+   "orb_high": 209.01010131835938,
+   "orb_low": 205.7100067138672,
+   "atr14": 5.942858014787946,
+   "rvol15": 1.4514696737086998,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.45 < 1.5"
+  }
+ },
+ "2026-10-30|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.45 < 1.5",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-10-30",
+   "orb_high": 348.76959228515625,
+   "orb_low": 344.2099914550781,
+   "atr14": 6.064287458147321,
+   "rvol15": 1.4546064557123102,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.45 < 1.5"
+  }
+ },
+ "2026-10-30|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.94 < 1.5",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-10-30",
+   "orb_high": 393.4580078125,
+   "orb_low": 387.5199890136719,
+   "atr14": 13.555718558175224,
+   "rvol15": 0.9393206160587156,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.94 < 1.5"
+  }
+ },
+ "2026-10-30|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-10-30",
+   "orb_high": 526.0,
+   "orb_low": 514.3499755859375,
+   "atr14": 11.157858712332589,
+   "rvol15": 1.8316375409559416,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-30|META": {
+  "ticker": "META",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.65 < 1.5",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-10-30",
+   "orb_high": 619.2745971679688,
+   "orb_low": 610.13720703125,
+   "atr14": 26.288565499441965,
+   "rvol15": 0.6479625513294344,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.65 < 1.5"
+  }
+ },
+ "2026-10-30|GOOGL": {
+  "ticker": "GOOGL",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "GOOGL",
+   "day": "2026-10-30",
+   "orb_high": 281.9898986816406,
+   "orb_low": 279.0,
+   "atr14": 10.777862548828125,
+   "rvol15": 2.0228088876326025,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-30|GKOS": {
+  "ticker": "GKOS",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.34 < 1.5",
+  "setup": {
+   "ticker": "GKOS",
+   "day": "2026-10-30",
+   "orb_high": 248.5417938232422,
+   "orb_low": 241.0279998779297,
+   "atr14": 10.468357631138392,
+   "rvol15": 1.336258880130217,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.34 < 1.5"
+  }
+ },
+ "2026-10-30|ADT": {
+  "ticker": "ADT",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "ADT",
+   "day": "2026-10-30",
+   "orb_high": 9.880000114440918,
+   "orb_low": 9.850000381469727,
+   "atr14": 0.37071428980146137,
+   "rvol15": 10.742646087060269,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-30|GILD": {
+  "ticker": "GILD",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.56 x ATR > 1.5",
+  "setup": {
+   "ticker": "GILD",
+   "day": "2026-10-30",
+   "orb_high": 175.64999389648438,
+   "orb_low": 169.0,
+   "atr14": 4.276429312569754,
+   "rvol15": 3.00330522098035,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.56 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|RIVN": {
+  "ticker": "RIVN",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "RIVN",
+   "day": "2026-10-30",
+   "orb_high": 12.210000038146973,
+   "orb_low": 11.600000381469727,
+   "atr14": 0.4749999727521624,
+   "rvol15": 5.323810187144887,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-30|CPRI": {
+  "ticker": "CPRI",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.18 x ATR > 1.5",
+  "setup": {
+   "ticker": "CPRI",
+   "day": "2026-10-30",
+   "orb_high": 19.14259910583496,
+   "orb_low": 17.600000381469727,
+   "atr14": 0.7071428298950195,
+   "rvol15": 16.606841718643757,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.18 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|ICE": {
+  "ticker": "ICE",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.22 < 1.5",
+  "setup": {
+   "ticker": "ICE",
+   "day": "2026-10-30",
+   "orb_high": 168.49000549316406,
+   "orb_low": 164.5399932861328,
+   "atr14": 3.904284885951451,
+   "rvol15": 1.2219728432553782,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.22 < 1.5"
+  }
+ },
+ "2026-10-30|RKT": {
+  "ticker": "RKT",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "RKT",
+   "day": "2026-10-30",
+   "orb_high": 12.680000305175781,
+   "orb_low": 12.324999809265137,
+   "atr14": 0.5498571395874023,
+   "rvol15": 2.7855376122897564,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-30|REGN": {
+  "ticker": "REGN",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 4.58 x ATR > 1.5",
+  "setup": {
+   "ticker": "REGN",
+   "day": "2026-10-30",
+   "orb_high": 935.3499755859375,
+   "orb_low": 839.0800170898438,
+   "atr14": 21.007856096540177,
+   "rvol15": 12.397367375621352,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 4.58 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|SNY": {
+  "ticker": "SNY",
+  "day": "2026-10-30",
+  "setup": {
+   "ticker": "SNY",
+   "day": "2026-10-30",
+   "orb_high": 45.2400016784668,
+   "orb_low": 44.81999969482422,
+   "atr14": 0.8657147543770927,
+   "rvol15": 12.270528343238626,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-10-30T09:45:00-04:00",
+  "entry_at": "2026-10-30T09:50:00-04:00",
+  "entry": 45.279998779296875,
+  "stop": 45.063570090702605,
+  "risk": 0.2164286885942701,
+  "cost_share_r": 0.837,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     45.063570090702605,
+     "2026-10-30T09:50:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.835
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     45.063570090702605,
+     "2026-10-30T09:50:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.835
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Sanofi překonala očekávání v tržbách i zisku za třetí čtvrtletí a zvýšila svůj výhled.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-10-30|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-10-30",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-10-30",
+   "orb_high": 238.39999389648438,
+   "orb_low": 229.3632049560547,
+   "atr14": 7.000710623604911,
+   "rvol15": 4.490031483629737,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-10-30T09:45:00-04:00",
+  "entry_at": "2026-10-30T09:50:00-04:00",
+  "entry": 239.11050415039062,
+  "stop": 237.36032649448939,
+  "risk": 1.7501776559012399,
+  "cost_share_r": 0.546,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     237.36032649448939,
+     "2026-10-30T10:10:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.544
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     237.36032649448939,
+     "2026-10-30T10:10:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.544
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Titulky uvádějí negativní reakci trhu na výsledky hospodaření a obavy z výdajů na AI, což růst akcie nepodporuje.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-10-30|MDLZ": {
+  "ticker": "MDLZ",
+  "day": "2026-10-30",
+  "setup": {
+   "ticker": "MDLZ",
+   "day": "2026-10-30",
+   "orb_high": 65.86000061035156,
+   "orb_low": 64.69999694824219,
+   "atr14": 1.3414287567138672,
+   "rvol15": 3.681599898586611,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-10-30|AMD": {
+  "ticker": "AMD",
+  "day": "2026-10-30",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-10-30",
+   "orb_high": 520.3956298828125,
+   "orb_low": 507.3800048828125,
+   "atr14": 28.433561052594865,
+   "rvol15": 1.8705053474909425,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-10-30|CDNA": {
+  "ticker": "CDNA",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.31 x ATR > 1.5",
+  "setup": {
+   "ticker": "CDNA",
+   "day": "2026-10-30",
+   "orb_high": 90.87000274658203,
+   "orb_low": 81.22000122070312,
+   "atr14": 4.173072814941406,
+   "rvol15": 7.919218992370991,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.31 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|BTSG": {
+  "ticker": "BTSG",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 3.86 x ATR > 1.5",
+  "setup": {
+   "ticker": "BTSG",
+   "day": "2026-10-30",
+   "orb_high": 71.12000274658203,
+   "orb_low": 64.23999786376953,
+   "atr14": 1.7820001329694475,
+   "rvol15": 14.217880095630708,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 3.86 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|MEOH": {
+  "ticker": "MEOH",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "MEOH",
+   "day": "2026-10-30",
+   "orb_high": 69.02999877929688,
+   "orb_low": 66.00499725341797,
+   "atr14": 2.2407139369419644,
+   "rvol15": 14.478531044378514,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-10-30|CVCO": {
+  "ticker": "CVCO",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.68 x ATR > 1.5",
+  "setup": {
+   "ticker": "CVCO",
+   "day": "2026-10-30",
+   "orb_high": 629.0,
+   "orb_low": 594.739990234375,
+   "atr14": 20.45286124093192,
+   "rvol15": 4.61961963093126,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.68 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|AZN": {
+  "ticker": "AZN",
+  "day": "2026-10-30",
+  "setup": {
+   "ticker": "AZN",
+   "day": "2026-10-30",
+   "orb_high": 186.99000549316406,
+   "orb_low": 183.10000610351562,
+   "atr14": 4.144288199288504,
+   "rvol15": 2.5167128771703187,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-10-30T09:55:00-04:00",
+  "entry_at": "2026-10-30T10:00:00-04:00",
+  "entry": 186.9499969482422,
+  "stop": 186.09947936385873,
+  "risk": 0.8505175843834536,
+  "cost_share_r": 0.879,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     186.09947936385873,
+     "2026-10-30T10:00:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.877
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     186.09947936385873,
+     "2026-10-30T10:00:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.877
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Titulky potvrzují překonání očekávání za Q3 a býčí výhled generálního ředitele, což vede k růstu akcie.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-10-30|GPN": {
+  "ticker": "GPN",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.06 < 1.5",
+  "setup": {
+   "ticker": "GPN",
+   "day": "2026-10-30",
+   "orb_high": 87.0,
+   "orb_low": 85.5999984741211,
+   "atr14": 2.3778555733816966,
+   "rvol15": 1.0649324993280944,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.06 < 1.5"
+  }
+ },
+ "2026-10-30|FDXF": {
+  "ticker": "FDXF",
+  "day": "2026-10-30",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.56 x ATR > 1.5",
+  "setup": {
+   "ticker": "FDXF",
+   "day": "2026-10-30",
+   "orb_high": 125.94000244140625,
+   "orb_low": 115.19999694824219,
+   "atr14": 4.2000002179827005,
+   "rvol15": 10.205006453610014,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.56 x ATR > 1.5"
+  }
+ },
+ "2026-10-30|CBOE": {
+  "ticker": "CBOE",
+  "day": "2026-10-30",
+  "setup": {
+   "ticker": "CBOE",
+   "day": "2026-10-30",
+   "orb_high": 333.9599914550781,
+   "orb_low": 320.010009765625,
+   "atr14": 11.353570120675224,
+   "rvol15": 1.852189781021898,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-10-30T10:05:00-04:00",
+  "entry_at": "2026-10-30T10:10:00-04:00",
+  "entry": 334.4849853515625,
+  "stop": 331.6465928213937,
+  "risk": 2.8383925301687896,
+  "cost_share_r": 0.471,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     331.6465928213937,
+     "2026-10-30T10:15:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.469
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     331.6465928213937,
+     "2026-10-30T10:15:00-04:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.469
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Společnost Cboe překonala odhady zisku za třetí čtvrtletí díky silným objemům opcí a jednorázovému zisku z prodeje australské divize.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.98 < 1.5",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-11-02",
+   "orb_high": 209.02999877929688,
+   "orb_low": 206.72999572753906,
+   "atr14": 6.540000915527344,
+   "rvol15": 0.9844292607695861,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.98 < 1.5"
+  }
+ },
+ "2026-11-02|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.93 < 1.5",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-11-02",
+   "orb_high": 343.7799987792969,
+   "orb_low": 340.3399963378906,
+   "atr14": 6.696430751255581,
+   "rvol15": 0.927543607171876,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.93 < 1.5"
+  }
+ },
+ "2026-11-02|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.89 < 1.5",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-11-02",
+   "orb_high": 410.45001220703125,
+   "orb_low": 403.5,
+   "atr14": 14.382860456194196,
+   "rvol15": 0.8905761177188011,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.89 < 1.5"
+  }
+ },
+ "2026-11-02|AMD": {
+  "ticker": "AMD",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.00 < 1.5",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-11-02",
+   "orb_high": 512.8200073242188,
+   "orb_low": 503.30999755859375,
+   "atr14": 32.19427490234375,
+   "rvol15": 1.0011347397834958,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.00 < 1.5"
+  }
+ },
+ "2026-11-02|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.19 < 1.5",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-11-02",
+   "orb_high": 528.47998046875,
+   "orb_low": 520.5,
+   "atr14": 11.737862723214286,
+   "rvol15": 1.1949475080402545,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.19 < 1.5"
+  }
+ },
+ "2026-11-02|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.39 < 1.5",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-11-02",
+   "orb_high": 250.38999938964844,
+   "orb_low": 242.27999877929688,
+   "atr14": 7.714994158063616,
+   "rvol15": 1.3861169331641328,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.39 < 1.5"
+  }
+ },
+ "2026-11-02|META": {
+  "ticker": "META",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.65 < 1.5",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-11-02",
+   "orb_high": 619.3200073242188,
+   "orb_low": 610.0,
+   "atr14": 25.050707135881698,
+   "rvol15": 0.6537539943459512,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.65 < 1.5"
+  }
+ },
+ "2026-11-02|GOOGL": {
+  "ticker": "GOOGL",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.13 < 1.5",
+  "setup": {
+   "ticker": "GOOGL",
+   "day": "2026-11-02",
+   "orb_high": 286.41900634765625,
+   "orb_low": 282.3599853515625,
+   "atr14": 10.842147827148438,
+   "rvol15": 1.1335152752973754,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.13 < 1.5"
+  }
+ },
+ "2026-11-02|CDNA": {
+  "ticker": "CDNA",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "CDNA",
+   "day": "2026-11-02",
+   "orb_high": 89.13749694824219,
+   "orb_low": 83.43000030517578,
+   "atr14": 5.331644603184292,
+   "rvol15": 2.0627730340582846,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-02|SKHY": {
+  "ticker": "SKHY",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.71 < 1.5",
+  "setup": {
+   "ticker": "SKHY",
+   "day": "2026-11-02",
+   "orb_high": 154.27000427246094,
+   "orb_low": 151.94000244140625,
+   "atr14": 9.747143336704799,
+   "rvol15": 0.7076993869143107,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.71 < 1.5"
+  }
+ },
+ "2026-11-02|NOK": {
+  "ticker": "NOK",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.21 < 1.5",
+  "setup": {
+   "ticker": "NOK",
+   "day": "2026-11-02",
+   "orb_high": 8.760000228881836,
+   "orb_low": 8.520000457763672,
+   "atr14": 0.5257142952510289,
+   "rvol15": 0.20604252686597144,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.21 < 1.5"
+  }
+ },
+ "2026-11-02|WULF": {
+  "ticker": "WULF",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.93 < 1.5",
+  "setup": {
+   "ticker": "WULF",
+   "day": "2026-11-02",
+   "orb_high": 12.0,
+   "orb_low": 11.085000038146973,
+   "atr14": 1.2428571837288993,
+   "rvol15": 0.9338326306751528,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.93 < 1.5"
+  }
+ },
+ "2026-11-02|CRWV": {
+  "ticker": "CRWV",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.58 < 1.5",
+  "setup": {
+   "ticker": "CRWV",
+   "day": "2026-11-02",
+   "orb_high": 55.737998962402344,
+   "orb_low": 52.04999923706055,
+   "atr14": 6.816428320748465,
+   "rvol15": 0.5797446472795448,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.58 < 1.5"
+  }
+ },
+ "2026-11-02|MAR": {
+  "ticker": "MAR",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.89 x ATR > 1.5",
+  "setup": {
+   "ticker": "MAR",
+   "day": "2026-11-02",
+   "orb_high": 433.29998779296875,
+   "orb_low": 417.07000732421875,
+   "atr14": 8.574286324637276,
+   "rvol15": 3.839721141032094,
+   "first15_bullish": false,
+   "skip_reason": "pásmo 1.89 x ATR > 1.5"
+  }
+ },
+ "2026-11-02|IDXX": {
+  "ticker": "IDXX",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.35 x ATR > 1.5",
+  "setup": {
+   "ticker": "IDXX",
+   "day": "2026-11-02",
+   "orb_high": 656.8300170898438,
+   "orb_low": 620.2000122070312,
+   "atr14": 15.573573521205358,
+   "rvol15": 16.11160215454259,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.35 x ATR > 1.5"
+  }
+ },
+ "2026-11-02|GPN": {
+  "ticker": "GPN",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "GPN",
+   "day": "2026-11-02",
+   "orb_high": 98.42500305175781,
+   "orb_low": 96.0199966430664,
+   "atr14": 3.4942839486258372,
+   "rvol15": 1.5148664499301052,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:50:00-05:00",
+  "entry_at": "2026-11-02T09:55:00-05:00",
+  "entry": 98.79000091552734,
+  "stop": 97.91642992837089,
+  "risk": 0.8735709871564552,
+  "cost_share_r": 0.452,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     97.91642992837089,
+     "2026-11-02T10:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.45
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     97.91642992837089,
+     "2026-11-02T10:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.45
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "MNA",
+   "about_target": true,
+   "reason_cs": "Zprávy o potenciálním převzetí společnosti Global Payments soukromými investičními skupinami CD&R a GTCR fungují jako silný růstový katalyzátor.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|LOAR": {
+  "ticker": "LOAR",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "LOAR",
+   "day": "2026-11-02",
+   "orb_high": 65.5199966430664,
+   "orb_low": 64.23999786376953,
+   "atr14": 2.6082150595528737,
+   "rvol15": 7.342109538508587,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-02|ZG": {
+  "ticker": "ZG",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "ZG",
+   "day": "2026-11-02",
+   "orb_high": 33.66999816894531,
+   "orb_low": 32.15999984741211,
+   "atr14": 1.4828574316842216,
+   "rvol15": 8.322460395351483,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:50:00-05:00",
+  "entry_at": "2026-11-02T09:55:00-05:00",
+  "entry": 34.16999816894531,
+  "stop": 33.79928381102426,
+  "risk": 0.37071435792105234,
+  "cost_share_r": 0.369,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     33.79928381102426,
+     "2026-11-02T09:55:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.367
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     33.79928381102426,
+     "2026-11-02T09:55:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.367
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "GENERIC",
+   "about_target": true,
+   "reason_cs": "Zprávy o nutnosti vyplatit akcionářům 212,5 milionu dolarů v rámci urovnání žaloby ohledně neúspěšného projektu iBuying jsou pro cenu akcií negativní.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|TEM": {
+  "ticker": "TEM",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "TEM",
+   "day": "2026-11-02",
+   "orb_high": 77.14540100097656,
+   "orb_low": 70.30000305175781,
+   "atr14": 5.5131427219935825,
+   "rvol15": 4.096390309514676,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:55:00-05:00",
+  "entry_at": "2026-11-02T10:00:00-05:00",
+  "entry": 78.7249984741211,
+  "stop": 77.3467127936227,
+  "risk": 1.3782856804983936,
+  "cost_share_r": 0.228,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     77.3467127936227,
+     "2026-11-02T10:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.226
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     77.3467127936227,
+     "2026-11-02T10:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.226
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "GUIDANCE_UP",
+   "about_target": true,
+   "reason_cs": "Akcie Tempus AI rostou díky překonání odhadů zisku za 3. čtvrtletí a zvýšení celoročního výhledu tržeb.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|ULCC": {
+  "ticker": "ULCC",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "ULCC",
+   "day": "2026-11-02",
+   "orb_high": 7.199999809265137,
+   "orb_low": 6.639999866485596,
+   "atr14": 0.45257139205932617,
+   "rvol15": 4.016529477831566,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:55:00-05:00",
+  "entry_at": "2026-11-02T10:00:00-05:00",
+  "entry": 7.210000038146973,
+  "stop": 7.096857190132141,
+  "risk": 0.11314284801483154,
+  "cost_share_r": 0.255,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     0.5,
+     7.436285734176636,
+     "2026-11-02T10:15:00-05:00",
+     "+2R půlka"
+    ],
+    [
+     0.5,
+     7.440000057220459,
+     "2026-11-02T15:30:00-05:00",
+     "close pod VWAP"
+    ]
+   ],
+   "r_net": 1.757
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     7.474999904632568,
+     "2026-11-02T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": 2.083
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": false,
+   "reason_cs": "Titulky se týkají umělé inteligence (Frontier AI) a nesouvisejí s leteckou společností Frontier Group Holdings (ULCC).",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|RIVN": {
+  "ticker": "RIVN",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "RIVN",
+   "day": "2026-11-02",
+   "orb_high": 13.104999542236328,
+   "orb_low": 12.645000457763672,
+   "atr14": 0.4992856979370117,
+   "rvol15": 3.6177058654855,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T10:00:00-05:00",
+  "entry_at": "2026-11-02T10:05:00-05:00",
+  "entry": 13.235699653625488,
+  "stop": 13.110878229141235,
+  "risk": 0.12482142448425293,
+  "cost_share_r": 0.424,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     0.5,
+     13.485342502593994,
+     "2026-11-02T10:20:00-05:00",
+     "+2R půlka"
+    ],
+    [
+     0.5,
+     13.28864245223999,
+     "2026-11-02T12:40:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": 0.786
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     13.110878229141235,
+     "2026-11-02T15:10:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.422
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "UPGRADE",
+   "about_target": true,
+   "reason_cs": "Akcie Rivian rostou díky zvýšenému doporučení od UBS na 'Buy' po dobrých výsledcích za třetí kvartál a optimismu ohledně modelu R2.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|REGN": {
+  "ticker": "REGN",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "REGN",
+   "day": "2026-11-02",
+   "orb_high": 958.9998779296875,
+   "orb_low": 927.0,
+   "atr14": 27.642142159598215,
+   "rvol15": 2.8945388999679276,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:50:00-05:00",
+  "entry_at": "2026-11-02T09:55:00-05:00",
+  "entry": 962.010009765625,
+  "stop": 955.0994742257254,
+  "risk": 6.91053553989957,
+  "cost_share_r": 0.557,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     965.8580498046875,
+     "2026-11-02T10:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.001
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     963.5850219726562,
+     "2026-11-02T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": -0.329
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie Regeneron rostou díky silným výsledkům za 3. čtvrtletí a plnému započtení zisků z léku Dupixent, což vedlo analytiky ke zvýšení cílových cen.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|BILI": {
+  "ticker": "BILI",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "BILI",
+   "day": "2026-11-02",
+   "orb_high": 13.479999542236328,
+   "orb_low": 13.34000015258789,
+   "atr14": 0.38235718863351004,
+   "rvol15": 2.6568050555955525,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:45:00-05:00",
+  "entry_at": "2026-11-02T09:50:00-05:00",
+  "entry": 13.561200141906738,
+  "stop": 13.46561084474836,
+  "risk": 0.09558929715837827,
+  "cost_share_r": 0.567,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     13.615444942474365,
+     "2026-11-02T14:15:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.001
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     13.53499984741211,
+     "2026-11-02T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": -0.841
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Společnost sice překonala očekávání zisku na akcii (EPS), ale cena akcií na zprávu reagovala poklesem, což naznačuje negativní sentiment trhu.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-02|ATEC": {
+  "ticker": "ATEC",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "ATEC",
+   "day": "2026-11-02",
+   "orb_high": 7.760000228881836,
+   "orb_low": 7.170000076293945,
+   "atr14": 0.8321427958352225,
+   "rvol15": 1.5842682079496853,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-11-02|NXT": {
+  "ticker": "NXT",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "NXT",
+   "day": "2026-11-02",
+   "orb_high": 87.40499877929688,
+   "orb_low": 83.32499694824219,
+   "atr14": 4.706429072788784,
+   "rvol15": 1.6154879876820405,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:45:00-05:00",
+  "entry_at": "2026-11-02T09:50:00-05:00",
+  "entry": 87.94000244140625,
+  "stop": 86.76339517320905,
+  "risk": 1.176607268197202,
+  "cost_share_r": 0.299,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     86.76339517320905,
+     "2026-11-02T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.297
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     86.76339517320905,
+     "2026-11-02T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.297
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Dostupné titulky obsahují pouze běžné finanční přehledy a reporty, nikoliv čerstvý fundamentální katalyzátor pro růst.",
+   "model_used": "gemini-3.5-flash-lite",
+   "cached": false
+  }
+ },
+ "2026-11-02|WING": {
+  "ticker": "WING",
+  "day": "2026-11-02",
+  "setup": {
+   "ticker": "WING",
+   "day": "2026-11-02",
+   "orb_high": 163.47000122070312,
+   "orb_low": 153.0,
+   "atr14": 7.792999812534878,
+   "rvol15": 1.9549556021092847,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-02T09:45:00-05:00",
+  "entry_at": "2026-11-02T09:50:00-05:00",
+  "entry": 164.35159301757812,
+  "stop": 162.4033430644444,
+  "risk": 1.9482499531337112,
+  "cost_share_r": 0.337,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     165.00899938964844,
+     "2026-11-02T09:55:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.001
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     162.4033430644444,
+     "2026-11-02T10:05:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.335
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Titulek zmiňuje Wingstop pouze v rámci týdenního přehledu spotřebitelských akcií bez přítomnosti konkrétního růstového katalyzátoru.",
+   "model_used": "gemini-3.5-flash-lite",
+   "cached": false
+  }
+ },
+ "2026-11-02|NWL": {
+  "ticker": "NWL",
+  "day": "2026-11-02",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.72 < 1.5",
+  "setup": {
+   "ticker": "NWL",
+   "day": "2026-11-02",
+   "orb_high": 5.289999961853027,
+   "orb_low": 5.079999923706055,
+   "atr14": 0.2714284488133022,
+   "rvol15": 0.7191737213064351,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.72 < 1.5"
+  }
+ },
+ "2026-11-03|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.09 < 1.5",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-11-03",
+   "orb_high": 209.13999938964844,
+   "orb_low": 205.92999267578125,
+   "atr14": 6.735714503696987,
+   "rvol15": 1.0854172653905576,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.09 < 1.5"
+  }
+ },
+ "2026-11-03|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.55 < 1.5",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-11-03",
+   "orb_high": 406.489990234375,
+   "orb_low": 400.9100036621094,
+   "atr14": 15.089290073939733,
+   "rvol15": 0.5499955868427436,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.55 < 1.5"
+  }
+ },
+ "2026-11-03|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.69 < 1.5",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-11-03",
+   "orb_high": 512.5999145507812,
+   "orb_low": 507.8500061035156,
+   "atr14": 12.785720825195312,
+   "rvol15": 0.6894349516463517,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.69 < 1.5"
+  }
+ },
+ "2026-11-03|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.66 < 1.5",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-11-03",
+   "orb_high": 249.82000732421875,
+   "orb_low": 246.22999572753906,
+   "atr14": 8.360709054129464,
+   "rvol15": 0.6633234727920441,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.66 < 1.5"
+  }
+ },
+ "2026-11-03|META": {
+  "ticker": "META",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.37 < 1.5",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-11-03",
+   "orb_high": 615.1400146484375,
+   "orb_low": 610.0999755859375,
+   "atr14": 23.539995465959823,
+   "rvol15": 0.36712450340950153,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.37 < 1.5"
+  }
+ },
+ "2026-11-03|GOOGL": {
+  "ticker": "GOOGL",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.77 < 1.5",
+  "setup": {
+   "ticker": "GOOGL",
+   "day": "2026-11-03",
+   "orb_high": 281.3599853515625,
+   "orb_low": 278.05999755859375,
+   "atr14": 10.929292951311384,
+   "rvol15": 0.7681398428012052,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.77 < 1.5"
+  }
+ },
+ "2026-11-03|MGRC": {
+  "ticker": "MGRC",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.75 < 1.5",
+  "setup": {
+   "ticker": "MGRC",
+   "day": "2026-11-03",
+   "orb_high": 133.25,
+   "orb_low": 128.50999450683594,
+   "atr14": 3.71694637111113,
+   "rvol15": 0.7529982430677565,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.75 < 1.5"
+  }
+ },
+ "2026-11-03|LSCC": {
+  "ticker": "LSCC",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "LSCC",
+   "day": "2026-11-03",
+   "orb_high": 110.0,
+   "orb_low": 101.7750015258789,
+   "atr14": 6.54285648890904,
+   "rvol15": 19.724161649146133,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-03|UPWK": {
+  "ticker": "UPWK",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.69 x ATR > 1.5",
+  "setup": {
+   "ticker": "UPWK",
+   "day": "2026-11-03",
+   "orb_high": 10.199999809265137,
+   "orb_low": 9.520000457763672,
+   "atr14": 0.4021427971976144,
+   "rvol15": 8.14449448399358,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.69 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|SRAD": {
+  "ticker": "SRAD",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.74 x ATR > 1.5",
+  "setup": {
+   "ticker": "SRAD",
+   "day": "2026-11-03",
+   "orb_high": 15.069999694824219,
+   "orb_low": 13.994999885559082,
+   "atr14": 0.6192855153764997,
+   "rvol15": 7.690722897852739,
+   "first15_bullish": false,
+   "skip_reason": "pásmo 1.74 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|TSEM": {
+  "ticker": "TSEM",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.25 < 1.5",
+  "setup": {
+   "ticker": "TSEM",
+   "day": "2026-11-03",
+   "orb_high": 161.83999633789062,
+   "orb_low": 156.69000244140625,
+   "atr14": 14.995714460100446,
+   "rvol15": 1.2475176437075475,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.25 < 1.5"
+  }
+ },
+ "2026-11-03|NBIX": {
+  "ticker": "NBIX",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 3.27 x ATR > 1.5",
+  "setup": {
+   "ticker": "NBIX",
+   "day": "2026-11-03",
+   "orb_high": 168.23989868164062,
+   "orb_low": 157.91000366210938,
+   "atr14": 3.1578587123325894,
+   "rvol15": 10.65226936690712,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 3.27 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|LITE": {
+  "ticker": "LITE",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.40 < 1.5",
+  "setup": {
+   "ticker": "LITE",
+   "day": "2026-11-03",
+   "orb_high": 714.0,
+   "orb_low": 670.380126953125,
+   "atr14": 80.28079223632812,
+   "rvol15": 1.4048556729094235,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.40 < 1.5"
+  }
+ },
+ "2026-11-03|CIFR": {
+  "ticker": "CIFR",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.81 < 1.5",
+  "setup": {
+   "ticker": "CIFR",
+   "day": "2026-11-03",
+   "orb_high": 7.599999904632568,
+   "orb_low": 7.019999980926514,
+   "atr14": 0.9622143336704799,
+   "rvol15": 0.8132609481941344,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.81 < 1.5"
+  }
+ },
+ "2026-11-03|RYAAY": {
+  "ticker": "RYAAY",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "RYAAY",
+   "day": "2026-11-03",
+   "orb_high": 56.040000915527344,
+   "orb_low": 54.790000915527344,
+   "atr14": 1.4992858341761999,
+   "rvol15": 3.1317930472576405,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-03|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-11-03",
+   "orb_high": 332.6700134277344,
+   "orb_low": 325.3299865722656,
+   "atr14": 6.796430315290179,
+   "rvol15": 2.7308200203936317,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-03T09:45:00-05:00",
+  "entry_at": "2026-11-03T09:50:00-05:00",
+  "entry": 333.7950134277344,
+  "stop": 332.09590584891185,
+  "risk": 1.6991075788225203,
+  "cost_share_r": 0.786,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     332.09590584891185,
+     "2026-11-03T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.784
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     332.09590584891185,
+     "2026-11-03T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.784
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Většina zpráv se zaměřuje na pokles akcií kvůli obavám z nižších marží a zpomalení růstu služeb po zveřejnění výsledků.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-03|IDXX": {
+  "ticker": "IDXX",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "IDXX",
+   "day": "2026-11-03",
+   "orb_high": 672.7000122070312,
+   "orb_low": 655.5150146484375,
+   "atr14": 23.303571428571427,
+   "rvol15": 1.7803310289590948,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-03T10:45:00-05:00",
+  "entry_at": "2026-11-03T10:50:00-05:00",
+  "entry": 673.8099975585938,
+  "stop": 667.9841047014509,
+  "risk": 5.82589285714289,
+  "cost_share_r": 0.463,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 1.0,
+   "fills": [],
+   "r_net": null
+  },
+  "variant_b": {
+   "open_qty": 1.0,
+   "fills": [],
+   "r_net": null
+  },
+  "status": "OPEN",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Společnost IDEXX předčila očekávání v tržbách i zisku za 3. čtvrtletí a zvýšila celoroční výhled, což vede k výraznému růstu akcie.",
+   "model_used": "gemini-3.5-flash",
+   "cached": false
+  }
+ },
+ "2026-11-03|AMD": {
+  "ticker": "AMD",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-11-03",
+   "orb_high": 496.2499084472656,
+   "orb_low": 473.54010009765625,
+   "atr14": 32.99070085797991,
+   "rvol15": 1.5086652674255216,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-11-03|MDGL": {
+  "ticker": "MDGL",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.79 x ATR > 1.5",
+  "setup": {
+   "ticker": "MDGL",
+   "day": "2026-11-03",
+   "orb_high": 469.4100036621094,
+   "orb_low": 441.5199890136719,
+   "atr14": 15.562140328543526,
+   "rvol15": 15.044103215039168,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.79 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|FISV": {
+  "ticker": "FISV",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "FISV",
+   "day": "2026-11-03",
+   "orb_high": 56.79999923706055,
+   "orb_low": 54.619998931884766,
+   "atr14": 1.4678573608398438,
+   "rvol15": 9.289163797493112,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-03|CMPS": {
+  "ticker": "CMPS",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "CMPS",
+   "day": "2026-11-03",
+   "orb_high": 9.4399995803833,
+   "orb_low": 8.640000343322754,
+   "atr14": 0.8859998839242118,
+   "rvol15": 13.318339840247218,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-11-03|AEHR": {
+  "ticker": "AEHR",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "AEHR",
+   "day": "2026-11-03",
+   "orb_high": 63.439998626708984,
+   "orb_low": 54.0099983215332,
+   "atr14": 6.492856706891741,
+   "rvol15": 6.387300223867874,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-03T10:05:00-05:00",
+  "entry_at": "2026-11-03T10:10:00-05:00",
+  "entry": 63.92499923706055,
+  "stop": 62.301785060337615,
+  "risk": 1.6232141767229322,
+  "cost_share_r": 0.158,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     64.18069923400878,
+     "2026-11-03T10:45:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.0
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     62.301785060337615,
+     "2026-11-03T11:20:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.156
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie firmy Aehr výrazně rostou díky překonání odhadů hospodářských výsledků a zvýšení výhledu v souvislosti s poptávkou po AI.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-03|FN": {
+  "ticker": "FN",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "FN",
+   "day": "2026-11-03",
+   "orb_high": 362.0,
+   "orb_low": 329.3599853515625,
+   "atr14": 25.071428571428573,
+   "rvol15": 5.013392340879776,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-03T10:25:00-05:00",
+  "entry_at": "2026-11-03T10:30:00-05:00",
+  "entry": 364.6499938964844,
+  "stop": 358.3821367536272,
+  "risk": 6.267857142857167,
+  "cost_share_r": 0.233,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     358.0421142578125,
+     "2026-11-03T11:25:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.285
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     358.0421142578125,
+     "2026-11-03T11:25:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.285
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie Fabrinet rostou díky překonání očekávaných výsledků hospodaření za první fiskální čtvrtletí, které podpořila silná poptávka v datových centrech.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-03|ORCL": {
+  "ticker": "ORCL",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "ORCL",
+   "day": "2026-11-03",
+   "orb_high": 123.91999816894531,
+   "orb_low": 121.3499984741211,
+   "atr14": 8.300000871930804,
+   "rvol15": 4.3068332783541345,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-03T09:50:00-05:00",
+  "entry_at": "2026-11-03T09:55:00-05:00",
+  "entry": 123.94999694824219,
+  "stop": 122.80122339332124,
+  "risk": 1.1487735549209503,
+  "cost_share_r": 0.432,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     124.44579693603515,
+     "2026-11-03T10:05:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.001
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     126.29000091552734,
+     "2026-11-03T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": 1.601
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Akcie Oracle klesají v reakci na plány společnosti půjčit si 10 miliard dolarů na výdaje do AI a prodej akcií s diskontem.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-03|GPK": {
+  "ticker": "GPK",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.34 x ATR > 1.5",
+  "setup": {
+   "ticker": "GPK",
+   "day": "2026-11-03",
+   "orb_high": 11.0,
+   "orb_low": 10.170000076293945,
+   "atr14": 0.35500015531267437,
+   "rvol15": 6.38101825528977,
+   "first15_bullish": false,
+   "skip_reason": "pásmo 2.34 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|JAZZ": {
+  "ticker": "JAZZ",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.96 x ATR > 1.5",
+  "setup": {
+   "ticker": "JAZZ",
+   "day": "2026-11-03",
+   "orb_high": 230.2050018310547,
+   "orb_low": 218.52499389648438,
+   "atr14": 5.957860674176898,
+   "rvol15": 4.936080545774648,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.96 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|TBBB": {
+  "ticker": "TBBB",
+  "day": "2026-11-03",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.51 x ATR > 1.5",
+  "setup": {
+   "ticker": "TBBB",
+   "day": "2026-11-03",
+   "orb_high": 60.0,
+   "orb_low": 57.689998626708984,
+   "atr14": 1.5279282161167689,
+   "rvol15": 2.5775029012754413,
+   "first15_bullish": false,
+   "skip_reason": "pásmo 1.51 x ATR > 1.5"
+  }
+ },
+ "2026-11-03|XMTR": {
+  "ticker": "XMTR",
+  "day": "2026-11-03",
+  "setup": {
+   "ticker": "XMTR",
+   "day": "2026-11-03",
+   "orb_high": 93.5,
+   "orb_low": 87.0,
+   "atr14": 7.2280714852469305,
+   "rvol15": 3.4044972047900486,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-03T09:50:00-05:00",
+  "entry_at": "2026-11-03T09:55:00-05:00",
+  "entry": 96.76850128173828,
+  "stop": 94.96148341042655,
+  "risk": 1.8070178713117286,
+  "cost_share_r": 0.214,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     94.96148341042655,
+     "2026-11-03T09:55:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.212
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     94.96148341042655,
+     "2026-11-03T09:55:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.212
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Společnost Xometry překonala odhady analytiků pro Q3 v oblasti zisku i tržeb, přičemž tržby meziročně vzrostly o 40 %.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-04|META": {
+  "ticker": "META",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-11-04",
+   "orb_high": 643.0900268554688,
+   "orb_low": 629.0,
+   "atr14": 22.818568638392858,
+   "rvol15": 1.6494262777572917,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-04|XYZ": {
+  "ticker": "XYZ",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.54 x ATR > 1.5",
+  "setup": {
+   "ticker": "XYZ",
+   "day": "2026-11-04",
+   "orb_high": 87.0999984741211,
+   "orb_low": 83.26000213623047,
+   "atr14": 2.4976414271763394,
+   "rvol15": 8.55963368299375,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.54 x ATR > 1.5"
+  }
+ },
+ "2026-11-04|NVTS": {
+  "ticker": "NVTS",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "NVTS",
+   "day": "2026-11-04",
+   "orb_high": 9.555000305175781,
+   "orb_low": 8.899999618530273,
+   "atr14": 0.70071428162711,
+   "rvol15": 4.963579005836676,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-04|TBBB": {
+  "ticker": "TBBB",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "TBBB",
+   "day": "2026-11-04",
+   "orb_high": 63.654998779296875,
+   "orb_low": 62.57500076293945,
+   "atr14": 1.8810710906982422,
+   "rvol15": 1.730579387446865,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-04|DUOL": {
+  "ticker": "DUOL",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "DUOL",
+   "day": "2026-11-04",
+   "orb_high": 164.5,
+   "orb_low": 157.00100708007812,
+   "atr14": 7.522853851318359,
+   "rvol15": 17.616947356024024,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-04|NXT": {
+  "ticker": "NXT",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.04 x ATR > 1.5",
+  "setup": {
+   "ticker": "NXT",
+   "day": "2026-11-04",
+   "orb_high": 114.97000122070312,
+   "orb_low": 104.01000213623047,
+   "atr14": 5.3650005885532925,
+   "rvol15": 11.966579481784928,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.04 x ATR > 1.5"
+  }
+ },
+ "2026-11-04|RIOT": {
+  "ticker": "RIOT",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "RIOT",
+   "day": "2026-11-04",
+   "orb_high": 16.179899215698242,
+   "orb_low": 15.069999694824219,
+   "atr14": 1.3222855840410506,
+   "rvol15": 18.191181171131934,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-11-04|FSLR": {
+  "ticker": "FSLR",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "FSLR",
+   "day": "2026-11-04",
+   "orb_high": 214.8699951171875,
+   "orb_low": 205.49000549316406,
+   "atr14": 7.306428091866629,
+   "rvol15": 12.243214676006378,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-11-04|FLNC": {
+  "ticker": "FLNC",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "FLNC",
+   "day": "2026-11-04",
+   "orb_high": 6.429999828338623,
+   "orb_low": 6.019999980926514,
+   "atr14": 0.44749999046325684,
+   "rvol15": 5.116440144401963,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T10:10:00-05:00",
+  "entry_at": "2026-11-04T10:15:00-05:00",
+  "entry": 6.5,
+  "stop": 6.388125002384186,
+  "risk": 0.11187499761581421,
+  "cost_share_r": 0.232,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     6.388125002384186,
+     "2026-11-04T10:20:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.23
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     6.388125002384186,
+     "2026-11-04T10:20:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.23
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Zprávy obsahují informace o problémech v dodavatelském řetězci, jmenování dočasného vedení a žalobách, což jsou negativní zprávy.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|AMD": {
+  "ticker": "AMD",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-11-04",
+   "orb_high": 508.0799865722656,
+   "orb_low": 476.5,
+   "atr14": 32.421412876674104,
+   "rvol15": 5.076640550363812,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T09:45:00-05:00",
+  "entry_at": "2026-11-04T09:50:00-05:00",
+  "entry": 510.0299987792969,
+  "stop": 501.92464556012834,
+  "risk": 8.105353219168535,
+  "cost_share_r": 0.252,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     501.92464556012834,
+     "2026-11-04T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.25
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     501.92464556012834,
+     "2026-11-04T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.25
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie AMD výrazně posilují díky překonání odhadů v hospodářských výsledcích, tržbách i výhledu pro datová centra.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|ENPH": {
+  "ticker": "ENPH",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "ENPH",
+   "day": "2026-11-04",
+   "orb_high": 34.29999923706055,
+   "orb_low": 32.189998626708984,
+   "atr14": 2.1335709435599193,
+   "rvol15": 4.073208448257489,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "WAITING",
+  "catalyst": null
+ },
+ "2026-11-04|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-11-04",
+   "orb_high": 269.9700012207031,
+   "orb_low": 263.8500061035156,
+   "atr14": 8.348566327776227,
+   "rvol15": 3.085506845270957,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T09:55:00-05:00",
+  "entry_at": "2026-11-04T10:00:00-05:00",
+  "entry": 270.4200134277344,
+  "stop": 268.3328718457903,
+  "risk": 2.0871415819440813,
+  "cost_share_r": 0.518,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     268.3328718457903,
+     "2026-11-04T10:25:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.516
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     268.3328718457903,
+     "2026-11-04T10:25:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.516
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "I přes solidní růst AWS a rekordní zisk akcie po výsledcích klesají kvůli obavám z vysokých výdajů.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-11-04",
+   "orb_high": 551.8099975585938,
+   "orb_low": 542.3410034179688,
+   "atr14": 13.007862636021205,
+   "rvol15": 2.7881287167957245,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T09:55:00-05:00",
+  "entry_at": "2026-11-04T10:00:00-05:00",
+  "entry": 553.2000122070312,
+  "stop": 549.9480465480259,
+  "risk": 3.25196565900535,
+  "cost_share_r": 0.68,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     554.2849731445312,
+     "2026-11-04T10:05:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.347
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     556.2999877929688,
+     "2026-11-04T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": 0.271
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Předložené titulky neobsahují žádné konkrétní fundamentální zprávy ani katalyzátor podporující růst akcií.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-11-04",
+   "orb_high": 350.4800109863281,
+   "orb_low": 340.989990234375,
+   "atr14": 7.308574131556919,
+   "rvol15": 2.1323235400087452,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T09:50:00-05:00",
+  "entry_at": "2026-11-04T09:55:00-05:00",
+  "entry": 350.95001220703125,
+  "stop": 349.122868674142,
+  "risk": 1.827143532889238,
+  "cost_share_r": 0.768,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     352.3538122558594,
+     "2026-11-04T10:05:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.002
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     351.7900085449219,
+     "2026-11-04T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": -0.309
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Titulky zmíňují smíšené výsledky hospodaření a pokles ceny akcie pod klíčovou úroveň podpory, což nepředstavuje jasný pozitivní katalyzátor.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-11-04",
+   "orb_high": 206.60000610351562,
+   "orb_low": 200.94000244140625,
+   "atr14": 6.607142857142857,
+   "rvol15": 1.8627834164132413,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": true,
+  "status": "NO_TRADE",
+  "catalyst": null
+ },
+ "2026-11-04|GPK": {
+  "ticker": "GPK",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "GPK",
+   "day": "2026-11-04",
+   "orb_high": 11.869999885559082,
+   "orb_low": 11.501799583435059,
+   "atr14": 0.48928587777273996,
+   "rvol15": 1.7735088595254096,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "WAITING",
+  "catalyst": null
+ },
+ "2026-11-04|YOU": {
+  "ticker": "YOU",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "pásmo 6.25 x ATR > 1.5",
+  "setup": {
+   "ticker": "YOU",
+   "day": "2026-11-04",
+   "orb_high": 60.380001068115234,
+   "orb_low": 51.27000045776367,
+   "atr14": 1.457571302141462,
+   "rvol15": 14.492804612578691,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 6.25 x ATR > 1.5"
+  }
+ },
+ "2026-11-04|ANET": {
+  "ticker": "ANET",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "ANET",
+   "day": "2026-11-04",
+   "orb_high": 186.8300018310547,
+   "orb_low": 176.66000366210938,
+   "atr14": 9.546359470912389,
+   "rvol15": 6.614617077735993,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T09:45:00-05:00",
+  "entry_at": "2026-11-04T09:50:00-05:00",
+  "entry": 187.5009002685547,
+  "stop": 185.11431040082658,
+  "risk": 2.386589867728105,
+  "cost_share_r": 0.314,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     185.11431040082658,
+     "2026-11-04T10:20:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.312
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     185.11431040082658,
+     "2026-11-04T10:20:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.312
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "GUIDANCE_UP",
+   "about_target": true,
+   "reason_cs": "Arista Networks zveřejnila rekordní růst tržeb, zvýšila výhled hospodaření a analytici reagují výhledem silného růstu díky AI.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|KD": {
+  "ticker": "KD",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.49 x ATR > 1.5",
+  "setup": {
+   "ticker": "KD",
+   "day": "2026-11-04",
+   "orb_high": 16.360000610351562,
+   "orb_low": 14.619999885559082,
+   "atr14": 0.6999284880501884,
+   "rvol15": 13.124645196522474,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.49 x ATR > 1.5"
+  }
+ },
+ "2026-11-04|LIVN": {
+  "ticker": "LIVN",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.70 x ATR > 1.5",
+  "setup": {
+   "ticker": "LIVN",
+   "day": "2026-11-04",
+   "orb_high": 95.97000122070312,
+   "orb_low": 89.49500274658203,
+   "atr14": 2.400427682059152,
+   "rvol15": 22.247478665632276,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.70 x ATR > 1.5"
+  }
+ },
+ "2026-11-04|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-11-04",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-11-04",
+   "orb_high": 383.07000732421875,
+   "orb_low": 375.5000915527344,
+   "atr14": 14.986432756696429,
+   "rvol15": 1.7504371839654314,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-04T09:50:00-05:00",
+  "entry_at": "2026-11-04T09:55:00-05:00",
+  "entry": 384.0899963378906,
+  "stop": 380.34338814871654,
+  "risk": 3.746608189174083,
+  "cost_share_r": 0.41,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     0.5,
+     391.5832127162388,
+     "2026-11-04T10:40:00-05:00",
+     "+2R půlka"
+    ],
+    [
+     0.5,
+     385.6263563232422,
+     "2026-11-04T11:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": 0.793
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     385.25,
+     "2026-11-04T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": -0.101
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "NO",
+   "catalyst": "NONE",
+   "about_target": true,
+   "reason_cs": "Titulky popisují pokles akcií Tesly v reakci na výsledky voleb a chybí jakýkoliv pozitivní katalyzátor.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-04|CPNG": {
+  "ticker": "CPNG",
+  "day": "2026-11-04",
+  "status": "NO_SETUP",
+  "reason": "pásmo 3.46 x ATR > 1.5",
+  "setup": {
+   "ticker": "CPNG",
+   "day": "2026-11-04",
+   "orb_high": 17.1299991607666,
+   "orb_low": 15.359999656677246,
+   "atr14": 0.5122857093811035,
+   "rvol15": 8.187266610854996,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 3.46 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-11-05",
+   "orb_high": 195.47999572753906,
+   "orb_low": 191.51010131835938,
+   "atr14": 6.5114288330078125,
+   "rvol15": 2.17129182143697,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-05|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.21 < 1.5",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-11-05",
+   "orb_high": 354.4200134277344,
+   "orb_low": 350.95001220703125,
+   "atr14": 8.476431710379464,
+   "rvol15": 1.2085868667981328,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.21 < 1.5"
+  }
+ },
+ "2026-11-05|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.48 < 1.5",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-11-05",
+   "orb_high": 371.989990234375,
+   "orb_low": 353.82000732421875,
+   "atr14": 15.777147565569196,
+   "rvol15": 1.4827454996376104,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.48 < 1.5"
+  }
+ },
+ "2026-11-05|AMD": {
+  "ticker": "AMD",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-11-05",
+   "orb_high": 451.485595703125,
+   "orb_low": 434.4700012207031,
+   "atr14": 32.23427036830357,
+   "rvol15": 2.432157904953493,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-05|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.24 < 1.5",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-11-05",
+   "orb_high": 557.6199951171875,
+   "orb_low": 547.5700073242188,
+   "atr14": 15.025719778878349,
+   "rvol15": 1.2434690107211137,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.24 < 1.5"
+  }
+ },
+ "2026-11-05|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.25 < 1.5",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-11-05",
+   "orb_high": 271.69000244140625,
+   "orb_low": 266.2300109863281,
+   "atr14": 9.337850298200335,
+   "rvol15": 1.249202558912566,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 1.25 < 1.5"
+  }
+ },
+ "2026-11-05|META": {
+  "ticker": "META",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.65 < 1.5",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-11-05",
+   "orb_high": 634.989990234375,
+   "orb_low": 616.6500244140625,
+   "atr14": 22.366428920200892,
+   "rvol15": 0.6506237351039055,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.65 < 1.5"
+  }
+ },
+ "2026-11-05|GOOGL": {
+  "ticker": "GOOGL",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.98 < 1.5",
+  "setup": {
+   "ticker": "GOOGL",
+   "day": "2026-11-05",
+   "orb_high": 295.6000061035156,
+   "orb_low": 287.989990234375,
+   "atr14": 10.66286141531808,
+   "rvol15": 0.9759339301661578,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.98 < 1.5"
+  }
+ },
+ "2026-11-05|KD": {
+  "ticker": "KD",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.82 < 1.5",
+  "setup": {
+   "ticker": "KD",
+   "day": "2026-11-05",
+   "orb_high": 17.139999389648438,
+   "orb_low": 16.610000610351562,
+   "atr14": 0.9595714296613421,
+   "rvol15": 0.8173498146956348,
+   "first15_bullish": false,
+   "skip_reason": "RVOL15 0.82 < 1.5"
+  }
+ },
+ "2026-11-05|APP": {
+  "ticker": "APP",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.68 x ATR > 1.5",
+  "setup": {
+   "ticker": "APP",
+   "day": "2026-11-05",
+   "orb_high": 360.4993896484375,
+   "orb_low": 339.0,
+   "atr14": 12.823643275669642,
+   "rvol15": 16.492834633887156,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.68 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|SEZL": {
+  "ticker": "SEZL",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.60 x ATR > 1.5",
+  "setup": {
+   "ticker": "SEZL",
+   "day": "2026-11-05",
+   "orb_high": 178.5500030517578,
+   "orb_low": 163.7021942138672,
+   "atr14": 9.253428867885045,
+   "rvol15": 20.06257112964536,
+   "first15_bullish": false,
+   "skip_reason": "pásmo 1.60 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|TM": {
+  "ticker": "TM",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "TM",
+   "day": "2026-11-05",
+   "orb_high": 220.0,
+   "orb_low": 216.7949981689453,
+   "atr14": 3.175714765276228,
+   "rvol15": 10.248968049533621,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-05|ULCC": {
+  "ticker": "ULCC",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "ULCC",
+   "day": "2026-11-05",
+   "orb_high": 7.599999904632568,
+   "orb_low": 7.110099792480469,
+   "atr14": 0.5957142966134208,
+   "rvol15": 1.7551728190211973,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-05|DUOL": {
+  "ticker": "DUOL",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "DUOL",
+   "day": "2026-11-05",
+   "orb_high": 167.69610595703125,
+   "orb_low": 156.94000244140625,
+   "atr14": 10.06449726649693,
+   "rvol15": 3.250479418785973,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-05|U": {
+  "ticker": "U",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.67 x ATR > 1.5",
+  "setup": {
+   "ticker": "U",
+   "day": "2026-11-05",
+   "orb_high": 48.36669921875,
+   "orb_low": 44.81999969482422,
+   "atr14": 2.12107058933803,
+   "rvol15": 25.340656650621547,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.67 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|RUN": {
+  "ticker": "RUN",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "RUN",
+   "day": "2026-11-05",
+   "orb_high": 10.300000190734863,
+   "orb_low": 9.513899803161621,
+   "atr14": 0.5500001226152692,
+   "rvol15": 7.078116661114095,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-05|SONY": {
+  "ticker": "SONY",
+  "day": "2026-11-05",
+  "setup": {
+   "ticker": "SONY",
+   "day": "2026-11-05",
+   "orb_high": 28.301599502563477,
+   "orb_low": 27.8700008392334,
+   "atr14": 0.49642835344587055,
+   "rvol15": 7.061872726334529,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": true,
+  "status": "WAITING",
+  "catalyst": null
+ },
+ "2026-11-05|ENOV": {
+  "ticker": "ENOV",
+  "day": "2026-11-05",
+  "setup": {
+   "ticker": "ENOV",
+   "day": "2026-11-05",
+   "orb_high": 29.889999389648438,
+   "orb_low": 28.149999618530273,
+   "atr14": 1.31785706111363,
+   "rvol15": 4.928419829314871,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "status": "WAITING",
+  "catalyst": null
+ },
+ "2026-11-05|XERS": {
+  "ticker": "XERS",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.87 x ATR > 1.5",
+  "setup": {
+   "ticker": "XERS",
+   "day": "2026-11-05",
+   "orb_high": 13.739999771118164,
+   "orb_low": 12.319999694824219,
+   "atr14": 0.49428551537649973,
+   "rvol15": 17.583063931688567,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.87 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|MGNI": {
+  "ticker": "MGNI",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.15 x ATR > 1.5",
+  "setup": {
+   "ticker": "MGNI",
+   "day": "2026-11-05",
+   "orb_high": 28.110000610351562,
+   "orb_low": 25.75,
+   "atr14": 1.0957141603742326,
+   "rvol15": 26.92432969896455,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.15 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|ADMA": {
+  "ticker": "ADMA",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.03 x ATR > 1.5",
+  "setup": {
+   "ticker": "ADMA",
+   "day": "2026-11-05",
+   "orb_high": 12.859999656677246,
+   "orb_low": 11.899999618530273,
+   "atr14": 0.4738571984427316,
+   "rvol15": 12.796273487626031,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.03 x ATR > 1.5"
+  }
+ },
+ "2026-11-05|VCEL": {
+  "ticker": "VCEL",
+  "day": "2026-11-05",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.83 x ATR > 1.5",
+  "setup": {
+   "ticker": "VCEL",
+   "day": "2026-11-05",
+   "orb_high": 54.4900016784668,
+   "orb_low": 49.0,
+   "atr14": 1.9385716574532645,
+   "rvol15": 14.248281240380077,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.83 x ATR > 1.5"
+  }
+ },
+ "2026-11-06|AAPL": {
+  "ticker": "AAPL",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.95 < 1.5",
+  "setup": {
+   "ticker": "AAPL",
+   "day": "2026-11-06",
+   "orb_high": 341.68499755859375,
+   "orb_low": 338.29998779296875,
+   "atr14": 8.902145385742188,
+   "rvol15": 0.9501364667397012,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.95 < 1.5"
+  }
+ },
+ "2026-11-06|TSLA": {
+  "ticker": "TSLA",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.84 < 1.5",
+  "setup": {
+   "ticker": "TSLA",
+   "day": "2026-11-06",
+   "orb_high": 354.79998779296875,
+   "orb_low": 347.6000061035156,
+   "atr14": 17.625004359654017,
+   "rvol15": 0.8396202568329485,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.84 < 1.5"
+  }
+ },
+ "2026-11-06|MSFT": {
+  "ticker": "MSFT",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.07 < 1.5",
+  "setup": {
+   "ticker": "MSFT",
+   "day": "2026-11-06",
+   "orb_high": 532.4390258789062,
+   "orb_low": 524.6119995117188,
+   "atr14": 15.422147478376116,
+   "rvol15": 1.068675187841473,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.07 < 1.5"
+  }
+ },
+ "2026-11-06|AMZN": {
+  "ticker": "AMZN",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.80 < 1.5",
+  "setup": {
+   "ticker": "AMZN",
+   "day": "2026-11-06",
+   "orb_high": 263.54998779296875,
+   "orb_low": 258.5299987792969,
+   "atr14": 10.339280264718193,
+   "rvol15": 0.8029697263849348,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.80 < 1.5"
+  }
+ },
+ "2026-11-06|META": {
+  "ticker": "META",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 0.60 < 1.5",
+  "setup": {
+   "ticker": "META",
+   "day": "2026-11-06",
+   "orb_high": 622.1892700195312,
+   "orb_low": 606.9600219726562,
+   "atr14": 23.467145647321427,
+   "rvol15": 0.5975603863459271,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 0.60 < 1.5"
+  }
+ },
+ "2026-11-06|GOOGL": {
+  "ticker": "GOOGL",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.04 < 1.5",
+  "setup": {
+   "ticker": "GOOGL",
+   "day": "2026-11-06",
+   "orb_high": 290.489990234375,
+   "orb_low": 284.7799987792969,
+   "atr14": 11.159288678850446,
+   "rvol15": 1.0416333455371716,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.04 < 1.5"
+  }
+ },
+ "2026-11-06|MGNI": {
+  "ticker": "MGNI",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.29 < 1.5",
+  "setup": {
+   "ticker": "MGNI",
+   "day": "2026-11-06",
+   "orb_high": 27.43000030517578,
+   "orb_low": 26.670000076293945,
+   "atr14": 1.3614283970424108,
+   "rvol15": 1.285450156554881,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.29 < 1.5"
+  }
+ },
+ "2026-11-06|ABNB": {
+  "ticker": "ABNB",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "ABNB",
+   "day": "2026-11-06",
+   "orb_high": 192.5,
+   "orb_low": 184.77999877929688,
+   "atr14": 5.301713126046317,
+   "rvol15": 9.565750585194001,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-06|WULF": {
+  "ticker": "WULF",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "WULF",
+   "day": "2026-11-06",
+   "orb_high": 11.145000457763672,
+   "orb_low": 10.085000038146973,
+   "atr14": 1.2714286531720842,
+   "rvol15": 3.8558252664982255,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-06|CIFR": {
+  "ticker": "CIFR",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "CIFR",
+   "day": "2026-11-06",
+   "orb_high": 6.349999904632568,
+   "orb_low": 5.770100116729736,
+   "atr14": 0.9964285578046527,
+   "rvol15": 1.6024134756669175,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-06|NBIS": {
+  "ticker": "NBIS",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "RVOL15 1.26 < 1.5",
+  "setup": {
+   "ticker": "NBIS",
+   "day": "2026-11-06",
+   "orb_high": 134.37989807128906,
+   "orb_low": 128.3800048828125,
+   "atr14": 15.336644853864398,
+   "rvol15": 1.2620225754724217,
+   "first15_bullish": true,
+   "skip_reason": "RVOL15 1.26 < 1.5"
+  }
+ },
+ "2026-11-06|MRVL": {
+  "ticker": "MRVL",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "MRVL",
+   "day": "2026-11-06",
+   "orb_high": 145.58999633789062,
+   "orb_low": 140.14999389648438,
+   "atr14": 19.13499777657645,
+   "rvol15": 1.6190472770108173,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-06|EXTR": {
+  "ticker": "EXTR",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "pásmo 2.11 x ATR > 1.5",
+  "setup": {
+   "ticker": "EXTR",
+   "day": "2026-11-06",
+   "orb_high": 26.299999237060547,
+   "orb_low": 23.510000228881836,
+   "atr14": 1.3192859377179826,
+   "rvol15": 17.50108498904426,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 2.11 x ATR > 1.5"
+  }
+ },
+ "2026-11-06|NET": {
+  "ticker": "NET",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "NET",
+   "day": "2026-11-06",
+   "orb_high": 277.9700012207031,
+   "orb_low": 265.010009765625,
+   "atr14": 20.221429007393972,
+   "rvol15": 5.479660640257735,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": true,
+  "signal_at": "2026-11-06T09:55:00-05:00",
+  "entry_at": "2026-11-06T10:00:00-05:00",
+  "entry": 278.20001220703125,
+  "stop": 273.1446549551828,
+  "risk": 5.055357251848477,
+  "cost_share_r": 0.22,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     273.1446549551828,
+     "2026-11-06T10:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.218
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     273.1446549551828,
+     "2026-11-06T10:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.218
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie společnosti Cloudflare prudce rostou v reakci na překonání očekávaných hospodářských výsledků a zájem o AI cloud.",
+   "model_used": "gemini-3.5-flash",
+   "cached": false
+  }
+ },
+ "2026-11-06|NVDA": {
+  "ticker": "NVDA",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "NVDA",
+   "day": "2026-11-06",
+   "orb_high": 194.52999877929688,
+   "orb_low": 190.0,
+   "atr14": 7.462144034249442,
+   "rvol15": 2.6723751466266283,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": true,
+  "status": "WAITING",
+  "catalyst": null
+ },
+ "2026-11-06|IREN": {
+  "ticker": "IREN",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "IREN",
+   "day": "2026-11-06",
+   "orb_high": 21.88990020751953,
+   "orb_low": 20.18000030517578,
+   "atr14": 2.6514998844691684,
+   "rvol15": 2.6476045500464136,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-06T09:45:00-05:00",
+  "entry_at": "2026-11-06T09:50:00-05:00",
+  "entry": 22.110000610351562,
+  "stop": 21.44712563923427,
+  "risk": 0.6628749711172937,
+  "cost_share_r": 0.133,
+  "cost_ok": true,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     21.44712563923427,
+     "2026-11-06T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.131
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     21.44712563923427,
+     "2026-11-06T09:50:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.131
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie IREN rostou díky hospodářským výsledkům za 1. čtvrtletí, ve kterých došlo ke snížení čisté ztráty a téměř trojnásobnému růstu příjmů z AI cloudu.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-06|XERS": {
+  "ticker": "XERS",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "XERS",
+   "day": "2026-11-06",
+   "orb_high": 14.206199645996094,
+   "orb_low": 13.531499862670898,
+   "atr14": 0.6935712269374302,
+   "rvol15": 2.307379704042592,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-06T10:45:00-05:00",
+  "entry_at": "2026-11-06T10:50:00-05:00",
+  "entry": 14.204999923706055,
+  "stop": 14.031607116971697,
+  "risk": 0.1733928067343573,
+  "cost_share_r": 0.328,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     14.261819923400878,
+     "2026-11-06T12:00:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.001
+  },
+  "variant_b": {
+   "open_qty": 1.0,
+   "fills": [],
+   "r_net": null
+  },
+  "status": "OPEN",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Společnost Xeris Biopharma vykázala za 3. čtvrtletí výsledky nad očekáváním trhu a silný růst tržeb, což vedlo k výraznému nárůstu ceny akcií.",
+   "model_used": "gemini-3-flash-preview",
+   "cached": false
+  }
+ },
+ "2026-11-06|AMD": {
+  "ticker": "AMD",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "AMD",
+   "day": "2026-11-06",
+   "orb_high": 453.6400146484375,
+   "orb_low": 433.92999267578125,
+   "atr14": 35.897129603794646,
+   "rvol15": 2.295066442437946,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-06T09:45:00-05:00",
+  "entry_at": "2026-11-06T09:50:00-05:00",
+  "entry": 456.8900146484375,
+  "stop": 447.91573224748885,
+  "risk": 8.974282400948653,
+  "cost_share_r": 0.204,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     447.91573224748885,
+     "2026-11-06T10:05:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.202
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     447.91573224748885,
+     "2026-11-06T10:05:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.202
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "CONTRACT",
+   "about_target": true,
+   "reason_cs": "Zprávy naznačují nového zákazníka Anthropic pro AMD a akcie roste o 8 % po investor update a odrazu sektoru.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-06|FROG": {
+  "ticker": "FROG",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "FROG",
+   "day": "2026-11-06",
+   "orb_high": 97.68000030517578,
+   "orb_low": 89.31719970703125,
+   "atr14": 6.80742917742048,
+   "rvol15": 11.358750058474062,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-06|TMDX": {
+  "ticker": "TMDX",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "pásmo 1.56 x ATR > 1.5",
+  "setup": {
+   "ticker": "TMDX",
+   "day": "2026-11-06",
+   "orb_high": 82.44000244140625,
+   "orb_low": 76.5,
+   "atr14": 3.797858646937779,
+   "rvol15": 9.562062164691321,
+   "first15_bullish": true,
+   "skip_reason": "pásmo 1.56 x ATR > 1.5"
+  }
+ },
+ "2026-11-06|FLY": {
+  "ticker": "FLY",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "FLY",
+   "day": "2026-11-06",
+   "orb_high": 17.299999237060547,
+   "orb_low": 16.309999465942383,
+   "atr14": 1.4075004032679967,
+   "rvol15": 5.887456936682809,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-06T09:45:00-05:00",
+  "entry_at": "2026-11-06T09:50:00-05:00",
+  "entry": 17.610000610351562,
+  "stop": 17.258125509534562,
+  "risk": 0.3518751008170007,
+  "cost_share_r": 0.2,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     17.59000015258789,
+     "2026-11-06T09:55:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -0.257
+  },
+  "variant_b": {
+   "open_qty": 1.0,
+   "fills": [],
+   "r_net": null
+  },
+  "status": "OPEN",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "CONTRACT",
+   "about_target": true,
+   "reason_cs": "Akcie společnosti Firefly Aerospace výrazně posilují díky podpisu obří smlouvy na dodávku raketových motorů pro AST SpaceMobile v hodnotě 1,3 miliardy dolarů.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-06|OKLO": {
+  "ticker": "OKLO",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "OKLO",
+   "day": "2026-11-06",
+   "orb_high": 22.5,
+   "orb_low": 20.861299514770508,
+   "atr14": 1.8291429792131697,
+   "rvol15": 3.462174672193756,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-06T10:10:00-05:00",
+  "entry_at": "2026-11-06T10:15:00-05:00",
+  "entry": 22.940000534057617,
+  "stop": 22.482714789254324,
+  "risk": 0.4572857448032934,
+  "cost_share_r": 0.201,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     22.482714789254324,
+     "2026-11-06T10:25:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.199
+  },
+  "variant_b": {
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     22.482714789254324,
+     "2026-11-06T10:25:00-05:00",
+     "stop"
+    ]
+   ],
+   "r_net": -1.199
+  },
+  "status": "CLOSED",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Akcie Oklo výrazně posilují díky nižší než očekávané ztrátě za třetí čtvrtletí.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ },
+ "2026-11-06|LASR": {
+  "ticker": "LASR",
+  "day": "2026-11-06",
+  "status": "NO_SETUP",
+  "reason": "prvních 15 min není růstových",
+  "setup": {
+   "ticker": "LASR",
+   "day": "2026-11-06",
+   "orb_high": 37.65999984741211,
+   "orb_low": 35.02000045776367,
+   "atr14": 2.2764290400913785,
+   "rvol15": 10.415539113491123,
+   "first15_bullish": false,
+   "skip_reason": "prvních 15 min není růstových"
+  }
+ },
+ "2026-11-06|KRMN": {
+  "ticker": "KRMN",
+  "day": "2026-11-06",
+  "setup": {
+   "ticker": "KRMN",
+   "day": "2026-11-06",
+   "orb_high": 37.20000076293945,
+   "orb_low": 34.18000030517578,
+   "atr14": 2.7884998321533203,
+   "rvol15": 5.416529913062197,
+   "first15_bullish": true,
+   "skip_reason": null
+  },
+  "two_sided": false,
+  "signal_at": "2026-11-06T09:45:00-05:00",
+  "entry_at": "2026-11-06T09:50:00-05:00",
+  "entry": 38.084999084472656,
+  "stop": 37.387874126434326,
+  "risk": 0.6971249580383301,
+  "cost_share_r": 0.219,
+  "cost_ok": false,
+  "cost_pct_per_side": 0.2,
+  "variant_a": {
+   "open_qty": 0.5,
+   "fills": [
+    [
+     0.5,
+     39.479249000549316,
+     "2026-11-06T09:55:00-05:00",
+     "+2R půlka"
+    ]
+   ],
+   "r_net": null
+  },
+  "variant_b": {
+   "open_qty": 1.0,
+   "fills": [],
+   "r_net": null
+  },
+  "status": "OPEN",
+  "catalyst": {
+   "direction": "YES",
+   "catalyst": "EARNINGS_BEAT",
+   "about_target": true,
+   "reason_cs": "Společnost Karman překonala odhady zisku i tržeb za Q3 a zároveň zvýšila svůj celoroční výhled.",
+   "model_used": "gemini-3.6-flash",
+   "cached": false
+  }
+ }
+}

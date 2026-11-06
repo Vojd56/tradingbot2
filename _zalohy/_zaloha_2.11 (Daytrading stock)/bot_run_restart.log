@@ -1,0 +1,28 @@
+2026-10-26 19:49:13,159 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-10-26 19:49:13,161 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-10-26 19:49:13,162 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
+2026-10-26 19:49:13,165 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
+2026-10-26 19:49:13,168 [INFO] discord.client: logging in using static token
+2026-10-26 19:49:14,532 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
+2026-10-26 19:49:16,570 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
+2026-10-26 19:49:16,571 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 19:49:16,571 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
+2026-10-26 19:49:16,572 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
+2026-10-26 19:49:16,573 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 19:49:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 19:49:16,797 [INFO] TradingBot: ⚡ Synchronizováno 12 příkazů do serveru Bordel!
+2026-10-26 19:49:17,182 [INFO] TradingBot: ⚡ Globálně synchronizováno 12 Slash Příkazů!
+2026-10-26 19:49:41,296 [INFO] TradingBot: 📋 SCOUT SOUHRN (14 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 19:54:16,575 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 19:54:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 19:54:38,043 [INFO] TradingBot: 📋 SCOUT SOUHRN (13 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 19:59:16,583 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 19:59:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 19:59:36,277 [INFO] TradingBot: 📋 SCOUT SOUHRN (12 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 20:04:16,586 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:04:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 20:04:39,195 [INFO] TradingBot: 📋 SCOUT SOUHRN (15 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 20:09:16,591 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:09:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 20:09:37,025 [INFO] TradingBot: 📋 SCOUT SOUHRN (13 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 20:14:16,582 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:14:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 20:14:33,023 [INFO] TradingBot: 📋 SCOUT SOUHRN (9 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 20:19:16,588 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:19:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 20:19:35,261 [INFO] TradingBot: 📋 SCOUT SOUHRN (11 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0
+2026-10-26 20:24:16,576 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:24:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 20:24:35,252 [INFO] TradingBot: 📋 SCOUT SOUHRN (9 s, trhy: CRYPTO, STOCK_US): prověřeno: 8 | bez_signálu: 8 | obsazeno: 10 | limit_alertů: 0 | timeout: 0 | chyba: 0 | signály: 0 | nakoupeno: 0

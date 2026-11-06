@@ -1,0 +1,6 @@
+{
+ "enabled": true,
+ "DASHBOARD_SUPABASE_URL": "https://<project>.supabase.co",
+ "DASHBOARD_SUPABASE_KEY": "<SUPABASE_KEY>",
+ "DASHBOARD_TOKEN": "<DASHBOARD_TOKEN>"
+}

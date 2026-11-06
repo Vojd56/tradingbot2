@@ -1,0 +1,61 @@
+Backtest drzeni ~20 dni (A2 EU-HIGH252, A4 PULLBACK) - 2026-11-02 09:27
+Test od 2013-01-01, rozdeleni 2020-01-01. Start 5000, riziko 0.5%, max 10 pozic.
+Laťka: >=100 obchodu, PF >=1,3, propad <15 %, lepsi nez 90. percentil nahodnych kontrol a lepsi CAGR/propad nez index.
+
+===== EU: 158 akcii s daty, naklad 0.05%/strana, index ^GDAXI =====
+  index cele obdobi: CAGR 9.0%, propad -39%, CAGR/propad 0.23
+  index 2013-2019: CAGR 7.9%, propad -29%, CAGR/propad 0.27
+  index 2020-dnes: CAGR 10.1%, propad -39%, CAGR/propad 0.26
+
+--- A2 EU: signalu 129 ve 118 dnech ---
+  cele obdobi: obchodu 109, vyhernich 40%, PF 1.23, prumer +0.10R, drzeni 14 dni, CAGR po dani 0.2%, propad -7%, CAGR/propad 0.04
+     NAHODNE  p10/p50/p90: CAGR -1.0% / -0.6% / 0.3%, PF 0.72 (p90 1.25), propad p50 -12%
+     TREND    p10/p50/p90: CAGR -1.3% / -0.5% / 0.4%, PF 0.69 (p90 1.11), propad p50 -13%
+  2013-2019: obchodu 48, vyhernich 46%, PF 1.31, prumer +0.13R, drzeni 13 dni, CAGR po dani 0.5%, propad -5%, CAGR/propad 0.09
+     NAHODNE  p10/p50/p90: CAGR -0.8% / -0.3% / 0.4%, PF 0.80 (p90 1.29), propad p50 -6%
+     TREND    p10/p50/p90: CAGR -1.5% / -0.7% / 0.0%, PF 0.64 (p90 1.11), propad p50 -8%
+  2020-dnes: obchodu 61, vyhernich 36%, PF 1.16, prumer +0.07R, drzeni 15 dni, CAGR po dani -0.1%, propad -7%, CAGR/propad -0.02
+     NAHODNE  p10/p50/p90: CAGR -1.4% / -0.9% / 0.2%, PF 0.65 (p90 1.28), propad p50 -9%
+     TREND    p10/p50/p90: CAGR -1.3% / -0.3% / 0.5%, PF 0.79 (p90 1.34), propad p50 -8%
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ANO, nad p90 kontrol ne, CAGR/propad > index ne  => NEPROSLO
+
+--- A4 EU: signalu 300 ve 244 dnech ---
+  cele obdobi: obchodu 261, vyhernich 33%, PF 1.03, prumer +0.03R, drzeni 12 dni, CAGR po dani -0.0%, propad -9%, CAGR/propad -0.00
+     NAHODNE  p10/p50/p90: CAGR -0.7% / 0.3% / 1.1%, PF 1.09 (p90 1.29), propad p50 -9%
+     TREND    p10/p50/p90: CAGR -0.3% / 0.4% / 1.0%, PF 1.13 (p90 1.31), propad p50 -9%
+  2013-2019: obchodu 122, vyhernich 31%, PF 0.92, prumer -0.01R, drzeni 11 dni, CAGR po dani -0.2%, propad -9%, CAGR/propad -0.02
+     NAHODNE  p10/p50/p90: CAGR -0.2% / 0.9% / 1.9%, PF 1.23 (p90 1.56), propad p50 -7%
+     TREND    p10/p50/p90: CAGR 0.0% / 0.8% / 1.8%, PF 1.28 (p90 1.57), propad p50 -6%
+  2020-dnes: obchodu 139, vyhernich 35%, PF 1.12, prumer +0.06R, drzeni 12 dni, CAGR po dani 0.1%, propad -7%, CAGR/propad 0.01
+     NAHODNE  p10/p50/p90: CAGR -1.9% / -0.4% / 0.6%, PF 0.99 (p90 1.21), propad p50 -9%
+     TREND    p10/p50/p90: CAGR -1.5% / -0.3% / 0.5%, PF 0.98 (p90 1.20), propad p50 -8%
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ANO, nad p90 kontrol ne, CAGR/propad > index ne  => NEPROSLO
+
+===== US: 1487 akcii s daty, naklad 0.20%/strana, index SPY =====
+  index cele obdobi: CAGR 14.5%, propad -34%, CAGR/propad 0.43
+  index 2013-2019: CAGR 14.2%, propad -19%, CAGR/propad 0.73
+  index 2020-dnes: CAGR 14.8%, propad -34%, CAGR/propad 0.44
+
+--- A2 US: signalu 1173 ve 682 dnech ---
+  cele obdobi: obchodu 602, vyhernich 42%, PF 1.20, prumer +0.13R, drzeni 16 dni, CAGR po dani 1.5%, propad -9%, CAGR/propad 0.16
+     NAHODNE  p10/p50/p90: CAGR -2.2% / -1.1% / 0.6%, PF 0.92 (p90 1.08), propad p50 -28%
+     TREND    p10/p50/p90: CAGR -2.5% / -0.8% / 0.9%, PF 0.95 (p90 1.12), propad p50 -24%
+  2013-2019: obchodu 379, vyhernich 41%, PF 1.25, prumer +0.17R, drzeni 16 dni, CAGR po dani 2.7%, propad -9%, CAGR/propad 0.29
+     NAHODNE  p10/p50/p90: CAGR -3.7% / -1.8% / 1.1%, PF 0.85 (p90 1.09), propad p50 -25%
+     TREND    p10/p50/p90: CAGR -2.9% / -1.4% / 1.2%, PF 0.88 (p90 1.07), propad p50 -22%
+  2020-dnes: obchodu 223, vyhernich 43%, PF 1.12, prumer +0.05R, drzeni 16 dni, CAGR po dani 0.3%, propad -9%, CAGR/propad 0.03
+     NAHODNE  p10/p50/p90: CAGR -1.7% / -0.9% / 1.1%, PF 0.98 (p90 1.27), propad p50 -14%
+     TREND    p10/p50/p90: CAGR -2.7% / -0.7% / 1.2%, PF 1.00 (p90 1.25), propad p50 -16%
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ANO, nad p90 kontrol ANO, CAGR/propad > index ne  => NEPROSLO
+
+--- A4 US: signalu 3104 ve 1174 dnech ---
+  cele obdobi: obchodu 1543, vyhernich 36%, PF 1.01, prumer +0.00R, drzeni 12 dni, CAGR po dani -0.2%, propad -33%, CAGR/propad -0.01
+     NAHODNE  p10/p50/p90: CAGR -2.7% / -1.4% / 1.0%, PF 0.96 (p90 1.05), propad p50 -34%
+     TREND    p10/p50/p90: CAGR -2.3% / -0.4% / 1.4%, PF 1.00 (p90 1.08), propad p50 -27%
+  2013-2019: obchodu 884, vyhernich 36%, PF 1.01, prumer -0.00R, drzeni 12 dni, CAGR po dani 0.1%, propad -30%, CAGR/propad 0.00
+     NAHODNE  p10/p50/p90: CAGR -1.9% / 0.5% / 3.9%, PF 1.02 (p90 1.16), propad p50 -25%
+     TREND    p10/p50/p90: CAGR -1.2% / 1.1% / 3.5%, PF 1.06 (p90 1.18), propad p50 -23%
+  2020-dnes: obchodu 659, vyhernich 36%, PF 1.00, prumer +0.01R, drzeni 12 dni, CAGR po dani -0.6%, propad -18%, CAGR/propad -0.03
+     NAHODNE  p10/p50/p90: CAGR -4.6% / -3.2% / -0.9%, PF 0.88 (p90 0.99), propad p50 -27%
+     TREND    p10/p50/p90: CAGR -3.8% / -1.7% / 0.5%, PF 0.93 (p90 1.04), propad p50 -22%
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ne, nad p90 kontrol ne, CAGR/propad > index ne  => NEPROSLO

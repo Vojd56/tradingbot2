@@ -1,0 +1,50 @@
+﻿Backtest kandidátů z výzkumu – 2026-11-01 21:36
+ETF data: {'SXRV.DE': '2010-05-07..2026-10-30', 'SXR8.DE': '2010-05-19..2026-10-30', 'EXS1.DE': '2008-01-02..2026-10-30', 'EXW1.DE': '2008-01-02..2026-10-30', 'IS3N.DE': '2014-06-11..2026-10-30', '4GLD.DE': '2009-11-13..2026-10-30', 'XEON.DE': '2008-01-02..2026-10-30'}
+
+== S1 IBS (výzkum: vstup 17:25, riziko 0,5 %) == 
+  obchody=926, vynos_pct=-10.1, CAGR_pct=-0.67, max_pokles_pct=-14.5, sharpe=-0.21, PF=0.89, vyhry_pct=59.8, prumer_obchod_pct=-0.091, prumer_R=-0.022, pred_2020={'n': 522, 'PF': 0.95, 'prumer_obchod_pct': -0.043}, od_2020={'n': 404, 'PF': 0.81, 'prumer_obchod_pct': -0.154}, benchmark_vynos_pct=800.8, benchmark_CAGR_pct=14.9, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S1 IBS – vstup až další ráno == 
+  obchody=918, vynos_pct=-14.0, CAGR_pct=-0.95, max_pokles_pct=-15.5, sharpe=-0.35, PF=0.82, vyhry_pct=62.2, prumer_obchod_pct=-0.117, prumer_R=-0.032, pred_2020={'n': 514, 'PF': 0.84, 'prumer_obchod_pct': -0.099}, od_2020={'n': 404, 'PF': 0.8, 'prumer_obchod_pct': -0.14}, benchmark_vynos_pct=800.8, benchmark_CAGR_pct=14.9, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S1 IBS – plná alokace 25 % na ETF == 
+  obchody=926, vynos_pct=-20.2, CAGR_pct=-1.42, max_pokles_pct=-25.7, sharpe=-0.28, PF=0.85, vyhry_pct=59.8, prumer_obchod_pct=-0.091, prumer_R=-0.022, pred_2020={'n': 522, 'PF': 0.92, 'prumer_obchod_pct': -0.043}, od_2020={'n': 404, 'PF': 0.77, 'prumer_obchod_pct': -0.154}, benchmark_vynos_pct=800.8, benchmark_CAGR_pct=14.9, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S2 přelom měsíce (výzkum) == 
+  obchody=419, vynos_pct=10.9, CAGR_pct=0.66, max_pokles_pct=-5.3, sharpe=0.25, PF=1.19, vyhry_pct=55.6, prumer_obchod_pct=0.18, prumer_R=0.052, pred_2020={'n': 235, 'PF': 1.09, 'prumer_obchod_pct': 0.038}, od_2020={'n': 184, 'PF': 1.35, 'prumer_obchod_pct': 0.362}, benchmark_vynos_pct=800.8, benchmark_CAGR_pct=14.9, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S2 přelom měsíce – plná alokace 33 % na ETF == 
+  obchody=419, vynos_pct=25.0, CAGR_pct=1.42, max_pokles_pct=-13.3, sharpe=0.26, PF=1.19, vyhry_pct=55.6, prumer_obchod_pct=0.18, prumer_R=0.052, pred_2020={'n': 235, 'PF': 1.02, 'prumer_obchod_pct': 0.038}, od_2020={'n': 184, 'PF': 1.42, 'prumer_obchod_pct': 0.362}, benchmark_vynos_pct=800.8, benchmark_CAGR_pct=14.9, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S4 dual momentum – měsíčně, 2x50 % == (srovnej s benchmarkem)
+  obchody=51, vynos_pct=223.5, CAGR_pct=10.9, max_pokles_pct=-23.7, sharpe=0.76, PF=6.04, vyhry_pct=64.7, prumer_obchod_pct=5.261, pred_2020={'n': 26, 'PF': 1.57, 'prumer_obchod_pct': 1.121}, od_2020={'n': 25, 'PF': 10.89, 'prumer_obchod_pct': 9.568}, benchmark_vynos_pct=320.8, benchmark_CAGR_pct=13.5, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S4 dual momentum – každé 2 týdny == 
+  obchody=72, vynos_pct=218.0, CAGR_pct=10.73, max_pokles_pct=-23.4, sharpe=0.77, PF=5.07, vyhry_pct=65.3, prumer_obchod_pct=3.714, pred_2020={'n': 42, 'PF': 1.36, 'prumer_obchod_pct': 0.602}, od_2020={'n': 30, 'PF': 10.52, 'prumer_obchod_pct': 8.071}, benchmark_vynos_pct=320.8, benchmark_CAGR_pct=13.5, benchmark_max_pokles_pct=-33.8, brana=False
+
+== S4 dual momentum – riziko 0,5 % + stop 3,5 ATR (výzkum) == 
+  obchody=136, vynos_pct=27.7, CAGR_pct=2.18, max_pokles_pct=-5.5, sharpe=0.83, PF=1.78, vyhry_pct=49.3, prumer_obchod_pct=1.137, pred_2020={'n': 62, 'PF': 1.27, 'prumer_obchod_pct': 0.296}, od_2020={'n': 74, 'PF': 2.14, 'prumer_obchod_pct': 1.841}, benchmark_vynos_pct=320.8, benchmark_CAGR_pct=13.5, benchmark_max_pokles_pct=-33.8, brana=True
+
+S5 data: 191 akcií, výsledky u 191
+
+== S5 PEAD kostra (vstup na close dne reakce) == 
+  obchody=215, vynos_pct=6.3, CAGR_pct=1.47, max_pokles_pct=-7.1, sharpe=0.36, PF=1.15, vyhry_pct=52.1, prumer_obchod_pct=0.53, prumer_R=0.061, od_2020={'n': 215, 'PF': 1.15, 'prumer_obchod_pct': 0.53}, brana=False
+
+== S5 PEAD kostra – vstup další ráno == 
+  obchody=220, vynos_pct=6.2, CAGR_pct=1.45, max_pokles_pct=-7.4, sharpe=0.36, PF=1.15, vyhry_pct=50.9, prumer_obchod_pct=0.561, prumer_R=0.042, od_2020={'n': 220, 'PF': 1.15, 'prumer_obchod_pct': 0.561}, brana=False
+  BTCUSDT: 2497 dní, 59925 hodin, 7491 funding
+  ETHUSDT: 2497 dní, 59925 hodin, 7491 funding
+  SOLUSDT: 2240 dní, 53750 hodin, 6796 funding
+  BNBUSDT: 2457 dní, 58957 hodin, 7370 funding
+  XRPUSDT: 2492 dní, 59797 hodin, 7475 funding
+
+== S3 krypto průraz + filtry (výzkum) == 
+  obchody=108, vynos_pct=3.0, CAGR_pct=0.46, max_pokles_pct=-4.5, sharpe=0.23, PF=1.23, vyhry_pct=32.4, prumer_obchod_pct=0.43, prumer_R=0.056, od_2020={'n': 108, 'PF': 1.23, 'prumer_obchod_pct': 0.43}, benchmark_vynos_pct=660.6, benchmark_CAGR_pct=37.19, benchmark_max_pokles_pct=-76.7, brana=False
+
+== S3 bez filtru fundingu == 
+  obchody=150, vynos_pct=7.8, CAGR_pct=1.17, max_pokles_pct=-4.5, sharpe=0.37, PF=1.36, vyhry_pct=33.3, prumer_obchod_pct=1.074, prumer_R=0.103, od_2020={'n': 150, 'PF': 1.36, 'prumer_obchod_pct': 1.074}, benchmark_vynos_pct=660.6, benchmark_CAGR_pct=37.19, benchmark_max_pokles_pct=-76.7, brana=True
+
+== HIGH20 jak běží dnes (bez filtrů, 24 h) == 
+  obchody=712, vynos_pct=30.0, CAGR_pct=4.17, max_pokles_pct=-6.2, sharpe=0.72, PF=1.35, vyhry_pct=48.5, prumer_obchod_pct=0.459, prumer_R=0.076, od_2020={'n': 712, 'PF': 1.35, 'prumer_obchod_pct': 0.459}, benchmark_vynos_pct=660.6, benchmark_CAGR_pct=37.19, benchmark_max_pokles_pct=-76.7, brana=True
+
+Hotovo: C:\Users\<user>\TEst\zalohabot - kopie\_analyza_swing\kandidati.txt

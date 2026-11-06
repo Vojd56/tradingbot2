@@ -1,0 +1,18 @@
+2026-10-26 16:44:21,880 [WARNING] discord.client: PyNaCl is not installed, voice will NOT be supported
+2026-10-26 16:44:21,880 [WARNING] discord.client: davey is not installed, voice will NOT be supported
+2026-10-26 16:44:21,880 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
+2026-10-26 16:44:21,886 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
+2026-10-26 16:44:21,890 [INFO] discord.client: logging in using static token
+2026-10-26 16:44:24,431 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
+2026-10-26 16:44:26,437 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
+2026-10-26 16:44:26,437 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 16:44:26,437 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
+2026-10-26 16:44:26,437 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
+2026-10-26 16:44:26,437 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 16:44:26 (CET) | EU akcie: 🟢 | US akcie: 🟢 | Krypto: 🟢 24/7
+2026-10-26 16:44:26,794 [INFO] TradingBot: ⚡ Synchronizováno 12 příkazů do serveru Bordel!
+2026-10-26 16:44:27,122 [INFO] TradingBot: ⚡ Globálně synchronizováno 12 Slash Příkazů!
+2026-10-26 16:44:32,839 [INFO] TradingBot: POZICE PŘES NOC u TSLA: Cena 395.075 (Entry: 372.22, SL: 366.64, TP: 386.18)
+2026-10-26 16:44:35,910 [INFO] TradingBot.Binance: 🛡️ Binance SL založen (algo): AVAXUSDT 56 @ 8.65 | algoId 1000000258947652
+2026-10-26 16:44:38,369 [INFO] TradingBot.Binance: 🛡️ Binance SL založen (algo): SOLUSDT 4.96 @ 99.38 | algoId 1000000258947688
+2026-10-26 16:44:42,497 [INFO] TradingBot.Binance: 🛡️ Binance SL založen (algo): ETHUSDT 0.217 @ 2268.23 | algoId 1000000258947754
+2026-10-26 16:44:44,908 [INFO] TradingBot.Binance: 🛡️ Binance SL založen (algo): BTCUSDT 0.006 @ 79333.3 | algoId 1000000258947784

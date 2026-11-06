@@ -1,0 +1,266 @@
+"""Modul pro správu multi-tier rotace modelů Gemini a denních limitů.
+
+Kaskádovité přepínání při vyčerpání limitu nebo 429 Rate Limit.
+Limity = free tier Google AI Studio podle screenshotu uživatele 28. 10. 2026 (RPD = požadavky za den).
+Nejdřív chytřejší Flash modely (po 20/den), pak vysokokapacitní Flash Lite (po 500/den).
+Kvóty sdílí všechno, co používá stejný API klíč, proto rozhoduje hlavně 429 od Googlu:
+denní kvóta (RequestsPerDay) = pauza do resetu o půlnoci pacifického času, minutová = 15 min.
+"""
+
+import json
+import logging
+from datetime import date, datetime, timezone, timedelta
+from pathlib import Path
+from typing import Dict, Any, List, Optional
+from zoneinfo import ZoneInfo
+import discord
+
+logger = logging.getLogger("TradingBot.ModelManager")
+
+QUOTA_FILE = Path(__file__).resolve().parent / "model_quota.json"
+PACIFIC_TZ = ZoneInfo("America/Los_Angeles")  # Google resetuje denní kvóty o půlnoci pacifického času
+PRAGUE_TZ = ZoneInfo("Europe/Prague")
+
+# Pořadí: nejdřív Flash (přesnější, 20/den na model), pak Flash Lite (500/den), aby se žádný signál neztratil.
+# Ranní přehled (07:30 Praha) bere ještě z kvóty předchozího pacifického dne (reset 09:00 Praha), proto mu u každého
+# Flash modelu zůstává BRIEFING_RESERVE volání: signály je nečerpají a přehled tak vždy dostane nejlepší model.
+BRIEFING_RESERVE = 2
+MODEL_TIERS = [
+    {"id": "gemini-3.8-flash", "name": "Gemini 3.8 Flash", "daily_limit": 20,
+     "description": "Primární model s nejvyšší analytickou přesností (5/min, 20/den)"},
+    {"id": "gemini-3.6-flash", "name": "Gemini 3.6 Flash", "daily_limit": 20,
+     "description": "Záložní model 1. stupně (5/min, 20/den)"},
+    {"id": "gemini-3.5-flash", "name": "Gemini 3.5 Flash", "daily_limit": 20,
+     "description": "Záložní model 2. stupně (20/den)"},
+    {"id": "gemini-3-flash-preview", "name": "Gemini 3 Flash", "daily_limit": 20,
+     "description": "Záložní model 3. stupně (5/min, 20/den)"},
+    # gemini-2.5-flash je v AI Studiu vidět, ale API vrací 404 "no longer available to new users"
+    # 3.5 Flash Lite nepřijímá thinking_budget=0 (400 INVALID_ARGUMENT), proto thinking_level
+    {"id": "gemini-3.5-flash-lite", "name": "Gemini 3.5 Flash Lite", "daily_limit": 500, "thinking_level": "low",
+     "description": "Vysokokapacitní model (15/min, 500/den)"},
+    {"id": "gemini-3.1-flash-lite", "name": "Gemini 3.1 Flash Lite", "daily_limit": 500,
+     "description": "Vysokokapacitní model (15/min, 500/den)"},
+]
+
+
+# Silné modely (rozhodování) a záloha: gemini-2.5-flash API odmítá (404), záloha je proto gemini-3.5-flash.
+STRONG_MODEL_IDS = ["gemini-3.8-flash", "gemini-3.6-flash", "gemini-3-flash-preview", "gemini-3.5-flash"]
+STRONG_RESERVE_ID = "gemini-3.5-flash"
+LITE_MODEL_IDS = ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite"]
+# Kolik silných volání denně smí sníst intradenní Scout: 80 − swing EU 10 − swing US 10 − večer 2 − rezerva 6 − přehled 2
+SIGNAL_STRONG_CAP = 50
+LITE_KEEP_FOR_SCOUT = 150       # stopa D nesmí Flash Lite modelu ubrat posledních 150 volání (zbytek Scoutovi)
+COMPONENT_LABELS = {"briefing": "Ranní přehled", "signal": "Scout (rozhodnutí)", "routine": "Scout (rutina, dávky)",
+                    "swing_EU": "Swing EU", "swing_US": "Swing US", "evening": "Večerní kontrola", "reserve": "Rezerva / ruční",
+                    "swing_D": "Swing D (Lite tým, papír)"}
+
+
+class ModelQuotaManager:
+    """Sleduje denní spotřebu hovorů na jednotlivé modely Gemini a řídí kaskádovité přepínání."""
+
+    def __init__(self, filepath: Path = QUOTA_FILE):
+        self.filepath = filepath
+        self.data = self._load()
+
+    def _get_today_str(self) -> str:
+        # Den počítadel podle pacifického času: Google resetuje denní kvóty o půlnoci PT (09:00 Praha).
+        # Dřív se počítadla nulovala o pražské půlnoci, takže 0:00-9:00 se volání počítala do nového dne.
+        return datetime.now(PACIFIC_TZ).date().isoformat()
+
+    def _load(self) -> Dict[str, Any]:
+        today_str = self._get_today_str()
+        if self.filepath.exists():
+            try:
+                with open(self.filepath, "r", encoding="utf-8") as f:
+                    content = json.load(f)
+                    if content.get("date") == today_str:
+                        return content
+            except Exception as e:
+                logger.error(f"Chyba při čtení model_quota.json: {e}")
+
+        # Nový den
+        return {
+            "date": today_str,
+            "counts": {m["id"]: 0 for m in MODEL_TIERS},
+            "rate_limited_until": {}
+        }
+
+    def _save(self) -> None:
+        try:
+            with open(self.filepath, "w", encoding="utf-8") as f:
+                json.dump(self.data, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            logger.error(f"Chyba při ukládání model_quota.json: {e}")
+
+    def _check_and_reset_if_new_day(self) -> None:
+        today_str = self._get_today_str()
+        if self.data.get("date") != today_str:
+            # Pauzy po 429 se přenáší: denní kvóta Googlu se resetuje až o půlnoci pacifického času (09:00 Praha)
+            self.data = {
+                "date": today_str,
+                "counts": {m["id"]: 0 for m in MODEL_TIERS},
+                "rate_limited_until": self.data.get("rate_limited_until", {})
+            }
+            self._save()
+
+    def is_model_rate_limited(self, model_id: str) -> bool:
+        """Zjistí, zda je model v dočasné penalizaci kvůli 429 (např. 10 minut)."""
+        self._check_and_reset_if_new_day()
+        until_iso = self.data.get("rate_limited_until", {}).get(model_id)
+        if not until_iso:
+            return False
+        try:
+            until_dt = datetime.fromisoformat(until_iso)
+            if datetime.now(timezone.utc) < until_dt:
+                return True
+        except Exception:
+            pass
+        return False
+
+    def record_rate_limit(self, model_id: str, cooldown_minutes: int = 15) -> None:
+        """Zaznamená chybu 429 Rate Limit a pozastaví model na X minut."""
+        self._check_and_reset_if_new_day()
+        until_dt = datetime.now(timezone.utc) + timedelta(minutes=cooldown_minutes)
+        if "rate_limited_until" not in self.data:
+            self.data["rate_limited_until"] = {}
+        self.data["rate_limited_until"][model_id] = until_dt.isoformat()
+        self._save()
+        logger.warning(f"⚠️ Model {model_id} narazil na 429 Rate Limit. Pozastavuji na {cooldown_minutes} minut (do {until_dt.astimezone(PRAGUE_TZ).strftime('%H:%M:%S')} Praha).")
+
+    def is_auth_error(self, error_text: str) -> bool:
+        """401/403 = neplatný API klíč: platí pro všechny modely, další v kaskádě nemá smysl zkoušet."""
+        t = error_text or ""
+        return "401" in t or "UNAUTHENTICATED" in t or "API key not valid" in t or "PERMISSION_DENIED" in t
+
+    def record_quota_error(self, model_id: str, error_text: str) -> None:
+        """429 od Googlu: denní kvóta -> pauza do resetu (půlnoc pacifického času), jinak 15 min."""
+        if "PerDay" in error_text or "per day" in error_text:
+            now_pt = datetime.now(PACIFIC_TZ)
+            reset = (now_pt + timedelta(days=1)).replace(hour=0, minute=5, second=0, microsecond=0)
+            minutes = max(15, int((reset - now_pt).total_seconds() // 60))
+            logger.warning(f"⚠️ Model {model_id}: vyčerpaná DENNÍ kvóta, další pokus až po resetu.")
+            self.record_rate_limit(model_id, cooldown_minutes=minutes)
+        else:
+            self.record_rate_limit(model_id, cooldown_minutes=15)
+
+    def record_call_success(self, model_id: str, component: str = "signal") -> None:
+        """Zaznamená úspěšné volání modelu (a kterou částí bota, pro /models)."""
+        self._check_and_reset_if_new_day()
+        if "counts" not in self.data:
+            self.data["counts"] = {}
+        self.data["counts"][model_id] = self.data["counts"].get(model_id, 0) + 1
+        comp = self.data.setdefault("by_component", {}).setdefault(component, {})
+        comp[model_id] = comp.get(model_id, 0) + 1
+        self._save()
+
+    def strong_used_by(self, component: str) -> int:
+        self._check_and_reset_if_new_day()
+        return sum(n for m, n in (self.data.get("by_component", {}).get(component) or {}).items() if m in STRONG_MODEL_IDS)
+
+    def usage_by_component(self) -> Dict[str, Dict[str, int]]:
+        self._check_and_reset_if_new_day()
+        return dict(self.data.get("by_component") or {})
+
+    def lite_models(self, keep_for_scout: int = LITE_KEEP_FOR_SCOUT) -> List[Dict[str, Any]]:
+        """Flash Lite s volnou kvótou pro stopu D (3.5 Lite, pak 3.1 Lite). Scoutovi vždy zůstane keep_for_scout volání."""
+        self._check_and_reset_if_new_day()
+        out = []
+        for m in MODEL_TIERS:
+            if m["id"] in LITE_MODEL_IDS and not self.is_model_rate_limited(m["id"]) and \
+                    self.data.get("counts", {}).get(m["id"], 0) < m["daily_limit"] - keep_for_scout:
+                out.append(m)
+        return out
+
+    def strong_models(self, preferred: Optional[List[str]] = None) -> List[Dict[str, Any]]:
+        """Jen silné modely s volnou kvótou: nejdřív preferované, pak ostatní silné, nakonec záloha. Nikdy Flash Lite."""
+        self._check_and_reset_if_new_day()
+        order = list(preferred or []) + [m for m in STRONG_MODEL_IDS if m != STRONG_RESERVE_ID] + [STRONG_RESERVE_ID]
+        seen, out = set(), []
+        by_id = {m["id"]: m for m in MODEL_TIERS}
+        for mid in order:
+            if mid in seen or mid not in by_id:
+                continue
+            seen.add(mid)
+            if self.data.get("counts", {}).get(mid, 0) < by_id[mid]["daily_limit"] and not self.is_model_rate_limited(mid):
+                out.append(by_id[mid])
+        return out
+
+    def get_candidate_models(self, purpose: str = "signal") -> List[Dict[str, Any]]:
+        """Vrátí seřazený seznam modelů vhodných k volání v pořadí kaskády.
+
+        purpose="briefing" smí čerpat i rezervu Flash modelů, ostatní volání (signály) ne.
+        Modely, které vyčerpaly denní limit nebo mají aktivní 429 cooldown, jsou odsunuty na konec.
+        """
+        self._check_and_reset_if_new_day()
+        available = []
+        exhausted = []
+        # Scout nesmí sníst silné volání vyhrazené swingu a večerním kontrolám; rutina (dávky) jde rovnou na Flash Lite
+        signal_capped = purpose == "signal" and self.strong_used_by("signal") >= SIGNAL_STRONG_CAP
+
+        for m in MODEL_TIERS:
+            mid = m["id"]
+            limit = m["daily_limit"]
+            if purpose != "briefing" and limit <= 20:
+                limit -= BRIEFING_RESERVE
+            if mid in STRONG_MODEL_IDS and (purpose == "routine" or signal_capped):
+                exhausted.append(m)
+                continue
+            count = self.data.get("counts", {}).get(mid, 0)
+            is_rl = self.is_model_rate_limited(mid)
+
+            if count < limit and not is_rl:
+                available.append(m)
+            else:
+                exhausted.append(m)
+
+        return available + exhausted
+
+    def get_status_embed(self) -> discord.Embed:
+        """Vytvoří Discord Embed s přehledem kvót všech modelů."""
+        self._check_and_reset_if_new_day()
+        embed = discord.Embed(
+            title="🤖 Stav Multi-Tier Kaskády Modelů Gemini",
+            description="Automatické přepínání při vyčerpání denního limitu nebo 429 Rate Limitu.",
+            color=discord.Color.blue(),
+            timestamp=datetime.now()
+        )
+
+        for m in MODEL_TIERS:
+            mid = m["id"]
+            name = m["name"]
+            limit = m["daily_limit"]
+            count = self.data.get("counts", {}).get(mid, 0)
+            is_rl = self.is_model_rate_limited(mid)
+
+            remaining = max(0, limit - count)
+            if is_rl:
+                status_icon = "🔴 429 Rate Limit (Dočasný cooldown)"
+            elif remaining == 0:
+                status_icon = "🟡 Denní limit vyčerpán"
+            else:
+                status_icon = "🟢 Aktivní"
+
+            embed.add_field(
+                name=f"{name} (`{mid}`)",
+                value=(
+                    f"• Stav: **{status_icon}**\n"
+                    f"• Využito dnes: **{count} / {limit}** volání (zbývá **{remaining}**)\n"
+                    f"• Účel: *{m['description']}*"
+                ),
+                inline=False
+            )
+
+        usage = self.usage_by_component()
+        if usage:
+            lines = []
+            for comp, per in usage.items():
+                strong = sum(n for mid, n in per.items() if mid in STRONG_MODEL_IDS)
+                lite = sum(n for mid, n in per.items() if mid in LITE_MODEL_IDS)
+                lines.append(f"• {COMPONENT_LABELS.get(comp, comp)}: **{strong}** silné, {lite} Lite")
+            lines.append(f"Scout smí silných max {SIGNAL_STRONG_CAP}/den, zbytek je vyhrazený swingu a kontrolám.")
+            embed.add_field(name="📊 Spotřeba podle částí bota (dnes)", value="\n".join(lines)[:1024], inline=False)
+        embed.set_footer(text="AIBot 2.0 • Inteligentní Quota Fallback Engine")
+        return embed
+
+
+quota_manager = ModelQuotaManager()

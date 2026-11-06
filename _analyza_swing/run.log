@@ -1,0 +1,142 @@
+﻿S0 backtest swingové strategie – 2026-11-01 20:54
+Data: 281/281 akcií, výsledky pro 280 akcií
+
+== A-najednou ==
+  obchody=355, vyhry_pct=44.2, prumer_R=0.097, median_R=-0.167, PF=1.2, vynos_pct=16.9, max_pokles_pct=-16.0, 1_pulka_pct=6.0, 2_pulka_pct=10.3, nejlepsi_R=11.81, nejhorsi_R=-2.47, prum_dni=10.2, brana1=False
+    type=A: {'n': 355, 'prumer_R': 0.097, 'soucet_R': 34.3}
+    reg=EU: {'n': 62, 'prumer_R': -0.039, 'soucet_R': -2.4}
+    reg=US: {'n': 293, 'prumer_R': 0.125, 'soucet_R': 36.7}
+    reason=cas10: {'n': 85, 'prumer_R': 0.21, 'soucet_R': 17.9}
+    reason=konec: {'n': 9, 'prumer_R': 0.104, 'soucet_R': 0.9}
+    reason=stop: {'n': 261, 'prumer_R': 0.059, 'soucet_R': 15.5}
+
+== A-najednou-filtr ==
+  obchody=355, vyhry_pct=44.2, prumer_R=0.095, median_R=-0.17, PF=1.16, vynos_pct=12.5, max_pokles_pct=-13.6, 1_pulka_pct=3.9, 2_pulka_pct=8.3, nejlepsi_R=11.81, nejhorsi_R=-2.47, prum_dni=10.2, brana1=False
+    type=A: {'n': 355, 'prumer_R': 0.095, 'soucet_R': 33.8}
+    reg=EU: {'n': 62, 'prumer_R': -0.037, 'soucet_R': -2.3}
+    reg=US: {'n': 293, 'prumer_R': 0.123, 'soucet_R': 36.1}
+    reason=cas10: {'n': 85, 'prumer_R': 0.21, 'soucet_R': 17.9}
+    reason=konec: {'n': 9, 'prumer_R': 0.104, 'soucet_R': 0.9}
+    reason=stop: {'n': 261, 'prumer_R': 0.057, 'soucet_R': 15.0}
+
+== A-tretiny ==
+  obchody=358, vyhry_pct=36.9, prumer_R=0.064, median_R=-0.252, PF=1.26, vynos_pct=11.5, max_pokles_pct=-7.6, 1_pulka_pct=4.5, 2_pulka_pct=6.8, nejlepsi_R=7.54, nejhorsi_R=-1.51, prum_dni=10.1, brana1=False
+    type=A: {'n': 358, 'prumer_R': 0.064, 'soucet_R': 22.8}
+    reg=EU: {'n': 62, 'prumer_R': -0.043, 'soucet_R': -2.7}
+    reg=US: {'n': 296, 'prumer_R': 0.086, 'soucet_R': 25.5}
+    reason=cas10: {'n': 85, 'prumer_R': 0.099, 'soucet_R': 8.4}
+    reason=konec: {'n': 9, 'prumer_R': 0.013, 'soucet_R': 0.1}
+    reason=stop: {'n': 264, 'prumer_R': 0.054, 'soucet_R': 14.3}
+
+== A-tretiny-filtr ==
+  obchody=358, vyhry_pct=36.9, prumer_R=0.064, median_R=-0.252, PF=1.2, vynos_pct=8.3, max_pokles_pct=-6.2, 1_pulka_pct=3.0, 2_pulka_pct=5.2, nejlepsi_R=7.54, nejhorsi_R=-1.51, prum_dni=10.1, brana1=False
+    type=A: {'n': 358, 'prumer_R': 0.064, 'soucet_R': 22.8}
+    reg=EU: {'n': 62, 'prumer_R': -0.043, 'soucet_R': -2.7}
+    reg=US: {'n': 296, 'prumer_R': 0.086, 'soucet_R': 25.5}
+    reason=cas10: {'n': 85, 'prumer_R': 0.099, 'soucet_R': 8.4}
+    reason=konec: {'n': 9, 'prumer_R': 0.013, 'soucet_R': 0.1}
+    reason=stop: {'n': 264, 'prumer_R': 0.054, 'soucet_R': 14.3}
+
+== B-najednou ==
+  obchody=238, vyhry_pct=34.9, prumer_R=0.005, median_R=-0.275, PF=1.0, vynos_pct=0.1, max_pokles_pct=-9.5, 1_pulka_pct=2.7, 2_pulka_pct=-2.5, nejlepsi_R=7.44, nejhorsi_R=-1.03, prum_dni=12.5, brana1=False
+    type=B: {'n': 238, 'prumer_R': 0.005, 'soucet_R': 1.2}
+    reg=EU: {'n': 105, 'prumer_R': 0.207, 'soucet_R': 21.7}
+    reg=US: {'n': 133, 'prumer_R': -0.154, 'soucet_R': -20.5}
+    reason=konec: {'n': 4, 'prumer_R': 0.668, 'soucet_R': 2.7}
+    reason=stop: {'n': 205, 'prumer_R': 0.05, 'soucet_R': 10.3}
+    reason=trend: {'n': 29, 'prumer_R': -0.406, 'soucet_R': -11.8}
+
+== B-najednou-filtr ==
+  obchody=223, vyhry_pct=34.5, prumer_R=-0.005, median_R=-0.278, PF=0.97, vynos_pct=-1.0, max_pokles_pct=-8.9, 1_pulka_pct=0.9, 2_pulka_pct=-1.9, nejlepsi_R=7.44, nejhorsi_R=-1.03, prum_dni=12.1, brana1=False
+    type=B: {'n': 223, 'prumer_R': -0.005, 'soucet_R': -1.1}
+    reg=EU: {'n': 104, 'prumer_R': 0.158, 'soucet_R': 16.4}
+    reg=US: {'n': 119, 'prumer_R': -0.147, 'soucet_R': -17.5}
+    reason=konec: {'n': 4, 'prumer_R': 0.668, 'soucet_R': 2.7}
+    reason=stop: {'n': 193, 'prumer_R': 0.031, 'soucet_R': 5.9}
+    reason=trend: {'n': 26, 'prumer_R': -0.372, 'soucet_R': -9.7}
+
+== B-tretiny ==
+  obchody=238, vyhry_pct=25.6, prumer_R=-0.033, median_R=-0.218, PF=0.85, vynos_pct=-4.1, max_pokles_pct=-9.3, 1_pulka_pct=0.1, 2_pulka_pct=-4.2, nejlepsi_R=6.71, nejhorsi_R=-1.02, prum_dni=12.5, brana1=False
+    type=B: {'n': 238, 'prumer_R': -0.033, 'soucet_R': -7.8}
+    reg=EU: {'n': 105, 'prumer_R': 0.079, 'soucet_R': 8.3}
+    reg=US: {'n': 133, 'prumer_R': -0.121, 'soucet_R': -16.1}
+    reason=konec: {'n': 4, 'prumer_R': 0.399, 'soucet_R': 1.6}
+    reason=stop: {'n': 205, 'prumer_R': -0.013, 'soucet_R': -2.7}
+    reason=trend: {'n': 29, 'prumer_R': -0.232, 'soucet_R': -6.7}
+
+== B-tretiny-filtr ==
+  obchody=223, vyhry_pct=23.8, prumer_R=-0.036, median_R=-0.224, PF=0.84, vynos_pct=-4.2, max_pokles_pct=-9.6, 1_pulka_pct=-0.0, 2_pulka_pct=-4.1, nejlepsi_R=6.71, nejhorsi_R=-0.8, prum_dni=12.1, brana1=False
+    type=B: {'n': 223, 'prumer_R': -0.036, 'soucet_R': -8.0}
+    reg=EU: {'n': 104, 'prumer_R': 0.058, 'soucet_R': 6.0}
+    reg=US: {'n': 119, 'prumer_R': -0.118, 'soucet_R': -14.0}
+    reason=konec: {'n': 4, 'prumer_R': 0.399, 'soucet_R': 1.6}
+    reason=stop: {'n': 193, 'prumer_R': -0.019, 'soucet_R': -3.7}
+    reason=trend: {'n': 26, 'prumer_R': -0.228, 'soucet_R': -5.9}
+
+== AB-najednou ==
+  obchody=393, vyhry_pct=42.2, prumer_R=0.04, median_R=-0.188, PF=1.08, vynos_pct=6.9, max_pokles_pct=-12.1, 1_pulka_pct=6.5, 2_pulka_pct=0.4, nejlepsi_R=9.64, nejhorsi_R=-2.47, prum_dni=10.9, brana1=False
+    type=A: {'n': 235, 'prumer_R': 0.061, 'soucet_R': 14.4}
+    type=B: {'n': 158, 'prumer_R': 0.009, 'soucet_R': 1.4}
+    reg=EU: {'n': 111, 'prumer_R': 0.085, 'soucet_R': 9.4}
+    reg=US: {'n': 282, 'prumer_R': 0.023, 'soucet_R': 6.4}
+    reason=cas10: {'n': 49, 'prumer_R': 0.181, 'soucet_R': 8.9}
+    reason=konec: {'n': 8, 'prumer_R': 0.515, 'soucet_R': 4.1}
+    reason=stop: {'n': 315, 'prumer_R': 0.037, 'soucet_R': 11.6}
+    reason=trend: {'n': 21, 'prumer_R': -0.418, 'soucet_R': -8.8}
+
+== AB-najednou-filtr ==
+  obchody=383, vyhry_pct=42.8, prumer_R=0.074, median_R=-0.158, PF=1.12, vynos_pct=9.2, max_pokles_pct=-10.1, 1_pulka_pct=7.5, 2_pulka_pct=1.6, nejlepsi_R=9.64, nejhorsi_R=-2.47, prum_dni=11.1, brana1=False
+    type=A: {'n': 241, 'prumer_R': 0.127, 'soucet_R': 30.7}
+    type=B: {'n': 142, 'prumer_R': -0.015, 'soucet_R': -2.1}
+    reg=EU: {'n': 115, 'prumer_R': 0.058, 'soucet_R': 6.6}
+    reg=US: {'n': 268, 'prumer_R': 0.082, 'soucet_R': 21.9}
+    reason=cas10: {'n': 54, 'prumer_R': 0.194, 'soucet_R': 10.5}
+    reason=konec: {'n': 8, 'prumer_R': 0.515, 'soucet_R': 4.1}
+    reason=stop: {'n': 302, 'prumer_R': 0.071, 'soucet_R': 21.5}
+    reason=trend: {'n': 19, 'prumer_R': -0.398, 'soucet_R': -7.6}
+
+== AB-tretiny ==
+  obchody=393, vyhry_pct=35.4, prumer_R=0.014, median_R=-0.22, PF=1.05, vynos_pct=2.4, max_pokles_pct=-7.5, 1_pulka_pct=5.1, 2_pulka_pct=-2.6, nejlepsi_R=5.15, nejhorsi_R=-1.51, prum_dni=10.9, brana1=False
+    type=A: {'n': 235, 'prumer_R': 0.035, 'soucet_R': 8.2}
+    type=B: {'n': 158, 'prumer_R': -0.017, 'soucet_R': -2.7}
+    reg=EU: {'n': 111, 'prumer_R': 0.015, 'soucet_R': 1.7}
+    reg=US: {'n': 282, 'prumer_R': 0.014, 'soucet_R': 3.9}
+    reason=cas10: {'n': 49, 'prumer_R': 0.078, 'soucet_R': 3.8}
+    reason=konec: {'n': 8, 'prumer_R': 0.236, 'soucet_R': 1.9}
+    reason=stop: {'n': 315, 'prumer_R': 0.014, 'soucet_R': 4.5}
+    reason=trend: {'n': 21, 'prumer_R': -0.22, 'soucet_R': -4.6}
+
+== AB-tretiny-filtr ==
+  obchody=383, vyhry_pct=35.2, prumer_R=0.043, median_R=-0.21, PF=1.11, vynos_pct=4.9, max_pokles_pct=-6.5, 1_pulka_pct=6.5, 2_pulka_pct=-1.5, nejlepsi_R=5.96, nejhorsi_R=-1.51, prum_dni=11.1, brana1=False
+    type=A: {'n': 241, 'prumer_R': 0.085, 'soucet_R': 20.4}
+    type=B: {'n': 142, 'prumer_R': -0.026, 'soucet_R': -3.8}
+    reg=EU: {'n': 115, 'prumer_R': -0.003, 'soucet_R': -0.3}
+    reg=US: {'n': 268, 'prumer_R': 0.063, 'soucet_R': 17.0}
+    reason=cas10: {'n': 54, 'prumer_R': 0.087, 'soucet_R': 4.7}
+    reason=konec: {'n': 8, 'prumer_R': 0.236, 'soucet_R': 1.9}
+    reason=stop: {'n': 302, 'prumer_R': 0.047, 'soucet_R': 14.3}
+    reason=trend: {'n': 19, 'prumer_R': -0.221, 'soucet_R': -4.2}
+
+== B-najednou-hurst ==
+  obchody=129, vyhry_pct=39.5, prumer_R=0.041, median_R=-0.239, PF=1.13, vynos_pct=2.5, max_pokles_pct=-4.9, 1_pulka_pct=4.7, 2_pulka_pct=-2.1, nejlepsi_R=7.44, nejhorsi_R=-1.03, prum_dni=13.5, brana1=False
+    type=B: {'n': 129, 'prumer_R': 0.041, 'soucet_R': 5.3}
+    reg=EU: {'n': 52, 'prumer_R': 0.289, 'soucet_R': 15.1}
+    reg=US: {'n': 77, 'prumer_R': -0.126, 'soucet_R': -9.7}
+    reason=konec: {'n': 2, 'prumer_R': 0.642, 'soucet_R': 1.3}
+    reason=stop: {'n': 118, 'prumer_R': 0.066, 'soucet_R': 7.8}
+    reason=trend: {'n': 9, 'prumer_R': -0.417, 'soucet_R': -3.8}
+
+== A-najednou-jen-vysledky ==
+  obchody=202, vyhry_pct=45.0, prumer_R=0.069, median_R=-0.141, PF=1.13, vynos_pct=6.2, max_pokles_pct=-12.6, 1_pulka_pct=6.7, 2_pulka_pct=-0.4, nejlepsi_R=6.76, nejhorsi_R=-2.27, prum_dni=10.8, brana1=False
+    type=A: {'n': 202, 'prumer_R': 0.069, 'soucet_R': 14.0}
+    reg=EU: {'n': 23, 'prumer_R': 0.165, 'soucet_R': 3.8}
+    reg=US: {'n': 179, 'prumer_R': 0.057, 'soucet_R': 10.2}
+    reason=cas10: {'n': 45, 'prumer_R': 0.279, 'soucet_R': 12.5}
+    reason=konec: {'n': 7, 'prumer_R': 0.1, 'soucet_R': 0.7}
+    reason=stop: {'n': 150, 'prumer_R': 0.005, 'soucet_R': 0.8}
+
+Benchmark SPY (v místní měně): výnos 33.1 %, max pokles -18.8 %
+
+Benchmark EXSA.DE (v místní měně): výnos 33.7 %, max pokles -16.3 %
+
+Hotovo: C:\Users\<user>\TEst\zalohabot - kopie\_analyza_swing\vysledky.txt

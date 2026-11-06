@@ -1,0 +1,142 @@
+{
+ "IREN|2026-11-06|56a593962c4ace28": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie IREN rostou díky hospodářským výsledkům za 1. čtvrtletí, ve kterých došlo ke snížení čisté ztráty a téměř trojnásobnému růstu příjmů z AI cloudu.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "AMD|2026-11-06|ff630bca91d0dc24": {
+  "direction": "YES",
+  "catalyst": "CONTRACT",
+  "about_target": true,
+  "reason_cs": "Zprávy naznačují nového zákazníka Anthropic pro AMD a akcie roste o 8 % po investor update a odrazu sektoru.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "NET|2026-11-06|150b7a8983937fbb": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie společnosti Cloudflare prudce rostou v reakci na překonání očekávaných hospodářských výsledků a zájem o AI cloud.",
+  "model_used": "gemini-3.5-flash"
+ },
+ "FLY|2026-11-06|e42de2cd83585157": {
+  "direction": "YES",
+  "catalyst": "CONTRACT",
+  "about_target": true,
+  "reason_cs": "Akcie společnosti Firefly Aerospace výrazně posilují díky podpisu obří smlouvy na dodávku raketových motorů pro AST SpaceMobile v hodnotě 1,3 miliardy dolarů.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "OKLO|2026-11-06|f56c26214d2ab3d1": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie Oklo výrazně posilují díky nižší než očekávané ztrátě za třetí čtvrtletí.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "KRMN|2026-11-06|9a1370f6f71ae480": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Společnost Karman překonala odhady zisku i tržeb za Q3 a zároveň zvýšila svůj celoroční výhled.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "XERS|2026-11-06|fe1e58c33d971486": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Společnost Xeris Biopharma vykázala za 3. čtvrtletí výsledky nad očekáváním trhu a silný růst tržeb, což vedlo k výraznému nárůstu ceny akcií.",
+  "model_used": "gemini-3-flash-preview"
+ },
+ "NVDA|2026-11-06|7bc40e85a896cac8": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Akcie NVDA klesají kvůli obavám z regulace a výprodeji v sektoru, přestože cena mírně korigovala.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "IREN|2026-11-06|7b3dec5047bd1a74": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "IREN hlásí zúžení ztráty a silný růst tržeb z AI cloudu, což žene akcie vzhůru.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "NET|2026-11-06|d24f1b50e044a4c3": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Cloudflare překonal očekávání s rychlým růstem tržeb a zvýšeným výhledem.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "ABNB|2026-11-06|5fd4ad9270c50108": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Airbnb překonalo odhady výsledků za třetí čtvrtletí a zvýšilo výhled.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "EXTR|2026-11-06|4abab498e2680842": {
+  "direction": "YES",
+  "catalyst": "MNA",
+  "about_target": true,
+  "reason_cs": "Extreme Networks roste díky zprávám, že zkoumá možnost svého prodeje.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "FROG|2026-11-06|866a481dcc4397ed": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "JFrog těží ze silných výsledků a růstu cloudového byznysu podpořeného AI.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "TMDX|2026-11-06|f0b6fee823106dcc": {
+  "direction": "YES",
+  "catalyst": "GUIDANCE_UP",
+  "about_target": true,
+  "reason_cs": "TransMedics roste po lepších výsledcích a zvýšení výhledu tržeb.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "FLY|2026-11-06|5a7c4ffdb04aeb57": {
+  "direction": "YES",
+  "catalyst": "CONTRACT",
+  "about_target": true,
+  "reason_cs": "Firefly Aerospace uzavřela velkou zakázku na dodávku motorů v hodnotě 1,3 miliardy dolarů.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "OKLO|2026-11-06|2148320a816dc2c9": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Oklo roste díky užší ztrátě než se čekalo a celkovému oživení v sektoru.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "KRMN|2026-11-06|97f7ebe35ce05ce5": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Karman Holdings oznámil rekordní tržby a překonal odhady výsledků.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "LASR|2026-11-06|b581bf0178ffa23b": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "nLIGHT roste po zveřejnění solidních finančních výsledků za devět měsíců.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "WULF|2026-11-06|f2265ce80ccf3626": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie TeraWulf rostou díky překonání odhadů tržeb a výraznějšímu zúžení ztráty za 3. čtvrtletí.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "AMD|2026-11-06|7b0986381e6b883f": {
+  "direction": "YES",
+  "catalyst": "UPGRADE",
+  "about_target": true,
+  "reason_cs": "Akcie AMD rostou o více než 10 % po pozitivní aktualizaci pro investory a analytickém upgradu, čímž korigují předchozí sektorové výprodeje.",
+  "model_used": "gemini-3-flash-preview"
+ }
+}

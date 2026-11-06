@@ -1,0 +1,3 @@
+[2026-10-26 16:44:21] [WARNING ] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
+[2026-10-26 16:44:21] [INFO    ] discord.client: logging in using static token
+[2026-10-26 16:44:24] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).

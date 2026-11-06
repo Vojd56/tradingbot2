@@ -1,0 +1,92 @@
+Backtest A1 PEAD (drzeni do 35 dni) - 2026-11-02 09:37
+Laťka: >=100 obchodu, PF >=1,3, propad <15 %, lepsi nez 90. percentil nahodnych kontrol a lepsi CAGR/propad nez SPY.
+  vysledky 50/1503
+  vysledky 100/1503
+  vysledky 150/1503
+  vysledky 200/1503
+  vysledky 250/1503
+  vysledky 300/1503
+  vysledky 350/1503
+CWEN-A: No earnings dates found, symbol may be delisted
+  vysledky 400/1503
+  vysledky 450/1503
+  vysledky 500/1503
+  vysledky 550/1503
+  vysledky 600/1503
+  vysledky 650/1503
+  vysledky 700/1503
+  vysledky 750/1503
+  vysledky 800/1503
+  vysledky 850/1503
+  vysledky 900/1503
+  vysledky 950/1503
+  vysledky 1000/1503
+  vysledky 1050/1503
+  vysledky 1100/1503
+  vysledky 1150/1503
+  vysledky 1200/1503
+  vysledky 1250/1503
+  vysledky 1300/1503
+  vysledky 1350/1503
+  vysledky 1400/1503
+  vysledky 1450/1503
+  vysledky 1500/1503
+  vysledky 1503/1503
+
+===== MID+SMALL (S&P 400+600): 988 akcii, s daty vysledku 988, nejstarsi vysledek 2011-01-03, naklad 0.20%/strana =====
+  SPY cele obdobi: CAGR 14.5%, propad -34%, CAGR/propad 0.43
+  SPY 2013-2019: CAGR 14.2%, propad -19%, CAGR/propad 0.73
+  SPY 2020-dnes: CAGR 14.8%, propad -34%, CAGR/propad 0.44
+
+--- A1-EPS MID+SMALL (S&P 400+600): signalu 604 ve 427 dnech ---
+  cele obdobi: obchodu 518, vyhernich 41%, PF 1.16, prumer +0.06R, drzeni 15 dni, CAGR po dani 1.0%, propad -17%, CAGR/propad 0.06
+     NAHODNE  p10/p50/p90: CAGR -3.9% / -3.1% / -1.7%, PF 0.76 (p90 0.89), prumer R p50 -0.24
+     TREND    p10/p50/p90: CAGR -4.3% / -2.9% / -1.9%, PF 0.76 (p90 0.85), prumer R p50 -0.21
+  2013-2019: obchodu 247, vyhernich 45%, PF 1.40, prumer +0.16R, drzeni 16 dni, CAGR po dani 2.4%, propad -9%, CAGR/propad 0.27
+     NAHODNE  p10/p50/p90: CAGR -3.4% / -1.6% / 0.4%, PF 0.86 (p90 1.03), prumer R p50 -0.12
+     TREND    p10/p50/p90: CAGR -3.6% / -1.7% / -0.2%, PF 0.82 (p90 0.99), prumer R p50 -0.13
+  2020-dnes: obchodu 271, vyhernich 38%, PF 0.99, prumer -0.02R, drzeni 14 dni, CAGR po dani -0.4%, propad -17%, CAGR/propad -0.02
+     NAHODNE  p10/p50/p90: CAGR -5.8% / -4.0% / -1.9%, PF 0.71 (p90 0.90), prumer R p50 -0.31
+     TREND    p10/p50/p90: CAGR -6.6% / -4.3% / -2.3%, PF 0.67 (p90 0.84), prumer R p50 -0.30
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ne, nad p90 kontrol ANO, CAGR/propad > index ne  => NEPROSLO
+
+--- A1-CENA MID+SMALL (S&P 400+600): signalu 3684 ve 1244 dnech ---
+  cele obdobi: obchodu 1256, vyhernich 37%, PF 0.85, prumer -0.05R, drzeni 14 dni, CAGR po dani -3.1%, propad -41%, CAGR/propad -0.08
+     NAHODNE  p10/p50/p90: CAGR -11.0% / -8.3% / -5.6%, PF 0.77 (p90 0.84), prumer R p50 -0.23
+     TREND    p10/p50/p90: CAGR -8.8% / -7.2% / -6.1%, PF 0.78 (p90 0.84), prumer R p50 -0.21
+  2013-2019: obchodu 696, vyhernich 38%, PF 0.89, prumer -0.04R, drzeni 15 dni, CAGR po dani -2.2%, propad -27%, CAGR/propad -0.08
+     NAHODNE  p10/p50/p90: CAGR -12.1% / -8.9% / -4.7%, PF 0.75 (p90 0.85), prumer R p50 -0.21
+     TREND    p10/p50/p90: CAGR -8.7% / -7.4% / -3.6%, PF 0.78 (p90 0.90), prumer R p50 -0.19
+  2020-dnes: obchodu 560, vyhernich 36%, PF 0.80, prumer -0.06R, drzeni 14 dni, CAGR po dani -4.0%, propad -31%, CAGR/propad -0.13
+     NAHODNE  p10/p50/p90: CAGR -10.8% / -8.5% / -5.9%, PF 0.75 (p90 0.86), prumer R p50 -0.25
+     TREND    p10/p50/p90: CAGR -10.4% / -8.2% / -5.0%, PF 0.76 (p90 0.87), prumer R p50 -0.25
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ne, nad p90 kontrol ANO, CAGR/propad > index ne  => NEPROSLO
+
+===== LARGE (S&P 500): 499 akcii, s daty vysledku 498, nejstarsi vysledek 2011-01-03, naklad 0.20%/strana =====
+  SPY cele obdobi: CAGR 14.5%, propad -34%, CAGR/propad 0.43
+  SPY 2013-2019: CAGR 14.2%, propad -19%, CAGR/propad 0.73
+  SPY 2020-dnes: CAGR 14.8%, propad -34%, CAGR/propad 0.44
+
+--- A1-EPS LARGE (S&P 500): signalu 203 ve 183 dnech ---
+  cele obdobi: obchodu 180, vyhernich 44%, PF 1.34, prumer +0.14R, drzeni 15 dni, CAGR po dani 0.7%, propad -8%, CAGR/propad 0.08
+     NAHODNE  p10/p50/p90: CAGR -1.1% / -0.4% / 0.1%, PF 0.91 (p90 1.09), prumer R p50 -0.09
+     TREND    p10/p50/p90: CAGR -0.9% / -0.4% / 0.5%, PF 0.95 (p90 1.22), prumer R p50 -0.07
+  2013-2019: obchodu 87, vyhernich 47%, PF 1.75, prumer +0.30R, drzeni 16 dni, CAGR po dani 1.4%, propad -5%, CAGR/propad 0.31
+     NAHODNE  p10/p50/p90: CAGR -1.4% / -0.2% / 0.8%, PF 1.00 (p90 1.38), prumer R p50 -0.08
+     TREND    p10/p50/p90: CAGR -1.0% / -0.2% / 1.0%, PF 0.99 (p90 1.48), prumer R p50 +0.04
+  2020-dnes: obchodu 93, vyhernich 41%, PF 0.99, prumer -0.00R, drzeni 13 dni, CAGR po dani -0.1%, propad -8%, CAGR/propad -0.01
+     NAHODNE  p10/p50/p90: CAGR -1.9% / -0.7% / 0.7%, PF 0.87 (p90 1.23), prumer R p50 -0.14
+     TREND    p10/p50/p90: CAGR -1.7% / -0.5% / 0.7%, PF 0.86 (p90 1.27), prumer R p50 -0.09
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ANO, propad<15 % ANO, nad p90 kontrol ANO, CAGR/propad > index ne  => NEPROSLO
+
+--- A1-CENA LARGE (S&P 500): signalu 2478 ve 1082 dnech ---
+  cele obdobi: obchodu 1123, vyhernich 39%, PF 1.06, prumer +0.03R, drzeni 15 dni, CAGR po dani 0.7%, propad -27%, CAGR/propad 0.03
+     NAHODNE  p10/p50/p90: CAGR -5.5% / -3.6% / -1.0%, PF 0.86 (p90 0.97), prumer R p50 -0.14
+     TREND    p10/p50/p90: CAGR -4.6% / -2.5% / -0.8%, PF 0.91 (p90 0.99), prumer R p50 -0.10
+  2013-2019: obchodu 602, vyhernich 42%, PF 1.24, prumer +0.09R, drzeni 17 dni, CAGR po dani 3.4%, propad -15%, CAGR/propad 0.23
+     NAHODNE  p10/p50/p90: CAGR -5.1% / -3.3% / 0.1%, PF 0.88 (p90 1.03), prumer R p50 -0.11
+     TREND    p10/p50/p90: CAGR -5.3% / -2.1% / 0.7%, PF 0.93 (p90 1.05), prumer R p50 -0.07
+  2020-dnes: obchodu 521, vyhernich 36%, PF 0.90, prumer -0.04R, drzeni 14 dni, CAGR po dani -1.9%, propad -27%, CAGR/propad -0.07
+     NAHODNE  p10/p50/p90: CAGR -6.6% / -3.8% / -1.7%, PF 0.85 (p90 0.95), prumer R p50 -0.17
+     TREND    p10/p50/p90: CAGR -6.1% / -3.3% / -0.4%, PF 0.86 (p90 1.01), prumer R p50 -0.14
+  LAŤKA: >=100 obchodu ANO, PF>=1,3 ne, propad<15 % ne, nad p90 kontrol ANO, CAGR/propad > index ne  => NEPROSLO

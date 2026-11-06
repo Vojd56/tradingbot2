@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-26",
+  "total_alerts": 7,
+  "tickers_alerted": {
+    "NEARUSDT": 1,
+    "ETHUSDT": 1,
+    "DOGEUSDT": 3,
+    "BTCUSDT": 2
+  }
+}

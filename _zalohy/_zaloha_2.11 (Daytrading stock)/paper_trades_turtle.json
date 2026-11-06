@@ -1,0 +1,36 @@
+[
+  {
+    "trade_id": "TURTLE-4caa4a25",
+    "strategy": "TURTLE4H",
+    "ticker": "BTCUSDT",
+    "status": "OPEN",
+    "paper_only": true,
+    "entry": 81276.4,
+    "stop_loss": 79885.3259544915,
+    "atr": 695.5370227542411,
+    "breakout_level": 81270.6,
+    "signal_close": 81298.1,
+    "signal_bar_open": 1793174400000,
+    "qty": 0.0015815117873152606,
+    "risk_usd": 2.2,
+    "opened_at": "2026-10-28T12:02:00.003603+00:00",
+    "opened_ms": 1793188920003
+  },
+  {
+    "trade_id": "TURTLE-fd108003",
+    "strategy": "TURTLE4H",
+    "ticker": "BNBUSDT",
+    "status": "OPEN",
+    "paper_only": true,
+    "entry": 760.93,
+    "stop_loss": 744.3884307284716,
+    "atr": 8.270784635764183,
+    "breakout_level": 754.89,
+    "signal_close": 761.41,
+    "signal_bar_open": 1793174400000,
+    "qty": 0.1329982641844433,
+    "risk_usd": 2.2,
+    "opened_at": "2026-10-28T12:02:00.003603+00:00",
+    "opened_ms": 1793188920003
+  }
+]

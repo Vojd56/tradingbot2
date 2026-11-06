@@ -1,0 +1,81 @@
+Krok 1: nakup na konci dne po 8-K (bez Gemini) - 2026-11-02 12:35
+  8-K 100/1503
+  8-K 200/1503
+  8-K 300/1503
+  8-K 400/1503
+  8-K 500/1503
+  8-K 600/1503
+  8-K 700/1503
+  8-K 800/1503
+  8-K 900/1503
+  8-K 1000/1503
+  8-K 1100/1503
+  8-K 1200/1503
+  8-K 1300/1503
+  8-K 1400/1503
+  8-K 1500/1503
+Firem bez CIK: 5. Hlaseni 8-K celkem: 352713.
+
+===== MID+SMALL (S&P 400+600): 988 akcii, s daty 8-K 985 =====
+  SPY cele obdobi: CAGR 14.5%, propad -34%
+  SPY 2013-2019: CAGR 14.2%, propad -19%
+  SPY 2020-dnes: CAGR 14.8%, propad -34%
+
+--- 8K-VSE MID+SMALL (S&P 400+600): signalu 4716 ve 1889 dnech ---
+  cele obdobi: obchodu 3047, vyhernich 39%, PF 0.82, prumer -0.06R, drzeni 3.9 dni, CAGR po dani -6.6%, propad -66%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.73 / 0.78 / 0.82, CAGR p50/p90 -9.3% / -7.6%
+  2013-2019: obchodu 1532, vyhernich 39%, PF 0.83, prumer -0.06R, drzeni 3.9 dni, CAGR po dani -6.4%, propad -45%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.70 / 0.78 / 0.82, CAGR p50/p90 -7.7% / -6.5%
+  2020-dnes: obchodu 1515, vyhernich 39%, PF 0.81, prumer -0.06R, drzeni 4.0 dni, CAGR po dani -6.9%, propad -39%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.71 / 0.80 / 0.85, CAGR p50/p90 -9.9% / -6.8%
+  LAŤKA VYZKUMU (2020+ PF >= 1,12 a nad p90 nahodnych PF 0.85): NEPROSLO | NASE LAŤKA (PF >= 1,3, propad < 15 %, po 2020 PF >= 1,2): NEPROSLO
+
+--- 8K-BEZ-VYSLEDKU MID+SMALL (S&P 400+600): signalu 2099 ve 1336 dnech ---
+  cele obdobi: obchodu 1752, vyhernich 38%, PF 0.80, prumer -0.06R, drzeni 3.7 dni, CAGR po dani -4.1%, propad -52%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.72 / 0.80 / 0.86, CAGR p50/p90 -5.3% / -4.0%
+  2013-2019: obchodu 791, vyhernich 40%, PF 0.79, prumer -0.07R, drzeni 3.7 dni, CAGR po dani -3.9%, propad -32%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.71 / 0.77 / 0.90, CAGR p50/p90 -4.5% / -2.1%
+  2020-dnes: obchodu 961, vyhernich 37%, PF 0.80, prumer -0.06R, drzeni 3.8 dni, CAGR po dani -4.4%, propad -30%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.71 / 0.78 / 0.89, CAGR p50/p90 -7.2% / -3.6%
+  LAŤKA VYZKUMU (2020+ PF >= 1,12 a nad p90 nahodnych PF 0.89): NEPROSLO | NASE LAŤKA (PF >= 1,3, propad < 15 %, po 2020 PF >= 1,2): NEPROSLO
+
+--- CENA-BEZ-8K MID+SMALL (S&P 400+600): signalu 19580 ve 3483 dnech ---
+  cele obdobi: obchodu 6118, vyhernich 38%, PF 0.78, prumer -0.08R, drzeni 3.8 dni, CAGR po dani -16.6%, propad -93%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.73 / 0.78 / 0.83, CAGR p50/p90 -17.4% / -15.3%
+  2013-2019: obchodu 3480, vyhernich 39%, PF 0.79, prumer -0.06R, drzeni 3.9 dni, CAGR po dani -15.1%, propad -74%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.72 / 0.77 / 0.84, CAGR p50/p90 -15.6% / -12.1%
+  2020-dnes: obchodu 2638, vyhernich 37%, PF 0.72, prumer -0.10R, drzeni 3.7 dni, CAGR po dani -17.9%, propad -76%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.72 / 0.78 / 0.87, CAGR p50/p90 -18.0% / -12.8%
+  LAŤKA VYZKUMU (2020+ PF >= 1,12 a nad p90 nahodnych PF 0.87): NEPROSLO | NASE LAŤKA (PF >= 1,3, propad < 15 %, po 2020 PF >= 1,2): NEPROSLO
+
+===== LARGE (S&P 500): 499 akcii, s daty 8-K 499 =====
+  SPY cele obdobi: CAGR 14.5%, propad -34%
+  SPY 2013-2019: CAGR 14.2%, propad -19%
+  SPY 2020-dnes: CAGR 14.8%, propad -34%
+
+--- 8K-VSE LARGE (S&P 500): signalu 3251 ve 1567 dnech ---
+  cele obdobi: obchodu 2337, vyhernich 42%, PF 0.82, prumer -0.05R, drzeni 3.8 dni, CAGR po dani -4.0%, propad -48%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.76 / 0.81 / 0.85, CAGR p50/p90 -5.2% / -3.9%
+  2013-2019: obchodu 1230, vyhernich 42%, PF 0.81, prumer -0.05R, drzeni 3.7 dni, CAGR po dani -4.5%, propad -32%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.72 / 0.81 / 0.86, CAGR p50/p90 -4.8% / -3.6%
+  2020-dnes: obchodu 1107, vyhernich 41%, PF 0.85, prumer -0.05R, drzeni 3.8 dni, CAGR po dani -3.6%, propad -26%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.74 / 0.81 / 0.89, CAGR p50/p90 -5.4% / -2.8%
+  LAŤKA VYZKUMU (2020+ PF >= 1,12 a nad p90 nahodnych PF 0.89): NEPROSLO | NASE LAŤKA (PF >= 1,3, propad < 15 %, po 2020 PF >= 1,2): NEPROSLO
+
+--- 8K-BEZ-VYSLEDKU LARGE (S&P 500): signalu 1167 ve 900 dnech ---
+  cele obdobi: obchodu 1015, vyhernich 42%, PF 0.77, prumer -0.07R, drzeni 3.7 dni, CAGR po dani -2.6%, propad -33%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.64 / 0.73 / 0.88, CAGR p50/p90 -3.3% / -1.5%
+  2013-2019: obchodu 509, vyhernich 40%, PF 0.70, prumer -0.09R, drzeni 3.6 dni, CAGR po dani -3.2%, propad -22%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.63 / 0.73 / 0.89, CAGR p50/p90 -2.8% / -1.1%
+  2020-dnes: obchodu 506, vyhernich 43%, PF 0.85, prumer -0.05R, drzeni 3.9 dni, CAGR po dani -1.9%, propad -15%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.65 / 0.72 / 0.85, CAGR p50/p90 -3.8% / -2.0%
+  LAŤKA VYZKUMU (2020+ PF >= 1,12 a nad p90 nahodnych PF 0.85): NEPROSLO | NASE LAŤKA (PF >= 1,3, propad < 15 %, po 2020 PF >= 1,2): NEPROSLO
+
+--- CENA-BEZ-8K LARGE (S&P 500): signalu 9870 ve 2926 dnech ---
+  cele obdobi: obchodu 5260, vyhernich 40%, PF 0.79, prumer -0.06R, drzeni 3.8 dni, CAGR po dani -10.2%, propad -80%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.77 / 0.79 / 0.84, CAGR p50/p90 -10.7% / -9.1%
+  2013-2019: obchodu 2701, vyhernich 40%, PF 0.73, prumer -0.08R, drzeni 3.7 dni, CAGR po dani -14.2%, propad -67%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.73 / 0.78 / 0.83, CAGR p50/p90 -10.7% / -8.3%
+  2020-dnes: obchodu 2559, vyhernich 40%, PF 0.91, prumer -0.03R, drzeni 3.8 dni, CAGR po dani -5.9%, propad -40%
+     NAHODNE (stejny kvintil obratu) PF p10/p50/p90: 0.76 / 0.83 / 0.89, CAGR p50/p90 -10.6% / -7.3%
+  LAŤKA VYZKUMU (2020+ PF >= 1,12 a nad p90 nahodnych PF 0.89): NEPROSLO | NASE LAŤKA (PF >= 1,3, propad < 15 %, po 2020 PF >= 1,2): NEPROSLO

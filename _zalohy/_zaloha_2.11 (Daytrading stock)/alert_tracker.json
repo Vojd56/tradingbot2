@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-02",
+  "total_alerts": 2,
+  "tickers_alerted": {
+    "TUI1.DE": 2
+  },
+  "last_alert_at": {
+    "TUI1.DE": "2026-11-02T11:22:21.414393+00:00"
+  }
+}

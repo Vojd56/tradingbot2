@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+gcp_*.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Downloaded market and SEC data caches (too large, can be regenerated)
+*.pkl
+*.tar
+*.tgz
+*.gz
+_analyza_swing/_analyza_drzeni/form345/
+_analyza_swing/_analyza_drzeni/sec8k/
+_analyza_swing/_analyza_kvalita/sec_cache/

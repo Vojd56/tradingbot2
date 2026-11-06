@@ -1,0 +1,9 @@
+{
+ "TUI1.DE|2026-11-02|da39a3ee5e6b4b0d": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": false,
+  "reason_cs": "Pro společnost TUI AG nebyly nebyly nalezeny žádné konkrétní zprávy ani čerstvý katalyzátor.",
+  "model_used": "gemini-3.6-flash"
+ }
+}
