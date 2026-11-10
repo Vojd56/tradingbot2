@@ -27,7 +27,7 @@ Vesmir: S&P 600 423, S&P 500 366, S&P 400 291 firem (bez financi, nemovitosti, u
   ceny 800/1085
   ceny 1000/1085
   ceny 1085/1085
-C:\Users\<user>\TEst\zalohabot - kopie\_analyza_swing\backtest_kvalita2.py:230: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+C:\Users\vojte\TEst\zalohabot - kopie\_analyza_swing\backtest_kvalita2.py:230: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
   raw = pd.concat(parts, axis=1)
 
 ===== S&P 500: 365 firem s cenami =====

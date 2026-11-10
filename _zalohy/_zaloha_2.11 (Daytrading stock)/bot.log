@@ -3,9 +3,9 @@
 2026-10-26 17:47:56,033 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 17:47:56,033 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 17:47:56,033 [INFO] discord.client: logging in using static token
-2026-10-26 17:47:57,399 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 17:47:59,414 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 17:47:59,416 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 17:47:57,399 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: dc7dbd4fb1d1cf9a81974edf4d63a830).
+2026-10-26 17:47:59,414 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 17:47:59,416 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 17:47:59,417 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 17:47:59,417 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 17:47:59,418 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 17:47:59 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -41,9 +41,9 @@
 2026-10-26 18:50:13,308 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 18:50:13,315 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 18:50:13,315 [INFO] discord.client: logging in using static token
-2026-10-26 18:50:14,691 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 18:50:16,705 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 18:50:16,705 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 18:50:14,691 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: de0a9164a74d18287a6e189e6dcb6ffa).
+2026-10-26 18:50:16,705 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 18:50:16,705 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 18:50:16,706 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 18:50:16,706 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 18:50:16,706 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 18:50:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -77,9 +77,9 @@
 2026-10-26 19:49:13,162 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 19:49:13,165 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 19:49:13,168 [INFO] discord.client: logging in using static token
-2026-10-26 19:49:14,532 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 19:49:16,570 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 19:49:16,571 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 19:49:14,532 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: c3cabe77cca2c5da5fa42dbaff496feb).
+2026-10-26 19:49:16,570 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 19:49:16,571 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 19:49:16,571 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 19:49:16,572 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 19:49:16,573 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 19:49:16 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -92,9 +92,9 @@
 2026-10-26 19:54:26,152 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 19:54:26,154 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 19:54:26,154 [INFO] discord.client: logging in using static token
-2026-10-26 19:54:27,188 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 19:54:29,204 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 19:54:29,205 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 19:54:27,188 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 019a8925ba5b971039f76ad7ffff918e).
+2026-10-26 19:54:29,204 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 19:54:29,205 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 19:54:29,205 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 19:54:29,206 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 19:54:29,207 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 19:54:29 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -129,9 +129,9 @@
 2026-10-26 20:25:08,808 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 20:25:08,810 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 20:25:08,810 [INFO] discord.client: logging in using static token
-2026-10-26 20:25:09,859 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 20:25:11,865 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 20:25:11,866 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 20:25:09,859 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 0c6b551f09138663a7308c7a663ad7ff).
+2026-10-26 20:25:11,865 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 20:25:11,866 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 20:25:11,866 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 20:25:11,866 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 20:25:11,868 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:25:11 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -142,9 +142,9 @@
 2026-10-26 20:29:24,734 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 20:29:24,737 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 20:29:24,737 [INFO] discord.client: logging in using static token
-2026-10-26 20:29:25,898 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 20:29:27,911 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 20:29:27,911 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 20:29:25,898 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1340b646f0b073d42ebcd8ee07446c3e).
+2026-10-26 20:29:27,911 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 20:29:27,911 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 20:29:27,912 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 20:29:27,912 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 20:29:27,913 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 20:29:27 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -195,9 +195,9 @@
 2026-10-26 21:51:45,138 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 21:51:45,140 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 21:51:45,141 [INFO] discord.client: logging in using static token
-2026-10-26 21:51:46,183 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 21:51:48,192 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 21:51:48,192 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 21:51:46,183 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 5f6d07483cce5d9ca043dc0e2f098604).
+2026-10-26 21:51:48,192 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 21:51:48,192 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 21:51:48,193 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 21:51:48,193 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 21:51:48,194 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 21:51:48 (CET) | EU akcie: 🔴 | US akcie: 🔴 | Krypto: 🟢 24/7
@@ -329,13 +329,13 @@
 2026-10-27 00:17:22,143 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3.5-flash narazil na 429 Rate Limit. Pozastavuji na 15 minut (do 23:32:22).
 2026-10-27 00:17:22,143 [ERROR] TradingBot: Chyba při zpracování BNBUSDT ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 7h42m37.87908503s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27757s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 448, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 448, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 290, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 290, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 7h42m37.87908503s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27757s'}]}}
 2026-10-27 00:17:23,854 [INFO] TradingBot: 🔥 SCOUT SIGNAL pro NEARUSDT (Kryptoměny (Binance Futures)): ['🎯 SFP Bullish Reversal: knot pod 6h dnem $4.4360, zavřeno zpět nad ním, objem 1.93x | SL $4.4176 TP $4.5418']
@@ -377,13 +377,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-27 00:22:03,371 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3-flash-preview narazil na 429 Rate Limit. Pozastavuji na 15 minut (do 23:37:03).
 2026-10-27 00:22:03,371 [ERROR] TradingBot: Chyba při zpracování BNBUSDT ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 7h37m56.65103421s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27476s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 448, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 448, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 290, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 290, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 7h37m56.65103421s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '27476s'}]}}
 2026-10-27 00:22:03,378 [INFO] TradingBot: 📋 SCOUT SOUHRN (6 s, trhy: CRYPTO): prověřeno: 2 | bez_signálu: 0 | obsazeno: 8 | limit_alertů: 0 | timeout: 0 | chyba: 1 | signály: 2 | nakoupeno: 0 | zamítnuto: XRPUSDT: verdikt PRESKOČIŤ, executor NE
@@ -709,9 +709,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-27 19:25:51,921 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-27 19:25:51,923 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-27 19:25:51,923 [INFO] discord.client: logging in using static token
-2026-10-27 19:25:53,088 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-27 19:25:55,097 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-27 19:25:55,097 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-27 19:25:53,088 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 74433e1012add5c5f7c0099e33b8c474).
+2026-10-27 19:25:55,097 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-27 19:25:55,097 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-27 19:25:55,097 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-27 19:25:55,097 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-27 19:25:55,097 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-27 19:25:55 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -845,9 +845,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-27 20:12:55,239 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-27 20:12:55,241 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-27 20:12:55,241 [INFO] discord.client: logging in using static token
-2026-10-27 20:12:56,154 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-27 20:12:58,164 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-27 20:12:58,165 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-27 20:12:56,154 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 30a508a96a3396fd59df68f8628163a4).
+2026-10-27 20:12:58,164 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-27 20:12:58,165 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-27 20:12:58,165 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-27 20:12:58,166 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-27 20:12:58,167 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-27 20:12:58 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -901,9 +901,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-27 20:56:28,105 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-27 20:56:28,107 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-27 20:56:28,107 [INFO] discord.client: logging in using static token
-2026-10-27 20:56:29,057 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-27 20:56:31,063 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-27 20:56:31,063 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-27 20:56:29,057 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 81e671b85b9e5efde5422a81b62a539b).
+2026-10-27 20:56:31,063 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-27 20:56:31,063 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-27 20:56:31,064 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-27 20:56:31,064 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-27 20:56:31,065 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-27 20:56:31 (CET) | EU akcie: 🔴 | US akcie: 🟢 | Krypto: 🟢 24/7
@@ -951,9 +951,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-27 21:57:33,112 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-27 21:57:33,113 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-27 21:57:33,113 [INFO] discord.client: logging in using static token
-2026-10-27 21:57:34,093 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-27 21:57:36,154 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-27 21:57:36,154 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-27 21:57:34,093 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 8f35ee8b657093e0bd5db9211e54f47c).
+2026-10-27 21:57:36,154 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-27 21:57:36,154 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-27 21:57:36,154 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-27 21:57:36,154 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-27 21:57:36,170 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-27 21:57:36 (CET) | EU akcie: 🔴 | US akcie: 🔴 | Krypto: 🟢 24/7
@@ -989,9 +989,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-27 22:14:54,639 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-27 22:14:54,639 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-27 22:14:54,639 [INFO] discord.client: logging in using static token
-2026-10-27 22:14:55,958 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-27 22:14:57,958 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-27 22:14:57,958 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-27 22:14:55,958 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 8bdb5f0b0310cba16e175b5ac81054da).
+2026-10-27 22:14:57,958 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-27 22:14:57,958 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-27 22:14:57,958 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-27 22:14:57,958 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-27 22:14:57,958 [INFO] TradingBot: 🗞️ Ranní přehled pro 2026-10-27 už existuje, znovu se nestahuje (první spuštění dne).
@@ -1417,9 +1417,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 08:29:32,394 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 08:29:32,402 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 08:29:32,402 [INFO] discord.client: logging in using static token
-2026-10-28 08:29:33,615 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 08:29:35,622 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 08:29:35,622 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 08:29:33,615 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 288f841e9e69e68a28b44e321a685dc2).
+2026-10-28 08:29:35,622 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 08:29:35,622 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 08:29:35,622 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 08:29:35,622 [INFO] TradingBot: 🐢 Smyčka TURTLE 4h (demo) spuštěna: vyhodnocení v 00:02, 04:02 ... UTC, kontrola SL každých 5 min.
 2026-10-28 08:29:35,622 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
@@ -1508,9 +1508,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 11:02:18,564 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 11:02:18,564 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 11:02:18,564 [INFO] discord.client: logging in using static token
-2026-10-28 11:02:20,773 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 11:02:22,790 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 11:02:22,790 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 11:02:20,773 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 3ab902a70647cd91e9ba54da42e3e473).
+2026-10-28 11:02:22,790 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 11:02:22,790 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 11:02:22,790 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 11:02:22,790 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 11:02:22,790 [INFO] TradingBot: 🐢 Smyčka TURTLE 4h (demo) spuštěna: vyhodnocení v 00:02, 04:02 ... UTC, kontrola SL každých 5 min.
@@ -1525,9 +1525,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 11:04:23,189 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 11:04:23,189 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 11:04:23,189 [INFO] discord.client: logging in using static token
-2026-10-28 11:04:24,982 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 11:04:26,999 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 11:04:26,999 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 11:04:24,982 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 393b2aaef8e9f84c72d7352f1d981bc5).
+2026-10-28 11:04:26,999 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 11:04:26,999 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 11:04:26,999 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 11:04:26,999 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 11:04:26,999 [INFO] TradingBot: 🐢 Smyčka TURTLE 4h (demo) spuštěna: vyhodnocení v 00:02, 04:02 ... UTC, kontrola SL každých 5 min.
@@ -1616,9 +1616,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 13:57:08,328 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 13:57:08,337 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 13:57:08,338 [INFO] discord.client: logging in using static token
-2026-10-28 13:57:09,649 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 13:57:11,664 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 13:57:11,664 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 13:57:09,649 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 06a35d78c721e967288057aa84bf5671).
+2026-10-28 13:57:11,664 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 13:57:11,664 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 13:57:11,665 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 13:57:11,665 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 13:57:11,665 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
@@ -1656,9 +1656,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 14:45:44,798 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 14:45:44,800 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 14:45:44,800 [INFO] discord.client: logging in using static token
-2026-10-28 14:45:46,371 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 14:45:48,386 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 14:45:48,386 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 14:45:46,371 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 493447855c7b4388dc281c500179563c).
+2026-10-28 14:45:48,386 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 14:45:48,386 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 14:45:48,386 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 14:45:48,386 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 14:45:48,386 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -1759,9 +1759,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 17:16:33,594 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 17:16:33,594 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 17:16:33,594 [INFO] discord.client: logging in using static token
-2026-10-28 17:16:34,706 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 17:16:36,712 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 17:16:36,712 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 17:16:34,706 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: ea5e8709cf96ecc9725379ae1dcdcb4d).
+2026-10-28 17:16:36,712 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 17:16:36,712 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 17:16:36,712 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 17:16:36,712 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 17:16:36,712 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -2065,13 +2065,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 17:28:35,858 [WARNING] TradingBot.GeminiTeam: Chyba při volání modelu gemini-3-flash-preview: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Zkouším další model...
 2026-10-28 17:28:35,861 [ERROR] TradingBot: Chyba při zpracování WEN ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
 2026-10-28 17:28:36,878 [INFO] TradingBot: 🔥 SCOUT SIGNAL pro EAT (US akcie (NYSE, NASDAQ)): ['Volume spike: 3.45x 20D průměru']
@@ -2157,13 +2157,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 17:32:41,062 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3-flash-preview narazil na 429 Rate Limit. Pozastavuji na 15 minut (do 16:47:41).
 2026-10-28 17:32:41,062 [ERROR] TradingBot: Chyba při zpracování HOOD ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 14h27m32.990578647s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52052s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 14h27m32.990578647s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52052s'}]}}
 2026-10-28 17:32:42,049 [INFO] TradingBot: 🔥 SCOUT SIGNAL pro AXGN (US akcie (NYSE, NASDAQ)): ['Volume spike: 7.89x 20D průměru']
@@ -2261,9 +2261,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 18:42:06,804 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 18:42:06,806 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 18:42:06,806 [INFO] discord.client: logging in using static token
-2026-10-28 18:42:07,839 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 18:42:09,850 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 18:42:09,850 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 18:42:07,839 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: ef7198bfd42422ba31ecf9cebdb5f38d).
+2026-10-28 18:42:09,850 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 18:42:09,850 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 18:42:09,850 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 18:42:09,850 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 18:42:09,850 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -2345,13 +2345,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 18:43:19,674 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3.5-flash narazil na 429 Rate Limit. Pozastavuji na 801 minut (do 07:04:19).
 2026-10-28 18:43:19,675 [ERROR] TradingBot: Chyba při zpracování VRT ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m40.397123843s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47800s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m40.397123843s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47800s'}]}}
 2026-10-28 18:43:21,005 [INFO] TradingBot: 🔥 SCOUT SIGNAL pro WEN (US akcie (NYSE, NASDAQ)): ['Volume spike: 7.68x 20D průměru']
@@ -2386,13 +2386,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 18:43:23,019 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3-flash-preview narazil na 429 Rate Limit. Pozastavuji na 801 minut (do 07:04:23).
 2026-10-28 18:43:23,019 [ERROR] TradingBot: Chyba při zpracování WEN ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m37.041860403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47797s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m37.041860403s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47797s'}]}}
 2026-10-28 18:43:25,039 [INFO] TradingBot: 🔥 SCOUT SIGNAL pro EAT (US akcie (NYSE, NASDAQ)): ['Volume spike: 2.76x 20D průměru']
@@ -2427,13 +2427,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 18:43:26,934 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3-flash-preview narazil na 429 Rate Limit. Pozastavuji na 801 minut (do 07:04:26).
 2026-10-28 18:43:26,934 [ERROR] TradingBot: Chyba při zpracování EAT ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m33.126081525s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47793s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m33.126081525s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47793s'}]}}
 2026-10-28 18:43:28,272 [INFO] TradingBot: 🔥 SCOUT SIGNAL pro WING (US akcie (NYSE, NASDAQ)): ['Volume spike: 3.18x 20D průměru']
@@ -2468,13 +2468,13 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 18:43:30,493 [WARNING] TradingBot.ModelManager: ⚠️ Model gemini-3-flash-preview narazil na 429 Rate Limit. Pozastavuji na 801 minut (do 07:04:30).
 2026-10-28 18:43:30,493 [ERROR] TradingBot: Chyba při zpracování WING ve Scout smyčce: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m29.568754106s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47789s'}]}}
 Traceback (most recent call last):
-  File "C:\Users\<user>\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
+  File "C:\Users\vojte\TEst\zalohabot - kopie\bot.py", line 587, in scout_periodic_loop
     analysis = await asyncio.wait_for(analyze_with_gemini(
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\<user>\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
+  File "C:\Users\vojte\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py", line 520, in wait_for
     return await fut
            ^^^^^^^^^
-  File "C:\Users\<user>\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
+  File "C:\Users\vojte\TEst\zalohabot - kopie\gemini_team.py", line 307, in analyze_with_gemini
     raise RuntimeError(f"Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: {last_error}")
 RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kaskádě: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.\nPlease retry in 13h16m29.568754106s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://ai.google.dev/gemini-api/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '47789s'}]}}
 2026-10-28 18:43:30,499 [INFO] TradingBot: 📋 SCOUT SOUHRN (67 s, trhy: CRYPTO, STOCK_US): prověřeno: 23 | bez_signálu: 16 | obsazeno: 8 | limit_alertů: 0 | timeout: 0 | chyba: 4 | signály: 7 | nakoupeno: 0 | nákup_selhal: 1 | bez_t212: 0 | zamítnuto: BA: verdikt PRESKOČIŤ, executor NE; HOOD: verdikt POČKAŤ, executor NE; AXGN: nákup selhal (HTTP 400: {"type":"/api-errors/insufficient-free-for-stocks-buy","title":"Error while placing the order","status":400,"detail":"Insufficient funds","traceId":"ab1d0a696cd255bb6bacd28d44f498cf"})
@@ -2483,9 +2483,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 18:46:47,878 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 18:46:47,884 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 18:46:47,884 [INFO] discord.client: logging in using static token
-2026-10-28 18:46:49,397 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 18:46:51,412 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 18:46:51,412 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 18:46:49,397 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 45a732e5e1250bce0cacd53a1bb715d3).
+2026-10-28 18:46:51,412 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 18:46:51,412 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 18:46:51,412 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 18:46:51,412 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 18:46:51,412 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -2643,9 +2643,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 20:58:24,123 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 20:58:24,126 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 20:58:24,126 [INFO] discord.client: logging in using static token
-2026-10-28 20:58:25,089 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 20:58:27,090 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 20:58:27,090 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 20:58:25,089 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: e30c6882761b03d07183d5c514ee9a88).
+2026-10-28 20:58:27,090 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 20:58:27,090 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 20:58:27,090 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 20:58:27,090 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 20:58:27,090 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -2710,9 +2710,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-28 22:19:17,524 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-28 22:19:17,526 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-28 22:19:17,526 [INFO] discord.client: logging in using static token
-2026-10-28 22:19:18,529 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-28 22:19:20,538 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-28 22:19:20,538 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-28 22:19:18,529 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 680b7a19eb75a42b4e5ba243fb45c262).
+2026-10-28 22:19:20,538 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-28 22:19:20,538 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-28 22:19:20,538 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-28 22:19:20,538 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-28 22:19:20,539 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3123,9 +3123,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 08:52:47,328 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 08:52:47,328 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 08:52:47,328 [INFO] discord.client: logging in using static token
-2026-10-29 08:52:50,207 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 08:52:52,233 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 08:52:52,233 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 08:52:50,207 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 97979ff1199852b973158226df254119).
+2026-10-29 08:52:52,233 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 08:52:52,233 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 08:52:52,233 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 08:52:52,233 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 08:52:52,233 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3277,9 +3277,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 13:12:00,277 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 13:12:00,279 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 13:12:00,280 [INFO] discord.client: logging in using static token
-2026-10-29 13:12:01,411 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 13:12:03,441 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 13:12:03,441 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 13:12:01,411 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 526e5063b31ea843aa0f5d4ba4f3726f).
+2026-10-29 13:12:03,441 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 13:12:03,441 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 13:12:03,441 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 13:12:03,442 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 13:12:03,442 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3302,9 +3302,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 13:31:52,653 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 13:31:52,654 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 13:31:52,654 [INFO] discord.client: logging in using static token
-2026-10-29 13:31:53,920 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 13:31:55,929 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 13:31:55,929 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 13:31:53,920 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 78191ead7ec005e3caa3efa99477e273).
+2026-10-29 13:31:55,929 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 13:31:55,929 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 13:31:55,929 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 13:31:55,929 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 13:31:55,931 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3323,9 +3323,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 13:40:07,762 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 13:40:07,764 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 13:40:07,764 [INFO] discord.client: logging in using static token
-2026-10-29 13:40:08,848 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 13:40:10,857 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 13:40:10,857 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 13:40:08,848 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6dfaa39d63d97b829331beca557b63e0).
+2026-10-29 13:40:10,857 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 13:40:10,857 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 13:40:10,857 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 13:40:10,859 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 13:40:10,859 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3345,9 +3345,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 13:47:27,240 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 13:47:27,242 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 13:47:27,242 [INFO] discord.client: logging in using static token
-2026-10-29 13:47:28,396 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 13:47:30,407 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 13:47:30,407 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 13:47:28,396 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 054f67e4566e51e530ce285858dc2c67).
+2026-10-29 13:47:30,407 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 13:47:30,407 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 13:47:30,408 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 13:47:30,408 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 13:47:30,408 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3383,9 +3383,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 14:32:11,381 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 14:32:11,381 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 14:32:11,381 [INFO] discord.client: logging in using static token
-2026-10-29 14:32:12,552 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 14:32:14,567 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 14:32:14,567 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 14:32:12,552 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: bcb0e4288c37c33f9f96b10d551b8201).
+2026-10-29 14:32:14,567 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 14:32:14,567 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 14:32:14,568 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 14:32:14,568 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 14:32:14,568 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -3571,9 +3571,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 15:34:03,365 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 15:34:03,372 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 15:34:03,372 [INFO] discord.client: logging in using static token
-2026-10-29 15:34:04,358 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 15:34:06,367 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 15:34:06,367 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 15:34:04,358 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 8b4b3363ebd1eb30361b50603b545fd5).
+2026-10-29 15:34:06,367 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 15:34:06,367 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 15:34:06,367 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 15:34:06,367 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 15:34:06,367 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -4522,9 +4522,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 20:15:51,515 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 20:15:51,517 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 20:15:51,517 [INFO] discord.client: logging in using static token
-2026-10-29 20:15:52,756 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 20:15:54,772 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 20:15:54,772 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 20:15:52,756 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 38cc13acb175f59d28e8d66dd40f69b9).
+2026-10-29 20:15:54,772 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 20:15:54,772 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 20:15:54,773 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 20:15:54,773 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 20:15:54,773 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -4542,9 +4542,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 20:19:59,496 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 20:19:59,500 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 20:19:59,500 [INFO] discord.client: logging in using static token
-2026-10-29 20:20:00,527 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 20:20:02,542 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 20:20:02,543 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 20:20:00,527 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 07105b1143d39e6b6f30bab783a3bbc7).
+2026-10-29 20:20:02,542 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 20:20:02,543 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 20:20:02,543 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 20:20:02,544 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 20:20:02,544 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -4568,9 +4568,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 20:23:06,964 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 20:23:06,966 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 20:23:06,966 [INFO] discord.client: logging in using static token
-2026-10-29 20:23:08,357 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 20:23:10,363 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 20:23:10,363 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 20:23:08,357 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 67a82b40f040bb26a581893f134be2fa).
+2026-10-29 20:23:10,363 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 20:23:10,363 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 20:23:10,364 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 20:23:10,364 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 20:23:10,364 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -4607,9 +4607,9 @@ RuntimeError: Nepodařilo se získat odpověď z žádného modelu Gemini v kask
 2026-10-29 20:31:26,426 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-29 20:31:26,427 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-29 20:31:26,428 [INFO] discord.client: logging in using static token
-2026-10-29 20:31:27,715 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-29 20:31:29,734 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-29 20:31:29,735 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-29 20:31:27,715 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: de39234818a0a4d8d8df096c15ae3d68).
+2026-10-29 20:31:29,734 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-29 20:31:29,735 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-29 20:31:29,735 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-29 20:31:29,735 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-29 20:31:29,735 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -4867,9 +4867,9 @@ Celkem A (cíle + VWAP): 2 obchodů, -0.59 R, PF 0.56, propad 0.7 % | B (do 15:5
 2026-10-30 06:03:29,135 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-30 06:03:29,139 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-30 06:03:29,139 [INFO] discord.client: logging in using static token
-2026-10-30 06:03:30,123 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-30 06:03:32,137 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-30 06:03:32,137 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-30 06:03:30,123 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: f203bd4ab22e092c97b3a414130920c9).
+2026-10-30 06:03:32,137 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-30 06:03:32,137 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-30 06:03:32,138 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-30 06:03:32,138 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-30 06:03:32,138 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -5115,9 +5115,9 @@ Celkem A (cíle + VWAP): 2 obchodů, -0.59 R, PF 0.56, propad 0.7 % | B (do 15:5
 2026-10-30 11:47:17,973 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-30 11:47:17,973 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-30 11:47:17,973 [INFO] discord.client: logging in using static token
-2026-10-30 11:47:19,180 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-30 11:47:21,189 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-30 11:47:21,189 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-30 11:47:19,180 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 168f5e13dda95f67c1df585e58ddf272).
+2026-10-30 11:47:21,189 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-30 11:47:21,189 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-30 11:47:21,189 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-30 11:47:21,189 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-30 11:47:21,189 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -5153,9 +5153,9 @@ Celkem A (cíle + VWAP): 2 obchodů, -0.59 R, PF 0.56, propad 0.7 % | B (do 15:5
 2026-10-30 12:05:19,906 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-30 12:05:19,906 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-30 12:05:19,906 [INFO] discord.client: logging in using static token
-2026-10-30 12:05:20,954 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-30 12:05:22,959 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-30 12:05:22,959 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-30 12:05:20,954 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: c4a14737d528c39ba5536578be012d7b).
+2026-10-30 12:05:22,959 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-30 12:05:22,959 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-30 12:05:22,959 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-30 12:05:22,959 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-30 12:05:22,959 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -5470,9 +5470,9 @@ Celkem A (cíle + VWAP): 2 obchodů, -0.59 R, PF 0.56, propad 0.7 % | B (do 15:5
 2026-10-30 18:14:50,976 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-30 18:14:50,976 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-30 18:14:50,976 [INFO] discord.client: logging in using static token
-2026-10-30 18:14:51,970 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-30 18:14:53,985 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-30 18:14:53,985 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-30 18:14:51,970 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: e02628b374b89954480ee60db767df2b).
+2026-10-30 18:14:53,985 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-30 18:14:53,985 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-30 18:14:53,985 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-30 18:14:53,985 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-30 18:14:53,985 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -6142,9 +6142,9 @@ Celkem A (cíle + VWAP): 6 obchodů, -7.32 R, PF 0.1, propad 3.7 % | B (do 15:50
 2026-10-31 17:40:43,671 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-31 17:40:43,671 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-31 17:40:43,671 [INFO] discord.client: logging in using static token
-2026-10-31 17:40:45,193 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-31 17:40:47,197 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-31 17:40:47,197 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-31 17:40:45,193 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 64b7f7de042c4e95a0e46f1dbdccbcc9).
+2026-10-31 17:40:47,197 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-31 17:40:47,197 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-31 17:40:47,197 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-31 17:40:47,197 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-10-31 17:40:47,197 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.
@@ -6781,9 +6781,9 @@ Celkem A (cíle + VWAP): 6 obchodů, -7.32 R, PF 0.1, propad 3.7 % | B (do 15:50
 2026-11-01 13:11:58,656 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-11-01 13:11:58,659 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-11-01 13:11:58,659 [INFO] discord.client: logging in using static token
-2026-11-01 13:11:59,995 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-11-01 13:12:02,005 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-11-01 13:12:02,005 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-11-01 13:11:59,995 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1ee9f23144c3ead009d35de0b494af15).
+2026-11-01 13:12:02,005 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-11-01 13:12:02,005 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-11-01 13:12:02,005 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-11-01 13:12:02,005 [INFO] TradingBot: 🚀 Momentum skener spuštěn: každých 30 min v obchodní den USA 07:00-16:00 New York.
 2026-11-01 13:12:02,005 [INFO] TradingBot: 📈 Smyčka HIGH20 spuštěna: nákupy 00:00-02:00 UTC po denním close na 20denním maximu, výstup na konci dne.

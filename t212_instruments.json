@@ -1176,18 +1176,6 @@
   "addedOn": "2021-04-19T22:16:22.000+03:00"
  },
  {
-  "ticker": "RHIMl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "NL0012650360",
-  "currencyCode": "GBX",
-  "name": "RHI Magnesita",
-  "shortName": "RHIM",
-  "maxOpenQuantity": 1560.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:58:06.000+02:00"
- },
- {
   "ticker": "6BWd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -1198,6 +1186,18 @@
   "maxOpenQuantity": 125.0,
   "extendedHours": false,
   "addedOn": "2026-09-23T17:42:39.000+03:00"
+ },
+ {
+  "ticker": "RHIMl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "NL0012650360",
+  "currencyCode": "GBX",
+  "name": "RHI Magnesita",
+  "shortName": "RHIM",
+  "maxOpenQuantity": 1560.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:58:06.000+02:00"
  },
  {
   "ticker": "CYCC_US_EQ",
@@ -2964,18 +2964,6 @@
   "addedOn": "2022-06-24T15:52:07.000+03:00"
  },
  {
-  "ticker": "XWSCd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE000I9HGDZ3",
-  "currencyCode": "EUR",
-  "name": "Xtrackers MSCI World Screened (Acc)",
-  "shortName": "XWSC",
-  "maxOpenQuantity": 468484.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T18:48:47.000+02:00"
- },
- {
   "ticker": "QSPAd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -2986,6 +2974,18 @@
   "maxOpenQuantity": 865151.0,
   "extendedHours": false,
   "addedOn": "2025-12-10T18:59:57.000+02:00"
+ },
+ {
+  "ticker": "XWSCd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE000I9HGDZ3",
+  "currencyCode": "EUR",
+  "name": "Xtrackers MSCI World Screened (Acc)",
+  "shortName": "XWSC",
+  "maxOpenQuantity": 468484.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T18:48:47.000+02:00"
  },
  {
   "ticker": "IYR_EQ",
@@ -5520,6 +5520,18 @@
   "addedOn": "2020-10-08T16:22:55.000+03:00"
  },
  {
+  "ticker": "JPXHp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU2269164310",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI Japan SRI Climate Paris Aligned EUR Hedged (Acc)",
+  "shortName": "JPXH",
+  "maxOpenQuantity": 58652.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:20.000+02:00"
+ },
+ {
   "ticker": "SP5Gl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -6171,11 +6183,11 @@
   "ticker": "LION_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "IE000CNLGHH1",
+  "isin": "IE000YMEYEO8",
   "currencyCode": "USD",
   "name": "SMX Security Matters",
   "shortName": "SMX",
-  "maxOpenQuantity": 192.0,
+  "maxOpenQuantity": 70.0,
   "extendedHours": true,
   "addedOn": "2021-12-08T16:46:29.000+02:00"
  },
@@ -7080,18 +7092,6 @@
   "addedOn": "2026-09-21T19:07:59.000+03:00"
  },
  {
-  "ticker": "LUV_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US8447411088",
-  "currencyCode": "USD",
-  "name": "Southwest Airlines",
-  "shortName": "LUV",
-  "maxOpenQuantity": 270624.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:14.000+03:00"
- },
- {
   "ticker": "PIRS_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 109,
@@ -7102,6 +7102,18 @@
   "maxOpenQuantity": 12908.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "LUV_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US8447411088",
+  "currencyCode": "USD",
+  "name": "Southwest Airlines",
+  "shortName": "LUV",
+  "maxOpenQuantity": 270624.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:14.000+03:00"
  },
  {
   "ticker": "ODUSd_EQ",
@@ -9267,11 +9279,11 @@
   "ticker": "WCT_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "KYG9545M1318",
+  "isin": "KYG9545M1490",
   "currencyCode": "USD",
   "name": "Wellchange Holdings",
   "shortName": "WCT",
-  "maxOpenQuantity": 70804.0,
+  "maxOpenQuantity": 7080.0,
   "extendedHours": true,
   "addedOn": "2024-10-02T13:29:56.000+03:00"
  },
@@ -10884,18 +10896,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "FLXUd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE00BF2B0P08",
-  "currencyCode": "EUR",
-  "name": "Franklin US Equity (Acc)",
-  "shortName": "FLXU",
-  "maxOpenQuantity": 70323.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-15T15:51:56.000+02:00"
- },
- {
   "ticker": "UIM4d_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -10906,6 +10906,18 @@
   "maxOpenQuantity": 20845.0,
   "extendedHours": false,
   "addedOn": "2018-06-29T14:55:31.000+03:00"
+ },
+ {
+  "ticker": "FLXUd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE00BF2B0P08",
+  "currencyCode": "EUR",
+  "name": "Franklin US Equity (Acc)",
+  "shortName": "FLXU",
+  "maxOpenQuantity": 70323.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-15T15:51:56.000+02:00"
  },
  {
   "ticker": "IGAAl_EQ",
@@ -12624,6 +12636,18 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
+  "ticker": "GASRp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU2439734141",
+  "currencyCode": "EUR",
+  "name": "Amundi Global Aggregate Bond ESG (Acc)",
+  "shortName": "GASR",
+  "maxOpenQuantity": 117454.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:23.000+02:00"
+ },
+ {
   "ticker": "SKYE_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -14076,18 +14100,6 @@
   "addedOn": "2023-11-09T11:55:41.000+02:00"
  },
  {
-  "ticker": "AMGd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "US0311621009",
-  "currencyCode": "EUR",
-  "name": "Amgen",
-  "shortName": "AMG",
-  "maxOpenQuantity": 32.0,
-  "extendedHours": false,
-  "addedOn": "2023-08-11T16:07:14.000+03:00"
- },
- {
   "ticker": "SCTX_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 109,
@@ -14098,6 +14110,18 @@
   "maxOpenQuantity": 36165.0,
   "extendedHours": true,
   "addedOn": "2026-07-24T11:04:06.000+03:00"
+ },
+ {
+  "ticker": "AMGd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "US0311621009",
+  "currencyCode": "EUR",
+  "name": "Amgen",
+  "shortName": "AMG",
+  "maxOpenQuantity": 32.0,
+  "extendedHours": false,
+  "addedOn": "2023-08-11T16:07:14.000+03:00"
  },
  {
   "ticker": "GRXl_EQ",
@@ -14134,6 +14158,18 @@
   "maxOpenQuantity": 2.0,
   "extendedHours": false,
   "addedOn": "2026-09-21T19:07:41.000+03:00"
+ },
+ {
+  "ticker": "TPXUl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 173,
+  "isin": "LU1681037781",
+  "currencyCode": "USD",
+  "name": "Amundi Japan Topix (Acc)",
+  "shortName": "TPXU",
+  "maxOpenQuantity": 30122.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-06T12:09:58.000+02:00"
  },
  {
   "ticker": "V3GPl_EQ",
@@ -14700,18 +14736,6 @@
   "addedOn": "2019-08-23T10:17:01.000+03:00"
  },
  {
-  "ticker": "ENOB_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "US29350E3027",
-  "currencyCode": "USD",
-  "name": "Lunai Bioworks",
-  "shortName": "LNAI",
-  "maxOpenQuantity": 650.0,
-  "extendedHours": false,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "2STSl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -14722,6 +14746,18 @@
   "maxOpenQuantity": 6464505.0,
   "extendedHours": false,
   "addedOn": "2021-03-16T15:25:02.000+02:00"
+ },
+ {
+  "ticker": "ENOB_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "US29350E3027",
+  "currencyCode": "USD",
+  "name": "Lunai Bioworks",
+  "shortName": "LNAI",
+  "maxOpenQuantity": 650.0,
+  "extendedHours": false,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "IEEMl_EQ",
@@ -15012,18 +15048,6 @@
   "addedOn": "2025-08-08T14:22:50.000+03:00"
  },
  {
-  "ticker": "IG34d_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE000UY6XF65",
-  "currencyCode": "EUR",
-  "name": "iShares iBonds Dec 2034 Term EUR Corp (Acc)",
-  "shortName": "IG34",
-  "maxOpenQuantity": 819432.0,
-  "extendedHours": false,
-  "addedOn": "2025-08-05T16:56:55.000+03:00"
- },
- {
   "ticker": "IPRPa_EQ",
   "type": "ETF",
   "workingScheduleId": 164,
@@ -15034,6 +15058,18 @@
   "maxOpenQuantity": 132625.0,
   "extendedHours": false,
   "addedOn": "2023-06-21T16:25:04.000+03:00"
+ },
+ {
+  "ticker": "IG34d_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE000UY6XF65",
+  "currencyCode": "EUR",
+  "name": "iShares iBonds Dec 2034 Term EUR Corp (Acc)",
+  "shortName": "IG34",
+  "maxOpenQuantity": 819432.0,
+  "extendedHours": false,
+  "addedOn": "2025-08-05T16:56:55.000+03:00"
  },
  {
   "ticker": "HEDLd_EQ",
@@ -15060,18 +15096,6 @@
   "addedOn": "2020-11-11T07:59:44.000+02:00"
  },
  {
-  "ticker": "XNDXd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE000EXUE0G2",
-  "currencyCode": "EUR",
-  "name": "Xtrackers Nasdaq 100 Swap (Dist)",
-  "shortName": "XNDX",
-  "maxOpenQuantity": 130204.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T18:48:49.000+02:00"
- },
- {
   "ticker": "MBRFY_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -15082,6 +15106,18 @@
   "maxOpenQuantity": 9188.0,
   "extendedHours": false,
   "addedOn": "2025-09-26T12:15:33.000+03:00"
+ },
+ {
+  "ticker": "XNDXd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE000EXUE0G2",
+  "currencyCode": "EUR",
+  "name": "Xtrackers Nasdaq 100 Swap (Dist)",
+  "shortName": "XNDX",
+  "maxOpenQuantity": 130204.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T18:48:49.000+02:00"
  },
  {
   "ticker": "RARE_US_EQ",
@@ -17556,18 +17592,6 @@
   "addedOn": "2024-10-23T16:17:20.000+03:00"
  },
  {
-  "ticker": "SUPN_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 109,
-  "isin": "US8684591089",
-  "currencyCode": "USD",
-  "name": "Supernus Pharmaceuticals",
-  "shortName": "SUPN",
-  "maxOpenQuantity": 35538.0,
-  "extendedHours": true,
-  "addedOn": "2020-05-22T13:56:02.000+03:00"
- },
- {
   "ticker": "ETR_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -17847,11 +17871,11 @@
   "ticker": "CISS_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "MHY182844099",
+  "isin": "MHY182845088",
   "currencyCode": "USD",
   "name": "C3is",
   "shortName": "CISS",
-  "maxOpenQuantity": 884.0,
+  "maxOpenQuantity": 170.0,
   "extendedHours": true,
   "addedOn": "2023-06-23T15:44:17.000+03:00"
  },
@@ -19546,6 +19570,18 @@
   "maxOpenQuantity": 2154.0,
   "extendedHours": true,
   "addedOn": "2020-05-29T16:55:02.000+03:00"
+ },
+ {
+  "ticker": "USIHp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1285960032",
+  "currencyCode": "EUR",
+  "name": "Amundi USD Corporate Bond Climate Paris Aligned (Dist)",
+  "shortName": "USIH",
+  "maxOpenQuantity": 68804.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:24.000+02:00"
  },
  {
   "ticker": "HIWSp_EQ",
@@ -21444,18 +21480,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "CNDB_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US36170N1072",
-  "currencyCode": "USD",
-  "name": "GCT Semiconductor Holding",
-  "shortName": "GCTS",
-  "maxOpenQuantity": 75831.0,
-  "extendedHours": true,
-  "addedOn": "2021-12-27T15:01:46.000+02:00"
- },
- {
   "ticker": "AFp_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -21466,6 +21490,18 @@
   "maxOpenQuantity": 45524.0,
   "extendedHours": false,
   "addedOn": "2020-05-21T13:11:56.000+03:00"
+ },
+ {
+  "ticker": "CNDB_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US36170N1072",
+  "currencyCode": "USD",
+  "name": "GCT Semiconductor Holding",
+  "shortName": "GCTS",
+  "maxOpenQuantity": 75831.0,
+  "extendedHours": true,
+  "addedOn": "2021-12-27T15:01:46.000+02:00"
  },
  {
   "ticker": "VHC_US_EQ",
@@ -21732,18 +21768,6 @@
   "addedOn": "2025-01-24T14:51:33.000+02:00"
  },
  {
-  "ticker": "FVUGl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE00BHZRR253",
-  "currencyCode": "GBP",
-  "name": "Franklin Sustainable Euro Green Bond (Acc)",
-  "shortName": "FVUG",
-  "maxOpenQuantity": 178009.0,
-  "extendedHours": false,
-  "addedOn": "2026-02-12T17:22:46.000+02:00"
- },
- {
   "ticker": "GEHC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -21754,6 +21778,18 @@
   "maxOpenQuantity": 174291.0,
   "extendedHours": true,
   "addedOn": "2023-01-04T14:28:15.000+02:00"
+ },
+ {
+  "ticker": "FVUGl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE00BHZRR253",
+  "currencyCode": "GBP",
+  "name": "Franklin Sustainable Euro Green Bond (Acc)",
+  "shortName": "FVUG",
+  "maxOpenQuantity": 178009.0,
+  "extendedHours": false,
+  "addedOn": "2026-02-12T17:22:46.000+02:00"
  },
  {
   "ticker": "IDYA_US_EQ",
@@ -22632,18 +22668,6 @@
   "addedOn": "2018-07-12T07:10:02.000+03:00"
  },
  {
-  "ticker": "ARCIl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 55,
-  "isin": "IE0003A512E4",
-  "currencyCode": "GBX",
-  "name": "ARK Artificial Intelligence & Robotics (Acc)",
-  "shortName": "ARCI",
-  "maxOpenQuantity": 511016.0,
-  "extendedHours": false,
-  "addedOn": "2024-08-02T18:15:27.000+03:00"
- },
- {
   "ticker": "4IHd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -22654,6 +22678,18 @@
   "maxOpenQuantity": 13.0,
   "extendedHours": false,
   "addedOn": "2026-09-22T17:59:32.000+03:00"
+ },
+ {
+  "ticker": "ARCIl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 55,
+  "isin": "IE0003A512E4",
+  "currencyCode": "GBX",
+  "name": "ARK Artificial Intelligence & Robotics (Acc)",
+  "shortName": "ARCI",
+  "maxOpenQuantity": 511016.0,
+  "extendedHours": false,
+  "addedOn": "2024-08-02T18:15:27.000+03:00"
  },
  {
   "ticker": "EDGAd_EQ",
@@ -23208,18 +23244,6 @@
   "addedOn": "2025-07-15T14:17:00.000+03:00"
  },
  {
-  "ticker": "B8TQd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "LU1910940268",
-  "currencyCode": "EUR",
-  "name": "Amundi Global Government Inflation-Linked Bond 1-10Y (Dist)",
-  "shortName": "B8TQ",
-  "maxOpenQuantity": 393619.0,
-  "extendedHours": false,
-  "addedOn": "2025-08-01T17:15:42.000+03:00"
- },
- {
   "ticker": "VNXd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -23230,6 +23254,18 @@
   "maxOpenQuantity": 10.0,
   "extendedHours": false,
   "addedOn": "2025-01-24T14:50:16.000+02:00"
+ },
+ {
+  "ticker": "B8TQd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "LU1910940268",
+  "currencyCode": "EUR",
+  "name": "Amundi Global Government Inflation-Linked Bond 1-10Y (Dist)",
+  "shortName": "B8TQ",
+  "maxOpenQuantity": 393619.0,
+  "extendedHours": false,
+  "addedOn": "2025-08-01T17:15:42.000+03:00"
  },
  {
   "ticker": "WHR_US_EQ",
@@ -23292,18 +23328,6 @@
   "addedOn": "2024-12-31T14:45:43.000+02:00"
  },
  {
-  "ticker": "TRMD_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "GB00BZ3CNK81",
-  "currencyCode": "USD",
-  "name": "TORM",
-  "shortName": "TRMD",
-  "maxOpenQuantity": 119538.0,
-  "extendedHours": true,
-  "addedOn": "2023-03-10T17:32:26.000+02:00"
- },
- {
   "ticker": "NXTC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -23314,6 +23338,18 @@
   "maxOpenQuantity": 4367.0,
   "extendedHours": true,
   "addedOn": "2020-05-22T14:29:42.000+03:00"
+ },
+ {
+  "ticker": "TRMD_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "GB00BZ3CNK81",
+  "currencyCode": "USD",
+  "name": "TORM",
+  "shortName": "TRMD",
+  "maxOpenQuantity": 119538.0,
+  "extendedHours": true,
+  "addedOn": "2023-03-10T17:32:26.000+02:00"
  },
  {
   "ticker": "HSTR_CA_EQ",
@@ -25368,18 +25404,6 @@
   "addedOn": "2026-01-14T16:21:40.000+02:00"
  },
  {
-  "ticker": "PARK_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 110,
-  "isin": "US7004021009",
-  "currencyCode": "USD",
-  "name": "Park Dental Partners",
-  "shortName": "PARK",
-  "maxOpenQuantity": 1279.0,
-  "extendedHours": true,
-  "addedOn": "2025-12-03T10:26:03.000+02:00"
- },
- {
   "ticker": "BCOGl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -25390,6 +25414,18 @@
   "maxOpenQuantity": 254082.0,
   "extendedHours": false,
   "addedOn": "2021-03-29T12:11:37.000+03:00"
+ },
+ {
+  "ticker": "PARK_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 110,
+  "isin": "US7004021009",
+  "currencyCode": "USD",
+  "name": "Park Dental Partners",
+  "shortName": "PARK",
+  "maxOpenQuantity": 1279.0,
+  "extendedHours": true,
+  "addedOn": "2025-12-03T10:26:03.000+02:00"
  },
  {
   "ticker": "BSE6d_EQ",
@@ -25536,18 +25572,6 @@
   "addedOn": "2024-12-31T14:45:53.000+02:00"
  },
  {
-  "ticker": "LIGHTa_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 57,
-  "isin": "NL0011821392",
-  "currencyCode": "EUR",
-  "name": "Signify",
-  "shortName": "LIGHT",
-  "maxOpenQuantity": 38111.0,
-  "extendedHours": false,
-  "addedOn": "2018-07-12T07:10:22.000+03:00"
- },
- {
   "ticker": "TDVXd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -25558,6 +25582,18 @@
   "maxOpenQuantity": 290394.0,
   "extendedHours": false,
   "addedOn": "2026-06-16T16:41:03.000+03:00"
+ },
+ {
+  "ticker": "LIGHTa_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 57,
+  "isin": "NL0011821392",
+  "currencyCode": "EUR",
+  "name": "Signify",
+  "shortName": "LIGHT",
+  "maxOpenQuantity": 38111.0,
+  "extendedHours": false,
+  "addedOn": "2018-07-12T07:10:22.000+03:00"
  },
  {
   "ticker": "FCFS_US_EQ",
@@ -25944,18 +25980,6 @@
   "addedOn": "2023-02-06T16:48:16.000+02:00"
  },
  {
-  "ticker": "FCP_PT_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 135,
-  "isin": "PTFCP0AM0008",
-  "currencyCode": "EUR",
-  "name": "Futebol Clube Do Porto",
-  "shortName": "FCP",
-  "maxOpenQuantity": 250.0,
-  "extendedHours": false,
-  "addedOn": "2026-04-15T11:42:09.000+03:00"
- },
- {
   "ticker": "ALENOp_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -25966,6 +25990,18 @@
   "maxOpenQuantity": 364.0,
   "extendedHours": false,
   "addedOn": "2021-07-14T18:21:33.000+03:00"
+ },
+ {
+  "ticker": "FCP_PT_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 135,
+  "isin": "PTFCP0AM0008",
+  "currencyCode": "EUR",
+  "name": "Futebol Clube Do Porto",
+  "shortName": "FCP",
+  "maxOpenQuantity": 250.0,
+  "extendedHours": false,
+  "addedOn": "2026-04-15T11:42:09.000+03:00"
  },
  {
   "ticker": "TSK_CA_EQ",
@@ -28092,18 +28128,6 @@
   "addedOn": "2021-07-12T19:11:33.000+03:00"
  },
  {
-  "ticker": "TRIN_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US8964423086",
-  "currencyCode": "USD",
-  "name": "Trinity Capital",
-  "shortName": "TRIN",
-  "maxOpenQuantity": 44347.0,
-  "extendedHours": true,
-  "addedOn": "2021-02-01T10:57:51.000+02:00"
- },
- {
   "ticker": "JTENd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -28114,6 +28138,18 @@
   "maxOpenQuantity": 1135847.0,
   "extendedHours": false,
   "addedOn": "2026-07-20T15:34:33.000+03:00"
+ },
+ {
+  "ticker": "TRIN_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US8964423086",
+  "currencyCode": "USD",
+  "name": "Trinity Capital",
+  "shortName": "TRIN",
+  "maxOpenQuantity": 44347.0,
+  "extendedHours": true,
+  "addedOn": "2021-02-01T10:57:51.000+02:00"
  },
  {
   "ticker": "O2Dd_EQ",
@@ -29014,6 +29050,18 @@
   "maxOpenQuantity": 990316.0,
   "extendedHours": false,
   "addedOn": "2023-10-04T11:41:29.000+03:00"
+ },
+ {
+  "ticker": "BSXp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "FR0010424135",
+  "currencyCode": "EUR",
+  "name": "Amundi EURO STOXX 50 Daily -1X Inverse (Acc)",
+  "shortName": "BSX",
+  "maxOpenQuantity": 729927.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:20.000+02:00"
  },
  {
   "ticker": "LGWSd_EQ",
@@ -31620,6 +31668,18 @@
   "addedOn": "2018-07-12T07:10:18.000+03:00"
  },
  {
+  "ticker": "ETFUSTm_EQ",
+  "type": "ETF",
+  "workingScheduleId": 75,
+  "isin": "LU1931975319",
+  "currencyCode": "EUR",
+  "name": "Amundi Core US Treasury Bond (Dist)",
+  "shortName": "ETFUST",
+  "maxOpenQuantity": 296490.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:22.000+02:00"
+ },
+ {
   "ticker": "3SUDd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -33888,18 +33948,6 @@
   "addedOn": "2020-11-11T08:01:24.000+02:00"
  },
  {
-  "ticker": "BCFGd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE0009WWNY77",
-  "currencyCode": "EUR",
-  "name": "UBS S&P 500 Climate Transition ESG (Acc)",
-  "shortName": "BCFG",
-  "maxOpenQuantity": 593069.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T14:13:02.000+02:00"
- },
- {
   "ticker": "EUN4d_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -35847,10 +35895,10 @@
   "ticker": "NILIF_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
-  "isin": "CA86882X1096",
+  "isin": "CA53681Q1072",
   "currencyCode": "USD",
-  "name": "Surge Battery Metals",
-  "shortName": "NILIF",
+  "name": "Lithium X2 Mining",
+  "shortName": "LIXMF",
   "maxOpenQuantity": 6452.0,
   "extendedHours": false,
   "addedOn": "2026-02-24T11:59:19.000+02:00"
@@ -37092,6 +37140,18 @@
   "addedOn": "2020-09-21T16:44:48.000+03:00"
  },
  {
+  "ticker": "AGLT_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 109,
+  "isin": "US0084701061",
+  "currencyCode": "USD",
+  "name": "Agility Robotics",
+  "shortName": "AGLT",
+  "maxOpenQuantity": 218239.0,
+  "extendedHours": true,
+  "addedOn": "2026-11-09T11:55:17.000+02:00"
+ },
+ {
   "ticker": "LINC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -37788,18 +37848,6 @@
   "addedOn": "2021-03-26T14:33:01.000+02:00"
  },
  {
-  "ticker": "3SVO1l_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "XS2710197935",
-  "currencyCode": "GBX",
-  "name": "GraniteShares 3x Short Vodafone",
-  "shortName": "3SVO",
-  "maxOpenQuantity": 1734713.0,
-  "extendedHours": false,
-  "addedOn": "2020-09-21T16:24:43.000+03:00"
- },
- {
   "ticker": "IPR_PT_EQ",
   "type": "STOCK",
   "workingScheduleId": 135,
@@ -37810,6 +37858,18 @@
   "maxOpenQuantity": 3979.0,
   "extendedHours": false,
   "addedOn": "2022-10-28T16:16:33.000+03:00"
+ },
+ {
+  "ticker": "3SVO1l_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "XS2710197935",
+  "currencyCode": "GBX",
+  "name": "GraniteShares 3x Short Vodafone",
+  "shortName": "3SVO",
+  "maxOpenQuantity": 1734713.0,
+  "extendedHours": false,
+  "addedOn": "2020-09-21T16:24:43.000+03:00"
  },
  {
   "ticker": "XLKQl_EQ",
@@ -38664,6 +38724,18 @@
   "addedOn": "2025-05-09T10:58:03.000+03:00"
  },
  {
+  "ticker": "JPHDp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1646360542",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI Japan SRI Climate Paris Aligned EUR Hedged (Dist)",
+  "shortName": "JPHD",
+  "maxOpenQuantity": 137268.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:20.000+02:00"
+ },
+ {
   "ticker": "ADIL_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -38952,18 +39024,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "LDAGl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE00BMYDMB35",
-  "currencyCode": "GBX",
-  "name": "L&G APAC ex-Japan Quality Dividends (Dist)",
-  "shortName": "LDAG",
-  "maxOpenQuantity": 388190.0,
-  "extendedHours": false,
-  "addedOn": "2021-04-15T16:28:57.000+03:00"
- },
- {
   "ticker": "TER_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -38974,6 +39034,18 @@
   "maxOpenQuantity": 28072.0,
   "extendedHours": true,
   "addedOn": "2019-08-09T09:09:37.000+03:00"
+ },
+ {
+  "ticker": "LDAGl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE00BMYDMB35",
+  "currencyCode": "GBX",
+  "name": "L&G APAC ex-Japan Quality Dividends (Dist)",
+  "shortName": "LDAG",
+  "maxOpenQuantity": 388190.0,
+  "extendedHours": false,
+  "addedOn": "2021-04-15T16:28:57.000+03:00"
  },
  {
   "ticker": "QQQSm_EQ",
@@ -39348,18 +39420,6 @@
   "addedOn": "2025-01-28T12:56:40.000+02:00"
  },
  {
-  "ticker": "PZG_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 107,
-  "isin": "US69924M1099",
-  "currencyCode": "USD",
-  "name": "Paramount Gold Nevada",
-  "shortName": "PZG",
-  "maxOpenQuantity": 14467.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "GSMm_EQ",
   "type": "ETF",
   "workingScheduleId": 75,
@@ -39370,6 +39430,18 @@
   "maxOpenQuantity": 273278.0,
   "extendedHours": false,
   "addedOn": "2026-02-27T14:37:19.000+02:00"
+ },
+ {
+  "ticker": "PZG_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 107,
+  "isin": "US69924M1099",
+  "currencyCode": "USD",
+  "name": "Paramount Gold Nevada",
+  "shortName": "PZG",
+  "maxOpenQuantity": 14467.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "LEERd_EQ",
@@ -40632,6 +40704,18 @@
   "addedOn": "2020-02-07T10:49:30.000+02:00"
  },
  {
+  "ticker": "JPNUl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 173,
+  "isin": "FR0010245514",
+  "currencyCode": "USD",
+  "name": "Amundi Japan TOPIX II (Dist)",
+  "shortName": "JPNU",
+  "maxOpenQuantity": 20525.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-06T12:09:58.000+02:00"
+ },
+ {
   "ticker": "CNUAd1_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -41028,18 +41112,6 @@
   "addedOn": "2020-01-25T11:22:40.000+02:00"
  },
  {
-  "ticker": "GWAV_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 110,
-  "isin": "US57630J5020",
-  "currencyCode": "USD",
-  "name": "Greenwave Technology Solutions",
-  "shortName": "GWAV",
-  "maxOpenQuantity": 311.0,
-  "extendedHours": true,
-  "addedOn": "2022-07-25T15:21:28.000+03:00"
- },
- {
   "ticker": "WEC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -41050,6 +41122,18 @@
   "maxOpenQuantity": 108030.0,
   "extendedHours": true,
   "addedOn": "2018-07-12T07:10:14.000+03:00"
+ },
+ {
+  "ticker": "GWAV_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 110,
+  "isin": "US57630J5020",
+  "currencyCode": "USD",
+  "name": "Greenwave Technology Solutions",
+  "shortName": "GWAV",
+  "maxOpenQuantity": 311.0,
+  "extendedHours": true,
+  "addedOn": "2022-07-25T15:21:28.000+03:00"
  },
  {
   "ticker": "CNAAd_EQ",
@@ -41532,18 +41616,6 @@
   "addedOn": "2023-11-16T09:47:16.000+02:00"
  },
  {
-  "ticker": "LB_CA_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 144,
-  "isin": "CA51925D1069",
-  "currencyCode": "CAD",
-  "name": "Laurentian Bank of Canada",
-  "shortName": "LB",
-  "maxOpenQuantity": 8945.0,
-  "extendedHours": false,
-  "addedOn": "2023-11-09T12:04:20.000+02:00"
- },
- {
   "ticker": "5QGd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -41640,18 +41712,6 @@
   "addedOn": "2018-07-12T07:10:08.000+03:00"
  },
  {
-  "ticker": "3SXd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 172,
-  "isin": "NO0010816895",
-  "currencyCode": "EUR",
-  "name": "OKEA",
-  "shortName": "3SX",
-  "maxOpenQuantity": 179.0,
-  "extendedHours": false,
-  "addedOn": "2026-09-21T19:07:28.000+03:00"
- },
- {
   "ticker": "RCOp_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -41662,6 +41722,18 @@
   "maxOpenQuantity": 2649.0,
   "extendedHours": false,
   "addedOn": "2020-10-08T15:18:26.000+03:00"
+ },
+ {
+  "ticker": "3SXd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 172,
+  "isin": "NO0010816895",
+  "currencyCode": "EUR",
+  "name": "OKEA",
+  "shortName": "3SX",
+  "maxOpenQuantity": 179.0,
+  "extendedHours": false,
+  "addedOn": "2026-09-21T19:07:28.000+03:00"
  },
  {
   "ticker": "MWIMs_EQ",
@@ -41940,18 +42012,6 @@
   "addedOn": "2022-02-21T15:35:52.000+02:00"
  },
  {
-  "ticker": "MET_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US59156R1086",
-  "currencyCode": "USD",
-  "name": "MetLife",
-  "shortName": "MET",
-  "maxOpenQuantity": 113669.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:16.000+03:00"
- },
- {
   "ticker": "BUSXF_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -41962,6 +42022,18 @@
   "maxOpenQuantity": 9363.0,
   "extendedHours": false,
   "addedOn": "2021-01-12T16:59:44.000+02:00"
+ },
+ {
+  "ticker": "MET_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US59156R1086",
+  "currencyCode": "USD",
+  "name": "MetLife",
+  "shortName": "MET",
+  "maxOpenQuantity": 113669.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:16.000+03:00"
  },
  {
   "ticker": "CLOUs_EQ",
@@ -42118,6 +42190,18 @@
   "maxOpenQuantity": 53203.0,
   "extendedHours": false,
   "addedOn": "2025-07-29T17:01:54.000+03:00"
+ },
+ {
+  "ticker": "JPNHp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "FR0011475078",
+  "currencyCode": "EUR",
+  "name": "Amundi Japan TOPIX II (Dist)",
+  "shortName": "JPNH",
+  "maxOpenQuantity": 15758.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:20.000+02:00"
  },
  {
   "ticker": "DEMl_EQ",
@@ -42646,6 +42730,18 @@
   "maxOpenQuantity": 148.0,
   "extendedHours": false,
   "addedOn": "2026-09-18T18:42:56.000+03:00"
+ },
+ {
+  "ticker": "YIELp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1812090543",
+  "currencyCode": "EUR",
+  "name": "Amundi EUR High Yield Corporate Bond ESG (Dist)",
+  "shortName": "YIEL",
+  "maxOpenQuantity": 47366.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:21.000+02:00"
  },
  {
   "ticker": "NS7d_EQ",
@@ -44472,6 +44568,18 @@
   "addedOn": "2025-01-24T14:50:17.000+02:00"
  },
  {
+  "ticker": "MWOp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1832418773",
+  "currencyCode": "EUR",
+  "name": "Amundi FTSE EPRA NAREIT Global II (Dist)",
+  "shortName": "MWO",
+  "maxOpenQuantity": 115701.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:21.000+02:00"
+ },
+ {
   "ticker": "AMRC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -44664,18 +44772,6 @@
   "addedOn": "2025-10-10T16:06:34.000+03:00"
  },
  {
-  "ticker": "FEQDl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE00BYSX4283",
-  "currencyCode": "GBP",
-  "name": "Fidelity Europe Quality Income (Acc)",
-  "shortName": "FEQD",
-  "maxOpenQuantity": 450911.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T08:02:29.000+02:00"
- },
- {
   "ticker": "MTAd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -44686,6 +44782,18 @@
   "maxOpenQuantity": 30.0,
   "extendedHours": false,
   "addedOn": "2025-01-24T14:50:59.000+02:00"
+ },
+ {
+  "ticker": "FEQDl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE00BYSX4283",
+  "currencyCode": "GBP",
+  "name": "Fidelity Europe Quality Income (Acc)",
+  "shortName": "FEQD",
+  "maxOpenQuantity": 450911.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T08:02:29.000+02:00"
  },
  {
   "ticker": "BR30d_EQ",
@@ -44880,18 +44988,6 @@
   "addedOn": "2024-06-26T15:40:04.000+03:00"
  },
  {
-  "ticker": "NAT_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "BMG657731060",
-  "currencyCode": "USD",
-  "name": "Nordic American Tankers",
-  "shortName": "NAT",
-  "maxOpenQuantity": 253992.0,
-  "extendedHours": true,
-  "addedOn": "2020-01-26T12:24:49.000+02:00"
- },
- {
   "ticker": "EUDFd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -44902,6 +44998,18 @@
   "maxOpenQuantity": 126460.0,
   "extendedHours": false,
   "addedOn": "2025-03-12T10:58:58.000+02:00"
+ },
+ {
+  "ticker": "NAT_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "BMG657731060",
+  "currencyCode": "USD",
+  "name": "Nordic American Tankers",
+  "shortName": "NAT",
+  "maxOpenQuantity": 253992.0,
+  "extendedHours": true,
+  "addedOn": "2020-01-26T12:24:49.000+02:00"
  },
  {
   "ticker": "PD2d_EQ",
@@ -45336,18 +45444,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "DPGTl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE000S67ID55",
-  "currencyCode": "GBP",
-  "name": "Dimensional Global Targeted Value (Acc)",
-  "shortName": "DPGT",
-  "maxOpenQuantity": 178769.0,
-  "extendedHours": false,
-  "addedOn": "2026-03-12T15:42:34.000+02:00"
- },
- {
   "ticker": "MRD_CA_EQ",
   "type": "STOCK",
   "workingScheduleId": 144,
@@ -45358,6 +45454,18 @@
   "maxOpenQuantity": 445.0,
   "extendedHours": false,
   "addedOn": "2023-11-09T12:04:25.000+02:00"
+ },
+ {
+  "ticker": "DPGTl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE000S67ID55",
+  "currencyCode": "GBP",
+  "name": "Dimensional Global Targeted Value (Acc)",
+  "shortName": "DPGT",
+  "maxOpenQuantity": 178769.0,
+  "extendedHours": false,
+  "addedOn": "2026-03-12T15:42:34.000+02:00"
  },
  {
   "ticker": "PLRd_EQ",
@@ -46932,18 +47040,6 @@
   "addedOn": "2020-11-11T08:01:28.000+02:00"
  },
  {
-  "ticker": "WTEFl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE000KF370H3",
-  "currencyCode": "GBX",
-  "name": "WisdomTree US Efficient Core (Acc)",
-  "shortName": "WTEF",
-  "maxOpenQuantity": 125892.0,
-  "extendedHours": false,
-  "addedOn": "2023-10-25T13:39:53.000+03:00"
- },
- {
   "ticker": "SOPp_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -46954,6 +47050,18 @@
   "maxOpenQuantity": 2084.0,
   "extendedHours": false,
   "addedOn": "2020-10-08T17:20:38.000+03:00"
+ },
+ {
+  "ticker": "WTEFl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE000KF370H3",
+  "currencyCode": "GBX",
+  "name": "WisdomTree US Efficient Core (Acc)",
+  "shortName": "WTEF",
+  "maxOpenQuantity": 125892.0,
+  "extendedHours": false,
+  "addedOn": "2023-10-25T13:39:53.000+03:00"
  },
  {
   "ticker": "AVPEd_EQ",
@@ -46992,18 +47100,6 @@
   "addedOn": "2018-06-29T14:55:31.000+03:00"
  },
  {
-  "ticker": "FTI_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "GB00BDSFG982",
-  "currencyCode": "USD",
-  "name": "TechnipFMC",
-  "shortName": "FTI",
-  "maxOpenQuantity": 155492.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:14.000+03:00"
- },
- {
   "ticker": "CBUQd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -47014,6 +47110,18 @@
   "maxOpenQuantity": 649426.0,
   "extendedHours": false,
   "addedOn": "2023-11-16T09:47:35.000+02:00"
+ },
+ {
+  "ticker": "FTI_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "GB00BDSFG982",
+  "currencyCode": "USD",
+  "name": "TechnipFMC",
+  "shortName": "FTI",
+  "maxOpenQuantity": 155492.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:14.000+03:00"
  },
  {
   "ticker": "GBSPl_EQ",
@@ -48291,11 +48399,11 @@
   "ticker": "AMHC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US4718712023",
+  "isin": "US4718713013",
   "currencyCode": "USD",
   "name": "Jasper Therapeutics",
   "shortName": "JSPR",
-  "maxOpenQuantity": 20353.0,
+  "maxOpenQuantity": 680.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
@@ -48852,18 +48960,6 @@
   "addedOn": "2026-01-23T11:12:05.000+02:00"
  },
  {
-  "ticker": "FFUCF_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "CA30336V1031",
-  "currencyCode": "USD",
-  "name": "F4 Uranium",
-  "shortName": "FFUCF",
-  "maxOpenQuantity": 7738.0,
-  "extendedHours": false,
-  "addedOn": "2025-05-22T15:39:52.000+03:00"
- },
- {
   "ticker": "MINTl_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -48874,6 +48970,18 @@
   "maxOpenQuantity": 49751.0,
   "extendedHours": false,
   "addedOn": "2020-01-13T12:41:00.000+02:00"
+ },
+ {
+  "ticker": "FFUCF_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "CA30336V1031",
+  "currencyCode": "USD",
+  "name": "F4 Uranium",
+  "shortName": "FFUCF",
+  "maxOpenQuantity": 7738.0,
+  "extendedHours": false,
+  "addedOn": "2025-05-22T15:39:52.000+03:00"
  },
  {
   "ticker": "NVFY_US_EQ",
@@ -49764,18 +49872,6 @@
   "addedOn": "2022-05-17T16:18:18.000+03:00"
  },
  {
-  "ticker": "EE_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US30069T1016",
-  "currencyCode": "USD",
-  "name": "Excelerate Energy",
-  "shortName": "EE",
-  "maxOpenQuantity": 24054.0,
-  "extendedHours": true,
-  "addedOn": "2022-04-13T17:58:15.000+03:00"
- },
- {
   "ticker": "IUAEl_EQ",
   "type": "ETF",
   "workingScheduleId": 153,
@@ -49786,6 +49882,18 @@
   "maxOpenQuantity": 873700.0,
   "extendedHours": false,
   "addedOn": "2022-05-18T10:56:44.000+03:00"
+ },
+ {
+  "ticker": "EE_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US30069T1016",
+  "currencyCode": "USD",
+  "name": "Excelerate Energy",
+  "shortName": "EE",
+  "maxOpenQuantity": 24054.0,
+  "extendedHours": true,
+  "addedOn": "2022-04-13T17:58:15.000+03:00"
  },
  {
   "ticker": "SDIVm_EQ",
@@ -50820,18 +50928,6 @@
   "addedOn": "2022-03-08T17:32:38.000+02:00"
  },
  {
-  "ticker": "BVNRY_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "US0717711099",
-  "currencyCode": "USD",
-  "name": "Bavarian Nordic",
-  "shortName": "BVNRY",
-  "maxOpenQuantity": 57.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:55:23.000+02:00"
- },
- {
   "ticker": "5MVWd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -50842,6 +50938,18 @@
   "maxOpenQuantity": 536740.0,
   "extendedHours": false,
   "addedOn": "2023-11-16T09:52:24.000+02:00"
+ },
+ {
+  "ticker": "BVNRY_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "US0717711099",
+  "currencyCode": "USD",
+  "name": "Bavarian Nordic",
+  "shortName": "BVNRY",
+  "maxOpenQuantity": 57.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:55:23.000+02:00"
  },
  {
   "ticker": "VMIDd_EQ",
@@ -51562,6 +51670,18 @@
   "maxOpenQuantity": 3421.0,
   "extendedHours": false,
   "addedOn": "2021-02-23T09:39:18.000+02:00"
+ },
+ {
+  "ticker": "CNAAp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "FR0011720911",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI China A (Acc)",
+  "shortName": "CNAA",
+  "maxOpenQuantity": 32377.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:19.000+02:00"
  },
  {
   "ticker": "NDXEXd_EQ",
@@ -52779,11 +52899,11 @@
   "ticker": "ARAY_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US0043971052",
+  "isin": "US0043973033",
   "currencyCode": "USD",
   "name": "Accuray",
   "shortName": "ARAY",
-  "maxOpenQuantity": 278202.0,
+  "maxOpenQuantity": 7000.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
@@ -53664,6 +53784,18 @@
   "addedOn": "2019-09-13T13:26:35.000+03:00"
  },
  {
+  "ticker": "MIVUp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1589349734",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI USA Minimum Volatility Factor (Acc)",
+  "shortName": "MIVU",
+  "maxOpenQuantity": 47375.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:22.000+02:00"
+ },
+ {
   "ticker": "N3Id_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -53691,11 +53823,11 @@
   "ticker": "CDT_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US20678X7003",
+  "isin": "US20678X8092",
   "currencyCode": "USD",
   "name": "CDT Equity",
   "shortName": "CDT",
-  "maxOpenQuantity": 9.0,
+  "maxOpenQuantity": 1.0,
   "extendedHours": true,
   "addedOn": "2023-11-02T16:28:02.000+02:00"
  },
@@ -54559,7 +54691,7 @@
   "currencyCode": "EUR",
   "name": "Alphabet (Class C)",
   "shortName": "ABEC",
-  "maxOpenQuantity": 262.0,
+  "maxOpenQuantity": 500.0,
   "extendedHours": false,
   "addedOn": "2020-08-07T18:00:47.000+03:00"
  },
@@ -55222,6 +55354,18 @@
   "maxOpenQuantity": 60933.0,
   "extendedHours": false,
   "addedOn": "2020-07-31T16:29:49.000+03:00"
+ },
+ {
+  "ticker": "CWEp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681046006",
+  "currencyCode": "EUR",
+  "name": "Amundi Global Bioenergy (Acc)",
+  "shortName": "CWE",
+  "maxOpenQuantity": 9582.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:22.000+02:00"
  },
  {
   "ticker": "HMEFl_EQ",
@@ -59064,6 +59208,18 @@
   "addedOn": "2025-08-06T15:21:20.000+03:00"
  },
  {
+  "ticker": "PLANp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU2370241684",
+  "currencyCode": "EUR",
+  "name": "Amundi Corporate Proceeds Bond (Acc)",
+  "shortName": "PLAN",
+  "maxOpenQuantity": 502058.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:22.000+02:00"
+ },
+ {
   "ticker": "JOE_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -60746,24 +60902,24 @@
  {
   "ticker": "ALDF_US_EQ",
   "type": "STOCK",
-  "workingScheduleId": 109,
+  "workingScheduleId": 85,
   "isin": "KYG015581088",
   "currencyCode": "USD",
   "name": "Aldel Financial II",
-  "shortName": "ALDF",
+  "shortName": "ALDFF",
   "maxOpenQuantity": 1634.0,
-  "extendedHours": true,
+  "extendedHours": false,
   "addedOn": "2024-12-16T15:13:13.000+02:00"
  },
  {
   "ticker": "BWV_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US68237Q4010",
+  "isin": "US68237Q5009",
   "currencyCode": "USD",
   "name": "Onconetix",
   "shortName": "ONCO",
-  "maxOpenQuantity": 1112.0,
+  "maxOpenQuantity": 111.0,
   "extendedHours": true,
   "addedOn": "2022-02-18T14:45:34.000+02:00"
  },
@@ -60960,18 +61116,6 @@
   "addedOn": "2023-11-09T11:55:19.000+02:00"
  },
  {
-  "ticker": "WIREl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 154,
-  "isin": "IE000O7Q2E56",
-  "currencyCode": "USD",
-  "name": "Xtrackers Electrification Technologies & Smart Grid (Acc)",
-  "shortName": "WIRE",
-  "maxOpenQuantity": 140459.0,
-  "extendedHours": false,
-  "addedOn": "2026-04-29T15:27:26.000+03:00"
- },
- {
   "ticker": "MSDL_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -60982,6 +61126,18 @@
   "maxOpenQuantity": 24149.0,
   "extendedHours": true,
   "addedOn": "2024-06-21T11:40:23.000+03:00"
+ },
+ {
+  "ticker": "WIREl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 154,
+  "isin": "IE000O7Q2E56",
+  "currencyCode": "USD",
+  "name": "Xtrackers Electrification Technologies & Smart Grid (Acc)",
+  "shortName": "WIRE",
+  "maxOpenQuantity": 140459.0,
+  "extendedHours": false,
+  "addedOn": "2026-04-29T15:27:26.000+03:00"
  },
  {
   "ticker": "OBUSs_EQ",
@@ -61803,10 +61959,10 @@
   "ticker": "INM_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "CA4576378091",
+  "isin": "US5871571080",
   "currencyCode": "USD",
-  "name": "InMed Pharmaceuticals",
-  "shortName": "INM",
+  "name": "Mentari Therapeutics",
+  "shortName": "MTRI",
   "maxOpenQuantity": 324.0,
   "extendedHours": true,
   "addedOn": "2022-09-20T10:42:38.000+03:00"
@@ -63504,18 +63660,6 @@
   "addedOn": "2024-08-15T15:59:30.000+03:00"
  },
  {
-  "ticker": "PEA_CA_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 144,
-  "isin": "CA14966L1067",
-  "currencyCode": "CAD",
-  "name": "Cavvy Energy",
-  "shortName": "CVVY",
-  "maxOpenQuantity": 26450.0,
-  "extendedHours": false,
-  "addedOn": "2023-11-09T12:04:33.000+02:00"
- },
- {
   "ticker": "JPN3l_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -63526,6 +63670,18 @@
   "maxOpenQuantity": 277778.0,
   "extendedHours": false,
   "addedOn": "2022-06-15T16:05:39.000+03:00"
+ },
+ {
+  "ticker": "PEA_CA_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 144,
+  "isin": "CA14966L1067",
+  "currencyCode": "CAD",
+  "name": "Cavvy Energy",
+  "shortName": "CVVY",
+  "maxOpenQuantity": 26450.0,
+  "extendedHours": false,
+  "addedOn": "2023-11-09T12:04:33.000+02:00"
  },
  {
   "ticker": "BKWs_EQ",
@@ -64116,18 +64272,6 @@
   "addedOn": "2022-10-28T12:49:56.000+03:00"
  },
  {
-  "ticker": "GLENl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "JE00B4T3BW64",
-  "currencyCode": "GBX",
-  "name": "Glencore",
-  "shortName": "GLEN",
-  "maxOpenQuantity": 1053929.0,
-  "extendedHours": false,
-  "addedOn": "2018-07-12T07:10:22.000+03:00"
- },
- {
   "ticker": "JUKCl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -64138,6 +64282,18 @@
   "maxOpenQuantity": 88314.0,
   "extendedHours": false,
   "addedOn": "2025-01-17T13:09:56.000+02:00"
+ },
+ {
+  "ticker": "GLENl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "JE00B4T3BW64",
+  "currencyCode": "GBX",
+  "name": "Glencore",
+  "shortName": "GLEN",
+  "maxOpenQuantity": 1053929.0,
+  "extendedHours": false,
+  "addedOn": "2018-07-12T07:10:22.000+03:00"
  },
  {
   "ticker": "PVH_US_EQ",
@@ -66984,18 +67140,6 @@
   "addedOn": "2019-08-13T10:54:49.000+03:00"
  },
  {
-  "ticker": "CRBLl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "LU1829218749",
-  "currencyCode": "GBX",
-  "name": "Amundi Bloomberg Equal-weight Commodity ex-Agriculture (Acc)",
-  "shortName": "COMG",
-  "maxOpenQuantity": 121196.0,
-  "extendedHours": false,
-  "addedOn": "2023-02-27T15:41:06.000+02:00"
- },
- {
   "ticker": "ECJd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -67006,6 +67150,18 @@
   "maxOpenQuantity": 3.0,
   "extendedHours": false,
   "addedOn": "2025-01-24T14:50:13.000+02:00"
+ },
+ {
+  "ticker": "CRBLl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "LU1829218749",
+  "currencyCode": "GBX",
+  "name": "Amundi Bloomberg Equal-weight Commodity ex-Agriculture (Acc)",
+  "shortName": "COMG",
+  "maxOpenQuantity": 121196.0,
+  "extendedHours": false,
+  "addedOn": "2023-02-27T15:41:06.000+02:00"
  },
  {
   "ticker": "CUSNl_EQ",
@@ -71256,6 +71412,18 @@
   "addedOn": "2021-12-13T18:44:25.000+02:00"
  },
  {
+  "ticker": "USHYp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1435356149",
+  "currencyCode": "EUR",
+  "name": "Amundi USD High Yield Corporate Bond ESG (Dist)",
+  "shortName": "USHY",
+  "maxOpenQuantity": 58086.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:21.000+02:00"
+ },
+ {
   "ticker": "TIRX_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -71650,6 +71818,18 @@
   "maxOpenQuantity": 194.0,
   "extendedHours": false,
   "addedOn": "2026-09-21T19:07:56.000+03:00"
+ },
+ {
+  "ticker": "ESDUl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 173,
+  "isin": "LU2059756598",
+  "currencyCode": "USD",
+  "name": "Amundi MSCI Europe SRI Climate Paris Aligned (Dist)",
+  "shortName": "ESDU",
+  "maxOpenQuantity": 60376.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-06T12:09:58.000+02:00"
  },
  {
   "ticker": "PXX_US_EQ",
@@ -74453,7 +74633,7 @@
   "workingScheduleId": 162,
   "isin": "LU0959210278",
   "currencyCode": "EUR",
-  "name": "Amundi S&P Eurozone Dividend Aristocrat Screened (Dist)",
+  "name": "Amundi S&P Europe High Dividend Yield (Dist)",
   "shortName": "EUDIV",
   "maxOpenQuantity": 30942.0,
   "extendedHours": false,
@@ -74892,18 +75072,6 @@
   "addedOn": "2025-12-11T11:46:10.000+02:00"
  },
  {
-  "ticker": "XZMDd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE000UMV0L21",
-  "currencyCode": "EUR",
-  "name": "Xtrackers MSCI USA ESG (Dist)",
-  "shortName": "XZMD",
-  "maxOpenQuantity": 421115.0,
-  "extendedHours": false,
-  "addedOn": "2025-08-08T17:15:09.000+03:00"
- },
- {
   "ticker": "SQ3l_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -74914,6 +75082,18 @@
   "maxOpenQuantity": 1865672.0,
   "extendedHours": false,
   "addedOn": "2021-03-16T23:28:59.000+02:00"
+ },
+ {
+  "ticker": "XZMDd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE000UMV0L21",
+  "currencyCode": "EUR",
+  "name": "Xtrackers MSCI USA ESG (Dist)",
+  "shortName": "XZMD",
+  "maxOpenQuantity": 421115.0,
+  "extendedHours": false,
+  "addedOn": "2025-08-08T17:15:09.000+03:00"
  },
  {
   "ticker": "ABWd_EQ",
@@ -75024,18 +75204,6 @@
   "addedOn": "2026-09-17T18:28:47.000+03:00"
  },
  {
-  "ticker": "ACFN_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 110,
-  "isin": "US0048482063",
-  "currencyCode": "USD",
-  "name": "Acorn Energy",
-  "shortName": "ACFN",
-  "maxOpenQuantity": 2670.0,
-  "extendedHours": true,
-  "addedOn": "2025-08-28T16:20:46.000+03:00"
- },
- {
   "ticker": "TRPGd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -75046,6 +75214,18 @@
   "maxOpenQuantity": 220994.0,
   "extendedHours": false,
   "addedOn": "2026-10-15T18:23:01.000+03:00"
+ },
+ {
+  "ticker": "ACFN_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 110,
+  "isin": "US0048482063",
+  "currencyCode": "USD",
+  "name": "Acorn Energy",
+  "shortName": "ACFN",
+  "maxOpenQuantity": 2670.0,
+  "extendedHours": true,
+  "addedOn": "2025-08-28T16:20:46.000+03:00"
  },
  {
   "ticker": "ASRDd_EQ",
@@ -75504,18 +75684,6 @@
   "addedOn": "2025-01-24T14:51:06.000+02:00"
  },
  {
-  "ticker": "HAVASa_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 57,
-  "isin": "NL0015002K83",
-  "currencyCode": "EUR",
-  "name": "Havas",
-  "shortName": "HAVAS",
-  "maxOpenQuantity": 3288.0,
-  "extendedHours": false,
-  "addedOn": "2024-12-20T10:52:16.000+02:00"
- },
- {
   "ticker": "ITT_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -75526,6 +75694,18 @@
   "maxOpenQuantity": 46561.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "HAVASa_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 57,
+  "isin": "NL0015002K83",
+  "currencyCode": "EUR",
+  "name": "Havas",
+  "shortName": "HAVAS",
+  "maxOpenQuantity": 3288.0,
+  "extendedHours": false,
+  "addedOn": "2024-12-20T10:52:16.000+02:00"
  },
  {
   "ticker": "SECAl_EQ",
@@ -75766,18 +75946,6 @@
   "maxOpenQuantity": 468.0,
   "extendedHours": false,
   "addedOn": "2026-09-22T17:59:28.000+03:00"
- },
- {
-  "ticker": "AETUF_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "CA00208D4084",
-  "currencyCode": "USD",
-  "name": "ARC Resources",
-  "shortName": "AETUF",
-  "maxOpenQuantity": 2131.0,
-  "extendedHours": false,
-  "addedOn": "2023-07-11T15:14:40.000+03:00"
  },
  {
   "ticker": "NESFl_EQ",
@@ -76176,18 +76344,6 @@
   "addedOn": "2025-09-10T10:27:09.000+03:00"
  },
  {
-  "ticker": "3IBd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 172,
-  "isin": "ID1000108509",
-  "currencyCode": "EUR",
-  "name": "Indo Tambangraya Megah",
-  "shortName": "3IB",
-  "maxOpenQuantity": 508.0,
-  "extendedHours": false,
-  "addedOn": "2026-09-21T19:07:39.000+03:00"
- },
- {
   "ticker": "4VLd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -76198,6 +76354,18 @@
   "maxOpenQuantity": 926.0,
   "extendedHours": false,
   "addedOn": "2026-09-23T17:42:50.000+03:00"
+ },
+ {
+  "ticker": "3IBd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 172,
+  "isin": "ID1000108509",
+  "currencyCode": "EUR",
+  "name": "Indo Tambangraya Megah",
+  "shortName": "3IB",
+  "maxOpenQuantity": 508.0,
+  "extendedHours": false,
+  "addedOn": "2026-09-21T19:07:39.000+03:00"
  },
  {
   "ticker": "HLHd_EQ",
@@ -76836,18 +77004,6 @@
   "addedOn": "2024-06-21T11:40:23.000+03:00"
  },
  {
-  "ticker": "OUKPY_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "US5926721094",
-  "currencyCode": "USD",
-  "name": "Metso Corporation",
-  "shortName": "OUKPY",
-  "maxOpenQuantity": 2550.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:54:36.000+02:00"
- },
- {
   "ticker": "PXMD_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -76858,6 +77014,18 @@
   "maxOpenQuantity": 514.0,
   "extendedHours": false,
   "addedOn": "2022-08-15T16:58:52.000+03:00"
+ },
+ {
+  "ticker": "OUKPY_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "US5926721094",
+  "currencyCode": "USD",
+  "name": "Metso Corporation",
+  "shortName": "OUKPY",
+  "maxOpenQuantity": 2550.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:54:36.000+02:00"
  },
  {
   "ticker": "GPSAl_EQ",
@@ -78444,18 +78612,6 @@
   "addedOn": "2023-11-09T11:55:40.000+02:00"
  },
  {
-  "ticker": "MSLHl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "GB00B012BV22",
-  "currencyCode": "GBX",
-  "name": "Marshalls",
-  "shortName": "MSLH",
-  "maxOpenQuantity": 63566.0,
-  "extendedHours": false,
-  "addedOn": "2018-07-12T07:10:08.000+03:00"
- },
- {
   "ticker": "AIXAd_EQ",
   "type": "STOCK",
   "workingScheduleId": 54,
@@ -78466,6 +78622,18 @@
   "maxOpenQuantity": 29373.0,
   "extendedHours": false,
   "addedOn": "2018-07-12T07:10:01.000+03:00"
+ },
+ {
+  "ticker": "MSLHl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "GB00B012BV22",
+  "currencyCode": "GBX",
+  "name": "Marshalls",
+  "shortName": "MSLH",
+  "maxOpenQuantity": 63566.0,
+  "extendedHours": false,
+  "addedOn": "2018-07-12T07:10:08.000+03:00"
  },
  {
   "ticker": "GB1Ed_EQ",
@@ -80112,18 +80280,6 @@
   "addedOn": "2025-08-06T16:50:42.000+03:00"
  },
  {
-  "ticker": "COMB_BE_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 72,
-  "isin": "BE0003592038",
-  "currencyCode": "EUR",
-  "name": "Cie du Bois Sauvage",
-  "shortName": "COMB",
-  "maxOpenQuantity": 32.0,
-  "extendedHours": false,
-  "addedOn": "2021-05-24T13:04:30.000+03:00"
- },
- {
   "ticker": "AKNd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -80134,6 +80290,18 @@
   "maxOpenQuantity": 52.0,
   "extendedHours": false,
   "addedOn": "2026-09-23T17:42:16.000+03:00"
+ },
+ {
+  "ticker": "COMB_BE_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 72,
+  "isin": "BE0003592038",
+  "currencyCode": "EUR",
+  "name": "Cie du Bois Sauvage",
+  "shortName": "COMB",
+  "maxOpenQuantity": 32.0,
+  "extendedHours": false,
+  "addedOn": "2021-05-24T13:04:30.000+03:00"
  },
  {
   "ticker": "FGNA_US_EQ",
@@ -81228,18 +81396,6 @@
   "addedOn": "2018-07-12T07:10:20.000+03:00"
  },
  {
-  "ticker": "CMI_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US2310211063",
-  "currencyCode": "USD",
-  "name": "Cummins",
-  "shortName": "CMI",
-  "maxOpenQuantity": 21508.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:12.000+03:00"
- },
- {
   "ticker": "AME6d_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -81250,6 +81406,18 @@
   "maxOpenQuantity": 27566.0,
   "extendedHours": false,
   "addedOn": "2025-08-06T16:50:40.000+03:00"
+ },
+ {
+  "ticker": "CMI_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US2310211063",
+  "currencyCode": "USD",
+  "name": "Cummins",
+  "shortName": "CMI",
+  "maxOpenQuantity": 21508.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:12.000+03:00"
  },
  {
   "ticker": "MYSZ_US_EQ",
@@ -81912,18 +82080,6 @@
   "addedOn": "2025-04-04T16:05:49.000+03:00"
  },
  {
-  "ticker": "LYXLEMd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "FR0010429068",
-  "currencyCode": "EUR",
-  "name": "Amundi MSCI Emerging Markets Swap II (Acc)",
-  "shortName": "LYXLEM",
-  "maxOpenQuantity": 249324.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T18:18:17.000+02:00"
- },
- {
   "ticker": "CMP_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -81934,6 +82090,18 @@
   "maxOpenQuantity": 19480.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "LYXLEMd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "FR0010429068",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI Emerging Markets Swap II (Acc)",
+  "shortName": "LYXLEM",
+  "maxOpenQuantity": 249324.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T18:18:17.000+02:00"
  },
  {
   "ticker": "ALLE_US_EQ",
@@ -82519,7 +82687,7 @@
   "currencyCode": "USD",
   "name": "SunCar Technology Group",
   "shortName": "SDA",
-  "maxOpenQuantity": 64699.0,
+  "maxOpenQuantity": 42000.0,
   "extendedHours": true,
   "addedOn": "2021-04-19T22:27:55.000+03:00"
  },
@@ -83345,7 +83513,7 @@
   "workingScheduleId": 166,
   "isin": "IE000DNSAS54",
   "currencyCode": "EUR",
-  "name": "Xtrackers MSCI Emerging Markets Climate Transition (Acc)",
+  "name": "Xtrackers Emerging Markets Equity Enhanced Active (Acc)",
   "shortName": "XEMC",
   "maxOpenQuantity": 97935.0,
   "extendedHours": false,
@@ -84036,18 +84204,6 @@
   "addedOn": "2020-11-11T07:55:53.000+02:00"
  },
  {
-  "ticker": "EJAPd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "LU1291102447",
-  "currencyCode": "EUR",
-  "name": "BNP Paribas Easy MSCI Japan Min TE/ETF (Acc)",
-  "shortName": "EJAP",
-  "maxOpenQuantity": 227414.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T15:47:33.000+02:00"
- },
- {
   "ticker": "BFC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -84058,6 +84214,18 @@
   "maxOpenQuantity": 3278.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "EJAPd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "LU1291102447",
+  "currencyCode": "EUR",
+  "name": "BNP Paribas Easy MSCI Japan Min TE/ETF (Acc)",
+  "shortName": "EJAP",
+  "maxOpenQuantity": 227414.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T15:47:33.000+02:00"
  },
  {
   "ticker": "ALSPTp_EQ",
@@ -84564,18 +84732,6 @@
   "addedOn": "2024-06-06T13:05:35.000+03:00"
  },
  {
-  "ticker": "OTF_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US0959241060",
-  "currencyCode": "USD",
-  "name": "Blue Owl Technology Finance",
-  "shortName": "OTF",
-  "maxOpenQuantity": 112907.0,
-  "extendedHours": true,
-  "addedOn": "2026-07-23T12:50:25.000+03:00"
- },
- {
   "ticker": "STMNs_EQ",
   "type": "STOCK",
   "workingScheduleId": 84,
@@ -84586,6 +84742,18 @@
   "maxOpenQuantity": 21484.0,
   "extendedHours": false,
   "addedOn": "2020-10-08T14:39:10.000+03:00"
+ },
+ {
+  "ticker": "OTF_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US0959241060",
+  "currencyCode": "USD",
+  "name": "Blue Owl Technology Finance",
+  "shortName": "OTF",
+  "maxOpenQuantity": 112907.0,
+  "extendedHours": true,
+  "addedOn": "2026-07-23T12:50:25.000+03:00"
  },
  {
   "ticker": "DJCO_US_EQ",
@@ -88092,18 +88260,6 @@
   "addedOn": "2025-12-18T15:42:02.000+02:00"
  },
  {
-  "ticker": "3PYPl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "XS2663695067",
-  "currencyCode": "GBX",
-  "name": "Leverage Shares 3x PayPal",
-  "shortName": "3PYP",
-  "maxOpenQuantity": 1974833.0,
-  "extendedHours": false,
-  "addedOn": "2021-03-16T15:57:11.000+02:00"
- },
- {
   "ticker": "FORTl_EQ",
   "type": "STOCK",
   "workingScheduleId": 55,
@@ -88114,6 +88270,18 @@
   "maxOpenQuantity": 27963.0,
   "extendedHours": false,
   "addedOn": "2018-07-12T07:10:06.000+03:00"
+ },
+ {
+  "ticker": "3PYPl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "XS2663695067",
+  "currencyCode": "GBX",
+  "name": "Leverage Shares 3x PayPal",
+  "shortName": "3PYP",
+  "maxOpenQuantity": 1974833.0,
+  "extendedHours": false,
+  "addedOn": "2021-03-16T15:57:11.000+02:00"
  },
  {
   "ticker": "DTGd_EQ",
@@ -91500,18 +91668,6 @@
   "addedOn": "2020-09-29T13:10:48.000+03:00"
  },
  {
-  "ticker": "HUIl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "GB00BMFR8J48",
-  "currencyCode": "GBX",
-  "name": "Hydrogen Utopia International",
-  "shortName": "HUI",
-  "maxOpenQuantity": 26167.0,
-  "extendedHours": false,
-  "addedOn": "2023-01-11T16:42:47.000+02:00"
- },
- {
   "ticker": "VTSI_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -91522,6 +91678,18 @@
   "maxOpenQuantity": 1332.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "HUIl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "GB00BMFR8J48",
+  "currencyCode": "GBX",
+  "name": "Hydrogen Utopia International",
+  "shortName": "HUI",
+  "maxOpenQuantity": 26167.0,
+  "extendedHours": false,
+  "addedOn": "2023-01-11T16:42:47.000+02:00"
  },
  {
   "ticker": "METX_US_EQ",
@@ -91954,6 +92122,18 @@
   "maxOpenQuantity": 1125619.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:59:50.000+02:00"
+ },
+ {
+  "ticker": "BTP2Sm_EQ",
+  "type": "ETF",
+  "workingScheduleId": 75,
+  "isin": "FR0011023621",
+  "currencyCode": "EUR",
+  "name": "Amundi Italy BTP Daily -2x Inverse (Acc)",
+  "shortName": "BTP2S",
+  "maxOpenQuantity": 263324.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:23.000+02:00"
  },
  {
   "ticker": "ULCd_EQ",
@@ -93300,18 +93480,6 @@
   "addedOn": "2023-11-16T09:47:41.000+02:00"
  },
  {
-  "ticker": "VLOWY_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "US92023R4074",
-  "currencyCode": "USD",
-  "name": "Vallourec",
-  "shortName": "VLOWY",
-  "maxOpenQuantity": 4137.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:55:46.000+02:00"
- },
- {
   "ticker": "E5S1d_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -93322,6 +93490,18 @@
   "maxOpenQuantity": 56.0,
   "extendedHours": false,
   "addedOn": "2026-09-18T18:42:33.000+03:00"
+ },
+ {
+  "ticker": "VLOWY_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "US92023R4074",
+  "currencyCode": "USD",
+  "name": "Vallourec",
+  "shortName": "VLOWY",
+  "maxOpenQuantity": 4137.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:55:46.000+02:00"
  },
  {
   "ticker": "SNVDl_EQ",
@@ -94248,18 +94428,6 @@
   "addedOn": "2021-07-01T16:05:46.000+03:00"
  },
  {
-  "ticker": "XLPEd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "LU0322250712",
-  "currencyCode": "EUR",
-  "name": "Xtrackers LPX Private Equity Swap (Acc)",
-  "shortName": "XLPE",
-  "maxOpenQuantity": 39022.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T18:48:51.000+02:00"
- },
- {
   "ticker": "GLG_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -94270,6 +94438,18 @@
   "maxOpenQuantity": 1041.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "XLPEd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "LU0322250712",
+  "currencyCode": "EUR",
+  "name": "Xtrackers LPX Private Equity Swap (Acc)",
+  "shortName": "XLPE",
+  "maxOpenQuantity": 39022.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T18:48:51.000+02:00"
  },
  {
   "ticker": "STMd_EQ",
@@ -94584,18 +94764,6 @@
   "addedOn": "2023-11-09T12:04:35.000+02:00"
  },
  {
-  "ticker": "FLNG_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "BMG359472021",
-  "currencyCode": "USD",
-  "name": "FLEX LNG",
-  "shortName": "FLNG",
-  "maxOpenQuantity": 17400.0,
-  "extendedHours": true,
-  "addedOn": "2021-06-29T15:01:07.000+03:00"
- },
- {
   "ticker": "CTHd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -94606,6 +94774,18 @@
   "maxOpenQuantity": 979.0,
   "extendedHours": false,
   "addedOn": "2026-09-23T17:42:44.000+03:00"
+ },
+ {
+  "ticker": "FLNG_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "BMG359472021",
+  "currencyCode": "USD",
+  "name": "FLEX LNG",
+  "shortName": "FLNG",
+  "maxOpenQuantity": 17400.0,
+  "extendedHours": true,
+  "addedOn": "2021-06-29T15:01:07.000+03:00"
  },
  {
   "ticker": "LOVE_US_EQ",
@@ -94692,18 +94872,6 @@
   "addedOn": "2021-07-06T20:04:14.000+03:00"
  },
  {
-  "ticker": "YZCAY_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "US9848461052",
-  "currencyCode": "USD",
-  "name": "Yankuang Energy",
-  "shortName": "YZCAY",
-  "maxOpenQuantity": 44.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:54:42.000+02:00"
- },
- {
   "ticker": "BULL_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -94714,6 +94882,18 @@
   "maxOpenQuantity": 1000334.0,
   "extendedHours": true,
   "addedOn": "2025-04-14T15:48:30.000+03:00"
+ },
+ {
+  "ticker": "YZCAY_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "US9848461052",
+  "currencyCode": "USD",
+  "name": "Yankuang Energy",
+  "shortName": "YZCAY",
+  "maxOpenQuantity": 44.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:54:42.000+02:00"
  },
  {
   "ticker": "PESI_US_EQ",
@@ -95112,18 +95292,6 @@
   "addedOn": "2020-11-11T07:58:44.000+02:00"
  },
  {
-  "ticker": "IPOKd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "DE000A254294",
-  "currencyCode": "EUR",
-  "name": "Heidelberger Beteiligungsholding",
-  "shortName": "IPOK",
-  "maxOpenQuantity": 5.0,
-  "extendedHours": false,
-  "addedOn": "2026-04-15T11:41:53.000+03:00"
- },
- {
   "ticker": "SMMd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -95134,6 +95302,18 @@
   "maxOpenQuantity": 198.0,
   "extendedHours": false,
   "addedOn": "2026-09-23T17:42:22.000+03:00"
+ },
+ {
+  "ticker": "IPOKd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "DE000A254294",
+  "currencyCode": "EUR",
+  "name": "Heidelberger Beteiligungsholding",
+  "shortName": "IPOK",
+  "maxOpenQuantity": 5.0,
+  "extendedHours": false,
+  "addedOn": "2026-04-15T11:41:53.000+03:00"
  },
  {
   "ticker": "XDPEd_EQ",
@@ -95856,18 +96036,6 @@
   "addedOn": "2023-08-03T17:34:00.000+03:00"
  },
  {
-  "ticker": "GMAB_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US3723032062",
-  "currencyCode": "USD",
-  "name": "Genmab",
-  "shortName": "GMAB",
-  "maxOpenQuantity": 192176.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "BTCEGBPs_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -95878,6 +96046,18 @@
   "maxOpenQuantity": 75250.0,
   "extendedHours": false,
   "addedOn": "2022-02-21T16:30:15.000+02:00"
+ },
+ {
+  "ticker": "GMAB_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US3723032062",
+  "currencyCode": "USD",
+  "name": "Genmab",
+  "shortName": "GMAB",
+  "maxOpenQuantity": 192176.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "GHSI_US_EQ",
@@ -98700,6 +98880,18 @@
   "addedOn": "2023-08-11T16:07:13.000+03:00"
  },
  {
+  "ticker": "EMKTBm_EQ",
+  "type": "ETF",
+  "workingScheduleId": 75,
+  "isin": "LU1686830909",
+  "currencyCode": "EUR",
+  "name": "Amundi USD Emerging Markets Government Bond (Dist)",
+  "shortName": "EMKTB",
+  "maxOpenQuantity": 70067.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:21.000+02:00"
+ },
+ {
   "ticker": "BOTZm_EQ",
   "type": "ETF",
   "workingScheduleId": 75,
@@ -99672,6 +99864,18 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
+  "ticker": "CC1p_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681043912",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI China Tech (Acc)",
+  "shortName": "CC1",
+  "maxOpenQuantity": 19681.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:23.000+02:00"
+ },
+ {
   "ticker": "ATU_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -100320,18 +100524,6 @@
   "addedOn": "2020-05-22T16:07:33.000+03:00"
  },
  {
-  "ticker": "ASWAd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE0007WMHDE3",
-  "currencyCode": "EUR",
-  "name": "Making Europe Great Again (Acc)",
-  "shortName": "8GRT",
-  "maxOpenQuantity": 418293.0,
-  "extendedHours": false,
-  "addedOn": "2023-08-18T09:50:35.000+03:00"
- },
- {
   "ticker": "DEZd_EQ",
   "type": "STOCK",
   "workingScheduleId": 54,
@@ -100342,6 +100534,18 @@
   "maxOpenQuantity": 42942.0,
   "extendedHours": false,
   "addedOn": "2018-07-12T07:10:02.000+03:00"
+ },
+ {
+  "ticker": "ASWAd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE0007WMHDE3",
+  "currencyCode": "EUR",
+  "name": "Making Europe Great Again (Acc)",
+  "shortName": "8GRT",
+  "maxOpenQuantity": 418293.0,
+  "extendedHours": false,
+  "addedOn": "2023-08-18T09:50:35.000+03:00"
  },
  {
   "ticker": "RELID_US_EQ",
@@ -101079,11 +101283,11 @@
   "ticker": "SVFD_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US80512Q6008",
+  "isin": "US80512Q7097",
   "currencyCode": "USD",
   "name": "Nexentis Technologies",
   "shortName": "NXTS",
-  "maxOpenQuantity": 823.0,
+  "maxOpenQuantity": 164.0,
   "extendedHours": true,
   "addedOn": "2021-05-14T13:54:04.000+03:00"
  },
@@ -103200,18 +103404,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "M3Vd1_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "DE000A0LBFE4",
-  "currencyCode": "EUR",
-  "name": "MeVis Medical Solutions",
-  "shortName": "M3V",
-  "maxOpenQuantity": 29.0,
-  "extendedHours": false,
-  "addedOn": "2026-04-15T11:41:44.000+03:00"
- },
- {
   "ticker": "RENWm_EQ",
   "type": "ETF",
   "workingScheduleId": 75,
@@ -103222,6 +103414,18 @@
   "maxOpenQuantity": 290486.0,
   "extendedHours": false,
   "addedOn": "2022-01-13T18:51:57.000+02:00"
+ },
+ {
+  "ticker": "M3Vd1_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "DE000A0LBFE4",
+  "currencyCode": "EUR",
+  "name": "MeVis Medical Solutions",
+  "shortName": "M3V",
+  "maxOpenQuantity": 29.0,
+  "extendedHours": false,
+  "addedOn": "2026-04-15T11:41:44.000+03:00"
  },
  {
   "ticker": "PCZd_EQ",
@@ -104859,9 +105063,9 @@
   "ticker": "DJ5d_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
-  "isin": "CA86882X1096",
+  "isin": "CA53681Q1072",
   "currencyCode": "EUR",
-  "name": "Surge Battery Metals",
+  "name": "Lithium X2 Mining",
   "shortName": "DJ5",
   "maxOpenQuantity": 1217.0,
   "extendedHours": false,
@@ -105108,18 +105312,6 @@
   "addedOn": "2026-06-10T14:59:04.000+03:00"
  },
  {
-  "ticker": "ORAp_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 76,
-  "isin": "FR0000133308",
-  "currencyCode": "EUR",
-  "name": "Orange",
-  "shortName": "ORA",
-  "maxOpenQuantity": 302648.0,
-  "extendedHours": false,
-  "addedOn": "2019-07-04T09:13:17.000+03:00"
- },
- {
   "ticker": "E960d_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -105130,6 +105322,18 @@
   "maxOpenQuantity": 68963.0,
   "extendedHours": false,
   "addedOn": "2026-01-14T18:18:21.000+02:00"
+ },
+ {
+  "ticker": "ORAp_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 76,
+  "isin": "FR0000133308",
+  "currencyCode": "EUR",
+  "name": "Orange",
+  "shortName": "ORA",
+  "maxOpenQuantity": 302648.0,
+  "extendedHours": false,
+  "addedOn": "2019-07-04T09:13:17.000+03:00"
  },
  {
   "ticker": "3GOSm_EQ",
@@ -110016,18 +110220,6 @@
   "addedOn": "2020-11-11T08:02:36.000+02:00"
  },
  {
-  "ticker": "KBL_CA_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 144,
-  "isin": "CA48243M1077",
-  "currencyCode": "CAD",
-  "name": "K-Bro Linen",
-  "shortName": "KBL",
-  "maxOpenQuantity": 538.0,
-  "extendedHours": false,
-  "addedOn": "2023-11-09T12:04:17.000+02:00"
- },
- {
   "ticker": "HXGd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -110038,6 +110230,18 @@
   "maxOpenQuantity": 71.0,
   "extendedHours": false,
   "addedOn": "2025-01-24T14:50:42.000+02:00"
+ },
+ {
+  "ticker": "KBL_CA_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 144,
+  "isin": "CA48243M1077",
+  "currencyCode": "CAD",
+  "name": "K-Bro Linen",
+  "shortName": "KBL",
+  "maxOpenQuantity": 538.0,
+  "extendedHours": false,
+  "addedOn": "2023-11-09T12:04:17.000+02:00"
  },
  {
   "ticker": "IEMOl_EQ",
@@ -110184,18 +110388,6 @@
   "addedOn": "2026-07-09T16:43:44.000+03:00"
  },
  {
-  "ticker": "GCOWa_EQ",
-  "type": "ETF",
-  "workingScheduleId": 165,
-  "isin": "IE000E909O74",
-  "currencyCode": "USD",
-  "name": "Pacer Global Cash Cows Dividend (Acc)",
-  "shortName": "GCOW",
-  "maxOpenQuantity": 166141.0,
-  "extendedHours": false,
-  "addedOn": "2026-08-04T18:51:34.000+03:00"
- },
- {
   "ticker": "CYBR_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -110206,6 +110398,18 @@
   "maxOpenQuantity": 34569.0,
   "extendedHours": true,
   "addedOn": "2019-08-06T07:00:54.000+03:00"
+ },
+ {
+  "ticker": "GCOWa_EQ",
+  "type": "ETF",
+  "workingScheduleId": 165,
+  "isin": "IE000E909O74",
+  "currencyCode": "USD",
+  "name": "Pacer Global Cash Cows Dividend (Acc)",
+  "shortName": "GCOW",
+  "maxOpenQuantity": 166141.0,
+  "extendedHours": false,
+  "addedOn": "2026-08-04T18:51:34.000+03:00"
  },
  {
   "ticker": "PZXd_EQ",
@@ -113232,18 +113436,6 @@
   "addedOn": "2024-08-16T13:16:38.000+03:00"
  },
  {
-  "ticker": "XBTIs_EQ",
-  "type": "ETF",
-  "workingScheduleId": 158,
-  "isin": "DE000A3GK2N1",
-  "currencyCode": "CHF",
-  "name": "DDA Funds Physical Bitcoin",
-  "shortName": "XBTICHF",
-  "maxOpenQuantity": 703727.0,
-  "extendedHours": false,
-  "addedOn": "2022-02-21T15:30:05.000+02:00"
- },
- {
   "ticker": "OTH_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 107,
@@ -113254,6 +113446,18 @@
   "maxOpenQuantity": 1581.0,
   "extendedHours": true,
   "addedOn": "2025-11-13T10:30:37.000+02:00"
+ },
+ {
+  "ticker": "XBTIs_EQ",
+  "type": "ETF",
+  "workingScheduleId": 158,
+  "isin": "DE000A3GK2N1",
+  "currencyCode": "CHF",
+  "name": "DDA Funds Physical Bitcoin",
+  "shortName": "XBTICHF",
+  "maxOpenQuantity": 703727.0,
+  "extendedHours": false,
+  "addedOn": "2022-02-21T15:30:05.000+02:00"
  },
  {
   "ticker": "MFEB_AT_EQ",
@@ -119544,18 +119748,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "UQ1d_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 172,
-  "isin": "NL0010696654",
-  "currencyCode": "EUR",
-  "name": "uniQure",
-  "shortName": "UQ1",
-  "maxOpenQuantity": 17.0,
-  "extendedHours": false,
-  "addedOn": "2026-09-18T18:42:37.000+03:00"
- },
- {
   "ticker": "ID28l_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -119566,6 +119758,18 @@
   "maxOpenQuantity": 970780.0,
   "extendedHours": false,
   "addedOn": "2023-10-25T13:39:52.000+03:00"
+ },
+ {
+  "ticker": "UQ1d_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 172,
+  "isin": "NL0010696654",
+  "currencyCode": "EUR",
+  "name": "uniQure",
+  "shortName": "UQ1",
+  "maxOpenQuantity": 17.0,
+  "extendedHours": false,
+  "addedOn": "2026-09-18T18:42:37.000+03:00"
  },
  {
   "ticker": "GEFI_AT_EQ",
@@ -119952,18 +120156,6 @@
   "addedOn": "2021-06-23T11:10:40.000+03:00"
  },
  {
-  "ticker": "TMUS_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US8725901040",
-  "currencyCode": "USD",
-  "name": "T-Mobile US",
-  "shortName": "TMUS",
-  "maxOpenQuantity": 65338.0,
-  "extendedHours": true,
-  "addedOn": "2019-08-06T08:43:52.000+03:00"
- },
- {
   "ticker": "ARMK_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -119974,6 +120166,18 @@
   "maxOpenQuantity": 113044.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "TMUS_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US8725901040",
+  "currencyCode": "USD",
+  "name": "T-Mobile US",
+  "shortName": "TMUS",
+  "maxOpenQuantity": 65338.0,
+  "extendedHours": true,
+  "addedOn": "2019-08-06T08:43:52.000+03:00"
  },
  {
   "ticker": "SLSAd_EQ",
@@ -121896,6 +122100,18 @@
   "addedOn": "2026-01-08T18:27:14.000+02:00"
  },
  {
+  "ticker": "AHYEp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681040496",
+  "currencyCode": "EUR",
+  "name": "Amundi Euro High Yield Bond ESG (Acc)",
+  "shortName": "AHYE",
+  "maxOpenQuantity": 18993.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:19.000+02:00"
+ },
+ {
   "ticker": "CTY_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 109,
@@ -122472,18 +122688,6 @@
   "addedOn": "2018-07-12T07:10:14.000+03:00"
  },
  {
-  "ticker": "PET_CA_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 144,
-  "isin": "CA71584R1055",
-  "currencyCode": "CAD",
-  "name": "Pet Valu",
-  "shortName": "PET",
-  "maxOpenQuantity": 5856.0,
-  "extendedHours": false,
-  "addedOn": "2023-11-09T12:04:33.000+02:00"
- },
- {
   "ticker": "IIIl_EQ",
   "type": "STOCK",
   "workingScheduleId": 55,
@@ -122494,6 +122698,18 @@
   "maxOpenQuantity": 84586.0,
   "extendedHours": false,
   "addedOn": "2018-07-12T07:10:08.000+03:00"
+ },
+ {
+  "ticker": "PET_CA_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 144,
+  "isin": "CA71584R1055",
+  "currencyCode": "CAD",
+  "name": "Pet Valu",
+  "shortName": "PET",
+  "maxOpenQuantity": 5856.0,
+  "extendedHours": false,
+  "addedOn": "2023-11-09T12:04:33.000+02:00"
  },
  {
   "ticker": "NEXl_EQ",
@@ -122571,11 +122787,11 @@
   "ticker": "ARYD_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US00534B1008",
+  "isin": "US00534B3087",
   "currencyCode": "USD",
   "name": "Adagio Medical Holdings",
   "shortName": "ADGM",
-  "maxOpenQuantity": 5596.0,
+  "maxOpenQuantity": 200.0,
   "extendedHours": true,
   "addedOn": "2021-05-06T20:56:01.000+03:00"
  },
@@ -123216,18 +123432,6 @@
   "addedOn": "2026-01-14T18:18:14.000+02:00"
  },
  {
-  "ticker": "GILSl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "LU1407892592",
-  "currencyCode": "GBX",
-  "name": "Amundi Core UK Government Bond (Dist)",
-  "shortName": "GILS",
-  "maxOpenQuantity": 36667.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:58:22.000+02:00"
- },
- {
   "ticker": "YP1Bd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -123238,6 +123442,18 @@
   "maxOpenQuantity": 29545.0,
   "extendedHours": false,
   "addedOn": "2026-09-23T17:42:32.000+03:00"
+ },
+ {
+  "ticker": "GILSl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "LU1407892592",
+  "currencyCode": "GBX",
+  "name": "Amundi Core UK Government Bond (Dist)",
+  "shortName": "GILS",
+  "maxOpenQuantity": 36667.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:58:22.000+02:00"
  },
  {
   "ticker": "ATUSF_US_EQ",
@@ -123744,18 +123960,6 @@
   "addedOn": "2021-12-14T10:00:05.000+02:00"
  },
  {
-  "ticker": "PYT_AT_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 73,
-  "isin": "AT0000A00XX9",
-  "currencyCode": "EUR",
-  "name": "POLYTEC",
-  "shortName": "PYT",
-  "maxOpenQuantity": 2677.0,
-  "extendedHours": false,
-  "addedOn": "2021-04-02T14:35:41.000+03:00"
- },
- {
   "ticker": "IEUXs_EQ",
   "type": "ETF",
   "workingScheduleId": 158,
@@ -123766,6 +123970,18 @@
   "maxOpenQuantity": 80141.0,
   "extendedHours": false,
   "addedOn": "2023-11-16T09:47:28.000+02:00"
+ },
+ {
+  "ticker": "PYT_AT_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 73,
+  "isin": "AT0000A00XX9",
+  "currencyCode": "EUR",
+  "name": "POLYTEC",
+  "shortName": "PYT",
+  "maxOpenQuantity": 2677.0,
+  "extendedHours": false,
+  "addedOn": "2021-04-02T14:35:41.000+03:00"
  },
  {
   "ticker": "RMED_US_EQ",
@@ -123972,18 +124188,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "XTZSd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "GB00BMWB4803",
-  "currencyCode": "EUR",
-  "name": "CoinShares Tezos Staking",
-  "shortName": "XTZS",
-  "maxOpenQuantity": 2403035.0,
-  "extendedHours": false,
-  "addedOn": "2025-02-13T12:58:22.000+02:00"
- },
- {
   "ticker": "ALTTUp_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -123994,6 +124198,18 @@
   "maxOpenQuantity": 137.0,
   "extendedHours": false,
   "addedOn": "2022-10-20T16:17:08.000+03:00"
+ },
+ {
+  "ticker": "XTZSd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "GB00BMWB4803",
+  "currencyCode": "EUR",
+  "name": "CoinShares Tezos Staking",
+  "shortName": "XTZS",
+  "maxOpenQuantity": 2403035.0,
+  "extendedHours": false,
+  "addedOn": "2025-02-13T12:58:22.000+02:00"
  },
  {
   "ticker": "XMTWd_EQ",
@@ -124404,18 +124620,6 @@
   "addedOn": "2025-10-10T16:06:24.000+03:00"
  },
  {
-  "ticker": "LITUm_EQ",
-  "type": "ETF",
-  "workingScheduleId": 75,
-  "isin": "IE00BLCHJN13",
-  "currencyCode": "EUR",
-  "name": "Global X Lithium & Battery Tech (Acc)",
-  "shortName": "LITU",
-  "maxOpenQuantity": 343088.0,
-  "extendedHours": false,
-  "addedOn": "2022-03-17T16:33:02.000+02:00"
- },
- {
   "ticker": "9GAGd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -124426,6 +124630,18 @@
   "maxOpenQuantity": 154204.0,
   "extendedHours": false,
   "addedOn": "2023-10-04T11:41:22.000+03:00"
+ },
+ {
+  "ticker": "LITUm_EQ",
+  "type": "ETF",
+  "workingScheduleId": 75,
+  "isin": "IE00BLCHJN13",
+  "currencyCode": "EUR",
+  "name": "Global X Lithium & Battery Tech (Acc)",
+  "shortName": "LITU",
+  "maxOpenQuantity": 343088.0,
+  "extendedHours": false,
+  "addedOn": "2022-03-17T16:33:02.000+02:00"
  },
  {
   "ticker": "ERAp_EQ",
@@ -130896,18 +131112,6 @@
   "addedOn": "2021-05-25T22:45:20.000+03:00"
  },
  {
-  "ticker": "LUNGl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE000W4A2Q38",
-  "currencyCode": "GBP",
-  "name": "Global X Space Tech (Acc)",
-  "shortName": "LUNG",
-  "maxOpenQuantity": 477145.0,
-  "extendedHours": false,
-  "addedOn": "2026-10-15T18:23:10.000+03:00"
- },
- {
   "ticker": "CTEGl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -130918,6 +131122,18 @@
   "maxOpenQuantity": 537453.0,
   "extendedHours": false,
   "addedOn": "2022-03-07T13:18:05.000+02:00"
+ },
+ {
+  "ticker": "LUNGl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE000W4A2Q38",
+  "currencyCode": "GBP",
+  "name": "Global X Space Tech (Acc)",
+  "shortName": "LUNG",
+  "maxOpenQuantity": 477145.0,
+  "extendedHours": false,
+  "addedOn": "2026-10-15T18:23:10.000+03:00"
  },
  {
   "ticker": "SWQd_EQ",
@@ -131050,18 +131266,6 @@
   "maxOpenQuantity": 7949.0,
   "extendedHours": false,
   "addedOn": "2018-07-12T07:10:07.000+03:00"
- },
- {
-  "ticker": "MSDGl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "LU2059756754",
-  "currencyCode": "GBX",
-  "name": "Amundi MSCI Emerging Markets SRI Climate Paris Aligned (Dist)",
-  "shortName": "MSDG",
-  "maxOpenQuantity": 76281.0,
-  "extendedHours": false,
-  "addedOn": "2020-02-19T12:03:13.000+02:00"
  },
  {
   "ticker": "HOGSm_EQ",
@@ -131688,18 +131892,6 @@
   "addedOn": "2022-05-12T14:34:45.000+03:00"
  },
  {
-  "ticker": "KLRl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "GB0004866223",
-  "currencyCode": "GBX",
-  "name": "Keller",
-  "shortName": "KLR",
-  "maxOpenQuantity": 7535.0,
-  "extendedHours": false,
-  "addedOn": "2018-07-12T07:10:08.000+03:00"
- },
- {
   "ticker": "GTLB_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -131710,6 +131902,18 @@
   "maxOpenQuantity": 178033.0,
   "extendedHours": true,
   "addedOn": "2021-10-15T14:12:30.000+03:00"
+ },
+ {
+  "ticker": "KLRl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "GB0004866223",
+  "currencyCode": "GBX",
+  "name": "Keller",
+  "shortName": "KLR",
+  "maxOpenQuantity": 7535.0,
+  "extendedHours": false,
+  "addedOn": "2018-07-12T07:10:08.000+03:00"
  },
  {
   "ticker": "IHHGl_EQ",
@@ -132030,7 +132234,7 @@
   "isin": "US09606H5072",
   "currencyCode": "USD",
   "name": "Blue Star Foods",
-  "shortName": "BSFCD",
+  "shortName": "BSFC",
   "maxOpenQuantity": 4404.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:56:43.000+02:00"
@@ -133884,18 +134088,6 @@
   "addedOn": "2019-05-22T13:28:44.000+03:00"
  },
  {
-  "ticker": "DIS_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US2546871060",
-  "currencyCode": "USD",
-  "name": "Walt Disney",
-  "shortName": "DIS",
-  "maxOpenQuantity": 104588.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:14.000+03:00"
- },
- {
   "ticker": "SNl_EQ",
   "type": "STOCK",
   "workingScheduleId": 55,
@@ -133906,6 +134098,18 @@
   "maxOpenQuantity": 102584.0,
   "extendedHours": false,
   "addedOn": "2018-07-12T07:10:10.000+03:00"
+ },
+ {
+  "ticker": "DIS_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US2546871060",
+  "currencyCode": "USD",
+  "name": "Walt Disney",
+  "shortName": "DIS",
+  "maxOpenQuantity": 104588.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:14.000+03:00"
  },
  {
   "ticker": "CLIQd_EQ",
@@ -136248,18 +136452,6 @@
   "addedOn": "2018-07-12T07:10:03.000+03:00"
  },
  {
-  "ticker": "SUKCl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "IE00BCBJF711",
-  "currencyCode": "GBP",
-  "name": "SPDR Bloomberg 0-5 Year Sterling Corporate Bond (Dist)",
-  "shortName": "SUKC",
-  "maxOpenQuantity": 126692.0,
-  "extendedHours": false,
-  "addedOn": "2020-11-11T07:59:21.000+02:00"
- },
- {
   "ticker": "DUTd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -136270,6 +136462,18 @@
   "maxOpenQuantity": 3.0,
   "extendedHours": false,
   "addedOn": "2025-01-24T14:50:08.000+02:00"
+ },
+ {
+  "ticker": "SUKCl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "IE00BCBJF711",
+  "currencyCode": "GBP",
+  "name": "SPDR Bloomberg 0-5 Year Sterling Corporate Bond (Dist)",
+  "shortName": "SUKC",
+  "maxOpenQuantity": 126692.0,
+  "extendedHours": false,
+  "addedOn": "2020-11-11T07:59:21.000+02:00"
  },
  {
   "ticker": "ABVC_US_EQ",
@@ -136608,18 +136812,6 @@
   "addedOn": "2022-09-07T15:37:43.000+03:00"
  },
  {
-  "ticker": "TL5Sl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 154,
-  "isin": "XS2595672382",
-  "currencyCode": "USD",
-  "name": "Leverage Shares -5x Short 20+ Year Treasury Bond",
-  "shortName": "TL5S",
-  "maxOpenQuantity": 338524.0,
-  "extendedHours": false,
-  "addedOn": "2023-05-22T10:40:59.000+03:00"
- },
- {
   "ticker": "ECEHs_EQ",
   "type": "ETF",
   "workingScheduleId": 161,
@@ -136630,6 +136822,18 @@
   "maxOpenQuantity": 339466.0,
   "extendedHours": false,
   "addedOn": "2023-11-20T11:46:47.000+02:00"
+ },
+ {
+  "ticker": "TL5Sl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 154,
+  "isin": "XS2595672382",
+  "currencyCode": "USD",
+  "name": "Leverage Shares -5x Short 20+ Year Treasury Bond",
+  "shortName": "TL5S",
+  "maxOpenQuantity": 338524.0,
+  "extendedHours": false,
+  "addedOn": "2023-05-22T10:40:59.000+03:00"
  },
  {
   "ticker": "SPPPl_EQ",
@@ -137957,7 +138161,7 @@
   "workingScheduleId": 172,
   "isin": "CA60253E1079",
   "currencyCode": "EUR",
-  "name": "Minaurum Gold",
+  "name": "Minaurum Silver",
   "shortName": "78M0",
   "maxOpenQuantity": 3052.0,
   "extendedHours": false,
@@ -138636,18 +138840,6 @@
   "addedOn": "2023-11-20T11:46:45.000+02:00"
  },
  {
-  "ticker": "3SLLl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "XS2703639893",
-  "currencyCode": "GBX",
-  "name": "GraniteShares 3x Short Lloyds Banking Group",
-  "shortName": "3SLL",
-  "maxOpenQuantity": 4618660.0,
-  "extendedHours": false,
-  "addedOn": "2020-09-21T17:02:00.000+03:00"
- },
- {
   "ticker": "VBTCUSDs_EQ",
   "type": "ETF",
   "workingScheduleId": 165,
@@ -138658,6 +138850,18 @@
   "maxOpenQuantity": 126154.0,
   "extendedHours": false,
   "addedOn": "2022-03-16T12:06:13.000+02:00"
+ },
+ {
+  "ticker": "3SLLl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "XS2703639893",
+  "currencyCode": "GBX",
+  "name": "GraniteShares 3x Short Lloyds Banking Group",
+  "shortName": "3SLL",
+  "maxOpenQuantity": 4618660.0,
+  "extendedHours": false,
+  "addedOn": "2020-09-21T17:02:00.000+03:00"
  },
  {
   "ticker": "AMRZs_EQ",
@@ -139884,18 +140088,6 @@
   "addedOn": "2022-07-25T16:05:14.000+03:00"
  },
  {
-  "ticker": "NXRT_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US65341D1028",
-  "currencyCode": "USD",
-  "name": "NexPoint Residential Trust",
-  "shortName": "NXRT",
-  "maxOpenQuantity": 51201.0,
-  "extendedHours": true,
-  "addedOn": "2023-11-02T16:28:07.000+02:00"
- },
- {
   "ticker": "YIREl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -139906,6 +140098,18 @@
   "maxOpenQuantity": 482723.0,
   "extendedHours": false,
   "addedOn": "2026-03-24T15:26:08.000+02:00"
+ },
+ {
+  "ticker": "NXRT_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US65341D1028",
+  "currencyCode": "USD",
+  "name": "NexPoint Residential Trust",
+  "shortName": "NXRT",
+  "maxOpenQuantity": 51201.0,
+  "extendedHours": true,
+  "addedOn": "2023-11-02T16:28:07.000+02:00"
  },
  {
   "ticker": "GLOp_EQ",
@@ -140712,18 +140916,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "ETDDd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "FR0012739431",
-  "currencyCode": "EUR",
-  "name": "BNP Paribas Easy EURO STOXX 50 (Acc)",
-  "shortName": "ETDD",
-  "maxOpenQuantity": 219260.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T15:47:39.000+02:00"
- },
- {
   "ticker": "CVSd_EQ",
   "type": "STOCK",
   "workingScheduleId": 54,
@@ -140734,6 +140926,18 @@
   "maxOpenQuantity": 9.0,
   "extendedHours": false,
   "addedOn": "2024-06-26T15:40:05.000+03:00"
+ },
+ {
+  "ticker": "ETDDd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "FR0012739431",
+  "currencyCode": "EUR",
+  "name": "BNP Paribas Easy EURO STOXX 50 (Acc)",
+  "shortName": "ETDD",
+  "maxOpenQuantity": 219260.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T15:47:39.000+02:00"
  },
  {
   "ticker": "639d_EQ",
@@ -141480,18 +141684,6 @@
   "addedOn": "2026-01-15T17:16:50.000+02:00"
  },
  {
-  "ticker": "ACLS_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US0545402085",
-  "currencyCode": "USD",
-  "name": "Axcelis Technologies",
-  "shortName": "ACLS",
-  "maxOpenQuantity": 16448.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:20.000+03:00"
- },
- {
   "ticker": "EKFl_EQ",
   "type": "STOCK",
   "workingScheduleId": 100,
@@ -141502,6 +141694,18 @@
   "maxOpenQuantity": 40850.0,
   "extendedHours": false,
   "addedOn": "2020-05-22T17:59:25.000+03:00"
+ },
+ {
+  "ticker": "ACLS_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US0545402085",
+  "currencyCode": "USD",
+  "name": "Axcelis Technologies",
+  "shortName": "ACLS",
+  "maxOpenQuantity": 16448.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:20.000+03:00"
  },
  {
   "ticker": "GAGHp_EQ",
@@ -143496,18 +143700,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "SQQQ_EQ",
-  "type": "ETF",
-  "workingScheduleId": 109,
-  "isin": "US74350P6759",
-  "currencyCode": "USD",
-  "name": "ProShares UltraPro Short QQQ",
-  "shortName": "SQQQ",
-  "maxOpenQuantity": 80619.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-04T21:06:09.000+03:00"
- },
- {
   "ticker": "FACEe_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -143518,6 +143710,18 @@
   "maxOpenQuantity": 361.0,
   "extendedHours": false,
   "addedOn": "2020-10-08T16:59:38.000+03:00"
+ },
+ {
+  "ticker": "SQQQ_EQ",
+  "type": "ETF",
+  "workingScheduleId": 109,
+  "isin": "US74350P6759",
+  "currencyCode": "USD",
+  "name": "ProShares UltraPro Short QQQ",
+  "shortName": "SQQQ",
+  "maxOpenQuantity": 80619.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-04T21:06:09.000+03:00"
  },
  {
   "ticker": "V50Dd_EQ",
@@ -144024,18 +144228,6 @@
   "addedOn": "2023-11-16T09:47:14.000+02:00"
  },
  {
-  "ticker": "ASILl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "LU1900068914",
-  "currencyCode": "GBX",
-  "name": "Amundi MSCI China ESG Selection Extra (Acc)",
-  "shortName": "ASIL",
-  "maxOpenQuantity": 41023.0,
-  "extendedHours": false,
-  "addedOn": "2025-12-10T18:59:45.000+02:00"
- },
- {
   "ticker": "MXUEd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -144360,18 +144552,6 @@
   "addedOn": "2026-09-21T19:07:30.000+03:00"
  },
  {
-  "ticker": "TRTl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 101,
-  "isin": "GB00BDHDTH21",
-  "currencyCode": "GBX",
-  "name": "Transense Technologies",
-  "shortName": "TRT",
-  "maxOpenQuantity": 1182.0,
-  "extendedHours": false,
-  "addedOn": "2025-12-18T15:40:16.000+02:00"
- },
- {
   "ticker": "IDRe_EQ",
   "type": "STOCK",
   "workingScheduleId": 74,
@@ -144382,6 +144562,18 @@
   "maxOpenQuantity": 34530.0,
   "extendedHours": false,
   "addedOn": "2019-08-02T12:09:12.000+03:00"
+ },
+ {
+  "ticker": "TRTl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 101,
+  "isin": "GB00BDHDTH21",
+  "currencyCode": "GBX",
+  "name": "Transense Technologies",
+  "shortName": "TRT",
+  "maxOpenQuantity": 1182.0,
+  "extendedHours": false,
+  "addedOn": "2025-12-18T15:40:16.000+02:00"
  },
  {
   "ticker": "EUHDl_EQ",
@@ -144444,18 +144636,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "BCYd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "GB0031348658",
-  "currencyCode": "EUR",
-  "name": "Barclays",
-  "shortName": "BCY",
-  "maxOpenQuantity": 6771.0,
-  "extendedHours": false,
-  "addedOn": "2024-12-31T14:45:44.000+02:00"
- },
- {
   "ticker": "LUNA_AT_EQ",
   "type": "STOCK",
   "workingScheduleId": 73,
@@ -144466,6 +144646,18 @@
   "maxOpenQuantity": 111.0,
   "extendedHours": false,
   "addedOn": "2026-06-03T14:13:32.000+03:00"
+ },
+ {
+  "ticker": "BCYd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "GB0031348658",
+  "currencyCode": "EUR",
+  "name": "Barclays",
+  "shortName": "BCY",
+  "maxOpenQuantity": 6771.0,
+  "extendedHours": false,
+  "addedOn": "2024-12-31T14:45:44.000+02:00"
  },
  {
   "ticker": "8ZId_EQ",
@@ -144735,11 +144927,11 @@
   "ticker": "MITC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "US5834355084",
+  "isin": "US5834356074",
   "currencyCode": "USD",
   "name": "Steakholder Foods",
   "shortName": "STKH",
-  "maxOpenQuantity": 50.0,
+  "maxOpenQuantity": 10.0,
   "extendedHours": true,
   "addedOn": "2021-03-12T14:25:22.000+02:00"
  },
@@ -145872,6 +146064,18 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
+  "ticker": "C4Dp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681047079",
+  "currencyCode": "EUR",
+  "name": "Amundi CAC 40 ESG (Dist)",
+  "shortName": "C4D",
+  "maxOpenQuantity": 60096.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:23.000+02:00"
+ },
+ {
   "ticker": "VIVK_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -146724,18 +146928,6 @@
   "addedOn": "2022-03-30T09:45:52.000+03:00"
  },
  {
-  "ticker": "IART_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US4579852082",
-  "currencyCode": "USD",
-  "name": "Integra LifeSciences",
-  "shortName": "IART",
-  "maxOpenQuantity": 64019.0,
-  "extendedHours": true,
-  "addedOn": "2020-05-15T14:23:37.000+03:00"
- },
- {
   "ticker": "MAXSs_EQ",
   "type": "ETF",
   "workingScheduleId": 159,
@@ -146746,6 +146938,18 @@
   "maxOpenQuantity": 925754.0,
   "extendedHours": false,
   "addedOn": "2026-10-15T18:22:53.000+03:00"
+ },
+ {
+  "ticker": "IART_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US4579852082",
+  "currencyCode": "USD",
+  "name": "Integra LifeSciences",
+  "shortName": "IART",
+  "maxOpenQuantity": 64019.0,
+  "extendedHours": true,
+  "addedOn": "2020-05-15T14:23:37.000+03:00"
  },
  {
   "ticker": "XCS5d_EQ",
@@ -148584,18 +148788,6 @@
   "addedOn": "2026-09-23T17:42:51.000+03:00"
  },
  {
-  "ticker": "BTC1d_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "DE000A4AER62",
-  "currencyCode": "EUR",
-  "name": "Bitwise Core Bitcoin ETP (Acc)",
-  "shortName": "BTC1",
-  "maxOpenQuantity": 926784.0,
-  "extendedHours": false,
-  "addedOn": "2026-07-06T15:41:10.000+03:00"
- },
- {
   "ticker": "VEOEY_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -148606,6 +148798,18 @@
   "maxOpenQuantity": 2865.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:53:54.000+02:00"
+ },
+ {
+  "ticker": "BTC1d_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "DE000A4AER62",
+  "currencyCode": "EUR",
+  "name": "Bitwise Core Bitcoin ETP (Acc)",
+  "shortName": "BTC1",
+  "maxOpenQuantity": 926784.0,
+  "extendedHours": false,
+  "addedOn": "2026-07-06T15:41:10.000+03:00"
  },
  {
   "ticker": "ALYA_US_EQ",
@@ -148668,18 +148872,6 @@
   "addedOn": "2023-08-11T16:07:14.000+03:00"
  },
  {
-  "ticker": "CORDl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "GG00BMC7TM77",
-  "currencyCode": "GBX",
-  "name": "Cordiant Digital Infrastructure",
-  "shortName": "CORD",
-  "maxOpenQuantity": 68242.0,
-  "extendedHours": false,
-  "addedOn": "2021-02-18T10:11:03.000+02:00"
- },
- {
   "ticker": "V3ALd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -148690,6 +148882,18 @@
   "maxOpenQuantity": 670246.0,
   "extendedHours": false,
   "addedOn": "2021-03-25T13:02:41.000+02:00"
+ },
+ {
+  "ticker": "CORDl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "GG00BMC7TM77",
+  "currencyCode": "GBX",
+  "name": "Cordiant Digital Infrastructure",
+  "shortName": "CORD",
+  "maxOpenQuantity": 68242.0,
+  "extendedHours": false,
+  "addedOn": "2021-02-18T10:11:03.000+02:00"
  },
  {
   "ticker": "KGEI_US_EQ",
@@ -149724,6 +149928,18 @@
   "addedOn": "2021-04-08T13:26:06.000+03:00"
  },
  {
+  "ticker": "AFLEp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681041031",
+  "currencyCode": "EUR",
+  "name": "Amundi USD Floating Rate Corporate Bond ESG (Acc)",
+  "shortName": "AFLE",
+  "maxOpenQuantity": 87796.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:20.000+02:00"
+ },
+ {
   "ticker": "ESABd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -150372,18 +150588,6 @@
   "addedOn": "2020-09-04T16:46:25.000+03:00"
  },
  {
-  "ticker": "CALA_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 85,
-  "isin": "US13089P5070",
-  "currencyCode": "USD",
-  "name": "Calithera Biosciences",
-  "shortName": "CALA",
-  "maxOpenQuantity": 2000.0,
-  "extendedHours": false,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "CJ8Ad_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -150394,6 +150598,18 @@
   "maxOpenQuantity": 13.0,
   "extendedHours": false,
   "addedOn": "2026-09-18T18:42:29.000+03:00"
+ },
+ {
+  "ticker": "CALA_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 85,
+  "isin": "US13089P5070",
+  "currencyCode": "USD",
+  "name": "Calithera Biosciences",
+  "shortName": "CALA",
+  "maxOpenQuantity": 2000.0,
+  "extendedHours": false,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "FMBH_US_EQ",
@@ -150972,18 +151188,6 @@
   "addedOn": "2023-10-25T13:39:49.000+03:00"
  },
  {
-  "ticker": "TIGO_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "LU0038705702",
-  "currencyCode": "USD",
-  "name": "Millicom International Cellular",
-  "shortName": "TIGO",
-  "maxOpenQuantity": 42904.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "CVLG_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -150992,6 +151196,18 @@
   "name": "Covenant Logistics",
   "shortName": "CVLG",
   "maxOpenQuantity": 10083.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "TIGO_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "LU0038705702",
+  "currencyCode": "USD",
+  "name": "Millicom International Cellular",
+  "shortName": "TIGO",
+  "maxOpenQuantity": 42904.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
@@ -151812,18 +152028,6 @@
   "addedOn": "2023-07-26T09:59:33.000+03:00"
  },
  {
-  "ticker": "ZPRUd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE00BSPLC520",
-  "currencyCode": "EUR",
-  "name": "State Street SPDR MSCI USA Value (Acc)",
-  "shortName": "ZPRU",
-  "maxOpenQuantity": 60750.0,
-  "extendedHours": false,
-  "addedOn": "2023-06-21T16:25:05.000+03:00"
- },
- {
   "ticker": "MMBp_EQ",
   "type": "STOCK",
   "workingScheduleId": 76,
@@ -151834,6 +152038,18 @@
   "maxOpenQuantity": 491.0,
   "extendedHours": false,
   "addedOn": "2020-10-08T16:19:26.000+03:00"
+ },
+ {
+  "ticker": "ZPRUd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE00BSPLC520",
+  "currencyCode": "EUR",
+  "name": "State Street SPDR MSCI USA Value (Acc)",
+  "shortName": "ZPRU",
+  "maxOpenQuantity": 60750.0,
+  "extendedHours": false,
+  "addedOn": "2023-06-21T16:25:05.000+03:00"
  },
  {
   "ticker": "HTGC_US_EQ",
@@ -152928,18 +153144,6 @@
   "addedOn": "2023-11-09T11:55:26.000+02:00"
  },
  {
-  "ticker": "ENRd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "DE000ENER6Y0",
-  "currencyCode": "EUR",
-  "name": "Siemens Energy",
-  "shortName": "ENR",
-  "maxOpenQuantity": 70175.0,
-  "extendedHours": false,
-  "addedOn": "2020-10-07T14:53:24.000+03:00"
- },
- {
   "ticker": "BJLXd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -152950,6 +153154,18 @@
   "maxOpenQuantity": 400075.0,
   "extendedHours": false,
   "addedOn": "2025-10-23T15:51:42.000+03:00"
+ },
+ {
+  "ticker": "ENRd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "DE000ENER6Y0",
+  "currencyCode": "EUR",
+  "name": "Siemens Energy",
+  "shortName": "ENR",
+  "maxOpenQuantity": 70175.0,
+  "extendedHours": false,
+  "addedOn": "2020-10-07T14:53:24.000+03:00"
  },
  {
   "ticker": "SXQPEXd_EQ",
@@ -153084,18 +153300,6 @@
   "addedOn": "2022-06-14T15:41:00.000+03:00"
  },
  {
-  "ticker": "TRN_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US8965221091",
-  "currencyCode": "USD",
-  "name": "Trinity Industries",
-  "shortName": "TRN",
-  "maxOpenQuantity": 43316.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "ELIXl_EQ",
   "type": "STOCK",
   "workingScheduleId": 55,
@@ -153106,6 +153310,18 @@
   "maxOpenQuantity": 7740.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:59:43.000+02:00"
+ },
+ {
+  "ticker": "TRN_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US8965221091",
+  "currencyCode": "USD",
+  "name": "Trinity Industries",
+  "shortName": "TRN",
+  "maxOpenQuantity": 43316.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "DRHd_EQ",
@@ -154615,7 +154831,7 @@
   "currencyCode": "USD",
   "name": "Ohmyhome",
   "shortName": "OMH",
-  "maxOpenQuantity": 300.0,
+  "maxOpenQuantity": 75.0,
   "extendedHours": true,
   "addedOn": "2023-03-22T12:25:23.000+02:00"
  },
@@ -155172,18 +155388,6 @@
   "addedOn": "2021-05-06T20:54:15.000+03:00"
  },
  {
-  "ticker": "9AXd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 172,
-  "isin": "BMG0750C1082",
-  "currencyCode": "EUR",
-  "name": "Axalta Coating Systems",
-  "shortName": "9AX",
-  "maxOpenQuantity": 22.0,
-  "extendedHours": false,
-  "addedOn": "2026-09-17T18:29:01.000+03:00"
- },
- {
   "ticker": "WEBHd_EQ",
   "type": "ETF",
   "workingScheduleId": 166,
@@ -155194,6 +155398,18 @@
   "maxOpenQuantity": 111201.0,
   "extendedHours": false,
   "addedOn": "2025-01-17T13:09:53.000+02:00"
+ },
+ {
+  "ticker": "9AXd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 172,
+  "isin": "BMG0750C1082",
+  "currencyCode": "EUR",
+  "name": "Axalta Coating Systems",
+  "shortName": "9AX",
+  "maxOpenQuantity": 22.0,
+  "extendedHours": false,
+  "addedOn": "2026-09-17T18:29:01.000+03:00"
  },
  {
   "ticker": "ALAFYp_EQ",
@@ -155544,18 +155760,6 @@
   "addedOn": "2025-08-06T15:21:17.000+03:00"
  },
  {
-  "ticker": "SBLK_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "MHY8162K2046",
-  "currencyCode": "USD",
-  "name": "Star Bulk Carriers",
-  "shortName": "SBLK",
-  "maxOpenQuantity": 97536.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "JMGl_EQ",
   "type": "STOCK",
   "workingScheduleId": 55,
@@ -155566,6 +155770,18 @@
   "maxOpenQuantity": 49656.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:58:05.000+02:00"
+ },
+ {
+  "ticker": "SBLK_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "MHY8162K2046",
+  "currencyCode": "USD",
+  "name": "Star Bulk Carriers",
+  "shortName": "SBLK",
+  "maxOpenQuantity": 97536.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "FOXA_US_EQ",
@@ -160404,18 +160620,6 @@
   "addedOn": "2025-01-24T14:51:11.000+02:00"
  },
  {
-  "ticker": "AZI_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 110,
-  "isin": "KYG063821329",
-  "currencyCode": "USD",
-  "name": "Autozi Internet Technology Global",
-  "shortName": "AZI",
-  "maxOpenQuantity": 50.0,
-  "extendedHours": true,
-  "addedOn": "2024-08-28T16:22:15.000+03:00"
- },
- {
   "ticker": "3SSLl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -160426,6 +160630,18 @@
   "maxOpenQuantity": 2823890.0,
   "extendedHours": false,
   "addedOn": "2022-06-20T16:07:05.000+03:00"
+ },
+ {
+  "ticker": "AZI_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 110,
+  "isin": "KYG063821329",
+  "currencyCode": "USD",
+  "name": "Autozi Internet Technology Global",
+  "shortName": "AZI",
+  "maxOpenQuantity": 50.0,
+  "extendedHours": true,
+  "addedOn": "2024-08-28T16:22:15.000+03:00"
  },
  {
   "ticker": "TD9d_EQ",
@@ -162582,7 +162798,7 @@
   "isin": "US88224Q1076",
   "currencyCode": "USD",
   "name": "Texas Capital Bancshares",
-  "shortName": "TCBI",
+  "shortName": "TXCP",
   "maxOpenQuantity": 31535.0,
   "extendedHours": true,
   "addedOn": "2020-05-29T16:49:38.000+03:00"
@@ -163618,6 +163834,18 @@
   "maxOpenQuantity": 49161.0,
   "extendedHours": true,
   "addedOn": "2020-05-29T17:12:21.000+03:00"
+ },
+ {
+  "ticker": "JPHEp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681039134",
+  "currencyCode": "EUR",
+  "name": "Amundi Jpx-Nikkei 400 (Acc)",
+  "shortName": "JPHE",
+  "maxOpenQuantity": 11448.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:23.000+02:00"
  },
  {
   "ticker": "TRDXd_EQ",
@@ -166152,18 +166380,6 @@
   "addedOn": "2020-05-12T16:09:34.000+03:00"
  },
  {
-  "ticker": "CLIMl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "LU1563454310",
-  "currencyCode": "GBP",
-  "name": "Amundi Global Aggregate Green Bond (Acc)",
-  "shortName": "CLIM",
-  "maxOpenQuantity": 86981.0,
-  "extendedHours": false,
-  "addedOn": "2025-12-10T18:59:41.000+02:00"
- },
- {
   "ticker": "SDISl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -166368,18 +166584,6 @@
   "addedOn": "2026-01-15T16:09:15.000+02:00"
  },
  {
-  "ticker": "DJSCs_EQ",
-  "type": "ETF",
-  "workingScheduleId": 158,
-  "isin": "IE00B02KXM00",
-  "currencyCode": "CHF",
-  "name": "iShares EURO STOXX Small (Dist)",
-  "shortName": "DJSC",
-  "maxOpenQuantity": 83275.0,
-  "extendedHours": false,
-  "addedOn": "2023-11-16T09:52:04.000+02:00"
- },
- {
   "ticker": "JU13l_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -166390,6 +166594,18 @@
   "maxOpenQuantity": 42572.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:59:06.000+02:00"
+ },
+ {
+  "ticker": "DJSCs_EQ",
+  "type": "ETF",
+  "workingScheduleId": 158,
+  "isin": "IE00B02KXM00",
+  "currencyCode": "CHF",
+  "name": "iShares EURO STOXX Small (Dist)",
+  "shortName": "DJSC",
+  "maxOpenQuantity": 83275.0,
+  "extendedHours": false,
+  "addedOn": "2023-11-16T09:52:04.000+02:00"
  },
  {
   "ticker": "TECKB_CA_EQ",
@@ -168036,18 +168252,6 @@
   "addedOn": "2026-03-27T13:50:38.000+02:00"
  },
  {
-  "ticker": "LYNX_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US55173P1093",
-  "currencyCode": "USD",
-  "name": "Lyntris",
-  "shortName": "LYNX",
-  "maxOpenQuantity": 25371.0,
-  "extendedHours": true,
-  "addedOn": "2026-08-12T14:15:13.000+03:00"
- },
- {
   "ticker": "E_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -168058,6 +168262,18 @@
   "maxOpenQuantity": 16232.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "LYNX_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US55173P1093",
+  "currencyCode": "USD",
+  "name": "Lyntris",
+  "shortName": "LYNX",
+  "maxOpenQuantity": 25371.0,
+  "extendedHours": true,
+  "addedOn": "2026-08-12T14:15:13.000+03:00"
  },
  {
   "ticker": "S2Yd_EQ",
@@ -168579,11 +168795,11 @@
   "ticker": "ESSC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
-  "isin": "KYG6693P1220",
+  "isin": "KYG6693P1303",
   "currencyCode": "USD",
   "name": "Robo.ai",
   "shortName": "AIIO",
-  "maxOpenQuantity": 116625.0,
+  "maxOpenQuantity": 4665.0,
   "extendedHours": true,
   "addedOn": "2020-09-24T16:58:14.000+03:00"
  },
@@ -168636,18 +168852,6 @@
   "addedOn": "2020-08-21T17:24:31.000+03:00"
  },
  {
-  "ticker": "SEUAd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE000IUNJSL2",
-  "currencyCode": "EUR",
-  "name": "SPDR Bloomberg 0-3 Year Euro Corporate Bond (Acc)",
-  "shortName": "SEUA",
-  "maxOpenQuantity": 395527.0,
-  "extendedHours": false,
-  "addedOn": "2026-01-14T17:34:07.000+02:00"
- },
- {
   "ticker": "SEG1d_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -168658,6 +168862,18 @@
   "maxOpenQuantity": 1711.0,
   "extendedHours": false,
   "addedOn": "2026-09-18T18:42:28.000+03:00"
+ },
+ {
+  "ticker": "SEUAd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE000IUNJSL2",
+  "currencyCode": "EUR",
+  "name": "SPDR Bloomberg 0-3 Year Euro Corporate Bond (Acc)",
+  "shortName": "SEUA",
+  "maxOpenQuantity": 395527.0,
+  "extendedHours": false,
+  "addedOn": "2026-01-14T17:34:07.000+02:00"
  },
  {
   "ticker": "RILY_US_EQ",
@@ -169524,18 +169740,6 @@
   "addedOn": "2023-11-09T11:55:30.000+02:00"
  },
  {
-  "ticker": "ELI_BE_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 72,
-  "isin": "BE0003822393",
-  "currencyCode": "EUR",
-  "name": "Elia Group",
-  "shortName": "ELI",
-  "maxOpenQuantity": 5165.0,
-  "extendedHours": false,
-  "addedOn": "2021-03-26T18:22:05.000+02:00"
- },
- {
   "ticker": "BITCUSDs_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -169546,6 +169750,18 @@
   "maxOpenQuantity": 69391.0,
   "extendedHours": false,
   "addedOn": "2022-02-18T16:11:04.000+02:00"
+ },
+ {
+  "ticker": "ELI_BE_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 72,
+  "isin": "BE0003822393",
+  "currencyCode": "EUR",
+  "name": "Elia Group",
+  "shortName": "ELI",
+  "maxOpenQuantity": 5165.0,
+  "extendedHours": false,
+  "addedOn": "2021-03-26T18:22:05.000+02:00"
  },
  {
   "ticker": "MAXN_US_EQ",
@@ -170196,18 +170412,6 @@
   "addedOn": "2020-11-11T07:53:14.000+02:00"
  },
  {
-  "ticker": "STGNs_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 84,
-  "isin": "CH0002361068",
-  "currencyCode": "CHF",
-  "name": "StarragTornos",
-  "shortName": "STGN",
-  "maxOpenQuantity": 77.0,
-  "extendedHours": false,
-  "addedOn": "2020-10-08T17:14:11.000+03:00"
- },
- {
   "ticker": "TENMl_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -170218,6 +170422,18 @@
   "maxOpenQuantity": 1241218.0,
   "extendedHours": false,
   "addedOn": "2026-05-05T13:09:03.000+03:00"
+ },
+ {
+  "ticker": "STGNs_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 84,
+  "isin": "CH0002361068",
+  "currencyCode": "CHF",
+  "name": "StarragTornos",
+  "shortName": "STGN",
+  "maxOpenQuantity": 77.0,
+  "extendedHours": false,
+  "addedOn": "2020-10-08T17:14:11.000+03:00"
  },
  {
   "ticker": "UMRX_US_EQ",
@@ -171708,18 +171924,6 @@
   "addedOn": "2026-09-18T18:43:17.000+03:00"
  },
  {
-  "ticker": "CPXJl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 154,
-  "isin": "IE00B52MJY50",
-  "currencyCode": "USD",
-  "name": "iShares Core MSCI Pacific ex-Japan (Acc)",
-  "shortName": "CPXJ",
-  "maxOpenQuantity": 20354.0,
-  "extendedHours": false,
-  "addedOn": "2020-02-12T16:39:41.000+02:00"
- },
- {
   "ticker": "DTCK_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -171730,6 +171934,18 @@
   "maxOpenQuantity": 715.0,
   "extendedHours": false,
   "addedOn": "2023-09-19T15:27:36.000+03:00"
+ },
+ {
+  "ticker": "CPXJl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 154,
+  "isin": "IE00B52MJY50",
+  "currencyCode": "USD",
+  "name": "iShares Core MSCI Pacific ex-Japan (Acc)",
+  "shortName": "CPXJ",
+  "maxOpenQuantity": 20354.0,
+  "extendedHours": false,
+  "addedOn": "2020-02-12T16:39:41.000+02:00"
  },
  {
   "ticker": "CEMNd_EQ",
@@ -171804,18 +172020,6 @@
   "addedOn": "2019-07-04T09:13:17.000+03:00"
  },
  {
-  "ticker": "SQM_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US8336351056",
-  "currencyCode": "USD",
-  "name": "Sociedad Quimica y Minera de Chile",
-  "shortName": "SQM",
-  "maxOpenQuantity": 49271.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "ELEe_EQ",
   "type": "STOCK",
   "workingScheduleId": 74,
@@ -171826,6 +172030,18 @@
   "maxOpenQuantity": 33811.0,
   "extendedHours": false,
   "addedOn": "2019-08-02T12:09:12.000+03:00"
+ },
+ {
+  "ticker": "SQM_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US8336351056",
+  "currencyCode": "USD",
+  "name": "Sociedad Quimica y Minera de Chile",
+  "shortName": "SQM",
+  "maxOpenQuantity": 49271.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "AEXd_EQ",
@@ -172368,18 +172584,6 @@
   "addedOn": "2019-05-07T10:55:59.000+03:00"
  },
  {
-  "ticker": "ID36p_EQ",
-  "type": "ETF",
-  "workingScheduleId": 162,
-  "isin": "IE000REC8UF0",
-  "currencyCode": "EUR",
-  "name": "iShares iBonds Dec 2036 Term USD Corp (Acc)",
-  "shortName": "ID36",
-  "maxOpenQuantity": 57551.0,
-  "extendedHours": false,
-  "addedOn": "2026-06-16T16:41:07.000+03:00"
- },
- {
   "ticker": "FSUGY_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -172390,6 +172594,18 @@
   "maxOpenQuantity": 2273.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T07:53:03.000+02:00"
+ },
+ {
+  "ticker": "ID36p_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "IE000REC8UF0",
+  "currencyCode": "EUR",
+  "name": "iShares iBonds Dec 2036 Term USD Corp (Acc)",
+  "shortName": "ID36",
+  "maxOpenQuantity": 57551.0,
+  "extendedHours": false,
+  "addedOn": "2026-06-16T16:41:07.000+03:00"
  },
  {
   "ticker": "UNHYl_EQ",
@@ -173076,18 +173292,6 @@
   "addedOn": "2025-08-05T16:56:54.000+03:00"
  },
  {
-  "ticker": "BFAM_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US1091941005",
-  "currencyCode": "USD",
-  "name": "Bright Horizons Family Solutions",
-  "shortName": "BFAM",
-  "maxOpenQuantity": 46621.0,
-  "extendedHours": true,
-  "addedOn": "2020-10-06T18:50:56.000+03:00"
- },
- {
   "ticker": "USPAl_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -173098,6 +173302,18 @@
   "maxOpenQuantity": 89606.0,
   "extendedHours": false,
   "addedOn": "2026-02-12T17:22:56.000+02:00"
+ },
+ {
+  "ticker": "BFAM_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US1091941005",
+  "currencyCode": "USD",
+  "name": "Bright Horizons Family Solutions",
+  "shortName": "BFAM",
+  "maxOpenQuantity": 46621.0,
+  "extendedHours": true,
+  "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
   "ticker": "ENPC_US_EQ",
@@ -173535,11 +173751,11 @@
   "ticker": "ALPS_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 109,
-  "isin": "KYG0231P1081",
+  "isin": "KYG0231P1248",
   "currencyCode": "USD",
   "name": "Alps Group",
   "shortName": "ALPS",
-  "maxOpenQuantity": 3080.0,
+  "maxOpenQuantity": 2000.0,
   "extendedHours": true,
   "addedOn": "2025-11-04T12:41:44.000+02:00"
  },
@@ -174036,18 +174252,6 @@
   "addedOn": "2026-01-14T16:21:51.000+02:00"
  },
  {
-  "ticker": "BMMX_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 110,
-  "isin": "CA09215W1014",
-  "currencyCode": "USD",
-  "name": "Black Mammoth Metals",
-  "shortName": "BMMX",
-  "maxOpenQuantity": 23470.0,
-  "extendedHours": true,
-  "addedOn": "2026-10-21T12:44:41.000+03:00"
- },
- {
   "ticker": "KNINs_EQ",
   "type": "STOCK",
   "workingScheduleId": 84,
@@ -174058,6 +174262,18 @@
   "maxOpenQuantity": 16846.0,
   "extendedHours": false,
   "addedOn": "2019-12-20T15:48:15.000+02:00"
+ },
+ {
+  "ticker": "BMMX_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 110,
+  "isin": "CA09215W1014",
+  "currencyCode": "USD",
+  "name": "Black Mammoth Metals",
+  "shortName": "BMMX",
+  "maxOpenQuantity": 23470.0,
+  "extendedHours": true,
+  "addedOn": "2026-10-21T12:44:41.000+03:00"
  },
  {
   "ticker": "DRW8d_EQ",
@@ -174948,18 +175164,6 @@
   "addedOn": "2020-05-29T16:47:02.000+03:00"
  },
  {
-  "ticker": "NCMI_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US6353092066",
-  "currencyCode": "USD",
-  "name": "National CineMedia",
-  "shortName": "NCMI",
-  "maxOpenQuantity": 71457.0,
-  "extendedHours": true,
-  "addedOn": "2020-06-04T17:40:00.000+03:00"
- },
- {
   "ticker": "BCAT_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -174970,6 +175174,18 @@
   "maxOpenQuantity": 71820.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "NCMI_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US6353092066",
+  "currencyCode": "USD",
+  "name": "National CineMedia",
+  "shortName": "NCMI",
+  "maxOpenQuantity": 71457.0,
+  "extendedHours": true,
+  "addedOn": "2020-06-04T17:40:00.000+03:00"
  },
  {
   "ticker": "VFEGl_EQ",
@@ -175435,7 +175651,7 @@
   "currencyCode": "USD",
   "name": "Nexera Technologies",
   "shortName": "NEXR",
-  "maxOpenQuantity": 297.0,
+  "maxOpenQuantity": 37.0,
   "extendedHours": true,
   "addedOn": "2022-08-29T15:32:33.000+03:00"
  },
@@ -176292,18 +176508,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "STI1_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 110,
-  "isin": "US8342122012",
-  "currencyCode": "USD",
-  "name": "Solidion Technology",
-  "shortName": "STI",
-  "maxOpenQuantity": 11619.0,
-  "extendedHours": true,
-  "addedOn": "2024-06-21T11:40:23.000+03:00"
- },
- {
   "ticker": "PHIAa_EQ",
   "type": "STOCK",
   "workingScheduleId": 57,
@@ -176314,6 +176518,18 @@
   "maxOpenQuantity": 78200.0,
   "extendedHours": false,
   "addedOn": "2018-06-29T14:55:31.000+03:00"
+ },
+ {
+  "ticker": "STI1_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 110,
+  "isin": "US8342122012",
+  "currencyCode": "USD",
+  "name": "Solidion Technology",
+  "shortName": "STI",
+  "maxOpenQuantity": 11619.0,
+  "extendedHours": true,
+  "addedOn": "2024-06-21T11:40:23.000+03:00"
  },
  {
   "ticker": "VZ_US_EQ",
@@ -178068,18 +178284,6 @@
   "addedOn": "2023-08-11T16:07:12.000+03:00"
  },
  {
-  "ticker": "JP9d_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 172,
-  "isin": "JP3421100003",
-  "currencyCode": "EUR",
-  "name": "Japan Petroleum Exploration",
-  "shortName": "JP9",
-  "maxOpenQuantity": 60.0,
-  "extendedHours": false,
-  "addedOn": "2026-09-21T19:07:56.000+03:00"
- },
- {
   "ticker": "AIOK_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -178090,6 +178294,18 @@
   "maxOpenQuantity": 1381.0,
   "extendedHours": true,
   "addedOn": "2026-10-08T11:04:24.000+03:00"
+ },
+ {
+  "ticker": "JP9d_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 172,
+  "isin": "JP3421100003",
+  "currencyCode": "EUR",
+  "name": "Japan Petroleum Exploration",
+  "shortName": "JP9",
+  "maxOpenQuantity": 60.0,
+  "extendedHours": false,
+  "addedOn": "2026-09-21T19:07:56.000+03:00"
  },
  {
   "ticker": "HTHIY_US_EQ",
@@ -181392,18 +181608,6 @@
   "addedOn": "2021-02-11T13:35:29.000+02:00"
  },
  {
-  "ticker": "CTAIl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 101,
-  "isin": "GB00BN7DVG54",
-  "currencyCode": "GBX",
-  "name": "Catenai",
-  "shortName": "CTAI",
-  "maxOpenQuantity": 523343.0,
-  "extendedHours": false,
-  "addedOn": "2025-12-18T15:42:08.000+02:00"
- },
- {
   "ticker": "NWN_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -181414,6 +181618,18 @@
   "maxOpenQuantity": 14835.0,
   "extendedHours": true,
   "addedOn": "2020-10-06T18:50:56.000+03:00"
+ },
+ {
+  "ticker": "CTAIl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 101,
+  "isin": "GB00BN7DVG54",
+  "currencyCode": "GBX",
+  "name": "Catenai",
+  "shortName": "CTAI",
+  "maxOpenQuantity": 523343.0,
+  "extendedHours": false,
+  "addedOn": "2025-12-18T15:42:08.000+02:00"
  },
  {
   "ticker": "CNCl_EQ",
@@ -182940,18 +183156,6 @@
   "addedOn": "2025-01-24T14:50:36.000+02:00"
  },
  {
-  "ticker": "SFB3l_EQ",
-  "type": "ETF",
-  "workingScheduleId": 70,
-  "isin": "XS2800709557",
-  "currencyCode": "GBX",
-  "name": "Leverage Shares -3x Short Facebook META",
-  "shortName": "SFB3",
-  "maxOpenQuantity": 2410458.0,
-  "extendedHours": false,
-  "addedOn": "2022-06-20T16:56:01.000+03:00"
- },
- {
   "ticker": "EAS2Pa_EQ",
   "type": "STOCK",
   "workingScheduleId": 57,
@@ -182962,6 +183166,18 @@
   "maxOpenQuantity": 2006.0,
   "extendedHours": false,
   "addedOn": "2026-04-15T11:42:13.000+03:00"
+ },
+ {
+  "ticker": "SFB3l_EQ",
+  "type": "ETF",
+  "workingScheduleId": 70,
+  "isin": "XS2800709557",
+  "currencyCode": "GBX",
+  "name": "Leverage Shares -3x Short Facebook META",
+  "shortName": "SFB3",
+  "maxOpenQuantity": 2410458.0,
+  "extendedHours": false,
+  "addedOn": "2022-06-20T16:56:01.000+03:00"
  },
  {
   "ticker": "USCT_US_EQ",
@@ -183264,18 +183480,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "AROW_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US0427441029",
-  "currencyCode": "USD",
-  "name": "Arrow Financial",
-  "shortName": "AROW",
-  "maxOpenQuantity": 4221.0,
-  "extendedHours": true,
-  "addedOn": "2020-05-29T16:59:25.000+03:00"
- },
- {
   "ticker": "SELF_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -183286,6 +183490,18 @@
   "maxOpenQuantity": 2254.0,
   "extendedHours": true,
   "addedOn": "2023-08-04T17:37:04.000+03:00"
+ },
+ {
+  "ticker": "AROW_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US0427441029",
+  "currencyCode": "USD",
+  "name": "Arrow Financial",
+  "shortName": "AROW",
+  "maxOpenQuantity": 4221.0,
+  "extendedHours": true,
+  "addedOn": "2020-05-29T16:59:25.000+03:00"
  },
  {
   "ticker": "ET32l_EQ",
@@ -184008,18 +184224,6 @@
   "addedOn": "2021-05-05T11:21:04.000+03:00"
  },
  {
-  "ticker": "XY2Dd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "LU2552296563",
-  "currencyCode": "EUR",
-  "name": "Xtrackers II iBoxx Eurozone Government Bond Yield Plus 1-3 (Dist)",
-  "shortName": "XY2D",
-  "maxOpenQuantity": 592986.0,
-  "extendedHours": false,
-  "addedOn": "2025-08-06T16:50:27.000+03:00"
- },
- {
   "ticker": "SWMR_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -184030,6 +184234,18 @@
   "maxOpenQuantity": 101515.0,
   "extendedHours": true,
   "addedOn": "2026-03-17T10:50:06.000+02:00"
+ },
+ {
+  "ticker": "XY2Dd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "LU2552296563",
+  "currencyCode": "EUR",
+  "name": "Xtrackers II iBoxx Eurozone Government Bond Yield Plus 1-3 (Dist)",
+  "shortName": "XY2D",
+  "maxOpenQuantity": 592986.0,
+  "extendedHours": false,
+  "addedOn": "2025-08-06T16:50:27.000+03:00"
  },
  {
   "ticker": "S5H0d_EQ",
@@ -184620,18 +184836,6 @@
   "addedOn": "2026-03-12T15:42:37.000+02:00"
  },
  {
-  "ticker": "ACUUd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "LU2439119236",
-  "currencyCode": "EUR",
-  "name": "Amundi MSCI Emerging Markets Screened  (Acc)",
-  "shortName": "ACUU",
-  "maxOpenQuantity": 74378.0,
-  "extendedHours": false,
-  "addedOn": "2025-08-01T17:15:41.000+03:00"
- },
- {
   "ticker": "SPGC_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -184642,6 +184846,18 @@
   "maxOpenQuantity": 5168.0,
   "extendedHours": true,
   "addedOn": "2023-08-15T18:31:07.000+03:00"
+ },
+ {
+  "ticker": "ACUUd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "LU2439119236",
+  "currencyCode": "EUR",
+  "name": "Amundi MSCI Emerging Markets Screened  (Acc)",
+  "shortName": "ACUU",
+  "maxOpenQuantity": 74378.0,
+  "extendedHours": false,
+  "addedOn": "2025-08-01T17:15:41.000+03:00"
  },
  {
   "ticker": "XU6Cd_EQ",
@@ -185304,18 +185520,6 @@
   "addedOn": "2021-01-13T12:48:58.000+02:00"
  },
  {
-  "ticker": "YOCd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "DE0005932735",
-  "currencyCode": "EUR",
-  "name": "YOC",
-  "shortName": "YOC",
-  "maxOpenQuantity": 168.0,
-  "extendedHours": false,
-  "addedOn": "2024-12-31T14:45:59.000+02:00"
- },
- {
   "ticker": "BODl_EQ",
   "type": "STOCK",
   "workingScheduleId": 101,
@@ -185326,6 +185530,18 @@
   "maxOpenQuantity": 268054.0,
   "extendedHours": false,
   "addedOn": "2020-11-11T08:02:16.000+02:00"
+ },
+ {
+  "ticker": "YOCd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "DE0005932735",
+  "currencyCode": "EUR",
+  "name": "YOC",
+  "shortName": "YOC",
+  "maxOpenQuantity": 168.0,
+  "extendedHours": false,
+  "addedOn": "2024-12-31T14:45:59.000+02:00"
  },
  {
   "ticker": "FSEMl_EQ",
@@ -185410,6 +185626,18 @@
   "maxOpenQuantity": 4812.0,
   "extendedHours": false,
   "addedOn": "2026-10-01T14:27:23.000+03:00"
+ },
+ {
+  "ticker": "MTFp_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1287023268",
+  "currencyCode": "EUR",
+  "name": "Amundi Euro Government Bond 15+Y (Acc)",
+  "shortName": "MTF",
+  "maxOpenQuantity": 29741.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:21.000+02:00"
  },
  {
   "ticker": "PYR_US_EQ",
@@ -188136,18 +188364,6 @@
   "addedOn": "2018-07-12T07:10:10.000+03:00"
  },
  {
-  "ticker": "3LZNl_EQ",
-  "type": "ETF",
-  "workingScheduleId": 154,
-  "isin": "XS2675292218",
-  "currencyCode": "USD",
-  "name": "GraniteShares 3x Long Amazon",
-  "shortName": "3LZN",
-  "maxOpenQuantity": 83752.0,
-  "extendedHours": false,
-  "addedOn": "2020-09-21T17:17:53.000+03:00"
- },
- {
   "ticker": "ASJAd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -188158,6 +188374,18 @@
   "maxOpenQuantity": 2851.0,
   "extendedHours": false,
   "addedOn": "2026-09-22T17:59:26.000+03:00"
+ },
+ {
+  "ticker": "3LZNl_EQ",
+  "type": "ETF",
+  "workingScheduleId": 154,
+  "isin": "XS2675292218",
+  "currencyCode": "USD",
+  "name": "GraniteShares 3x Long Amazon",
+  "shortName": "3LZN",
+  "maxOpenQuantity": 83752.0,
+  "extendedHours": false,
+  "addedOn": "2020-09-21T17:17:53.000+03:00"
  },
  {
   "ticker": "AZFQd_EQ",
@@ -189048,18 +189276,6 @@
   "addedOn": "2026-09-21T19:07:59.000+03:00"
  },
  {
-  "ticker": "SKBd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 54,
-  "isin": "DE0007193500",
-  "currencyCode": "EUR",
-  "name": "Koenig & Bauer",
-  "shortName": "SKB",
-  "maxOpenQuantity": 646.0,
-  "extendedHours": false,
-  "addedOn": "2018-07-12T07:10:04.000+03:00"
- },
- {
   "ticker": "PBLS_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 109,
@@ -189082,6 +189298,18 @@
   "maxOpenQuantity": 83459.0,
   "extendedHours": false,
   "addedOn": "2026-10-15T18:23:07.000+03:00"
+ },
+ {
+  "ticker": "SKBd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 54,
+  "isin": "DE0007193500",
+  "currencyCode": "EUR",
+  "name": "Koenig & Bauer",
+  "shortName": "SKB",
+  "maxOpenQuantity": 646.0,
+  "extendedHours": false,
+  "addedOn": "2018-07-12T07:10:04.000+03:00"
  },
  {
   "ticker": "PBDa_EQ",
@@ -195276,18 +195504,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "NWBI_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 71,
-  "isin": "US6673401039",
-  "currencyCode": "USD",
-  "name": "Northwest Bancshares",
-  "shortName": "NWBI",
-  "maxOpenQuantity": 60450.0,
-  "extendedHours": true,
-  "addedOn": "2020-05-29T15:37:23.000+03:00"
- },
- {
   "ticker": "SLQT_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 56,
@@ -195298,6 +195514,18 @@
   "maxOpenQuantity": 63420.0,
   "extendedHours": true,
   "addedOn": "2020-05-22T12:08:09.000+03:00"
+ },
+ {
+  "ticker": "NWBI_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 71,
+  "isin": "US6673401039",
+  "currencyCode": "USD",
+  "name": "Northwest Bancshares",
+  "shortName": "NWBI",
+  "maxOpenQuantity": 60450.0,
+  "extendedHours": true,
+  "addedOn": "2020-05-29T15:37:23.000+03:00"
  },
  {
   "ticker": "SHBI_US_EQ",
@@ -195550,6 +195778,18 @@
   "maxOpenQuantity": 97226.0,
   "extendedHours": false,
   "addedOn": "2025-04-07T15:36:49.000+03:00"
+ },
+ {
+  "ticker": "AM3Ap_EQ",
+  "type": "ETF",
+  "workingScheduleId": 162,
+  "isin": "LU1681046691",
+  "currencyCode": "EUR",
+  "name": "Amundi Euro Government Bond Highest Rated Investment Grade (Acc)",
+  "shortName": "AM3A",
+  "maxOpenQuantity": 25046.0,
+  "extendedHours": false,
+  "addedOn": "2026-11-09T17:27:19.000+02:00"
  },
  {
   "ticker": "F702d1_EQ",
@@ -197520,18 +197760,6 @@
   "addedOn": "2026-09-21T19:08:05.000+03:00"
  },
  {
-  "ticker": "6BFd_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 172,
-  "isin": "FO0000000179",
-  "currencyCode": "EUR",
-  "name": "Bakkafrost",
-  "shortName": "6BF",
-  "maxOpenQuantity": 16.0,
-  "extendedHours": false,
-  "addedOn": "2025-01-24T14:51:26.000+02:00"
- },
- {
   "ticker": "CAFe_EQ",
   "type": "STOCK",
   "workingScheduleId": 74,
@@ -197542,6 +197770,18 @@
   "maxOpenQuantity": 1119.0,
   "extendedHours": false,
   "addedOn": "2020-11-20T12:35:57.000+02:00"
+ },
+ {
+  "ticker": "6BFd_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 172,
+  "isin": "FO0000000179",
+  "currencyCode": "EUR",
+  "name": "Bakkafrost",
+  "shortName": "6BF",
+  "maxOpenQuantity": 16.0,
+  "extendedHours": false,
+  "addedOn": "2025-01-24T14:51:26.000+02:00"
  },
  {
   "ticker": "HP_US_EQ",
@@ -199635,11 +199875,11 @@
   "ticker": "TOPS_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 107,
-  "isin": "MHY8897Y2307",
+  "isin": "MHY8897Y8833",
   "currencyCode": "USD",
   "name": "TOP Ships",
   "shortName": "TOPS",
-  "maxOpenQuantity": 1444.0,
+  "maxOpenQuantity": 144.0,
   "extendedHours": true,
   "addedOn": "2020-06-05T11:02:34.000+03:00"
  },
@@ -200712,18 +200952,6 @@
   "addedOn": "2018-07-12T07:10:08.000+03:00"
  },
  {
-  "ticker": "SGPl_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 55,
-  "isin": "GB00B60BD277",
-  "currencyCode": "GBX",
-  "name": "Superdry",
-  "shortName": "SDRY",
-  "maxOpenQuantity": 5005.0,
-  "extendedHours": false,
-  "addedOn": "2018-07-12T07:10:10.000+03:00"
- },
- {
   "ticker": "WFF_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 110,
@@ -200734,6 +200962,18 @@
   "maxOpenQuantity": 3.0,
   "extendedHours": true,
   "addedOn": "2025-03-27T12:08:04.000+02:00"
+ },
+ {
+  "ticker": "SGPl_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 55,
+  "isin": "GB00B60BD277",
+  "currencyCode": "GBX",
+  "name": "Superdry",
+  "shortName": "SDRY",
+  "maxOpenQuantity": 5005.0,
+  "extendedHours": false,
+  "addedOn": "2018-07-12T07:10:10.000+03:00"
  },
  {
   "ticker": "VOFl_EQ",
@@ -201132,18 +201372,6 @@
   "addedOn": "2020-10-06T18:50:56.000+03:00"
  },
  {
-  "ticker": "VVV_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US92047W1018",
-  "currencyCode": "USD",
-  "name": "Valvoline",
-  "shortName": "VVV",
-  "maxOpenQuantity": 154291.0,
-  "extendedHours": true,
-  "addedOn": "2020-05-15T15:40:58.000+03:00"
- },
- {
   "ticker": "OMR1d_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -201154,6 +201382,18 @@
   "maxOpenQuantity": 18.0,
   "extendedHours": false,
   "addedOn": "2026-08-20T15:33:11.000+03:00"
+ },
+ {
+  "ticker": "VVV_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US92047W1018",
+  "currencyCode": "USD",
+  "name": "Valvoline",
+  "shortName": "VVV",
+  "maxOpenQuantity": 154291.0,
+  "extendedHours": true,
+  "addedOn": "2020-05-15T15:40:58.000+03:00"
  },
  {
   "ticker": "HDLGl_EQ",
@@ -201204,18 +201444,6 @@
   "addedOn": "2022-03-18T12:01:28.000+02:00"
  },
  {
-  "ticker": "ARTV_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 109,
-  "isin": "US04317A1079",
-  "currencyCode": "USD",
-  "name": "Artiva Biotherapeutics",
-  "shortName": "ARTV",
-  "maxOpenQuantity": 31388.0,
-  "extendedHours": true,
-  "addedOn": "2024-07-19T16:19:13.000+03:00"
- },
- {
   "ticker": "MPWR_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 71,
@@ -201226,6 +201454,18 @@
   "maxOpenQuantity": 8171.0,
   "extendedHours": true,
   "addedOn": "2018-07-12T07:10:18.000+03:00"
+ },
+ {
+  "ticker": "ARTV_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 109,
+  "isin": "US04317A1079",
+  "currencyCode": "USD",
+  "name": "Artiva Biotherapeutics",
+  "shortName": "ARTV",
+  "maxOpenQuantity": 31388.0,
+  "extendedHours": true,
+  "addedOn": "2024-07-19T16:19:13.000+03:00"
  },
  {
   "ticker": "PAYP_US_EQ",
@@ -202920,18 +203160,6 @@
   "addedOn": "2020-02-19T12:30:06.000+02:00"
  },
  {
-  "ticker": "C101d_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "LU2090062352",
-  "currencyCode": "EUR",
-  "name": "Amundi USD Fed Funds Rate (Dist)",
-  "shortName": "C101",
-  "maxOpenQuantity": 48062.0,
-  "extendedHours": false,
-  "addedOn": "2025-08-01T16:31:54.000+03:00"
- },
- {
   "ticker": "HNGKY_US_EQ",
   "type": "STOCK",
   "workingScheduleId": 85,
@@ -202942,6 +203170,18 @@
   "maxOpenQuantity": 414.0,
   "extendedHours": false,
   "addedOn": "2023-01-13T14:16:39.000+02:00"
+ },
+ {
+  "ticker": "C101d_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "LU2090062352",
+  "currencyCode": "EUR",
+  "name": "Amundi USD Fed Funds Rate (Dist)",
+  "shortName": "C101",
+  "maxOpenQuantity": 48062.0,
+  "extendedHours": false,
+  "addedOn": "2025-08-01T16:31:54.000+03:00"
  },
  {
   "ticker": "SBULa_EQ",
@@ -204492,18 +204732,6 @@
   "addedOn": "2020-11-11T07:58:28.000+02:00"
  },
  {
-  "ticker": "TDAC_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 109,
-  "isin": "US54570M4050",
-  "currencyCode": "USD",
-  "name": "Sports Entertainment Gaming Global",
-  "shortName": "SEGG",
-  "maxOpenQuantity": 3680.0,
-  "extendedHours": true,
-  "addedOn": "2020-09-02T17:33:40.000+03:00"
- },
- {
   "ticker": "LAB2l_EQ",
   "type": "ETF",
   "workingScheduleId": 70,
@@ -204514,6 +204742,18 @@
   "maxOpenQuantity": 295631.0,
   "extendedHours": false,
   "addedOn": "2025-02-14T11:28:51.000+02:00"
+ },
+ {
+  "ticker": "TDAC_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 109,
+  "isin": "US54570M4050",
+  "currencyCode": "USD",
+  "name": "Sports Entertainment Gaming Global",
+  "shortName": "SEGG",
+  "maxOpenQuantity": 3680.0,
+  "extendedHours": true,
+  "addedOn": "2020-09-02T17:33:40.000+03:00"
  },
  {
   "ticker": "EYEN_US_EQ",
@@ -204852,18 +205092,6 @@
   "addedOn": "2020-02-04T19:14:19.000+02:00"
  },
  {
-  "ticker": "SCHW_US_EQ",
-  "type": "STOCK",
-  "workingScheduleId": 56,
-  "isin": "US8085131055",
-  "currencyCode": "USD",
-  "name": "Charles Schwab",
-  "shortName": "SCHW",
-  "maxOpenQuantity": 115547.0,
-  "extendedHours": true,
-  "addedOn": "2018-07-12T07:10:12.000+03:00"
- },
- {
   "ticker": "68Vd_EQ",
   "type": "STOCK",
   "workingScheduleId": 172,
@@ -204874,6 +205102,18 @@
   "maxOpenQuantity": 16.0,
   "extendedHours": false,
   "addedOn": "2024-12-31T14:45:44.000+02:00"
+ },
+ {
+  "ticker": "SCHW_US_EQ",
+  "type": "STOCK",
+  "workingScheduleId": 56,
+  "isin": "US8085131055",
+  "currencyCode": "USD",
+  "name": "Charles Schwab",
+  "shortName": "SCHW",
+  "maxOpenQuantity": 115547.0,
+  "extendedHours": true,
+  "addedOn": "2018-07-12T07:10:12.000+03:00"
  },
  {
   "ticker": "XB30d_EQ",
@@ -206412,18 +206652,6 @@
   "addedOn": "2022-02-16T12:24:39.000+02:00"
  },
  {
-  "ticker": "ESARd_EQ",
-  "type": "ETF",
-  "workingScheduleId": 166,
-  "isin": "IE000M46QA27",
-  "currencyCode": "EUR",
-  "name": "BNP Paribas Easy MSCI USA (Acc)",
-  "shortName": "ESAR",
-  "maxOpenQuantity": 427667.0,
-  "extendedHours": false,
-  "addedOn": "2026-02-16T12:07:39.000+02:00"
- },
- {
   "ticker": "IUMOl_EQ",
   "type": "ETF",
   "workingScheduleId": 154,
@@ -206434,6 +206662,18 @@
   "maxOpenQuantity": 270416.0,
   "extendedHours": false,
   "addedOn": "2020-02-07T14:19:52.000+02:00"
+ },
+ {
+  "ticker": "ESARd_EQ",
+  "type": "ETF",
+  "workingScheduleId": 166,
+  "isin": "IE000M46QA27",
+  "currencyCode": "EUR",
+  "name": "BNP Paribas Easy MSCI USA (Acc)",
+  "shortName": "ESAR",
+  "maxOpenQuantity": 427667.0,
+  "extendedHours": false,
+  "addedOn": "2026-02-16T12:07:39.000+02:00"
  },
  {
   "ticker": "WBAI_US_EQ",

@@ -1,682 +1,764 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "extra_tickers": [
     {
-      "ticker": "QCOM",
-      "reason": "Akcie Qualcommu se propadly o 7 % po slabém výhledu zisků z důvodu nedostatku paměťových čipů brzdícího prodeje smartphonů.",
+      "ticker": "LCID",
+      "reason": "Akcie Lucid klesají po zmeškání analytických odhadů zisku a navýšení půjčky od saúdskoarabského fondu.",
       "ipo": false
     },
     {
-      "ticker": "IREN",
-      "reason": "Akcie zaznamenaly vysokou volatilitu a propad o 18 % poté, co společnost oznámila odklad ročních tržeb ve výši 4 miliard USD na žádost Microsoftu kvůli zpoždění datových center.",
+      "ticker": "RKLB",
+      "reason": "Akcie Rocket Lab oslabují poté, co klíčové čtvrtletní výsledky nenaplnily očekávání trhu.",
       "ipo": false
     },
     {
-      "ticker": "NET",
-      "reason": "Cloudflare zaznamenal silný obrat akcie po nejrychlejším růstu tržeb za téměř 4 roky.",
+      "ticker": "CRWV",
+      "reason": "Společnost CoreWeave dnes po zavření trhu vykazuje čtvrtletní výsledky s očekávanou ztrátou na akcii.",
       "ipo": false
     },
     {
-      "ticker": "MRNA",
-      "reason": "Moderna dnes před otevřením trhu reportuje své kvartální hospodářské výsledky s očekávanou ztrátou na akcii.",
-      "ipo": false
-    },
-    {
-      "ticker": "WULF",
-      "reason": "Těžař TeraWulf dnes reportuje kvartální výsledky a čelí zprávám, že Google by mohl převzít podíl v jeho 19miliardovém AI projektu, pokud Anthropic selže v plnění.",
+      "ticker": "SE",
+      "reason": "Sea Limited zveřejňuje svoje hospodářské výsledky před otevřením americké burzy.",
       "ipo": false
     }
   ],
-  "created_at": "2026-11-06T07:30:47+01:00",
+  "created_at": "2026-11-10T08:16:19+01:00",
   "summary": {
     "market_mood": "RISK-OFF",
-    "summary": "Globální trhy čelí masivnímu výprodeji technologických a AI titulů po výsledcích amerických midterm voleb, přičemž skupina Magnificent 7 ztratila přes 1 bilion dolarů tržní hodnoty. Rostoucí geopolitické napětí mezi USA a Íránem tlačí ceny ropy vzhůru a hrozí překonáním hranice 100 USD za barel, což spolu se zvýšením sazeb Bank of England přiživuje inflační obavy. V Evropě situaci komplikuje politická krize ve Francii po zamítnutí rozpočtu a pokračující bombové hrozby na letištích. Klíčovým bodem dnešního dne bude odpolední zveřejnění říjnových dat z amerického trhu práce (NFP).",
+    "summary": "Trhy jsou pod tlakem kvůli prudkému poklesu akcií Nvidia v důsledku vyšetřování generálního ředitele Jensena Huanga a čínského skandálu, což vyvolává nejistotu v celém technologickém sektoru. Dnes v 14:30 SEČ se pozornost investorů zaměří na klíčová americká inflační data CPI za říjen, která mohou naznačit další postup Fedu. Na akcie působí zvýšená volatilita, když index Dow Jones zaznamenal již třetí 1 000bodový výkyv během čtyř dnů. Konkurenti Nvidie, jako je AMD či Alphabet se svými AI čipy, těží z nastalé situace na trhu.",
     "events_today": [
-      "06.11. 14:30 USD Non-Farm Employment Change (NFP za říjen, odhad 65K, minule 29K)",
-      "06.11. 14:30 USD Unemployment Rate (Míra nezaměstnanosti, odhad 4.2%, minule 4.2%)",
-      "06.11. 14:30 USD Average Hourly Earnings m/m (odhad 0.3%, minule 0.1%)",
-      "06.11. před otevřením trhu výsledky: Berkshire Hathaway (BRK.B), Moderna (MRNA), Vistra Corp. (VST), Brookfield Asset Management (BAM), Humana (HUM), Enbridge (ENB)"
+      "10.11. 14:30 USD CPI m/m (odhad 0.3%, minule 0.6%)",
+      "10.11. 14:30 USD Core CPI m/m (odhad 0.2%, minule 0.3%)",
+      "10.11. Před otevřením trhu: Výsledky Sea Limited (SE), Transdigm (TDG), On Holding (ONON), Wix.com (WIX)",
+      "10.11. Po zavření trhu: Výsledky Petrobras (PBR), CoreWeave (CRWV), Alcon (ALC), Ecopetrol (EC)",
+      "11.11. Výsledky firem: Franco-Nevada (FNV), CGI Inc. (GIB), Corteva (CTVA)"
     ],
     "tickers": {
-      "NVDA": "Akcie se propadly o více než 9 % (a 22 % z nedávných maxim) kvůli výprodeji AI sektoru a výzvě Kongresu, aby CEO Jensen Huang podal vysvětlení ohledně vazeb na čínskou špionáž, což představuje silné negativum a regulatorní riziko.",
-      "AAPL": "Společnost získala 7,5 miliardy dolarů z emise dluhopisů s investičním ratingem a získala podporu od Bank of America, avšak obavy ze zpomalení jedné z divizí testují její valuaci v prostředí širšího výprodeje trhu (neutrální až mírné riziko).",
-      "TSLA": "Akcie pokračují v prudkém povolebním propadu poté, co vítězství demokratů vyvolalo obavy z regulace fúzí a výzvy k moratoriu na datová centra, což dohromady se SpaceX smazalo přes 420 miliard dolarů tržní hodnoty (výrazný mínus).",
-      "AMD": "Akcie prudce klesly v rámci plošného propadu polovodičového a AI sektoru a analytických varování před hlubším poklesem (mínus).",
-      "MSFT": "Titul klesá v důsledku širšího tech výprodeje a zpráv o obavách ohledně zpoždění výstavby datových center u partnera IREN (mínus).",
-      "AMZN": "Akcie oslabily pod tlakem obav z vysokých výdajů na AI a celkového poklesu technologií, navzdory novému partnerství s Uber Eats (krátkodobý mínus).",
-      "META": "Akcie propadly o více než 5-6 % kvůli obavám investorů, že masivní investice do AI nadměrně zatěžují volné peněžní toky, a firma dokončila nabídku dluhopisů za 15 miliard dolarů (mínus).",
-      "GOOGL": "Cathie Wood prodala akcie Alphabetu za 12,8 milionu dolarů po nedávném těžkém propadu, zatímco firma pokračuje v projektu datového centra ve Wyomingu a čelí možnosti převzetí podílu v projektu těžaře TeraWulf (mírný mínus až riziko).",
-      "ASML.AS": "Akcie propadly o více než 7 % pod tlakem zpochybňování dalšího investičního cyklu a plošného výprodeje globálního polovodičového segmentu (mínus).",
-      "SIE.DE": "Generální ředitel Siemens Energy vyzdvihuje trvající boom datových center díky energetickým nárokům a divize Healthineers oznámila hospodářské výsledky a plánovaný spin-off diagnostiky (mírné plus v těžkém tržním prostředí).",
-      "AIR.PA": "Airbus zaznamenal nové zakázky na dálkové letouny A350-1000 od společností Philippine Airlines a Air Canada a posílil podporu s Air France-KLM (pozitivní fundament).",
-      "MC.PA": "LVMH zaznamenalo čtyři růstové seance v řadě a posiluje svou angažovanost v Číně na veletrhu CIIE, což naznačuje oživení zájmu o luxusní sektor (mírné plus).",
-      "TTE.PA": "TotalEnergies těží z rostoucích cen ropy způsobených geopolitickým napětím na Blízkém východě a silného obchodování s ropou, ačkoliv trh s plynem oslabuje (mírné plus).",
-      "ALV.DE": "Allianz Commercial spustila nový syndikát přímého upisování na trhu Lloyd’s, což představuje stabilní provozní rozvoj (neutrální až mírné plus).",
-      "BMW.DE": "Náklady na restrukturalizaci dopadají na marže roku 2026 a analytici jsou v hodnocení akcie rozděleni, ačkoliv modely Z4 jsou v USA vyprodané (neutrální až mírné riziko).",
-      "BTCUSDT": "Bitcoin se propadl na úroveň 76 000 USD, stržen kolapsem technologických a AI akcií a dozvuky velkého hejtu burzy Binance ve výši 6,3 miliardy USD (výrazný mínus)."
+      "NVDA": "Akcie Nvidia prudce klesají v důsledku zahájeného vyšetřování CEO Jensena Huanga a skandálu s obcházením restrikcí pro Čínu, což představuje vážné riziko.",
+      "AAPL": "Apple se vrátil na pozici nejhodnotnější tržní firmy před Nvidii, ačkoliv jeho akcie zaznamenaly krátkodobý pokles (neutrální).",
+      "TSLA": "Akcie Tesla prudce posilují díky optimistickému sentimentu trhu a změnám futures marží (plus).",
+      "AMD": "AMD zaznamenalo výrazný růst díky novému partnerství s Google Cloud a přesunu kapitálu z problémové Nvidie (plus).",
+      "MSFT": "Microsoft těží ze silné poptávky po AI službách a přesunu investorů k defenzivním technologickým gigantům (plus).",
+      "AMZN": "Amazon posiluje díky oznámení CEO Andyho Jassyho ohledně rozvoje AI agentů v AWS (plus).",
+      "META": "Akcie Meta rostou v návaznosti na zprávy o spuštění AI nástroje Muse a atraktivnímu tržnímu ocenění (plus).",
+      "GOOGL": "Alphabet plánuje uvedení nových čipů TPU a těží z posilování v AI, i když jej JPMorgan vyřadil ze seznamu top doporučení (neutrální).",
+      "SAP.DE": "Akcie SAP vzrostly po upgrade od JPMorgan díky komerčnímu posunu v oblasti produkční AI (plus).",
+      "ASML.AS": "ASML se zotavuje růstem o 6,2 %, nicméně analytici upozorňují na vysoké ocenění po předchozí rally (neutrální).",
+      "SIE.DE": "Siemens zahajuje vyčlenění diagnostické divize a rebrand Siemens Healthineers, zatímco Siemens Energy vyhlíží silný výhled (plus).",
+      "AIR.PA": "Airbus dosáhl rekordu s modelem A350-1000ULR pro nejdelší komerční let a získal nová servisní schválení (plus).",
+      "MC.PA": "LVMH propaguje své značky na čínském veletrhu CIIE, ale jeho akcie zůstávají pod tlakem blízko 6letých minim (mínus).",
+      "TTE.PA": "TotalEnergies vykazuje silné výsledky v obchodování s ropou a připravuje nové offshore průzkumy v Argentině (plus).",
+      "ALV.DE": "Pojišťovací divize Allianz čelí právnímu sporu ohledně kontaminace ocele, zatímco analytici hodnotí systémový dopad trhu (neutrální).",
+      "BMW.DE": "BMW rozšiřuje dodavatele bateriových článků o Samsung SDI a LG Energy, což si vyžádá úpravu výhledu marží (neutrální).",
+      "BTCUSDT": "Bitcoin čelí testu v podstatě amerických dat CPI, přičemž miner MARA odprodal BTC za 1,1 mld. USD, což vytváří krátkodobý prodávající tlak (mínus).",
+      "XRPUSDT": "XRP Ledger představuje plány na kvantově odolné účty bez dodatečných poplatků pro uživatele (plus).",
+      "SOLUSDT": "Solana se připravuje na spuštění první platformy pro tokenizované akcie v souladu s pravidly SEC (plus).",
+      "AVAXUSDT": "Síť Avalanche byla vybrána burzou NYSE pro zúčtování tokenizovaných akcií (plus)."
     },
-    "crypto": "Bitcoin klesl na 76 000 USD v důsledku širšího propadu rizikových aktiv a výprodeje AI titulů, přičemž náladu v sektoru nadále tíží dozvuky hackerského útoku skupiny TraderTraitor na Binance v objemu 6,3 miliardy USD. Naopak pozitivním signálem je spuštění upgradu NU7 na síti Zcash pro zrychlení plateb a institucionální zájem firem jako Kraken o nákup DeFi tokenů AAVE.",
+    "crypto": "Kryptoměnový trh čelí zvýšené volatilitě před zveřejněním dat o americké inflaci a tlaku z prodejů těžařů (MARA prodala 13 597 BTC). Pozitivním impulsem pro sektor je rostoucí adopce tokenizace ze strany NYSE a SEC.",
     "risks": [
-      "Prudký propad a plošný výprodej technologického a AI sektoru v čele s Nasdaqem a Magnificent 7.",
-      "Riziko vyšší než očekávané inflace v návaznosti na růst cen ropy k hranici 100 USD vlivem napětí mezi USA a Íránem.",
-      "Zvýšená volatilita po odpoledním zveřejnění říjnových dat z amerického trhu práce (NFP a nezaměstnanost v 14:30 SEČ).",
-      "Politická a regulatorní nejistota v USA po midterm volbách s tlakem na moratorium na výstavbu AI datových center."
+      "Skandál a vyšetřování CEO Nvidie Jensena Huanga vyvolávající výprodeje v čipovém a technologickém sektoru.",
+      "Zveřejnění amerických dat CPI (14:30 SEČ), která mohou zvýšit volatilitu na akciích i kryptu.",
+      "Přetrvávající extrémní volatilita na Wall Street (opakované 1 000bodové výkyvy indexu Dow Jones).",
+      "Masivní nabídkový tlak na BTC kvůli prodejům rezerv ze strany těžebních společností."
     ],
     "new_tickers": [
       {
-        "ticker": "QCOM",
-        "reason": "Akcie Qualcommu se propadly o 7 % po slabém výhledu zisků z důvodu nedostatku paměťových čipů brzdícího prodeje smartphonů.",
+        "ticker": "LCID",
+        "reason": "Akcie Lucid klesají po zmeškání analytických odhadů zisku a navýšení půjčky od saúdskoarabského fondu.",
         "ipo": false
       },
       {
-        "ticker": "IREN",
-        "reason": "Akcie zaznamenaly vysokou volatilitu a propad o 18 % poté, co společnost oznámila odklad ročních tržeb ve výši 4 miliard USD na žádost Microsoftu kvůli zpoždění datových center.",
+        "ticker": "RKLB",
+        "reason": "Akcie Rocket Lab oslabují poté, co klíčové čtvrtletní výsledky nenaplnily očekávání trhu.",
         "ipo": false
       },
       {
-        "ticker": "NET",
-        "reason": "Cloudflare zaznamenal silný obrat akcie po nejrychlejším růstu tržeb za téměř 4 roky.",
+        "ticker": "CRWV",
+        "reason": "Společnost CoreWeave dnes po zavření trhu vykazuje čtvrtletní výsledky s očekávanou ztrátou na akcii.",
         "ipo": false
       },
       {
-        "ticker": "MRNA",
-        "reason": "Moderna dnes před otevřením trhu reportuje své kvartální hospodářské výsledky s očekávanou ztrátou na akcii.",
-        "ipo": false
-      },
-      {
-        "ticker": "WULF",
-        "reason": "Těžař TeraWulf dnes reportuje kvartální výsledky a čelí zprávám, že Google by mohl převzít podíl v jeho 19miliardovém AI projektu, pokud Anthropic selže v plnění.",
+        "ticker": "SE",
+        "reason": "Sea Limited zveřejňuje svoje hospodářské výsledky před otevřením americké burzy.",
         "ipo": false
       }
     ],
-    "model_used": "gemini-3.8-flash"
+    "model_used": "gemini-3.6-flash"
   },
   "raw": {
     "sources_failed": [],
     "headlines": {
       "trhy": [
         {
-          "title": "Oil prices rise as investors weigh renewed U.S.-Iran conflict risks after midterm elections",
+          "title": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
           "source": "CNBC Top",
-          "published": "2026-11-06T05:06:56+00:00"
+          "published": "2026-11-10T06:52:30+00:00"
         },
         {
-          "title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+          "title": "Trump’s C-SPAN call marks latest surprise post-midterm appearance",
           "source": "CNBC Top",
-          "published": "2026-11-06T02:40:15+00:00"
+          "published": "2026-11-10T06:19:09+00:00"
         },
         {
-          "title": "Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy",
+          "title": "Trump says Iran war to end 'fairly soon,' plays down prospects of new strikes",
           "source": "CNBC Top",
-          "published": "2026-11-06T05:27:24+00:00"
+          "published": "2026-11-10T07:00:02+00:00"
         },
         {
-          "title": "Magnificent 7 loses $1 trillion. The most eye-popping stats from Thursday's tech stock plunge",
+          "title": "Hegseth impeachment articles introduced by Rep. Massie",
           "source": "CNBC Top",
-          "published": "2026-11-05T23:39:32+00:00"
+          "published": "2026-11-09T22:41:12+00:00"
         },
         {
-          "title": "India as an AI hedge? The country's stocks could see robust inflows as markets globally tank",
+          "title": "SoftBank swings to $7 billion net loss in second quarter as tech selloff weighs on results",
           "source": "CNBC Top",
-          "published": "2026-11-06T06:02:36+00:00"
+          "published": "2026-11-10T06:54:32+00:00"
         },
         {
-          "title": "The October jobs report is out Friday. Here's everything to expect",
+          "title": "Trump sees 'strong inclination' to end Russia-Ukraine war ahead of U.S.-brokered peace talks",
           "source": "CNBC Top",
-          "published": "2026-11-05T21:32:52+00:00"
+          "published": "2026-11-10T04:46:37+00:00"
         },
         {
-          "title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+          "title": "TSMC's October sales jump as global chip boom rolls on",
           "source": "CNBC Top",
-          "published": "2026-11-06T03:20:43+00:00"
+          "published": "2026-11-10T05:42:42+00:00"
         },
         {
-          "title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+          "title": "Trump questions midterm election results, revives voting-machine conspiracy",
           "source": "CNBC Top",
-          "published": "2026-11-05T20:17:16+00:00"
+          "published": "2026-11-09T22:40:09+00:00"
         },
         {
-          "title": "IRS announces new federal income tax brackets for 2027",
+          "title": "SoftBank Group shares surge 13% as Asian tech stocks track Wall Street rebound",
           "source": "CNBC Top",
-          "published": "2026-11-06T01:21:08+00:00"
+          "published": "2026-11-10T03:58:46+00:00"
         },
         {
-          "title": "The world's best airline is updating its business and first-class experience",
+          "title": "China’s monthly imports grow at fastest pace in five years as surplus crosses $1 trillion in 2026",
           "source": "CNBC Top",
-          "published": "2026-11-06T05:36:10+00:00"
+          "published": "2026-11-10T05:03:55+00:00"
         },
         {
-          "title": "Mississippi Senate: Colom, Hyde-Smith gird for ballot legal fight in razor-thin race",
+          "title": "A key report for where inflation stood in October comes out Tuesday. Here's what to expect",
           "source": "CNBC Top",
-          "published": "2026-11-06T02:58:02+00:00"
+          "published": "2026-11-09T21:03:55+00:00"
         },
         {
-          "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+          "title": "3 unexpected reasons the October jobs report was so strong",
           "source": "CNBC Top",
-          "published": "2026-11-05T22:21:29+00:00"
+          "published": "2026-11-09T22:23:56+00:00"
         },
         {
-          "title": "Here's what the Democratic election rout could mean for the U.S. economy",
+          "title": "China wholesale inflation hits highest in more than four years as consumer measure slows",
           "source": "CNBC Markets",
-          "published": "2026-11-05T14:33:32+00:00"
+          "published": "2026-11-09T02:50:22+00:00"
         },
         {
-          "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
-          "source": "CNBC Markets",
-          "published": "2026-11-05T16:01:47+00:00"
-        },
-        {
-          "title": "Voters say the economy drove them to the polls — and blame Trump for their troubles",
-          "source": "CNBC Markets",
-          "published": "2026-11-05T16:07:59+00:00"
-        },
-        {
-          "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
-          "source": "CNBC Markets",
-          "published": "2026-11-04T22:46:43+00:00"
-        },
-        {
-          "title": "‘It seems bizarre’: We’re in our 80s with $950,000 in traditional IRAs. Why is our adviser pushing Roth conversions?",
+          "title": "‘We had the worst fight’: I want my husband to retire at 65, but I don’t want to lose his $280,000 salary. Is that unreasonable?",
           "source": "MarketWatch",
-          "published": "2026-11-06T03:15:00+00:00"
+          "published": "2026-11-10T03:38:00+00:00"
         },
         {
-          "title": "‘My life could be cut short’: I’m 55, married and have a brain tumor. Should I splash out on a $210,000 Porsche?",
+          "title": "The short seller who saw signs of Nvidia’s China scandal months ago claims Megaspeed isn’t the only company helping China access chips",
           "source": "MarketWatch",
-          "published": "2026-11-06T03:00:00+00:00"
+          "published": "2026-11-10T00:48:00+00:00"
         },
         {
-          "title": "Here’s what’s driving Iren’s stock higher after a brutal selloff",
+          "title": "This retired professor has reinvented himself — as a Taylor Swift scholar",
           "source": "MarketWatch",
-          "published": "2026-11-06T01:07:00+00:00"
+          "published": "2026-11-09T23:52:00+00:00"
         },
         {
-          "title": "Cloudflare’s stock mounts a big comeback after fastest sales surge in nearly 4 years",
+          "title": "Rocket Lab shares dip after the company’s ‘defining’ quarter misses the mark",
           "source": "MarketWatch",
-          "published": "2026-11-06T01:06:00+00:00"
+          "published": "2026-11-09T22:49:00+00:00"
         },
         {
-          "title": "Here are the 2027 capital-gains tax rates for each income level",
+          "title": "Here’s how Bernie Sanders wants to keep Social Security solvent ‘for generations’",
           "source": "MarketWatch",
-          "published": "2026-11-05T23:48:00+00:00"
+          "published": "2026-11-09T22:49:00+00:00"
         },
         {
-          "title": "Tech stocks log worst day since 2020 as carnage comes to the AI trade",
+          "title": "As Nvidia’s stock falls, here’s what Wall Street has to say about the Jensen Huang scandal",
           "source": "MarketWatch",
-          "published": "2026-11-05T22:48:00+00:00"
+          "published": "2026-11-09T21:55:00+00:00"
         },
         {
-          "title": "The 2027 tax brackets are out. See what the standard deduction and SALT tax breaks will be.",
+          "title": "Dow sees its third 1,000-point swing in four days. Why the volatility isn’t over yet.",
           "source": "MarketWatch",
-          "published": "2026-11-05T22:40:00+00:00"
+          "published": "2026-11-09T21:52:00+00:00"
         },
         {
-          "title": "How much in Roth conversions can you do in 2027 with the new tax brackets?",
+          "title": "Are AMD and Broadcom the real winners of the Nvidia spy scandal?",
           "source": "MarketWatch",
-          "published": "2026-11-05T22:24:00+00:00"
+          "published": "2026-11-09T21:43:00+00:00"
         },
         {
-          "title": "Buy the dip or wait it out? Young investors react as retail stock selling hits one of its highest levels since COVID crash.",
+          "title": "The stock-market rally keeps spreading beyond Big Tech. October inflation data could put it to the test.",
           "source": "MarketWatch",
-          "published": "2026-11-05T21:44:00+00:00"
+          "published": "2026-11-09T21:24:00+00:00"
         },
         {
-          "title": "The ‘Musk selloff’ deepens as Tesla and SpaceX combine for $456 billion two-day wipeout",
+          "title": "A failed trial for a heart drug casts shadow over rivals developing similar therapies",
           "source": "MarketWatch",
-          "published": "2026-11-05T21:43:00+00:00"
-        }
-      ],
-      "evropa": [
-        {
-          "title": "Bomb threats disrupt flights across Europe for the second time. Here’s what we know",
-          "source": "CNBC Europe",
-          "published": "2026-11-05T15:26:06+00:00"
-        },
-        {
-          "title": "Chinese AI lab Moonshot turned to Europe for Nvidia Blackwell access amid U.S. China curbs, sources tell CNBC",
-          "source": "CNBC Europe",
-          "published": "2026-11-05T13:34:14+00:00"
-        },
-        {
-          "title": "Nationwide strikes loom as French budget is unanimously rejected by lawmakers",
-          "source": "CNBC Europe",
-          "published": "2026-11-05T14:53:59+00:00"
-        },
-        {
-          "title": "World's largest olive oil company plummets 20% after rivals agree to takeover deal",
-          "source": "CNBC Europe",
-          "published": "2026-11-05T14:25:23+00:00"
-        },
-        {
-          "title": "Rheinmetall shares plunge 17% after outlook cut as military contracts stall",
-          "source": "CNBC Europe",
-          "published": "2026-11-05T09:06:40+00:00"
+          "published": "2026-11-09T21:21:00+00:00"
         }
       ],
       "vysledky": [
         {
-          "title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+          "title": "Skydance outlines its $6 billion in planned cost savings. Here's the breakdown",
           "source": "CNBC Earnings",
-          "published": "2026-11-05T23:25:02+00:00"
+          "published": "2026-11-09T23:14:38+00:00"
         },
         {
-          "title": "Here's where we stand on Kimberly-Clark shares after a better-than-feared quarter",
+          "title": "Lucid misses Wall Street’s earnings expectations, expands loan from Saudi Arabia fund",
           "source": "CNBC Earnings",
-          "published": "2026-11-05T22:31:03+00:00"
-        },
-        {
-          "title": "Jim Cramer says the AI trade is not going away as Nasdaq enters correction",
-          "source": "CNBC Earnings",
-          "published": "2026-11-05T18:46:23+00:00"
-        },
-        {
-          "title": "We're raising our price target on Cardinal Health after another stellar quarter of profits",
-          "source": "CNBC Earnings",
-          "published": "2026-11-05T16:51:58+00:00"
-        },
-        {
-          "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
-          "source": "CNBC Earnings",
-          "published": "2026-11-05T21:16:39+00:00"
-        },
-        {
-          "title": "Nintendo Switch 2 sales plunge 41% as price hikes and memory crunch bite",
-          "source": "CNBC Earnings",
-          "published": "2026-11-05T07:30:58+00:00"
-        },
-        {
-          "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
-          "source": "CNBC Earnings",
-          "published": "2026-11-05T16:58:35+00:00"
-        },
-        {
-          "title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
-          "source": "CNBC Earnings",
-          "published": "2026-11-04T23:38:11+00:00"
-        },
-        {
-          "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
-          "source": "CNBC Earnings",
-          "published": "2026-11-04T21:47:22+00:00"
-        },
-        {
-          "title": "New Flutter CEO bets on FanDuel promotions to win customers as profits suffer",
-          "source": "CNBC Earnings",
-          "published": "2026-11-04T19:53:32+00:00"
-        },
-        {
-          "title": "We're cutting our Qnity price target but still loved the beat-and-raise quarter",
-          "source": "CNBC Earnings",
-          "published": "2026-11-04T19:07:05+00:00"
+          "published": "2026-11-09T23:05:53+00:00"
         }
       ],
       "krypto": [
         {
-          "title": "Zcash’s landmark NU7 upgrade goes live, speeding up private payments",
+          "title": "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes",
           "source": "CoinDesk",
-          "published": "2026-11-06T05:14:48+00:00"
+          "published": "2026-11-10T07:01:06+00:00"
         },
         {
-          "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
+          "title": "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more",
           "source": "CoinDesk",
-          "published": "2026-11-06T02:24:23+00:00"
+          "published": "2026-11-10T05:18:31+00:00"
         },
         {
-          "title": "Bitcoin developer proposes ‘landmines’ to make quantum thieves lose their own BTC",
+          "title": "XRP Ledger maps out quantum-proof accounts, with no extra fees for users",
           "source": "CoinDesk",
-          "published": "2026-11-06T01:30:00+00:00"
+          "published": "2026-11-10T04:51:20+00:00"
         },
         {
-          "title": "U.S. Justice Department assembles force to shield against foreign AI threats",
+          "title": "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough",
           "source": "CoinDesk",
-          "published": "2026-11-05T18:59:45+00:00"
+          "published": "2026-11-10T03:22:26+00:00"
         },
         {
-          "title": "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower",
+          "title": "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition",
           "source": "CoinDesk",
-          "published": "2026-11-05T18:48:40+00:00"
+          "published": "2026-11-09T22:56:27+00:00"
         },
         {
-          "title": "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist?",
+          "title": "Robinhood backs tokenization of its stock on OKX–ICE platform even as most companies opt out",
           "source": "CoinDesk",
-          "published": "2026-11-05T16:58:21+00:00"
+          "published": "2026-11-09T19:36:15+00:00"
         },
         {
-          "title": "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million",
+          "title": "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees",
           "source": "CoinDesk",
-          "published": "2026-11-05T16:49:08+00:00"
+          "published": "2026-11-09T16:19:45+00:00"
         },
         {
-          "title": "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep",
+          "title": "Google’s AI chip push adds more pressure on Nvidia",
           "source": "CoinDesk",
-          "published": "2026-11-05T16:13:32+00:00"
+          "published": "2026-11-09T15:20:05+00:00"
         },
         {
-          "title": "Gate CEO says crypto exchanges must prove they can survive a hack like Binance’s",
+          "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
           "source": "CoinDesk",
-          "published": "2026-11-05T14:21:50+00:00"
+          "published": "2026-11-09T15:00:44+00:00"
         },
         {
-          "title": "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push",
+          "title": "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race",
           "source": "CoinDesk",
-          "published": "2026-11-05T14:00:00+00:00"
+          "published": "2026-11-09T13:40:06+00:00"
         },
         {
-          "title": "Google could take stake in bitcoin miner TeraWulf’s $19 billion AI project if Anthropic defaults",
+          "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
           "source": "CoinDesk",
-          "published": "2026-11-05T13:29:40+00:00"
+          "published": "2026-11-09T12:41:35+00:00"
         },
         {
-          "title": "Binance cuts SignalPlus access after security warning, urges users to check accounts",
+          "title": "Trump says he knows ‘nothing’ about World Liberty’s UAE ties as Justin Sun challenges filings",
           "source": "CoinDesk",
-          "published": "2026-11-05T12:55:03+00:00"
+          "published": "2026-11-09T12:37:13+00:00"
         }
       ]
     },
     "company_news": {
       "NVDA": [
-        "Nvidia Stock Just Crashed 22%. Jim Cramer Says It’s the Cheapest in a Decade - Yahoo Finance",
-        "Should You Buy Nvidia Stock Before Nov. 17? - The Motley Fool",
-        "Nvidia Stock Is Below $200. What History Suggests Is the Floor. - Barron's",
-        "Nvidia Stock Loses $1.39 Trillion Since October Peak — Jim Cramer Says NVDA Can 'Buy and Reload' - Benzinga"
+        "Nvidia stock closes lower after company opens probe into CEO Jensen Huang - ABC News - Breaking News, Latest News and Videos",
+        "Nvidia stock plunges on investigation into CEO Jensen Huang - CNN",
+        "Nvidia shares sink while stock market surges - NBC News",
+        "Why Nvidia Stock Was Down Today - Yahoo Finance"
       ],
       "AAPL": [
-        "Apple Stock Is Up 22%, but 1 Slowing Business Could Test That Valuation - Yahoo Finance",
-        "Bank of America doubles down on its Apple stock bet - TheStreet",
-        "The Open Question Under Apple Stock’s Price - Trefis",
-        "Apple Raises $7.5 Billion From Investment-Grade Debt Offering - Bloomberg.com"
+        "Where Will Apple Stock Be in 5 Years? - Yahoo Finance",
+        "Nvidia Lost Its Top Spot to Apple. What Does History Tell Us About No. 1 Stocks? - Morningstar",
+        "Where Will Apple Stock Be in 5 Years? - The Motley Fool",
+        "Tech Stocks Rise Despite Apple Slump - WSJ"
       ],
       "TSLA": [
-        "Tesla Shares Tumble Again in Deepening Post-Election Slump - Bloomberg.com",
-        "SpaceX, Tesla stocks tumble as Democratic sweep raises questions on merger prospects, AI build-out - Yahoo Finance",
-        "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms - CNBC",
-        "SpaceX and Tesla Stock Plunges Have Wiped About $450 Billion in Value Since the Midterms. Is It Time to Buy? - The Motley Fool"
+        "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Tesla Futures Margins - CME Group",
+        "Why is Tesla stock rallying today? - Investing.com",
+        "Why is Tesla stock surging today - Yahoo Finance"
       ],
       "AMD": [
-        "Why AMD Stock Is Down Today - Yahoo Finance",
-        "Why AMD Stock Is Down Today - The Motley Fool",
-        "AMD: Great Q3 Earnings, But 70% Downside Is Not Unrealistic (NASDAQ:AMD) - Seeking Alpha",
-        "Why tech stocks are down today, including Nvidia, SpaceX, AMD, more - Mashable"
+        "AMD Stock Could Jump 34%. No, It’s Got Nothing to Do With the Nvidia Turmoil. - Barron's",
+        "AMD Stock Clocks Best Day In 6 Months — But Michael Burry Won’t Touch The Nvidia Headline Trade - Yahoo Finance",
+        "AMD Stock Rises On Google Cloud Deal, Wall Street Upgrade - Investor's Business Daily",
+        "AMD shares are primed for a comeback, says Oppenheimer - CNBC"
       ],
       "MSFT": [
-        "Why Microsoft Stock is Down Today - Yahoo! Finance Canada",
-        "Why Is Everyone Talking About Microsoft Stock Stock? - The Motley Fool",
-        "IREN stock plunges 18% as Microsoft raises concerns over data center delays - Investing.com",
-        "Why Is Everyone Talking About Microsoft Stock Stock? - The Globe and Mail"
+        "Do Wall Street Analysts Like Microsoft Stock? - Barchart.com",
+        "Microsoft: The AI Numbers Are Telling Two Stories (NASDAQ:MSFT) - Seeking Alpha",
+        "NVDA Stock Eyes ‘Beat-And-Raise’ Quarter Next Week As Microsoft, Amazon, SpaceX Fuel ‘Rock-Solid’ AI Demand - Stocktwits",
+        "I’m Betting That The Post-Midterm Flight to Quality Will Kick Microsoft Into Gear - 24/7 Wall St."
       ],
       "AMZN": [
-        "Amazon Stock Pulls Back: What's Going On? - Benzinga",
-        "Stock Market Today, Nov. 5: Amazon Shares Slide as Technology Selloff Erases Early Gains - Yahoo Finance",
-        "Amazon Teams Up With Uber Eats, Sending DoorDash Stock Tumbling - Investor's Business Daily",
-        "Amazon Stock Looks Undervalued Despite AI Spending Fears - Security Clearance Jobs"
+        "How skills and agents work in AWS Quick | Amazon Web Services - Amazon Web Services (AWS)",
+        "Andy Jassy Just Announced Fantastic News for Amazon Stock Investors - The Motley Fool",
+        "Andy Jassy Just Announced Fantastic News for Amazon Stock Investors - Yahoo Finance",
+        "Why Amazon (AMZN) stock is up today - FinancialContent"
       ],
       "META": [
-        "Meta Platforms Stocks Fall 6.76% as AI Investment Tests Cash Flow - Yahoo Finance",
-        "Why is Meta Platforms stock sliding today? - Investing.com",
-        "Meta Platforms Completes $15 Billion Senior Notes Offering; Stock Option Fully Exercised - TradingView",
-        "Meta Platforms Inc Stock (META) Moved Down by 5.18% on Nov 5: Drivers Behind the Movement - TradingKey"
+        "Meta Platforms Stock: Is it a Steal of a Deal at $650? - Yahoo Finance",
+        "Why Meta Platforms Stock Rallied on Monday - The Motley Fool",
+        "Why Meta Platforms Stock Rallied on Monday - Yahoo Finance",
+        "Meta Stock Climbs on Muse Launch Reports in UK - Benzinga"
       ],
       "GOOGL": [
-        "Cathie Wood Sells $12.8 Million Of Alphabet, Days After The Stock Suffered Its Worst Day Since Its 2004 IPO, Losing Nearly Half A Trillion Dollars In Market Value - 24/7 Wall St.",
-        "Alphabet's Google Advances $17 Billion Wyoming Data Center as Regulatory Tightening May Strengthen Cloud Giants' Compute Advantage - TradingKey",
-        "Alphabet stock jumps 5%: Why Google Parent shares rallied - The Economic Times",
-        "Oracle vs. Alphabet: Which Is the Better AI Cloud Stock to Own for the Next 5 Years? - The Motley Fool"
+        "Alphabet (GOOGL) Stock Quotes, Company News And Chart Analysis - Investor's Business Daily",
+        "JPMorgan Just Removed Alphabet From Its Analyst Focus List - 24/7 Wall St.",
+        "Alphabet Plans to Launch Two New TPUs, May Push Stock Back to $300 Mark - TradingKey",
+        "Nvidia Enters Bear Market As Google Strikes Amid Jensen Huang's China Spy Woes - BeInCrypto"
       ],
       "SAP.DE": [
-        "SAP Nov 2026 230.000 put (SAP261106P00230000) interactive stock chart - Yahoo Finance UK",
-        "(SAP) On The My Stocks Page (SAP:CA) - Stock Traders Daily",
-        "Key facts: Weir PLC Orders Rise; SAP Shift May Weigh on 2027–28 Margins - TradingView",
-        "SAP Dec 2028 125.000 put (SAP281215P00125000) stock price, news, quote and history - Yahoo Finance UK"
+        "SAP Stocks Rise 1.73% After JPMorgan Upgrade on AI Production Shift - Yahoo Finance",
+        "SAP: Trim On The Recent Rebound, Especially With Euro Turmoil Rising (Downgrade) (SAP) - Seeking Alpha",
+        "Why is SAP stock rallying today? - Investing.com",
+        "Fund Update: New $62.5M $SAP stock position opened by Alberta Investment Management Corp - Quiver Quantitative"
       ],
       "ASML.AS": [
-        "Why is ASML stock sliding today? - Investing.com",
-        "ASML Stocks Fall 7.36% as Investors Question the Next Spending Cycle - Yahoo Finance",
-        "Could $10,000 Invested in ASML Set You Up for Life? - The Motley Fool",
-        "Is ASML Holding NV (ASML) a Bargain After 9.3% Drop? GF Value Sa - GuruFocus"
+        "ASML (ENXTAM:ASML) Stock May Be Priced For Perfection After 125% Run - Yahoo Finance",
+        "Why ASML Bounced Back Today - The Motley Fool",
+        "ASML Holding NV (ASML) Stock Up 6.2% but GF Value Says Overvalued -- GF Score: 97/100 - GuruFocus",
+        "Why is ASML NV ADR stock surging today? - Investing.com"
       ],
       "SIE.DE": [
-        "Siemens Energy CEO Sees Data Center Boom Lasting on Power Needs - EnergyNow.com",
-        "Siemens Healthineers to drop ‘Siemens’ from name, spin off Diagnostics - MassDevice",
-        "Fourth-quarter results for fiscal year 2026 - Siemens Healthineers",
-        "Optimización de refrigeración en centros de datos de IA - Siemens"
+        "Siemens Healthineers to Rebrand as Healthineers as Diagnostics Carve-Out Begins - WSJ",
+        "Siemens Aktiengesellschaft (SIE.DE) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Building efficiency starts with existing buildings - Siemens",
+        "Siemens Energy CEO Sees Solid Outlook on Broad Electrification - EnergyNow.com"
       ],
       "AIR.PA": [
-        "Air France-KLM Lauds New Airbus A350 Support JV - Aviation Week",
-        "Philippine Airlines Doubles Airbus A350-1000 Long-Haul Jets Firm Orders Amid North America Push - Forbes",
-        "Air Canada Ordered 8 Airbus A350-1000s To Fly Nonstop Where Its Boeing 777-300ERs Cannot - Simple Flying",
-        "Airbus Skywise Expands Its Portfolio - Aero-News Network"
+        "Airbus A350-1000ULR for Qantas breaks world distance record - Airbus",
+        "Airbus A350-1000ULR officially sets record for longest commercial airliner flight - Flightradar24",
+        "Why Did Airbus Build The A340-600 With Such A Long Fuselage? - Simple Flying",
+        "AAR wins Airbus radome repair approval - AviTrader Aviation News"
       ],
       "MC.PA": [
-        "LVMH Deepens China Engagement With ‘New Generations’ Pavilion at CIIE - WWD",
-        "LVMH Moët Hennessy - Louis Vuitton, Société Européenne (LVMHF) stock price, news, quote and history - Yahoo Finance Singapore",
-        "Four straight sessions of gains for LVMH… luxury wakes up - marketscreener.com",
-        "LVMH celebrates the 2026 graduating class from the Institut des Métiers d’Excellence - LVMH"
+        "Trade Tracker: Karen Firestone buys Chipotle and LVMH - CNBC",
+        "LVMH celebrates “New Generations” at the 9th China International Import Expo (CIIE) - LVMH",
+        "LVMH Sharpens Its Craft Narrative as Luxury's Price Tag Comes Under Scrutiny - ad-hoc-news.de",
+        "LVMH shares, laggard of the CAC 40, close to a six-year floor - Idéal Investisseur"
       ],
       "TTE.PA": [
         "TotalEnergies Sees Strong Oil Trading Even as Gas Weakens - EnergyNow.com",
-        "TotalEnergies published the 8th edition of its “TotalEnergies Energy Outlook 2026” - Cyprus Shipping News",
-        "Oil, Gas or Renewables? TotalEnergies Unveils 3 Scenarios That Could Transform Energy Markets by 2060 - CarbonCredits.com",
-        "TotalEnergies SE News — NYSE:TTE - TradingView"
+        "TotalEnergies prepares Alberdi and studies offshore exploration off Argentina - energynews.pro",
+        "TotalEnergies SE: Disclosure of Transactions in Own Shares - Business Wire",
+        "TotalEnergies SE: Information Concerning the Total Number of Voting... - Quantisnow"
       ],
       "ALV.DE": [
-        "A new direct underwriting syndicate at Lloyd’s - Allianz Commercial",
-        "Allianz Commercial Launches Direct Underwriting Syndicate at Lloyd’s - Insurance Journal",
-        "Watch CNBC's full interview with Allianz's Mohamed El-Erian - CNBC",
-        "Consent Aiming For Grosser Allianz Preis Von Bayern - Thoroughbred Daily News"
+        "Allianz Insurance Unit Sues Steel Dynamics Over Contamination - Bloomberg Law News",
+        "Everything to know for the 2026 Allianz Richmond Marathon - WWBT",
+        "The 2027 Executives to Watch: Allianz Commercial’s Yue-Ling Fong - Risk & Insurance",
+        "Allianz's Mohamed El-Erian: Nvidia has \"systemic importance\" in the tech ecosystem - CNBC"
       ],
       "BMW.DE": [
-        "Maclaren Bmw Buggy Silver - 2018 McLaren 720S Review Beware the British GearOpen - auroradesio.it",
-        "All new Toyota Supra and BMW Z4 stock sold out in the US — Motor1 - UA.NEWS",
-        "BMW's Restructuring Bill Lands on the 2026 Margin as Brokers Split on the Shares - ad-hoc-news.de",
-        "Hot Wheels Bmw 5 Series - Flamin Hot la polemica historia del mexicano que asegura haber inventado los Cheetos picantes - auroradesio.it"
+        "BMW adds Samsung SDI, LG Energy as cell suppliers - Briefs Finance",
+        "Deputies Say a Driver Moved Cartons to a BMW Behind a Bakery. A Search Found $140K - MotorBiscuit",
+        "eyeQ: Antofagasta, Rio Tinto, BMW, Diageo - Interactive Investor",
+        "BMW stock faces margin reset as battery sourcing shifts - ad-hoc-news.de"
       ]
     },
     "earnings": {
-      "2026-11-06": [
+      "2026-11-10": [
         {
-          "symbol": "BRK.A",
-          "name": "Berkshire Hathaway Inc.",
-          "time": "čas neuveden",
+          "symbol": "PBR",
+          "name": "Petroleo Brasileiro S.A.- Petrobras",
+          "time": "po zavření",
+          "eps_forecast": "$1.38"
+        },
+        {
+          "symbol": "PBR.A",
+          "name": "Petroleo Brasileiro S.A.- Petrobras",
+          "time": "po zavření",
           "eps_forecast": ""
         },
         {
-          "symbol": "BRK.B",
-          "name": "Berkshire Hathaway Inc.",
-          "time": "čas neuveden",
-          "eps_forecast": "$5.91"
-        },
-        {
-          "symbol": "ENB",
-          "name": "Enbridge Inc",
+          "symbol": "TDG",
+          "name": "Transdigm Group Incorporated",
           "time": "před otevřením",
-          "eps_forecast": "$0.36"
+          "eps_forecast": "$11.43"
         },
         {
-          "symbol": "MRNA",
-          "name": "Moderna, Inc.",
+          "symbol": "SE",
+          "name": "Sea Limited",
           "time": "před otevřením",
-          "eps_forecast": "($1.10)"
+          "eps_forecast": "$0.79"
         },
         {
-          "symbol": "BAM",
-          "name": "Brookfield Asset Management",
-          "time": "před otevřením",
-          "eps_forecast": "$0.44"
-        },
-        {
-          "symbol": "HUM",
-          "name": "Humana Inc.",
-          "time": "před otevřením",
-          "eps_forecast": "($1.03)"
-        },
-        {
-          "symbol": "HMC",
-          "name": "Honda Motor Company, Ltd.",
-          "time": "čas neuveden",
-          "eps_forecast": ""
-        },
-        {
-          "symbol": "VST",
-          "name": "Vistra Corp.",
-          "time": "před otevřením",
-          "eps_forecast": "$2.89"
-        },
-        {
-          "symbol": "UI",
-          "name": "Ubiquiti Inc.",
-          "time": "čas neuveden",
-          "eps_forecast": "$3.82"
-        },
-        {
-          "symbol": "ECHO",
-          "name": "EchoStar Corporation",
-          "time": "před otevřením",
-          "eps_forecast": "$0.02"
-        },
-        {
-          "symbol": "PPL",
-          "name": "PPL Corporation",
-          "time": "před otevřením",
-          "eps_forecast": "$0.53"
-        },
-        {
-          "symbol": "PAA",
-          "name": "Plains All American Pipeline, L.P.",
-          "time": "před otevřením",
-          "eps_forecast": "$0.40"
-        },
-        {
-          "symbol": "BIP",
-          "name": "Brookfield Infrastructure Partners LP",
-          "time": "před otevřením",
+          "symbol": "ALC",
+          "name": "Alcon Inc.",
+          "time": "po zavření",
           "eps_forecast": "$0.89"
         },
         {
-          "symbol": "BEN",
-          "name": "Franklin Templeton, Inc.",
+          "symbol": "VOD",
+          "name": "Vodafone Group Plc",
           "time": "před otevřením",
-          "eps_forecast": "$0.78"
-        },
-        {
-          "symbol": "EMA",
-          "name": "Emera Incorporated",
-          "time": "před otevřením",
-          "eps_forecast": "$0.64"
-        },
-        {
-          "symbol": "TU",
-          "name": "TELUS Corporation",
-          "time": "před otevřením",
-          "eps_forecast": "$0.13"
-        },
-        {
-          "symbol": "CHTR",
-          "name": "Charter Communications, Inc.",
-          "time": "před otevřením",
-          "eps_forecast": "$10.06"
-        },
-        {
-          "symbol": "ELAN",
-          "name": "Elanco Animal Health Incorporated",
-          "time": "před otevřením",
-          "eps_forecast": "$0.20"
-        },
-        {
-          "symbol": "FRHC",
-          "name": "Freedom Holding Corp.",
-          "time": "čas neuveden",
           "eps_forecast": ""
         },
         {
-          "symbol": "KT",
-          "name": "KT Corporation",
+          "symbol": "EC",
+          "name": "Ecopetrol S.A.",
+          "time": "po zavření",
+          "eps_forecast": "$0.62"
+        },
+        {
+          "symbol": "VG",
+          "name": "Venture Global, Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.50"
+        },
+        {
+          "symbol": "CRWV",
+          "name": "CoreWeave, Inc.",
+          "time": "po zavření",
+          "eps_forecast": "($1.45)"
+        },
+        {
+          "symbol": "ONON",
+          "name": "On Holding AG",
+          "time": "před otevřením",
+          "eps_forecast": "$0.42"
+        },
+        {
+          "symbol": "VIV",
+          "name": "Telefonica Brasil S.A.",
+          "time": "po zavření",
+          "eps_forecast": "$0.24"
+        },
+        {
+          "symbol": "EMBJ",
+          "name": "Embraer S.A.",
           "time": "čas neuveden",
-          "eps_forecast": ""
+          "eps_forecast": "$0.87"
         },
         {
-          "symbol": "MSGK",
-          "name": "MSG Knickerbockers Corp.",
-          "time": "před otevřením",
-          "eps_forecast": "($1.18)"
-        },
-        {
-          "symbol": "FLR",
-          "name": "Fluor Corporation",
-          "time": "před otevřením",
-          "eps_forecast": "$0.85"
-        },
-        {
-          "symbol": "ESNT",
-          "name": "Essent Group Ltd.",
-          "time": "před otevřením",
-          "eps_forecast": "$1.88"
-        },
-        {
-          "symbol": "WULF",
-          "name": "TeraWulf Inc.",
-          "time": "před otevřením",
-          "eps_forecast": "($0.12)"
-        },
-        {
-          "symbol": "COGT",
-          "name": "Cogent Biosciences, Inc.",
+          "symbol": "IBRX",
+          "name": "ImmunityBio, Inc.",
           "time": "čas neuveden",
-          "eps_forecast": "($0.57)"
+          "eps_forecast": "($0.08)"
         },
         {
-          "symbol": "VEON",
-          "name": "VEON Ltd.",
-          "time": "před otevřením",
-          "eps_forecast": "$1.95"
+          "symbol": "SLAB",
+          "name": "Silicon Laboratories, Inc.",
+          "time": "čas neuveden",
+          "eps_forecast": "$0.25"
         },
         {
-          "symbol": "PAGP",
-          "name": "Plains GP Holdings, L.P.",
-          "time": "před otevřením",
-          "eps_forecast": "$1.10"
+          "symbol": "MANE",
+          "name": "Veradermics, Incorporated",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.59)"
         },
         {
-          "symbol": "STWD",
-          "name": "STARWOOD PROPERTY TRUST, INC.",
+          "symbol": "SRRK",
+          "name": "Scholar Rock Holding Corporation",
           "time": "před otevřením",
-          "eps_forecast": "$0.28"
+          "eps_forecast": "($0.87)"
         },
         {
-          "symbol": "AQN",
-          "name": "Algonquin Power & Utilities Corp.",
+          "symbol": "ATAT",
+          "name": "Atour Lifestyle Holdings Limited",
           "time": "před otevřením",
+          "eps_forecast": "$0.56"
+        },
+        {
+          "symbol": "LEGN",
+          "name": "Legend Biotech Corporation",
+          "time": "před otevřením",
+          "eps_forecast": "$0.01"
+        },
+        {
+          "symbol": "ALH",
+          "name": "Alliance Laundry Holdings Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.32"
+        },
+        {
+          "symbol": "MRCY",
+          "name": "Mercury Systems Inc",
+          "time": "po zavření",
           "eps_forecast": "$0.10"
         },
         {
-          "symbol": "BH",
-          "name": "Biglari Holdings Inc.",
+          "symbol": "BWIN",
+          "name": "The Baldwin Insurance Group, Inc.",
           "time": "čas neuveden",
-          "eps_forecast": ""
+          "eps_forecast": "$0.26"
+        },
+        {
+          "symbol": "QBTS",
+          "name": "D-Wave Quantum Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "($0.14)"
+        },
+        {
+          "symbol": "LQDA",
+          "name": "Liquidia Corporation",
+          "time": "před otevřením",
+          "eps_forecast": "$0.77"
+        },
+        {
+          "symbol": "PHI",
+          "name": "PLDT Inc.",
+          "time": "čas neuveden",
+          "eps_forecast": "$0.58"
+        },
+        {
+          "symbol": "RGTI",
+          "name": "Rigetti Computing, Inc. ",
+          "time": "po zavření",
+          "eps_forecast": "($0.08)"
+        },
+        {
+          "symbol": "TNGX",
+          "name": "Tango Therapeutics, Inc.",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.34)"
+        },
+        {
+          "symbol": "FLY",
+          "name": "Firefly Aerospace Inc.",
+          "time": "po zavření",
+          "eps_forecast": "($0.60)"
+        },
+        {
+          "symbol": "WIX",
+          "name": "Wix.com Ltd.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.19"
+        },
+        {
+          "symbol": "REZI",
+          "name": "Resideo Technologies, Inc.",
+          "time": "po zavření",
+          "eps_forecast": "$0.40"
+        },
+        {
+          "symbol": "ATRO",
+          "name": "Astronics Corporation",
+          "time": "po zavření",
+          "eps_forecast": "$0.70"
         }
       ],
-      "2026-11-07": []
+      "2026-11-11": [
+        {
+          "symbol": "FNV",
+          "name": "Franco-Nevada Corporation",
+          "time": "po zavření",
+          "eps_forecast": "$1.77"
+        },
+        {
+          "symbol": "VYLR",
+          "name": "Vylor Inc.",
+          "time": "po zavření",
+          "eps_forecast": "($0.44)"
+        },
+        {
+          "symbol": "GIB",
+          "name": "CGI Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "$1.64"
+        },
+        {
+          "symbol": "TECH",
+          "name": "Bio-Techne Corp",
+          "time": "čas neuveden",
+          "eps_forecast": "$0.40"
+        },
+        {
+          "symbol": "TTEK",
+          "name": "Tetra Tech, Inc.",
+          "time": "po zavření",
+          "eps_forecast": "$0.47"
+        },
+        {
+          "symbol": "CAE",
+          "name": "CAE Inc",
+          "time": "po zavření",
+          "eps_forecast": "$0.19"
+        },
+        {
+          "symbol": "CTVA",
+          "name": "Corteva, Inc.",
+          "time": "po zavření",
+          "eps_forecast": "$0.09"
+        },
+        {
+          "symbol": "ORKA",
+          "name": "Oruka Therapeutics, Inc.",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.68)"
+        },
+        {
+          "symbol": "OR",
+          "name": "OR Royalties Inc.",
+          "time": "po zavření",
+          "eps_forecast": "$0.27"
+        },
+        {
+          "symbol": "ICL",
+          "name": "ICL Group Ltd.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.11"
+        },
+        {
+          "symbol": "UGP",
+          "name": "Ultrapar Participacoes S.A.",
+          "time": "čas neuveden",
+          "eps_forecast": "$0.28"
+        },
+        {
+          "symbol": "ENS",
+          "name": "EnerSys",
+          "time": "po zavření",
+          "eps_forecast": "$3.19"
+        },
+        {
+          "symbol": "ERAS",
+          "name": "Erasca, Inc.",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.14)"
+        },
+        {
+          "symbol": "AYA",
+          "name": "Aya Gold & Silver Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.33"
+        },
+        {
+          "symbol": "ECO",
+          "name": "Okeanis Eco Tankers Corp.",
+          "time": "po zavření",
+          "eps_forecast": "$3.69"
+        },
+        {
+          "symbol": "TNK",
+          "name": "Teekay Tankers Ltd.",
+          "time": "po zavření",
+          "eps_forecast": "$3.45"
+        },
+        {
+          "symbol": "SA",
+          "name": "Seabridge Gold, Inc.",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.05)"
+        },
+        {
+          "symbol": "IHS",
+          "name": "IHS Holding Limited",
+          "time": "čas neuveden",
+          "eps_forecast": ""
+        },
+        {
+          "symbol": "BGSI",
+          "name": "Boyd Group Services Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.96"
+        },
+        {
+          "symbol": "RUM",
+          "name": "RUM Group Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "($0.15)"
+        },
+        {
+          "symbol": "DGII",
+          "name": "Digi International Inc.",
+          "time": "po zavření",
+          "eps_forecast": "$0.67"
+        },
+        {
+          "symbol": "PLGO",
+          "name": "Pelagos Insurance Capital Limited",
+          "time": "po zavření",
+          "eps_forecast": "$0.79"
+        },
+        {
+          "symbol": "PHVS",
+          "name": "Pharvaris N.V.",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.82)"
+        },
+        {
+          "symbol": "SSMR",
+          "name": "Sunshine Silver Mining & Refining Company",
+          "time": "čas neuveden",
+          "eps_forecast": "($0.14)"
+        },
+        {
+          "symbol": "ALVO",
+          "name": "Alvotech",
+          "time": "po zavření",
+          "eps_forecast": "($0.01)"
+        },
+        {
+          "symbol": "NYAX",
+          "name": "Nayax Ltd.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.15"
+        },
+        {
+          "symbol": "EZPW",
+          "name": "EZCORP, Inc.",
+          "time": "po zavření",
+          "eps_forecast": "$0.40"
+        },
+        {
+          "symbol": "SLS",
+          "name": "SELLAS Life Sciences Group, Inc. ",
+          "time": "čas neuveden",
+          "eps_forecast": ""
+        },
+        {
+          "symbol": "AADX",
+          "name": "Applied Aerospace & Defense, Inc.",
+          "time": "před otevřením",
+          "eps_forecast": "$0.09"
+        },
+        {
+          "symbol": "CEPU",
+          "name": "Central Puerto S.A.",
+          "time": "po zavření",
+          "eps_forecast": ""
+        }
+      ]
     },
     "economic": [
       {
-        "when": "06.11. 14:30",
+        "when": "10.11. 14:30",
         "country": "USD",
-        "title": "Average Hourly Earnings m/m",
+        "title": "Core CPI m/m",
+        "forecast": "0.2%",
+        "previous": "0.3%"
+      },
+      {
+        "when": "10.11. 14:30",
+        "country": "USD",
+        "title": "CPI m/m",
         "forecast": "0.3%",
-        "previous": "0.1%"
-      },
-      {
-        "when": "06.11. 14:30",
-        "country": "USD",
-        "title": "Non-Farm Employment Change",
-        "forecast": "65K",
-        "previous": "29K"
-      },
-      {
-        "when": "06.11. 14:30",
-        "country": "USD",
-        "title": "Unemployment Rate",
-        "forecast": "4.2%",
-        "previous": "4.2%"
+        "previous": "0.6%"
       }
     ],
     "watchlist_earnings": {

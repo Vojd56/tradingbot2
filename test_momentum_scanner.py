@@ -105,7 +105,28 @@ c_ads = ms.evaluate_eu_quote({**ads, "earningsTimestamp": ts_today}, noon)
 ok(c_ads and "výsledky dnes" in c_ads["reason"], "EU +3,7 % s výsledky dnes (datum z kotace Yahoo) se zařadí")
 ts_prev = int(datetime(2026, 10, 27, 7, 0, tzinfo=CET).timestamp())
 ok("výsledky včera" in (ms.evaluate_eu_quote({**ads, "earningsTimestamp": ts_prev}, noon) or {}).get("reason", ""), "výsledky včera taky")
-ok(ms.evaluate_eu_quote(ads, noon, {"ADS.DE": "2026-10-28"}) is not None, "datum výsledků z ranního přehledu, když ho kotace nemá")
+ok(ms.evaluate_eu_quote(ads, noon, {"ADS.DE": "2026-10-28"}) is None,
+   "fáze 4: dnešní datum z ranního přehledu bez času práh nesnižuje (nevíme, jestli už vyšly)")
+ok(ms.evaluate_eu_quote(ads, noon, {"ADS.DE": "2026-10-27"}) is not None, "včerejší datum z ranního přehledu práh snižuje")
+ts_late = int(datetime(2026, 10, 28, 17, 45, tzinfo=CET).timestamp())
+ok(ms.eu_earnings_note({"symbol": "ADS.DE", "earningsTimestamp": ts_late}, noon) is None,
+   "fáze 4: výsledky dnes po zavření nejsou v poledne katalyzátor")
+ok(ms.eu_earnings_note({"symbol": "ADS.DE", "earningsTimestamp": ts_late}, datetime(2026, 10, 29, 10, 0, tzinfo=CET))
+   == "výsledky včera", "druhý den po zavření = výsledky včera (beze změny)")
+import news_briefing as _nb
+_saved = (_nb.load_briefing, _nb.fetch_earnings_calendar)
+try:
+    _nb.load_briefing = lambda: {"raw": {"earnings": {
+        "2026-10-28": [{"symbol": "AAA", "time": "před otevřením"}, {"symbol": "BBB", "time": "po zavření"},
+                       {"symbol": "CCC", "time": "čas neuveden"}],
+        "2026-10-27": [{"symbol": "DDD", "time": "po zavření"}, {"symbol": "EEE", "time": "před otevřením"}]}}}
+    _nb.fetch_earnings_calendar = lambda d: []
+    ms._earnings_cache.update(date=None, symbols={})
+    es = ms.earnings_symbols(datetime(2026, 10, 28, 15, 0, tzinfo=CET))
+    ok(set(es) == {"AAA", "DDD"}, f"fáze 4: US dnes jen před otevřením, včera jen po zavření ({sorted(es)})")
+finally:
+    _nb.load_briefing, _nb.fetch_earnings_calendar = _saved
+    ms._earnings_cache.update(date=None, symbols={})
 ts_old = int(datetime(2026, 10, 20, 7, 0, tzinfo=CET).timestamp())
 ok(ms.evaluate_eu_quote({**ads, "earningsTimestamp": ts_old}, noon) is None, "starší výsledky práh nesnižují")
 mon = datetime(2026, 10, 26, 13, 15, tzinfo=CET)

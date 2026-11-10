@@ -3739,7 +3739,7 @@
    "skip_reason": null
   },
   "two_sided": true,
-  "status": "WAITING",
+  "status": "NO_TRADE",
   "catalyst": null
  },
  "2026-11-06|IREN": {
@@ -3833,11 +3833,18 @@
    "r_net": -0.001
   },
   "variant_b": {
-   "open_qty": 1.0,
-   "fills": [],
-   "r_net": null
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     15.055000305175781,
+     "2026-11-06T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": 4.565
   },
-  "status": "OPEN",
+  "status": "CLOSED",
   "catalyst": {
    "direction": "YES",
    "catalyst": "EARNINGS_BEAT",
@@ -3970,11 +3977,18 @@
    "r_net": -0.257
   },
   "variant_b": {
-   "open_qty": 1.0,
-   "fills": [],
-   "r_net": null
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     20.719999313354492,
+     "2026-11-06T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": 8.62
   },
-  "status": "OPEN",
+  "status": "CLOSED",
   "catalyst": {
    "direction": "YES",
    "catalyst": "CONTRACT",
@@ -4079,23 +4093,36 @@
   "cost_ok": false,
   "cost_pct_per_side": 0.2,
   "variant_a": {
-   "open_qty": 0.5,
+   "open_qty": 0.0,
    "fills": [
     [
      0.5,
      39.479249000549316,
      "2026-11-06T09:55:00-05:00",
      "+2R půlka"
+    ],
+    [
+     0.5,
+     44.31999969482422,
+     "2026-11-06T15:45:00-05:00",
+     "konec dne"
     ]
    ],
-   "r_net": null
+   "r_net": 5.242
   },
   "variant_b": {
-   "open_qty": 1.0,
-   "fills": [],
-   "r_net": null
+   "open_qty": 0.0,
+   "fills": [
+    [
+     1.0,
+     44.31999969482422,
+     "2026-11-06T15:45:00-05:00",
+     "konec dne"
+    ]
+   ],
+   "r_net": 8.707
   },
-  "status": "OPEN",
+  "status": "CLOSED",
   "catalyst": {
    "direction": "YES",
    "catalyst": "EARNINGS_BEAT",

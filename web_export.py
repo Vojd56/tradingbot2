@@ -143,6 +143,14 @@ def _crypto_old_block() -> Dict[str, Any]:
         return {"error": str(e)[:200]}
 
 
+def _pullback_block() -> Dict[str, Any]:
+    try:
+        import pullback_shadow
+        return pullback_shadow.snapshot_block()
+    except Exception as e:
+        return {"error": str(e)[:200]}
+
+
 def build_snapshot() -> Dict[str, Any]:
     shadow = _load_json("swing_shadow_state.json", {}) or {}
     fx_usd_eur = _f(shadow.get("fx_usd_eur")) or _f((shadow.get("fx") or {}).get("USD")) or 0.92
@@ -184,6 +192,7 @@ def build_snapshot() -> Dict[str, Any]:
         "scanner": _load_json("dynamic_tickers.json", {}),
         "high20": _load_json("high20_state.json", {}),
         "crypto_old": _crypto_old_block(),
+        "pullback": _pullback_block(),
         "models": _load_json("model_quota.json", {}),
         "catalysts": _load_json("catalyst_cache.json", {}),
         "alerts": _load_json("alert_tracker.json", {}),

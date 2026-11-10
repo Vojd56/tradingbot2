@@ -1,142 +1,170 @@
 {
- "IREN|2026-11-06|56a593962c4ace28": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Akcie IREN rostou díky hospodářským výsledkům za 1. čtvrtletí, ve kterých došlo ke snížení čisté ztráty a téměř trojnásobnému růstu příjmů z AI cloudu.",
-  "model_used": "gemini-3.6-flash"
- },
- "AMD|2026-11-06|ff630bca91d0dc24": {
-  "direction": "YES",
-  "catalyst": "CONTRACT",
-  "about_target": true,
-  "reason_cs": "Zprávy naznačují nového zákazníka Anthropic pro AMD a akcie roste o 8 % po investor update a odrazu sektoru.",
-  "model_used": "gemini-3.6-flash"
- },
- "NET|2026-11-06|150b7a8983937fbb": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Akcie společnosti Cloudflare prudce rostou v reakci na překonání očekávaných hospodářských výsledků a zájem o AI cloud.",
-  "model_used": "gemini-3.5-flash"
- },
- "FLY|2026-11-06|e42de2cd83585157": {
-  "direction": "YES",
-  "catalyst": "CONTRACT",
-  "about_target": true,
-  "reason_cs": "Akcie společnosti Firefly Aerospace výrazně posilují díky podpisu obří smlouvy na dodávku raketových motorů pro AST SpaceMobile v hodnotě 1,3 miliardy dolarů.",
-  "model_used": "gemini-3.6-flash"
- },
- "OKLO|2026-11-06|f56c26214d2ab3d1": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Akcie Oklo výrazně posilují díky nižší než očekávané ztrátě za třetí čtvrtletí.",
-  "model_used": "gemini-3.6-flash"
- },
- "KRMN|2026-11-06|9a1370f6f71ae480": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Společnost Karman překonala odhady zisku i tržeb za Q3 a zároveň zvýšila svůj celoroční výhled.",
-  "model_used": "gemini-3.6-flash"
- },
- "XERS|2026-11-06|fe1e58c33d971486": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Společnost Xeris Biopharma vykázala za 3. čtvrtletí výsledky nad očekáváním trhu a silný růst tržeb, což vedlo k výraznému nárůstu ceny akcií.",
-  "model_used": "gemini-3-flash-preview"
- },
- "NVDA|2026-11-06|7bc40e85a896cac8": {
+ "LCID|2026-11-10|a01fc5bb948f2c89": {
   "direction": "NO",
   "catalyst": "NONE",
   "about_target": true,
-  "reason_cs": "Akcie NVDA klesají kvůli obavám z regulace a výprodeji v sektoru, přestože cena mírně korigovala.",
+  "reason_cs": "Lucid nesplnil odhady zisku a zprávy jsou celkově negativní navzdory růstu ceny.",
   "model_used": "gemini-3.5-flash-lite (dávka)"
  },
- "IREN|2026-11-06|7b3dec5047bd1a74": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "IREN hlásí zúžení ztráty a silný růst tržeb z AI cloudu, což žene akcie vzhůru.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "NET|2026-11-06|d24f1b50e044a4c3": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Cloudflare překonal očekávání s rychlým růstem tržeb a zvýšeným výhledem.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "ABNB|2026-11-06|5fd4ad9270c50108": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Airbnb překonalo odhady výsledků za třetí čtvrtletí a zvýšilo výhled.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "EXTR|2026-11-06|4abab498e2680842": {
-  "direction": "YES",
-  "catalyst": "MNA",
-  "about_target": true,
-  "reason_cs": "Extreme Networks roste díky zprávám, že zkoumá možnost svého prodeje.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "FROG|2026-11-06|866a481dcc4397ed": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "JFrog těží ze silných výsledků a růstu cloudového byznysu podpořeného AI.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "TMDX|2026-11-06|f0b6fee823106dcc": {
-  "direction": "YES",
-  "catalyst": "GUIDANCE_UP",
-  "about_target": true,
-  "reason_cs": "TransMedics roste po lepších výsledcích a zvýšení výhledu tržeb.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "FLY|2026-11-06|5a7c4ffdb04aeb57": {
-  "direction": "YES",
-  "catalyst": "CONTRACT",
-  "about_target": true,
-  "reason_cs": "Firefly Aerospace uzavřela velkou zakázku na dodávku motorů v hodnotě 1,3 miliardy dolarů.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "OKLO|2026-11-06|2148320a816dc2c9": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Oklo roste díky užší ztrátě než se čekalo a celkovému oživení v sektoru.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "KRMN|2026-11-06|97f7ebe35ce05ce5": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Karman Holdings oznámil rekordní tržby a překonal odhady výsledků.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "LASR|2026-11-06|b581bf0178ffa23b": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "nLIGHT roste po zveřejnění solidních finančních výsledků za devět měsíců.",
-  "model_used": "gemini-3.5-flash-lite (dávka)"
- },
- "WULF|2026-11-06|f2265ce80ccf3626": {
-  "direction": "YES",
-  "catalyst": "EARNINGS_BEAT",
-  "about_target": true,
-  "reason_cs": "Akcie TeraWulf rostou díky překonání odhadů tržeb a výraznějšímu zúžení ztráty za 3. čtvrtletí.",
-  "model_used": "gemini-3.6-flash"
- },
- "AMD|2026-11-06|7b0986381e6b883f": {
+ "ZETA|2026-11-10|82648412265ebc45": {
   "direction": "YES",
   "catalyst": "UPGRADE",
   "about_target": true,
-  "reason_cs": "Akcie AMD rostou o více než 10 % po pozitivní aktualizaci pro investory a analytickém upgradu, čímž korigují předchozí sektorové výprodeje.",
+  "reason_cs": "Zeta Global zaznamenala zvýšení cílové ceny a silný růst tržeb podpořený analytiky.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "ACAD|2026-11-10|fd0f6a4846790381": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "ACADIA Pharmaceuticals neobsahuje pozitivní fundamentální katalyzátor pro růst.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "RKLB|2026-11-10|2b137c1894f0c833": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "I přes rekordní tržby a zakázkový backlog akcie oslabují v důsledku smíšených výsledků za Q3 a nenaplněných očekávání trhu.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "BAP|2026-11-10|64681e69da283211": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Společnost Credicorp zaostala za očekáváním v hospodářských výsledcích za 3. čtvrtletí ohledně zisku i tržeb, chybí tak růstový katalyzátor.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "TTWO|2026-11-10|64cdd8122151ecba": {
+  "direction": "YES",
+  "catalyst": "GUIDANCE_UP",
+  "about_target": true,
+  "reason_cs": "Akcie Take-Two rostou po zveřejnění výsledků, potvrzení výhledu a termínu vydání GTA VI.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "EMBJ|2026-11-10|55a7937daef11e76": {
+  "direction": "YES",
+  "catalyst": "GUIDANCE_UP",
+  "about_target": true,
+  "reason_cs": "Společnost Embraer zvýšila svůj výhled tržeb pro rok 2026 po silných výsledcích za třetí čtvrtletí, což výrazně podporuje růst akcie.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "AMD|2026-11-10|5028dcc5971de4c6": {
+  "direction": "YES",
+  "catalyst": "CONTRACT",
+  "about_target": true,
+  "reason_cs": "AMD těží z nového partnerství s Google Cloud a upgradu od analytiků, což podporuje růst.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "SE|2026-11-10|5190cf8ad0799847": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Sea Limited klesá kvůli slabším výsledkům za třetí čtvrtletí, které zklamaly očekávání.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "SECZ|2026-11-10|1efa1b7c7bbd3d96": {
+  "direction": "YES",
+  "catalyst": "UPGRADE",
+  "about_target": true,
+  "reason_cs": "Securitize zaznamenala zvýšení cílové ceny a vstup na burzu s tokenizací vlastních akcií.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "AAON|2026-11-10|ac2b72dbff1a37f6": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "AAON hlásí rekordní čtvrtletní tržby a zvýšený výhled, což žene cenu akcií vzhůru.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "MARA|2026-11-10|129324b70f52e20e": {
+  "direction": "YES",
+  "catalyst": "GENERIC",
+  "about_target": true,
+  "reason_cs": "MARA Holdings oznámila zpětný odkup akcií, který pozitivně podpořil zájem investorů.",
+  "model_used": "gemini-3.5-flash-lite (dávka)"
+ },
+ "CSQR|2026-11-10|b252671a5c9287fb": {
+  "direction": "YES",
+  "catalyst": "UPGRADE",
+  "about_target": true,
+  "reason_cs": "Analytici z Bernstein a BMO zvýšili cílovou cenu pro CSQR díky silným výsledkům a rezervacím za Q3.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "LCID|2026-11-10|30439168a3cb19fd": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Lucid zaostal za očekáváním trhu ohledně zisku a oznámil navýšení půjčky, což představuje negativní fundamentální zprávu.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "NVDA|2026-11-10|bc43b62fcb8e1568": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Titulky neobsahují žádný pozitivní katalyzátor, naopak akcie klesají v důsledku vyšetřování generálního ředitele.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "ZETA|2026-11-10|3e95c81bb13c1281": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie Zeta Global výrazně posilují díky silným kvartálním výsledkům za Q3 a zvýšení cílových cen analytiky.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "TTWO|2026-11-10|21cfd0e41189c6e9": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie Take-Two rostou díky lepším výsledkům, zvládnutému výhledu a potvrzení termínu vydání GTA VI.",
+  "model_used": "gemini-3.6-flash"
+ },
+ "AAON|2026-11-10|3459989881ecbd40": {
+  "direction": "YES",
+  "catalyst": "GUIDANCE_UP",
+  "about_target": true,
+  "reason_cs": "Akcie AAON prudce rostou díky výrazně lepším výsledkům hospodaření a zvýšenému výhledu v oblasti AI infrastruktury.",
+  "model_used": "gemini-3.5-flash"
+ },
+ "SECZ|2026-11-10|90c5455f7167f0ca": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie Securitize výrazně rostou díky překonání očekávaných tržeb za 3. čtvrtletí, oznámení odkupu akcií a zvýšení cílové ceny od Needham.",
+  "model_used": "gemini-3.5-flash"
+ },
+ "CSQR|2026-11-10|c51b064e3d5c9f23": {
+  "direction": "YES",
+  "catalyst": "GUIDANCE_UP",
+  "about_target": true,
+  "reason_cs": "Akcie Csquare výrazně rostou díky překonání odhadů tržeb, silným rezervacím a zvýšení výhledu zisku.",
+  "model_used": "gemini-3.5-flash"
+ },
+ "NVDA|2026-11-10|11a3f9d5a52f26f8": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Akcie Nvidia prudce klesají kvůli vyšetřování generálního ředitele Jensena Huanga, skandálu s obcházením restrikcí pro Čínu a snížení cílových cen od analytiků.",
+  "model_used": "gemini-3-flash-preview"
+ },
+ "TTD|2026-11-10|f047fc33a3d4a087": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Společnost The Trade Desk překonala vlastní prognózu tržeb o 86 milionů USD a akcie na výsledky reagují růstem o více než 5 %.",
+  "model_used": "gemini-3-flash-preview"
+ },
+ "ACAD|2026-11-10|1bd04753a1ed3ee2": {
+  "direction": "NO",
+  "catalyst": "NONE",
+  "about_target": true,
+  "reason_cs": "Titulky postrádají čerstvý pozitivní fundamentální katalyzátor; zprávy zmiňují spíše předchozí poklesy nebo snížení výhledu pro výzkum a vývoj.",
+  "model_used": "gemini-3-flash-preview"
+ },
+ "TTWO|2026-11-10|00ed1ab2aef65b0e": {
+  "direction": "YES",
+  "catalyst": "EARNINGS_BEAT",
+  "about_target": true,
+  "reason_cs": "Akcie TTWO rostou o téměř 8 % po zveřejnění kvartálních výsledků a potvrzení termínu vydání očekávané hry GTA VI.",
   "model_used": "gemini-3-flash-preview"
  }
 }

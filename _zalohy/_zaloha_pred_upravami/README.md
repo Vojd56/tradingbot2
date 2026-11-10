@@ -66,7 +66,7 @@ Všechny klíče se načítají z lokálních systémových proměnných nebo so
 ```env
 # Discord
 DISCORD_BOT_TOKEN="tvuj_discord_token"
-DISCORD_CHANNEL_ID="<DISCORD_ID>"
+DISCORD_CHANNEL_ID="0"
 
 # Google Gemini API
 GEMINI_API_KEY="tvuj_gemini_api_key"

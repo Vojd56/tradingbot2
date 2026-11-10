@@ -3,9 +3,9 @@
 2026-10-26 16:44:21,880 [INFO] TradingBot: Spouštím Autonomního Discord Bota...
 2026-10-26 16:44:21,886 [WARNING] discord.ext.commands.bot: Privileged message content intent is missing, commands may not work as expected.
 2026-10-26 16:44:21,890 [INFO] discord.client: logging in using static token
-2026-10-26 16:44:24,431 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: <redacted>).
-2026-10-26 16:44:26,437 [INFO] TradingBot: ✅ Přihlášen jako TradingBot (ID: <DISCORD_ID>)
-2026-10-26 16:44:26,437 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: <DISCORD_ID>)
+2026-10-26 16:44:24,431 [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: 756c6dd88f2951f8e15f2c6224693bb5).
+2026-10-26 16:44:26,437 [INFO] TradingBot: ✅ Přihlášen jako TradingBot#0625 (ID: 0)
+2026-10-26 16:44:26,437 [INFO] TradingBot: 📢 Cílový alert kanál nastaven na: #trading-bot (ID: 0)
 2026-10-26 16:44:26,437 [INFO] TradingBot: 🚀 Periodická smyčka Scouta (5 minut) byla úspěšně spuštěna.
 2026-10-26 16:44:26,437 [INFO] TradingBot: Bot je připraven, spouštím smyčku Scouta...
 2026-10-26 16:44:26,437 [INFO] TradingBot: 🔭 SCOUT: Kontrola trhu | Praha: 2026-10-26 16:44:26 (CET) | EU akcie: 🟢 | US akcie: 🟢 | Krypto: 🟢 24/7

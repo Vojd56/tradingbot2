@@ -47,4 +47,4 @@ S5 data: 191 akcií, výsledky u 191
 == HIGH20 jak běží dnes (bez filtrů, 24 h) == 
   obchody=712, vynos_pct=30.0, CAGR_pct=4.17, max_pokles_pct=-6.2, sharpe=0.72, PF=1.35, vyhry_pct=48.5, prumer_obchod_pct=0.459, prumer_R=0.076, od_2020={'n': 712, 'PF': 1.35, 'prumer_obchod_pct': 0.459}, benchmark_vynos_pct=660.6, benchmark_CAGR_pct=37.19, benchmark_max_pokles_pct=-76.7, brana=True
 
-Hotovo: C:\Users\<user>\TEst\zalohabot - kopie\_analyza_swing\kandidati.txt
+Hotovo: C:\Users\vojte\TEst\zalohabot - kopie\_analyza_swing\kandidati.txt

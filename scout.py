@@ -145,6 +145,7 @@ def fetch_crypto_data_sync(symbol: str) -> Optional[Dict[str, Any]]:
             price_prev = float(h["Close"].iloc[-2])
             vol_now = float(h["Volume"].iloc[-1])
             vol_avg = float(h["Volume"].mean())
+            data_as_of = bars.as_of(h, "1h", closed=None)
         else:
             # Průměr objemu z DOKONČENÝCH hodinových svíček
             vols = [float(k[5]) for k in klines[-21:-1]]
@@ -156,10 +157,12 @@ def fetch_crypto_data_sync(symbol: str) -> Optional[Dict[str, Any]]:
                 price_now = float(klines_1m[-1][4])
                 price_prev = float(klines_1m[0][4])
                 vol_now = sum(float(k[5]) for k in klines_1m[1:])
+                data_as_of = _kline_as_of(klines_1m[-1], 60_000, "1m svíčka Binance")
             else:
                 price_now = float(klines[-1][4])
                 price_prev = float(klines[-2][4])
                 vol_now = float(klines[-1][5])
+                data_as_of = _kline_as_of(klines[-1], 3_600_000, "1h svíčka Binance")
 
         price_move_pct = ((price_now - price_prev) / price_prev) * 100 if price_prev > 0 else 0.0
         volume_ratio = vol_now / vol_avg if vol_avg > 0 else 1.0
@@ -208,6 +211,7 @@ def fetch_crypto_data_sync(symbol: str) -> Optional[Dict[str, Any]]:
             "sfp_data": sfp_data,
             "triggered": triggered,
             "trigger_reasons": trigger_reasons,
+            "data_as_of": data_as_of,
             "timestamp": datetime.now().isoformat()
         }
 
@@ -278,6 +282,15 @@ def _relevant_stock_headlines(t, ticker: str, name: str) -> List[str]:
     return headlines[:6]
 
 
+def _kline_as_of(k, step_ms: int, label: str) -> str:
+    """Čas, ke kterému platí cena z Binance klines: konec svíčky (open time + délka), u rozjeté aktuální čas."""
+    try:
+        end_ms = min(int(k[0]) + step_ms, int(datetime.now(timezone.utc).timestamp() * 1000))
+        return bars.as_of_time(datetime.fromtimestamp(end_ms / 1000, timezone.utc), label)
+    except Exception:
+        return ""
+
+
 def fetch_stock_data_sync(ticker: str) -> Optional[Dict[str, Any]]:
     """Synchronní stažení dat z yfinance pro US a evropské akcie."""
     try:
@@ -301,6 +314,7 @@ def fetch_stock_data_sync(ticker: str) -> Optional[Dict[str, Any]]:
 
         price_now = float(hist_1h["Close"].iloc[-1])
         price_1h_ago = float(hist_1h["Close"].iloc[-2])
+        data_as_of = bars.as_of(hist_1h, "1h", closed=None)
         price_move_pct = ((price_now - price_1h_ago) / price_1h_ago) * 100
 
         # 2. Denní historie (staženou a ověřenou výše) pro 20denní průměrný objem
@@ -369,6 +383,7 @@ def fetch_stock_data_sync(ticker: str) -> Optional[Dict[str, Any]]:
             "triggered": triggered,
             "trigger_reasons": trigger_reasons,
             "bars_error": bars_error,
+            "data_as_of": data_as_of,
             "timestamp": datetime.now().isoformat()
         }
     except Exception as e:

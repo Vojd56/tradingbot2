@@ -91,17 +91,22 @@ def eu_earnings_note(q: Dict[str, Any], now: datetime, known: Optional[Dict[str,
     while prev.weekday() >= 5:
         prev -= timedelta(days=1)
     sym = str(q.get("symbol") or "").upper()
-    day = None
+    day, when = None, None
     ts = q.get("earningsTimestamp") or q.get("earningsTimestampStart")
     try:
         if ts:
-            day = datetime.fromtimestamp(int(ts), tz).date()
+            when = datetime.fromtimestamp(int(ts), tz)
+            day = when.date()
         elif known and known.get(sym):
             day = date.fromisoformat(str(known[sym])[:10])
     except (TypeError, ValueError, OSError):
         day = None
     if day == today:
-        return "výsledky dnes"
+        # Fáze 4: dnešní výsledky jsou katalyzátor, jen když už vyšly (známý čas před teď). Bez času nebo
+        # s časem po teď (typicky po zavření) se práh nesnižuje: trh je ještě nezná.
+        if when is not None and when <= now.astimezone(tz):
+            return "výsledky dnes"
+        return None
     if day == prev:
         return "výsledky včera"
     return None
@@ -235,6 +240,8 @@ def earnings_symbols(now_prague: datetime) -> Dict[str, str]:
                     continue
                 if label == "včera" and r.get("time") == "před otevřením":
                     continue  # včerejší výsledky před otevřením už trh včera vstřebal
+                if label == "dnes" and r.get("time") != "před otevřením":
+                    continue  # fáze 4: dnešní výsledky po zavření (nebo bez času) trh během seance ještě nezná
                 out[sym] = f"výsledky {label} ({r.get('time')})"
         except Exception as e:
             logger.warning(f"🚀 Kalendář výsledků ({d}) nedostupný: {e}")

@@ -66,9 +66,11 @@ ok(R.size_position(1000.0, 10.0, 100.0, 96.0, side, 0.9)["limited_by"] == "hotov
 
 # --- portfolio
 posx = lambda t, sec, risk=0.0: {"ticker": t, "sector": sec, "status": "PENDING", "planned_risk_acct": risk}
-ok(R.portfolio_block([posx(f"T{i}", f"S{i}") for i in range(5)], "X", 1, 1000, 1) is not None, "max 5 pozic")
+ok(R.portfolio_block([posx(f"T{i}", f"S{i}") for i in range(R.SWING_MAX_POSITIONS)], "X", 1, 1000, 1) is not None, "max SWING_MAX_POSITIONS pozic")
+ok(R.SWING_MAX_POSITIONS == 10 and R.portfolio_block([posx(f"T{i}", f"S{i}") for i in range(9)], "X", 1, 1000, 1) is None, "9 pozic -> 10. projde")
 ok("sektor" in (R.portfolio_block([posx("A", "Tech")], "Tech", 1, 1000, 1) or ""), "max 1 na sektor")
-ok("riziko" in (R.portfolio_block([posx("A", "S1", 25.0)], "S2", 6.0, 1000, 1) or ""), "otevřené riziko <= 3 %")
+ok(R.SWING_MAX_OPEN_RISK_PCT == 5.0 and "riziko" in (R.portfolio_block([posx("A", "S1", 45.0)], "S2", 6.0, 1000, 1) or ""), "otevřené riziko <= 5 %")
+ok(R.portfolio_block([posx(f"T{i}", f"S{i}", 5.0) for i in range(9)], "X", 5.0, 1000, 1) is None, "10 pozic po 0,5 % se vejde pod 5 %")
 ok(R.portfolio_block([posx("A", "S1", 20.0)], "S2", 5.0, 1000, 1) is None, "v limitu projde")
 ok("ticker" in (R.portfolio_block([posx("A", "S1")], "S2", 1.0, 1000, 1, "A") or ""), "stejný ticker podruhé ne")
 

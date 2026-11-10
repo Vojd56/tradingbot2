@@ -280,7 +280,8 @@ def snapshot_block() -> Dict[str, Any]:
 # =====================================================================
 
 def build_prompt(ticker: str, price: float, price_move_pct: float, volume_ratio: float, headlines: List[str],
-                 open_positions_cnt: int, setup: Optional[Dict[str, Any]] = None, market_context: str = "") -> str:
+                 open_positions_cnt: int, setup: Optional[Dict[str, Any]] = None, market_context: str = "",
+                 data_as_of: str = "") -> str:
     """Původní prompt (_zaloha_pred_gemini_vstupy/gemini_team._build_prompt), krypto větev."""
     from config import FICTITIOUS_CAPITAL, MAX_ALLOCATION_PCT
     platform_name = "Binance Futures"
@@ -343,7 +344,7 @@ VSTUPNÍ DATA:
 - Ticker: {ticker}
 - Platforma: {platform_name}
 - Aktuální tržní cena: {fmt_price(price)} USD
-- 1hodinový pohyb ceny: {price_move_pct:+.2f}%
+{f"- Data k {data_as_of}." + chr(10) if data_as_of else ""}- 1hodinový pohyb ceny: {price_move_pct:+.2f}%
 - Volume spike: {volume_ratio:.2f}x 20denního průměrného objemu
 - Počet otevřených pozic pro {platform_name}: {open_positions_cnt} / {max_positions}
 {setup_text}{context_text}- Dostupné zprávy z trhu:
@@ -491,7 +492,8 @@ async def run_pass(fetch_data: Callable[[str], Optional[Dict[str, Any]]],
         setup = data.get("sfp_data") if data.get("sfp_detected") else None
         price = float(data["price"])
         prompt = build_prompt(sym, price, float(data.get("price_move_pct") or 0), float(data.get("volume_ratio") or 0),
-                              data.get("headlines") or [], len(open_positions(trades)), setup, ctx)
+                              data.get("headlines") or [], len(open_positions(trades)), setup, ctx,
+                              data.get("data_as_of") or "")
         resp = await ask_gemini(prompt, sym)
         if resp is None:
             log.append(f"{sym}: Gemini (Flash Lite) nedostupný")

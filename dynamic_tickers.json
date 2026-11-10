@@ -1,219 +1,186 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "tickers": [
     {
-      "ticker": "NET",
-      "reason": "gap v premarketu +18.9 %, výsledky včera (čas neuveden)",
-      "kind": "gap",
-      "change_pct": 18.92,
-      "rel_volume": null,
-      "added_at": "2026-11-06T13:06:33+01:00",
-      "headlines": [
-        "Cloudflare Stock Got Battered in the Tech Rout. Why It’s Up 12% After Earnings. - Barron's",
-        "Cloudflare Shares Surge Over 14% as Third-Quarter Revenue Jumps 39% and Company Raises 2026 Outlook - Yahoo Finance",
-        "Cloudflare Stock Surges on Lifted Full-Year Outlook, Third-Quarter Revenue Growth - WSJ"
-      ],
-      "name": "Cloudflare, Inc.",
-      "last_change_pct": 11.98,
-      "last_rel_volume": 3.1,
-      "updated_at": "2026-11-06T19:06:33+01:00"
-    },
-    {
-      "ticker": "ABNB",
-      "reason": "gap v premarketu +12.1 %, výsledky včera (čas neuveden)",
-      "kind": "gap",
-      "change_pct": 12.13,
-      "rel_volume": null,
-      "added_at": "2026-11-06T13:06:33+01:00",
-      "headlines": [
-        "Airbnb Shares Jump Over 10% as Third-Quarter Earnings Beat Forecasts and Travel Bookings Accelerate - Yahoo Finance",
-        "Airbnb Beats Earnings Estimates, Hikes 2026 Outlook as AI and Gen Z Fuel Growth - Barron's",
-        "Airbnb Posts 19% Revenue Jump as Chesky Hails ‘Growth Mode’ - Bloomberg.com"
-      ],
-      "name": "Airbnb, Inc.",
-      "last_change_pct": 11.97,
-      "last_rel_volume": 2.5,
-      "updated_at": "2026-11-06T19:06:33+01:00"
-    },
-    {
-      "ticker": "IREN",
-      "reason": "gap v premarketu +19.2 %",
-      "kind": "gap",
-      "change_pct": 19.25,
-      "rel_volume": null,
-      "added_at": "2026-11-06T13:06:33+01:00",
-      "headlines": [
-        "IREN stock jumps as FQ1 net loss narrows, AI cloud revenue nearly triples (IREN:NASDAQ) - Seeking Alpha",
-        "IREN Stock Jumps After Earnings -- AI Cloud Revenue Is Taking Off - TradingView",
-        "IREN stock plunges 18% as Microsoft raises concerns over data center delays - Yahoo Finance UK"
-      ],
-      "name": "IREN LIMITED",
-      "last_change_pct": 16.22,
-      "last_rel_volume": 2.9,
-      "updated_at": "2026-11-06T19:06:33+01:00"
-    },
-    {
-      "ticker": "EXTR",
-      "reason": "dnes +19.5 % při 1.9× běžného objemu",
+      "ticker": "SECZ",
+      "reason": "dnes +36.6 % při 4.9× běžného objemu",
       "kind": "momentum",
-      "change_pct": 19.52,
+      "change_pct": 36.59,
+      "rel_volume": 4.9,
+      "added_at": "2026-11-10T15:45:25+01:00",
+      "headlines": [
+        "Securitize Corp. (SECZ) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Needham raises Securitize stock price target on tokenization growth - Investing.com",
+        "Securitize Lists on NYSE and Tokenizes Its Own Stock on Day 1 - CoinMarketCap"
+      ],
+      "name": "Securitize Corp.",
+      "last_change_pct": 20.16,
+      "last_rel_volume": 3.4,
+      "updated_at": "2026-11-10T21:15:25+01:00"
+    },
+    {
+      "ticker": "AAON",
+      "reason": "dnes +20.2 % při 1.9× běžného objemu",
+      "kind": "momentum",
+      "change_pct": 20.18,
       "rel_volume": 1.9,
-      "added_at": "2026-11-06T15:36:33+01:00",
+      "added_at": "2026-11-10T15:45:25+01:00",
       "headlines": [
-        "How Extreme Networks Inc. (EXTR) Affects Rotational Strategy Timing - Stock Traders Daily",
-        "Networking firm Extreme Networks explores sale, sources say - Reuters",
-        "Exclusive-Networking firm Extreme Networks explores sale, sources say By Reuters - Investing.com"
+        "Oppenheimer lowers AAON stock price target to $105 on valuation - Investing.com",
+        "AAON stock Analysis: closes at $62.87, up 9.93% - The Cryptonomist",
+        "AAON, Inc. Stock 12‑Month Price Target Cut to $124.6, Implies 98% Upside - TradingView"
       ],
-      "name": "Extreme Networks, Inc.",
-      "last_change_pct": 13.89,
-      "last_rel_volume": 3.7,
-      "updated_at": "2026-11-06T19:06:33+01:00"
-    },
-    {
-      "ticker": "FROG",
-      "reason": "dnes +31.2 % při 3.7× běžného objemu",
-      "kind": "momentum",
-      "change_pct": 31.17,
-      "rel_volume": 3.7,
-      "added_at": "2026-11-06T16:06:33+01:00",
-      "headlines": [
-        "KeyBanc raises JFrog stock price target to $118 on strong results - Investing.com",
-        "JFrog Cloud Business Surges as AI and Security Adoption Expand - Benzinga",
-        "What JFrog (FROG) Said on Its Q3 Earnings Call - Yahoo Finance"
-      ],
-      "name": "JFrog Ltd.",
-      "last_change_pct": 34.21,
-      "last_rel_volume": 4.1,
-      "updated_at": "2026-11-06T19:06:33+01:00"
-    },
-    {
-      "ticker": "TMDX",
-      "reason": "dnes +21.4 % při 3.1× běžného objemu",
-      "kind": "momentum",
-      "change_pct": 21.36,
-      "rel_volume": 3.1,
-      "added_at": "2026-11-06T16:06:33+01:00",
-      "headlines": [
-        "Why is TransMedics stock surging today? - Investing.com",
-        "TransMedics (TMDX) Q3 Earnings: How Key Metrics Compare to Wall Street Estimates - Yahoo Finance",
-        "Earnings Beat May Test The Case For TransMedics Group Stock - Simply Wall St"
-      ],
-      "name": "TransMedics Group, Inc.",
-      "last_change_pct": 24.35,
+      "name": "AAON, Inc.",
+      "last_change_pct": 19.47,
       "last_rel_volume": 3.5,
-      "updated_at": "2026-11-06T19:06:33+01:00"
+      "updated_at": "2026-11-10T21:15:25+01:00"
     },
     {
-      "ticker": "FLY",
-      "reason": "dnes +16.1 % při 2.6× běžného objemu",
+      "ticker": "TTWO",
+      "reason": "dnes +5.7 % při 2.8× běžného objemu",
       "kind": "momentum",
-      "change_pct": 16.14,
+      "change_pct": 5.69,
+      "rel_volume": 2.8,
+      "added_at": "2026-11-10T15:45:25+01:00",
+      "headlines": [
+        "Is the imminent GTA VI launch already priced into Take-Two stock? - Yahoo Finance",
+        "Take-Two Interactive Software Stock Q3: The Game Is Just The Beginning (NASDAQ:TTWO) - Seeking Alpha",
+        "Take-Two shares climb after results, guidance; GTA VI release date reiterated - Investing.com"
+      ],
+      "name": "Take-Two Interactive Software,",
+      "last_change_pct": 8.01,
+      "last_rel_volume": 2.8,
+      "updated_at": "2026-11-10T21:15:25+01:00"
+    },
+    {
+      "ticker": "EMBJ",
+      "reason": "dnes +5.6 % při 2.1× běžného objemu",
+      "kind": "momentum",
+      "change_pct": 5.6,
+      "rel_volume": 2.1,
+      "added_at": "2026-11-10T15:45:25+01:00",
+      "headlines": [
+        "Embraer (EMBJ) Q3 Earnings: Taking a Look at Key Metrics Versus Estimates - Yahoo Finance",
+        "Embraer S.A. Announces MATERIAL FACT - Yahoo Finance",
+        "Embraer raises 2026 guidance after record third-quarter revenue - Investing.com"
+      ],
+      "name": "Embraer S.A.",
+      "last_change_pct": 7.67,
+      "last_rel_volume": 2.3,
+      "updated_at": "2026-11-10T21:15:25+01:00"
+    },
+    {
+      "ticker": "CSQR",
+      "reason": "dnes +19.6 % při 2.8× běžného objemu",
+      "kind": "momentum",
+      "change_pct": 19.55,
+      "rel_volume": 2.8,
+      "added_at": "2026-11-10T16:15:25+01:00",
+      "headlines": [
+        "BofA cuts Csquare stock price target on valuation, keeps buy - Investing.com",
+        "What Csquare (CSQR) Said on Its Q3 Earnings Call - Yahoo Finance",
+        "BMO raises Csquare stock price target to $27 on strong quarter - Investing.com UK"
+      ],
+      "name": "Csquare, Inc.",
+      "last_change_pct": 16.63,
+      "last_rel_volume": 3.4,
+      "updated_at": "2026-11-10T21:15:25+01:00"
+    },
+    {
+      "ticker": "ZETA",
+      "reason": "dnes +6.8 % při 2.6× běžného objemu",
+      "kind": "momentum",
+      "change_pct": 6.82,
       "rel_volume": 2.6,
-      "added_at": "2026-11-06T16:06:33+01:00",
+      "added_at": "2026-11-10T16:45:25+01:00",
       "headlines": [
-        "Firefly Aerospace stock surges 13% on $1.3 billion engine deal - Yahoo! Finance Canada",
-        "Jefferies reiterates Firefly Aerospace stock rating on SpaceMobile deal - Investing.com",
-        "Why is Firefly Aerospace stock surging today? - Investing.com"
+        "Truist raises Zeta Global stock price target on strong growth - Investing.com",
+        "Zeta Global: Strong Q3 Revenue Growth And A Bullish Guide, Hiking My Target (NYSE:ZETA) - Seeking Alpha",
+        "What Zeta Global (ZETA) Said on Its Q3 Earnings Call - Yahoo Finance"
       ],
-      "name": "Firefly Aerospace Inc.",
-      "last_change_pct": 28.96,
-      "last_rel_volume": 4.4,
-      "updated_at": "2026-11-06T19:06:33+01:00"
+      "name": "Zeta Global Holdings Corp.",
+      "last_change_pct": 6.01,
+      "last_rel_volume": 1.6,
+      "updated_at": "2026-11-10T21:15:25+01:00"
     },
     {
-      "ticker": "OKLO",
-      "reason": "dnes +16.1 % při 1.9× běžného objemu",
+      "ticker": "ACAD",
+      "reason": "dnes +5.2 % při 3.4× běžného objemu",
       "kind": "momentum",
-      "change_pct": 16.15,
-      "rel_volume": 1.9,
-      "added_at": "2026-11-06T16:06:33+01:00",
+      "change_pct": 5.15,
+      "rel_volume": 3.4,
+      "added_at": "2026-11-10T17:15:25+01:00",
       "headlines": [
-        "Why is Oklo stock surging today? - Investing.com",
-        "Oklo Inc. (OKLO) latest stock news and headlines - Yahoo Finance Australia",
-        "Why Is Oklo Stock Gaining Friday? - Benzinga"
+        "Acadia Pharmaceuticals (ACAD) Stock Still Looks Like A Bargain Today - Yahoo Finance",
+        "What Has The Market Missed In Acadia Pharmaceuticals Stock’s Drop? - Trefis",
+        "Acadia Pharmaceuticals (ACAD) Cuts 2026 R And D Guidance, Is It Still 46% Undervalued? - Yahoo Finance"
       ],
-      "name": "Oklo Inc.",
-      "last_change_pct": 21.67,
-      "last_rel_volume": 2.6,
-      "updated_at": "2026-11-06T19:06:33+01:00"
-    },
-    {
-      "ticker": "KRMN",
-      "reason": "dnes +22.5 % při 2.5× běžného objemu",
-      "kind": "momentum",
-      "change_pct": 22.51,
-      "rel_volume": 2.5,
-      "added_at": "2026-11-06T16:36:33+01:00",
-      "headlines": [
-        "Karman Holdings Inc (KRMN) Q3 2026 Earnings Call Highlights: Record Revenue, $1. ... - Yahoo Finance",
-        "These Analysts Revise Their Forecasts On Karman After Upbeat Q3 Results - Benzinga",
-        "Karman (NYSE:KRMN) Stock Rating Reaffirmed as \"Overweight\" by Piper Sandler - MarketBeat"
-      ],
-      "name": "Karman Holdings Inc.",
-      "last_change_pct": 29.69,
+      "name": "ACADIA Pharmaceuticals Inc.",
+      "last_change_pct": 8.91,
       "last_rel_volume": 2.5,
-      "updated_at": "2026-11-06T19:06:33+01:00"
+      "updated_at": "2026-11-10T21:15:25+01:00"
     },
     {
-      "ticker": "LASR",
-      "reason": "dnes +22.0 % při 2.0× běžného objemu",
+      "ticker": "AMG",
+      "reason": "dnes +5.1 % při 1.9× běžného objemu",
       "kind": "momentum",
-      "change_pct": 21.95,
-      "rel_volume": 2.0,
-      "added_at": "2026-11-06T16:36:33+01:00",
+      "change_pct": 5.09,
+      "rel_volume": 1.9,
+      "added_at": "2026-11-10T18:45:25+01:00",
       "headlines": [
-        "nLIGHT, Inc. (LASR) stock price, news, quote and history - Yahoo Finance Singapore",
-        "nLIGHT Stock After Earnings As Revenue Reached US$236.54 Million Over Nine Months - Yahoo Finance UK",
-        "Earnings Growth May Change The Case For nLIGHT Stock - Simply Wall St"
+        "Affiliated Managers Group, Inc. (AMG) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Why Affiliated Managers Group Stock Is Up 5.6% And What's Next - Yahoo Finance",
+        "TD Cowen raises Affiliated Managers stock price target on earnings growth - Investing.com UK"
       ],
-      "name": "nLIGHT, Inc.",
-      "last_change_pct": 27.98,
-      "last_rel_volume": 2.0,
-      "updated_at": "2026-11-06T19:06:33+01:00"
+      "name": "Affiliated Managers Group, Inc.",
+      "last_change_pct": 4.59,
+      "last_rel_volume": 1.8,
+      "updated_at": "2026-11-10T21:15:25+01:00"
+    },
+    {
+      "ticker": "SANM",
+      "reason": "dnes +5.1 % při 4.9× běžného objemu",
+      "kind": "momentum",
+      "change_pct": 5.1,
+      "rel_volume": 4.9,
+      "added_at": "2026-11-10T20:45:25+01:00",
+      "headlines": [
+        "Sanmina (SANM) Stock Looks Discounted Following Its 271% Five Year Run - Yahoo Finance",
+        "While Sanmina’s Key Driver Is Its Manufacturing Business, It Could Be AI Tomorrow. - Barron's",
+        "Sanmina (SANM) shares skyrocket, what you need to know - TradingView"
+      ],
+      "name": "Sanmina Corporation",
+      "last_change_pct": 4.33,
+      "last_rel_volume": 4.7,
+      "updated_at": "2026-11-10T21:15:25+01:00"
+    },
+    {
+      "ticker": "AKAM",
+      "reason": "dnes +4.6 % při 4.3× běžného objemu",
+      "kind": "momentum",
+      "change_pct": 4.56,
+      "rel_volume": 4.3,
+      "added_at": "2026-11-10T21:15:25+01:00",
+      "headlines": [
+        "Why is Akamai Technologies stock rallying today? - Investing.com",
+        "Akamai Technologies, Inc. (AKAM) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+        "Akamai Technologies Inc. stock underperforms Monday when compared to competitors - MarketWatch"
+      ],
+      "name": "Akamai Technologies, Inc."
     }
   ],
   "tickers_eu": [
     {
-      "ticker": "ADYEN.AS",
-      "reason": "dnes +4.5 % při 6.6× běžného objemu (Amsterdam)",
+      "ticker": "IFX.DE",
+      "reason": "dnes +6.4 % při 1.6× běžného objemu (XETRA)",
       "kind": "momentum",
-      "change_pct": 4.51,
-      "rel_volume": 6.6,
-      "added_at": "2026-11-06T09:06:33+01:00",
-      "headlines": [
-        "Adyen stock gains 4.69% since JINS rollout report - ad-hoc-news.de",
-        "Adyen stock expands Japanese retail payments through JINS - ad-hoc-news.de"
-      ],
-      "name": "ADYEN",
-      "faded_at": "2026-11-06T09:36:33+01:00"
-    },
-    {
-      "ticker": "AIXA.DE",
-      "reason": "dnes +4.7 % při 1.8× běžného objemu (XETRA)",
-      "kind": "momentum",
-      "change_pct": 4.67,
-      "rel_volume": 1.8,
-      "added_at": "2026-11-06T11:06:33+01:00",
+      "change_pct": 6.37,
+      "rel_volume": 1.6,
+      "added_at": "2026-11-10T11:15:25+01:00",
       "headlines": [],
-      "name": "AIXTRON SE                    N",
-      "faded_at": "2026-11-06T11:36:33+01:00"
-    },
-    {
-      "ticker": "SOI.PA",
-      "reason": "dnes +4.2 % při 2.0× běžného objemu (Paris)",
-      "kind": "momentum",
-      "change_pct": 4.19,
-      "rel_volume": 2.0,
-      "added_at": "2026-11-06T12:36:33+01:00",
-      "headlines": [
-        "Missed Soitec's 182% Run? Here Is What Holders Saw - Simply Wall St"
-      ],
-      "name": "SOITEC",
-      "last_change_pct": 5.0,
-      "last_rel_volume": 1.6,
-      "updated_at": "2026-11-06T16:06:33+01:00",
-      "faded_at": "2026-11-06T16:36:33+01:00"
+      "name": "INFINEON TECHNOLOGIES AG      N",
+      "faded_at": "2026-11-10T11:45:25+01:00"
     }
   ],
-  "last_scan": "2026-11-06T19:06:33+01:00"
+  "last_scan": "2026-11-10T21:15:25+01:00"
 }

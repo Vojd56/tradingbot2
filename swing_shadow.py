@@ -32,7 +32,7 @@ import swing_scanner
 import swing_lite_team
 import swing_insider
 from config import (
-    BASE_DIR, SWING_SHADOW_ENABLED, SWING_LIVE_ENABLED, SWING_MAX_ANALYZE, SWING_MAX_NEW_PER_DAY,
+    BASE_DIR, SWING_SHADOW_ENABLED, SWING_TRACK_D_ENABLED, SWING_LIVE_ENABLED, SWING_MAX_ANALYZE, SWING_MAX_NEW_PER_DAY,
     SWING_EARNINGS_BLACKOUT_DAYS, SWING_LOSS_STREAK, SWING_LOSS_PAUSE_DAYS, SWING_MAX_DD_PCT,
     SWING_REVIEW_EVERY_DAYS, SWING_START_EQUITY_FALLBACK_EUR, SWING_MORNING_PRAGUE,
     SWING_EVENING_AFTER_CLOSE_MIN, SWING_GEMINI_MAX_CALLS_PER_DAY, SWING_MARKETS, SWING_MAX_OPEN_RISK_PCT,
@@ -44,11 +44,14 @@ logger = logging.getLogger("TradingBot.Swing")
 LOG_FILE = BASE_DIR / "swing_shadow.jsonl"
 STATE_FILE = BASE_DIR / "swing_shadow_state.json"
 TRACKS = {"A": "A Gemini", "B": "B skóre", "C": "C náhoda", "D": "D Lite tým", "E": "E insideři"}
+if not SWING_TRACK_D_ENABLED:
+    del TRACKS["D"]
 MARKET_NAMES = {"US": "🇺🇸 US", "EU": "🇪🇺 EU"}
 ACCOUNT_CCY = "EUR"              # virtuální účty stop jsou v EUR
 PICK_PROMPT_MAX = 15             # Gemini výběr dostane nejvýš 15 nejlepších kandidátů
 MAX_CATCHUP_EVENINGS = 5
 ENTRY_DELAY_MIN = 15
+FILL_RETRY_DAYS = 2      # bez intradenních svíček pozice čeká nejvýš 2 obchodní dny, pak "bez intradenních dat"
 MORNING_CUTOFF_BEFORE_CLOSE_MIN = 30
 FX_CCYS = ("USD", "CHF", "DKK", "SEK", "NOK")
 _lock = threading.Lock()
@@ -111,8 +114,10 @@ def _migrate(st: Dict[str, Any]) -> Dict[str, Any]:
         for p in tr.get("positions", []):
             p.setdefault("market", "US")
             p.setdefault("ccy", "USD")
+    if "D" not in TRACKS and st.get("tracks") and not st["tracks"].get("D", {}).get("positions"):
+        st["tracks"].pop("D", None)   # vypnutá stopa bez pozic zmizí ze stavu, a tím i z dashboardu
     for k in ("D", "E"):
-        if st.get("tracks") and k not in st["tracks"]:
+        if k in TRACKS and st.get("tracks") and k not in st["tracks"]:
             # stopa D přidána 2. 11. večer, E (insideři, V3) 3. 11. večer: vlastní účet se stejným startem jako ostatní
             start = next(iter(st["tracks"].values())).get("equity_start", SWING_START_EQUITY_FALLBACK_EUR)
             st["tracks"][k] = _new_track(start)
@@ -204,24 +209,36 @@ def fetch_daily(tickers: List[str]) -> Dict[str, pd.DataFrame]:
     return swing_scanner.download_daily(sorted(set(tickers)), period="6mo")
 
 
+def entry_from_bars(df: Optional[pd.DataFrame], start: datetime, day: date, label: str) -> Optional[Dict[str, Any]]:
+    """Vstup = open první svíčky začínající v `start` nebo později (svíčka je označená svým začátkem),
+    high/low od té chvíle do zavření dne `day`. Nic dřívějšího se nepoužije (fáze 4: žádný denní open)."""
+    if df is None or df.empty:
+        return None
+    idx = df.index if df.index.tz is not None else df.index.tz_localize("UTC")
+    df = df.set_axis(idx.tz_convert(start.tzinfo))
+    after = df[(df.index >= start) & (df.index.date == day)]
+    if after.empty:
+        return None
+    return {"fill": float(after["Open"].iloc[0]), "high": float(after["High"].max()),
+            "low": float(after["Low"].min()), "src": f"{label} {after.index[0].strftime('%H:%M')}"}
+
+
 def fetch_entry_prices(items: List[Tuple[str, datetime]], day: date) -> Dict[str, Dict[str, float]]:
-    """Cena vstupu = open první 5M svíčky od `start` (15 min po otevření, nebo po pozdním skenu) a high/low do zavření."""
+    """Cena vstupu = open první 5M svíčky od `start` (15 min po otevření, nebo po pozdním skenu) a high/low do zavření.
+    Bez 5M svíček první 1h svíčka od `start`. Bez obojího ticker chybí (pozice čeká, viz _fill_entry)."""
     import yfinance as yf
     out = {}
     for t, start in items:
-        try:
-            df = yf.Ticker(t).history(period="5d", interval="5m")
-            if df is None or df.empty:
-                continue
-            idx = df.index if df.index.tz is not None else df.index.tz_localize("UTC")
-            df = df.set_axis(idx.tz_convert(start.tzinfo))
-            after = df[(df.index >= start) & (df.index.date == day)]
-            if after.empty:
-                continue
-            out[t] = {"fill": float(after["Open"].iloc[0]), "high": float(after["High"].max()),
-                      "low": float(after["Low"].min()), "src": f"5M {start.strftime('%H:%M')}"}
-        except Exception as e:
-            logger.debug(f"Swing 5M {t}: {e}")
+        for interval, label in (("5m", "5M"), ("1h", "1H")):
+            try:
+                df = yf.Ticker(t).history(period="5d", interval=interval)
+                got = entry_from_bars(df, start, day, label)
+            except Exception as e:
+                logger.debug(f"Swing {label} {t}: {e}")
+                got = None
+            if got:
+                out[t] = got
+                break
     return out
 
 
@@ -446,7 +463,7 @@ async def run_morning(day: date, st: Dict[str, Any], market: str = "US", now: Op
         if not gates["B"]:
             out["B"] = _add_pending(st, "B", cands, day, fxm, SWING_MAX_NEW_PER_DAY, {}, market, fill_after)
         # D: Lite tým (6 rolí na Flash Lite) nad stejnými top kandidáty podle skóre
-        if not gates.get("D") and cands:
+        if "D" in TRACKS and not gates.get("D") and cands:
             budget_d = _gemini_budget(st, day, "swing_D")
             approved_d, info_d = [], {}
             try:
@@ -489,7 +506,8 @@ async def run_morning(day: date, st: Dict[str, Any], market: str = "US", now: Op
                     logger.warning(f"🌱 Swing: {notes['E']}")
     s = res["stats"]
     parts = [f"{TRACKS[k]}: {', '.join(out[k]) or notes.get(k, 'nic')}" for k in TRACKS]
-    text = (f"🌱 **Swing {name} {day}**: vesmír {s.get('tradable')}, prošlo filtrem {s.get('passed_universe')}, "
+    asof = f" (čísla k close {res['data_as_of']})" if res.get("data_as_of") else ""
+    text = (f"🌱 **Swing {name} {day}**{asof}: vesmír {s.get('tradable')}, prošlo filtrem {s.get('passed_universe')}, "
             f"skóre >= 0,6: {s.get('score_ok')}, kandidáti {s.get('candidates')}, {res['regime_sym']} "
             f"{'nad' if res['regime_ok'] else 'POD'} SMA200.\n"
             f"Papírové vstupy (od {fill_after[11:16]} místního času): " + " | ".join(parts)
@@ -571,11 +589,21 @@ def _sell(st: Dict[str, Any], key: str, pos: Dict[str, Any], qty: float, px: flo
                    "days_held": pos.get("days_held"), "last_reason": reason})
 
 
-def _fill_entry(st, key, pos, day, ip, bar, fx) -> None:
+def _fill_entry(st, key, pos, day, ip, bar, fx, now_day: Optional[date] = None) -> None:
+    """Vstup do papírové pozice za cenu z intradenních svíček (`ip`). Denní open se nepoužije: je z doby před
+    rozhodnutím. Bez intradenních dat pozice čeká (zkusí se další večer), po FILL_RETRY_DAYS se zruší.
+    `day` = den vstupu, `now_day` = den, kdy se to zpracovává (při opakovaném pokusu pozdější)."""
     tr = st["tracks"][key]
-    src = ip or ({"fill": bar["open"], "high": bar["high"], "low": bar["low"], "src": "denní open"} if bar else None)
+    src = ip
     if not src:
-        pos.update(status="CANCELLED", cancel_reason="chybí cena vstupu")
+        tries = pos.get("fill_tries", 0) + 1
+        late = add_trading_days(day, FILL_RETRY_DAYS, pos.get("market", "US"))
+        if (now_day or day) < late:
+            pos["fill_tries"] = tries
+            log_event({"type": "fill_wait", "market": pos.get("market", "US"), "track": key, "day": (now_day or day).isoformat(),
+                       "id": pos["id"], "ticker": pos["ticker"], "entry_day": day.isoformat(), "tries": tries})
+            return
+        pos.update(status="CANCELLED", cancel_reason="bez intradenních dat")
     else:
         fill, stop, side = src["fill"], pos["plan_stop"], pos["cost_side"]
         if fill > stop:
@@ -606,6 +634,21 @@ def _fill_entry(st, key, pos, day, ip, bar, fx) -> None:
                "ticker": pos["ticker"], "reason": pos.get("cancel_reason")})
 
 
+def _catch_up(st, key, pos, entry_day: date, day: date, df: Optional[pd.DataFrame], fx: float) -> None:
+    """Pozdě vyplněná pozice: projde denní svíčky po dni vstupu do včerejška (dnešek zpracuje běžná smyčka).
+    Jen stop/částečný výstup a extrémy; posun stopu se dohání až dnešním během."""
+    mk = pos.get("market", "US")
+    d = add_trading_days(entry_day, 1, mk)
+    while d < day and pos["status"] == "OPEN":
+        b = _row(df, d)
+        if b:
+            pos["days_held"] = pos.get("days_held", 0) + 1
+            R.update_excursions(pos, b["high"], b["low"])
+            for ex in R.process_bar(pos, b["open"], b["high"], b["low"], entry_day=False):
+                _sell(st, key, pos, ex["qty"], ex["price"], ex["reason"], d, fx)
+        d = add_trading_days(d, 1, mk)
+
+
 def _fill_start(pos: Dict[str, Any], day: date) -> datetime:
     mk = pos.get("market", "US")
     tz = _tz(mk)
@@ -633,6 +676,14 @@ async def run_evening(day: date, st: Dict[str, Any], market: str = "US") -> Opti
     pend = [p for p in live if p["status"] == "PENDING" and p["entry_day"] == day.isoformat()]
     items = list({p["ticker"]: (p["ticker"], _fill_start(p, day)) for p in pend}.values())
     intraday = await asyncio.to_thread(fetch_entry_prices, items, day) if items else {}
+    # Pozice, kterým v den vstupu chyběly intradenní svíčky: nový pokus o cenu z jejich dne vstupu
+    late_intraday: Dict[str, Dict[str, Dict[str, float]]] = {}
+    for ed in sorted({p["entry_day"] for p in live if p["status"] == "PENDING" and p.get("fill_tries")
+                      and p["entry_day"] < day.isoformat()}):
+        ed_day = date.fromisoformat(ed)
+        its = list({p["ticker"]: (p["ticker"], _fill_start(p, ed_day)) for p in live
+                    if p["status"] == "PENDING" and p.get("fill_tries") and p["entry_day"] == ed}.values())
+        late_intraday[ed] = await asyncio.to_thread(fetch_entry_prices, its, ed_day)
     fxm = await asyncio.to_thread(fx_map, st)
     trail = {t: _trail_inputs(daily.get(t), day) for t in tickers}
 
@@ -645,11 +696,16 @@ async def run_evening(day: date, st: Dict[str, Any], market: str = "US") -> Opti
             if pos["status"] == "PENDING":
                 if pos["entry_day"] == day.isoformat():
                     _fill_entry(st, key, pos, day, intraday.get(t), bar, fx)
+                elif pos["entry_day"] < day.isoformat() and pos.get("fill_tries"):
+                    ed_day = date.fromisoformat(pos["entry_day"])
+                    _fill_entry(st, key, pos, ed_day, late_intraday.get(pos["entry_day"], {}).get(t), None, fx, now_day=day)
+                    if pos["status"] == "OPEN":
+                        _catch_up(st, key, pos, ed_day, day, daily.get(t), fx)
                 elif pos["entry_day"] < day.isoformat():
                     pos.update(status="CANCELLED", cancel_reason="zmeškaný den vstupu")
                     log_event({"type": "cancel", "market": market, "track": key, "day": day.isoformat(), "id": pos["id"],
                                "ticker": t, "reason": pos["cancel_reason"]})
-                continue
+                # dál jde jen pozice vyplněná pozdě (OPEN se dnem vstupu před dneškem): dnešní svíčka běžně níže
             if pos["status"] != "OPEN" or pos["entry_day"] >= day.isoformat():
                 continue
             if not bar:
@@ -679,6 +735,7 @@ async def run_evening(day: date, st: Dict[str, Any], market: str = "US") -> Opti
                 pos["atr14"] = round(ti["atr14"], 4)
             if bar:
                 tr["last_close"][t] = bar["close"]
+                tr.setdefault("last_close_day", {})[t] = day.isoformat()
                 pos["last_px"], pos["fx_now"] = bar["close"], _pos_fx(pos, fxm)
             if R.time_stop_due(pos) and not pos.get("pending_exit"):
                 pos["pending_exit"] = "TIME_STOP"
@@ -738,6 +795,7 @@ async def _gemini_check(st: Dict[str, Any], day: date, market: str = "US") -> Di
         pid = f"P{len(items) + 1}"
         close = tr["last_close"].get(pos["ticker"], pos["entry"])
         items.append({"id": pid, "ticker": pos["ticker"], "entry": pos["entry"], "stop": pos["stop"], "close": close,
+                      "close_day": tr.get("last_close_day", {}).get(pos["ticker"]) if pos["ticker"] in tr["last_close"] else None,
                       "r_now": R.r_now(pos, close), "days_held": pos.get("days_held", 0), "review": review,
                       "headlines": heads if new_news else []})
         by_id[pid] = (pos, h, review, close)

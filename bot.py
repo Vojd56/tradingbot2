@@ -59,6 +59,7 @@ from config import (
     CRYPTO_MAX_NOTIONAL_PCT,
     HIGH20_ENABLED,
     ORB_SHADOW_ENABLED,
+    PULLBACK_SHADOW_ENABLED,
     SWING_SHADOW_ENABLED,
     STOCK_COST_GATE_ENFORCE,
 )
@@ -93,6 +94,7 @@ import daily_breakout
 import crypto_old_paper
 import scout
 import orb_shadow
+import pullback_shadow
 import swing_shadow
 import web_export
 
@@ -931,6 +933,30 @@ async def before_orb_shadow_loop():
     await bot.wait_until_ready()
 
 
+@tasks.loop(minutes=15)
+async def pullback_shadow_loop():
+    """Stín vstupu po poklesu: po zavření trhu přehraje signály Scouta. NIC nekupuje, Gemini nevolá."""
+    try:
+        new = await asyncio.to_thread(pullback_shadow.run_pass)
+    except Exception as e:
+        logger.error(f"🪜 Stín poklesu selhal: {e}", exc_info=True)
+        return
+    if new:
+        text = pullback_shadow.summary_text()
+        logger.info(f"Vyhodnoceno {len(new)} signálů. " + text.replace("**", ""))
+        channel = get_target_channel()
+        if channel:
+            try:
+                await channel.send(text)
+            except Exception as e:
+                logger.error(f"🪜 Souhrn stínu poklesu nejde poslat do Discordu: {e}")
+
+
+@pullback_shadow_loop.before_loop
+async def before_pullback_shadow_loop():
+    await bot.wait_until_ready()
+
+
 @tasks.loop(minutes=5)
 async def swing_shadow_loop():
     """Swing F0 (vícedenní držení US akcií) JEN VE STÍNU: ráno sken po přehledu, večer 22:30 Praha správa pozic.
@@ -1703,6 +1729,10 @@ async def on_ready():
     if ORB_SHADOW_ENABLED and not orb_shadow_loop.is_running():
         orb_shadow_loop.start()
         logger.info("🌗 Smyčka ORB15 (stín) spuštěna: po každé 5M svíčce US seance od 09:45 New York, bez příkazů.")
+
+    if PULLBACK_SHADOW_ENABLED and not pullback_shadow_loop.is_running():
+        pullback_shadow_loop.start()
+        logger.info(f"🪜 Smyčka stínu vstupu po poklesu spuštěna: po zavření trhu, od {pullback_shadow.FORWARD_FROM}, bez příkazů a bez Gemini.")
 
     # Swing: stopy B, C a virtuální A jen ve stínu, stopa A nakupuje na T212 DEMO (swing_live.py)
     if SWING_SHADOW_ENABLED and not swing_shadow_loop.is_running():

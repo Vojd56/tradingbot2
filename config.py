@@ -208,7 +208,9 @@ HIGH20_ENTRY_WINDOW_HOURS = 2    # Vstupy jen do 02:00 UTC (backtest vstupuje za
 
 # Strategie ORB15 pro US akcie (orb_strategy.py) zatím jen ve STÍNU: zapisuje do paper_orb.json, co by koupila,
 # žádné příkazy. Přepnutí na živé obchody (M5) až po bráně: >= 60 obchodů, čistý PF >= 1,35, propad < 12 %.
-ORB_SHADOW_ENABLED = True
+ORB_SHADOW_ENABLED = False       # vypnuto 6. 11. 2026: 31 stínových obchodů, průměr -0,77 R, nákup průrazu nemá výhodu
+# Stín vstupu po poklesu (pullback_shadow.py): po zavření trhu přehraje signály Scouta, žádné příkazy ani volání Gemini navíc
+PULLBACK_SHADOW_ENABLED = True
 
 # =====================================================================
 # SWING F0: vícedenní držení US akcií, JEN STÍN (2. 11. 2026)
@@ -217,6 +219,7 @@ ORB_SHADOW_ENABLED = True
 # Tři stopy se stejnou matematikou: A = skener + Gemini analytik, B = skener bez Gemini (nejvyšší skóre),
 # C = skener + náhodný výběr místo Gemini. Současné intradenní akcie i krypto HIGH20 beze změny.
 SWING_SHADOW_ENABLED = True
+SWING_TRACK_D_ENABLED = False    # Lite tým vypnut 6. 11. 2026: 21 posouzení, 0 nákupů, přitom nejvíc volání Gemini ze stínů
 SWING_LIVE_ENABLED = True        # stopa A skutečně nakupuje na T212 DEMO (2. 11. 2026); False = všechny stopy jen stín
 SWING_LIVE_LIMIT_SLIPPAGE_PCT = 0.3  # limitní nákup = cena v 09:45 New York + 0,3 % (DAY, nevyplněný se po zavření ruší)
 SWING_MIN_PRICE = 5.0
@@ -232,10 +235,10 @@ SWING_ATR_STOP_MULT = 2.0        # SL = nižší z (support, entry − 2×ATR14)
 SWING_MIN_NET_RR = 2.0           # cíl = nejbližší rezistence, RRR po nákladech >= 2
 SWING_RISK_PCT = 0.5             # ztráta na stopu vč. nákladů = 0,5 % účtu
 SWING_MAX_ALLOC_PCT = 20.0
-SWING_MAX_POSITIONS = 5
+SWING_MAX_POSITIONS = 10            # uživatel zvýšil z 5 na 10 dne 9. 11. 2026 (stropy rizika 3 % a 1/sektor beze změny)
 SWING_MAX_PER_SECTOR = 1
 SWING_SECTOR_LIMIT_SCOPE = "per_market"   # "per_market" = 1 na sektor zvlášť v US a v EU (uživatel 3. 11.), "global" = dohromady
-SWING_MAX_OPEN_RISK_PCT = 3.0
+SWING_MAX_OPEN_RISK_PCT = 5.0       # uživatel zvýšil z 3 na 5 % dne 9. 11. 2026, aby se vešlo 10 pozic po 0,5 %
 SWING_LOSS_STREAK = 3            # 3 ztráty za sebou ...
 SWING_LOSS_PAUSE_DAYS = 5        # ... -> 5 obchodních dní bez nových vstupů
 SWING_MAX_DD_PCT = 10.0          # propad 10 % od vrcholu -> stopa končí s novými vstupy

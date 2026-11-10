@@ -7,7 +7,7 @@ Intradenní modul swing tickery nekupuje a swing pozice nezavírá (nejsou v pap
 Průběh:
 - ráno (swing_shadow.run_morning): schválení Gemini stopy A -> plan_entries (PLANNED na dnešek)
 - 09:45-15:30 New York: limitní nákup DAY (cena + 0,3 %), velikost z reálného účtu (0,5 % riziko vč. nákladů,
-  strop 20 %, 5 pozic, 1 na sektor, riziko 3 %), globální limity bota (počet akcií, denní ztráta, vypínač)
+  strop 20 %, 10 pozic, 1 na sektor, riziko 5 %), globální limity bota (počet akcií, denní ztráta, vypínač)
 - po vyplnění hned Stop-Loss na burze; v seanci polovina na +2R (ne v den vstupu); naplánované výstupy
   (časový stop, Gemini SELL) další obchodní den po otevření; večer stop jen nahoru (BE, chandelier, TIGHTEN)
 - každý průchod: sesouhlasení stavu s portfoliem a příkazy T212; nesoulad = log + Discord + žádné nové nákupy

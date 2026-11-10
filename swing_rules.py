@@ -212,7 +212,7 @@ def position_open_risk(pos: Dict[str, Any], fx: float) -> float:
 
 def portfolio_block(positions: List[Dict[str, Any]], sector: str, new_risk_acct: float, equity: float,
                     fx: float, ticker: str = "", check_heat: bool = True, market: Optional[str] = None) -> Optional[str]:
-    """Max 5 pozic (vč. čekajících), max 1 na sektor, celkové otevřené riziko <= 3 % účtu."""
+    """Max SWING_MAX_POSITIONS pozic (vč. čekajících), max 1 na sektor, celkové otevřené riziko <= SWING_MAX_OPEN_RISK_PCT účtu."""
     if len(positions) >= SWING_MAX_POSITIONS:
         return f"plno ({SWING_MAX_POSITIONS} pozic)"
     if ticker and any(p["ticker"] == ticker for p in positions):

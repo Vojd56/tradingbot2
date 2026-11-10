@@ -14,6 +14,7 @@ from typing import Any, Callable, Dict, List, Optional
 
 import pandas as pd
 
+import bars
 import cost_model
 import swing_rules as R
 from config import (BASE_DIR, SWING_MIN_SCORE, US_STOCKS_WATCHLIST, SWING_MARKETS, SWING_EU_FALLBACK_MIN_PASS,
@@ -30,6 +31,7 @@ NEWS_PRESCORE_MIN = SWING_MIN_SCORE - R.WEIGHTS["news"]   # zprávy přidají ma
 MAX_NEWS_FETCH = 30
 MAX_EARNINGS_CHECKS = 25
 MAX_STALE_DAYS = 5
+USE_DATA_STORE = True     # fáze 3 datové pipeline: historie ze skladu data\ (datovy_sklad.py), Yahoo jen pro chybějící
 
 
 def fetch_universe_wiki() -> Dict[str, str]:
@@ -151,6 +153,21 @@ def download_daily(tickers: List[str], period: str = "2y", chunk: int = DOWNLOAD
     return out
 
 
+def load_daily(tickers: List[str], period: str = "2y") -> Dict[str, pd.DataFrame]:
+    """Denní svíčky pro ranní sken: ze skladu data\\, jinak (nebo když sklad selže) z Yahoo jako dřív."""
+    if USE_DATA_STORE:
+        try:
+            import datovy_sklad
+            data, fallback, skipped = datovy_sklad.load(tickers)
+            logger.info(f"📦 Swing: {len(data)} tickerů ze skladu, {len(fallback)} z Yahoo, vynecháno {skipped}")
+            if fallback:
+                data.update(download_daily(fallback, period=period))
+            return data
+        except Exception as e:
+            logger.warning(f"📦 Swing: sklad nejde použít ({e}), stahuji z Yahoo")
+    return download_daily(tickers, period=period)
+
+
 def closed_before(df: pd.DataFrame, day: date) -> pd.DataFrame:
     """Jen svíčky před dnem `day` (ráno = data do včerejšího close)."""
     idx = pd.DatetimeIndex(df.index)
@@ -197,6 +214,7 @@ def evaluate(ticker: str, df: pd.DataFrame, day: date, side_rate: float, min_adv
     why = (R.universe_reject(ind, min_adv, adv_fx, adv_ccy, px_ccy) if min_adv is not None else R.universe_reject(ind))
     if why:
         return {"ticker": ticker, "reject": why}
+    ind["data_as_of"] = bars.as_of(df, "1d")
     parts = R.score_parts(ind, 0.0)
     plan = R.plan_trade(ind["close"], ind["atr14"], ind["support"], ind["resistance"], side_rate)
     return {"ticker": ticker, "reject": None, "ind": ind, "parts": parts, "prescore": R.total_score(parts), "plan": plan,
@@ -235,7 +253,7 @@ def scan(day: date, last_blackout_day: date, extra_tickers: List[str], briefing_
         names = sorted(set(universe) | {t.upper() for t in extra_tickers + briefing_tickers if "." not in t})
         tradable = [t for t in names if t212_tradable(t)]
     if data is None:
-        data = download_daily(tradable + [regime_sym])
+        data = load_daily(tradable + [regime_sym])
     stats: Dict[str, Any] = {"market": market, "universe": len(names), "tradable": len(tradable), "with_data": 0, "rejects": {}}
 
     idx = data.get(regime_sym)
@@ -324,4 +342,5 @@ def scan(day: date, last_blackout_day: date, extra_tickers: List[str], briefing_
     return {"ok": True, "market": market, "regime_sym": regime_sym,
             "spy_close": round(spy_close, 4), "spy_sma200": round(spy_sma200, 4),
             "regime_ok": R.regime_ok(spy_close, spy_sma200), "side_rate": side, "stats": stats,
+            "data_as_of": bars.as_of(idx_df, "1d"),
             "candidates": candidates, "rejected": rejected[:40]}

@@ -33,6 +33,54 @@ def _ts(x) -> datetime:
     return t.to_pydatetime().astimezone(timezone.utc)
 
 
+PRAGUE_TZ_NAME = "Europe/Prague"
+
+
+def as_of(df: Optional[pd.DataFrame], interval: str, closed: Optional[bool] = True,
+          now: Optional[datetime] = None) -> str:
+    """Popis, k čemu se čísla vztahují, pro prompt nebo zprávu (fáze 4).
+
+    Denní svíčky: "6. 11. 2026 (denní close)". Vnitrodenní: konec poslední svíčky v čase Prahy, u rozjeté
+    svíčky aktuální čas, např. "9. 11. 09:55 Praha (1h svíčka, neuzavřená)". closed=None = zjistit podle `now`.
+    Když tabulka chybí nebo nejde přečíst, vrací "" (prompt pak frázi vynechá).
+    """
+    try:
+        if df is None or len(df) == 0:
+            return ""
+        last = pd.Timestamp(df.index[-1])
+        if interval == "1d":
+            d = last.date()
+            return f"{d.day}. {d.month}. {d.year} (denní close)"
+        step = INTERVALS[interval]
+        if last.tzinfo is None:
+            last = last.tz_localize(timezone.utc)
+        end = last + step
+        now_ts = pd.Timestamp(now or datetime.now(timezone.utc))
+        if now_ts.tzinfo is None:
+            now_ts = now_ts.tz_localize(timezone.utc)
+        if closed is None:
+            closed = end <= now_ts
+        if not closed and now_ts < end:
+            end = now_ts
+        end = end.tz_convert(PRAGUE_TZ_NAME)
+        state = "uzavřená" if closed else "neuzavřená"
+        return f"{end.day}. {end.month}. {end.strftime('%H:%M')} Praha ({interval} svíčka, {state})"
+    except Exception:
+        return ""
+
+
+def as_of_time(ts: datetime, label: str) -> str:
+    """Stejný formát pro jeden čas (např. konec poslední 1m svíčky z Binance)."""
+    try:
+        t = pd.Timestamp(ts)
+        if t.tzinfo is None:
+            t = t.tz_localize(timezone.utc)
+        t = t.tz_convert(PRAGUE_TZ_NAME)
+        return f"{t.day}. {t.month}. {t.strftime('%H:%M')} Praha ({label})"
+    except Exception:
+        return ""
+
+
 def median_step(df: pd.DataFrame) -> Optional[timedelta]:
     """Medián odstupu sousedních svíček. Medián, ne poslední dvojice: noc, víkend nebo halt nejsou chyba intervalu."""
     if df is None or len(df) < 3:

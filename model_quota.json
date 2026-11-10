@@ -1,48 +1,39 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-10",
   "counts": {
     "gemini-3.8-flash": 0,
-    "gemini-3.6-flash": 18,
-    "gemini-3.5-flash": 1,
-    "gemini-3-flash-preview": 11,
-    "gemini-3.5-flash-lite": 30,
-    "gemini-3.1-flash-lite": 2
+    "gemini-3.6-flash": 15,
+    "gemini-3.5-flash": 3,
+    "gemini-3-flash-preview": 9,
+    "gemini-3.5-flash-lite": 34,
+    "gemini-3.1-flash-lite": 6
   },
   "rate_limited_until": {
-    "gemini-3.8-flash": "2026-11-06T17:02:17.307656+00:00",
-    "gemini-3.6-flash": "2026-11-07T08:04:37.284753+00:00",
-    "gemini-3.5-flash": "2026-11-07T08:04:42.978509+00:00",
-    "gemini-3-flash-preview": "2026-11-05T14:22:08.281783+00:00",
-    "gemini-3.5-flash-lite": "2026-11-05T14:47:51.071521+00:00",
-    "gemini-3.1-flash-lite": "2026-11-04T15:03:22.517129+00:00"
+    "gemini-3.8-flash": "2026-11-10T19:16:28.197471+00:00",
+    "gemini-3-flash-preview": "2026-11-10T14:19:32.053409+00:00",
+    "gemini-3.6-flash": "2026-11-11T08:04:19.296413+00:00",
+    "gemini-3.1-flash-lite": "2026-11-10T13:46:28.907520+00:00",
+    "gemini-3.5-flash": "2026-11-11T08:04:12.303904+00:00"
   },
   "by_component": {
     "swing_EU": {
-      "gemini-3-flash-preview": 4,
-      "gemini-3.6-flash": 6
-    },
-    "swing_D": {
-      "gemini-3.5-flash-lite": 17,
-      "gemini-3.1-flash-lite": 1
+      "gemini-3-flash-preview": 5,
+      "gemini-3.6-flash": 1
     },
     "crypto_old": {
-      "gemini-3.5-flash-lite": 12,
-      "gemini-3.1-flash-lite": 1
+      "gemini-3.5-flash-lite": 32,
+      "gemini-3.1-flash-lite": 6
     },
     "swing_US": {
-      "gemini-3-flash-preview": 4,
-      "gemini-3.6-flash": 6
-    },
-    "signal": {
-      "gemini-3.6-flash": 6,
-      "gemini-3.5-flash": 1,
-      "gemini-3-flash-preview": 2
+      "gemini-3.6-flash": 5
     },
     "routine": {
-      "gemini-3.5-flash-lite": 1
+      "gemini-3.5-flash-lite": 2
     },
-    "evening": {
-      "gemini-3-flash-preview": 1
+    "signal": {
+      "gemini-3.6-flash": 9,
+      "gemini-3.5-flash": 3,
+      "gemini-3-flash-preview": 4
     }
   }
 }

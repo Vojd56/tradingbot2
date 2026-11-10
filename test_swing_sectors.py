@@ -33,8 +33,8 @@ ok("sektor" in (R.portfolio_block(held, "Information Technology", 1.0, 1000, 1.0
    "EU IT obsazený DSY.PA -> CAP.PA ne")
 ok("sektor" in (R.portfolio_block(held, "Health Care", 1.0, 1000, 1.0, "UNH", market="US") or ""), "US Health Care obsazený EHC")
 ok(R.portfolio_block(held, "Unknown:A.DE", 1.0, 1000, 1.0, "A.DE", market="EU") is None, "neznámé sektory se navzájem neblokují")
-five = [pos(f"T{i}", f"S{i}", "US") for i in range(5)]
-ok("plno" in (R.portfolio_block(five, "X", 1.0, 1000, 1.0, "Q.DE", market="EU") or ""), "max 5 pozic zůstává společný pro US + EU")
+five = [pos(f"T{i}", f"S{i}", "US") for i in range(R.SWING_MAX_POSITIONS)]
+ok("plno" in (R.portfolio_block(five, "X", 1.0, 1000, 1.0, "Q.DE", market="EU") or ""), "max pozic zůstává společný pro US + EU")
 
 print("\nVŠECHNO OK" if not FAILS else f"\n{len(FAILS)} SELHALO: {FAILS}")
 sys.exit(1 if FAILS else 0)

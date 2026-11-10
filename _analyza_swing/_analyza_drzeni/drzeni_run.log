@@ -57,7 +57,7 @@ $CWEN-A: possibly delisted; no timezone found
   ceny 1200/1505
   ceny 1400/1505
   ceny 1505/1505
-C:\Users\<user>\TEst\zalohabot - kopie\_analyza_swing\backtest_drzeni.py:73: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
+C:\Users\vojte\TEst\zalohabot - kopie\_analyza_swing\backtest_drzeni.py:73: Pandas4Warning: Sorting by default when concatenating all DatetimeIndex is deprecated.  In the future, pandas will respect the default of `sort=False`. Specify `sort=True` or `sort=False` to silence this message. If you see this warnings when not directly calling concat, report a bug to pandas.
   raw = pd.concat(parts, axis=1)
 
 ===== US: 1487 akcii s daty, naklad 0.20%/strana, index SPY =====

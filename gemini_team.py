@@ -132,6 +132,8 @@ def build_catalyst_prompt(ticker: str, name: str, headlines: List[str], market_c
     move = ""
     if md.get("day_change_pct") is not None:
         move = f"Cena {label} je dnes {md['day_change_pct']:+.2f} % proti včerejšímu close.\n"
+    if md.get("data_as_of"):
+        move += f"Data k {md['data_as_of']}.\n"
     asset = "kryptoměny" if is_crypto else "akcie"
     return f"""Jsi analytik zpráv. Rozhodni jen o tom, zda titulky obsahují čerstvý fundamentální katalyzátor,
 který podporuje RŮST ceny {asset} {label}.
@@ -153,6 +155,8 @@ def build_batch_prompt(items: List[Dict[str, Any]]) -> str:
     for it in items:
         md = it.get("market_data") or {}
         move = f"Cena dnes {md['day_change_pct']:+.2f} % proti včerejšímu close.\n" if md.get("day_change_pct") is not None else ""
+        if md.get("data_as_of"):
+            move += f"Data k {md['data_as_of']}.\n"
         ctx = f"Ranní přehled:\n<untrusted_news>\n{_context_text(it.get('market_context', ''), 600)}\n</untrusted_news>\n" \
             if it.get("market_context") else ""
         blocks.append(f"=== FIRMA {it['ticker']}: {_label(it['ticker'], it.get('name', ''))} ===\n{move}TITULKY:\n"
